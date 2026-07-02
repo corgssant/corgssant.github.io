@@ -1,0 +1,110 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "src/images"
+public_folder: "/images"
+
+collections:
+  - name: "services"
+    label: "Services"
+    label_singular: "Service"
+    folder: "src/services"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/service.njk" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string", hint: "Short description shown on service cards" }
+      - { label: "SEO Description", name: "description", widget: "string" }
+      - { label: "Category", name: "category", widget: "string", default: "Our Services" }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Order", name: "order", widget: "number", min: 1, max: 99, default: 10 }
+      - label: "Layout Style"
+        name: "style"
+        widget: "select"
+        options:
+          - { label: "Image Left, Text Right", value: "split-right" }
+          - { label: "Text Left, Image Right", value: "split-left" }
+          - { label: "Full Width", value: "full-width" }
+        default: "split-right"
+      - label: "Features"
+        name: "features"
+        widget: "list"
+        field: { label: "Feature", name: "feature", widget: "string" }
+        required: false
+      - label: "Gallery Images"
+        name: "gallery"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Image", name: "src", widget: "image" }
+          - { label: "Alt Text", name: "alt", widget: "string" }
+          - { label: "Caption", name: "caption", widget: "string", required: false }
+      - label: "FAQ"
+        name: "faq"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Question", name: "q", widget: "string" }
+          - { label: "Answer", name: "a", widget: "text" }
+      - label: "Badge Text"
+        name: "badge"
+        widget: "string"
+        required: false
+        hint: "E.g. 'Most Popular' or '55+'"
+      - label: "Badge Label"
+        name: "badgeLabel"
+        widget: "string"
+        required: false
+        hint: "Smaller text under badge"
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "areas"
+    label: "Service Areas"
+    label_singular: "Service Area"
+    folder: "src/areas"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/area.njk" }
+      - { label: "Page Title", name: "title", widget: "string", hint: "E.g. 'Pole Barn Builders in Holly, MI'" }
+      - { label: "SEO Description", name: "description", widget: "string" }
+      - { label: "City", name: "city", widget: "string" }
+      - { label: "State", name: "state", widget: "string", default: "MI" }
+      - { label: "County", name: "county", widget: "string" }
+      - { label: "Featured Image", name: "image", widget: "image", required: false }
+      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+      - label: "Why Choose CNO (reasons)"
+        name: "whyChoose"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "text", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "blog"
+    label: "Blog Posts"
+    label_singular: "Blog Post"
+    folder: "src/blog"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    sort: "date:desc"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "SEO Description", name: "description", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Category", name: "category", widget: "string", default: "Insights" }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Excerpt", name: "excerpt", widget: "text", hint: "1-2 sentence summary for listing pages" }
+      - { label: "Author", name: "author", widget: "string", default: "CNO Pole Barns" }
+      - { label: "Author Role", name: "authorRole", widget: "string", default: "Team" }
+      - { label: "Author Image", name: "authorImage", widget: "image", default: "/images/team/zosim-cno.jpg" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }

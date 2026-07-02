@@ -1,0 +1,321 @@
+---
+layout: layouts/base.njk
+title: "Michigan's Trusted Pole Barn Builder Since 1970"
+description: "Family-owned pole barn builder serving Michigan since 1970. Custom pole barns, garages, horse barns, barndominiums, and more. Get a free quote today."
+---
+
+{# ========== HERO ========== #}
+<section class="hero">
+  <div class="hero-bg">
+    <img src="/images/projects/pole-building.jpg" alt="CNO Pole Barn Project">
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      Family-Owned Since 1970
+    </div>
+    <h1>Building Michigan's Finest <span>Pole Barns</span></h1>
+    <p class="hero-sub">From custom garages and horse barns to barndominiums and commercial buildings — we bring your vision to life with over 55 years of craftsmanship.</p>
+    <div class="hero-actions">
+      <a href="/contact/" class="btn btn-primary">Get a Free Quote</a>
+      <a href="#portfolio" class="btn btn-outline">View Our Work</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <h3 data-count="55" data-suffix="+">0+</h3>
+        <p>Years in Business</p>
+      </div>
+      <div class="hero-stat">
+        <h3 data-count="1000" data-suffix="+">0+</h3>
+        <p>Projects Completed</p>
+      </div>
+      <div class="hero-stat">
+        <h3 data-count="100" data-suffix="%">0%</h3>
+        <p>Customer Satisfaction</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ========== TRUST BAR ========== #}
+<div class="trust-bar">
+  <div class="trust-ticker">
+    {% set items = ["Licensed & Insured", "Family-Owned & Operated", "Serving Oakland County & Beyond", "Free Estimates", "Custom Designs", "Now Hiring"] %}
+    {% for item in items %}
+    <div class="trust-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+      {{ item }}
+    </div>
+    {% endfor %}
+    {% for item in items %}
+    <div class="trust-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+      {{ item }}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{# ========== SERVICES ========== #}
+<section id="services" class="section">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-label">What We Build</span>
+      <h2>Custom Structures Built to Last</h2>
+      <p>From residential garages to commercial warehouses, we design and build custom pole structures tailored to your needs.</p>
+    </div>
+    <div class="services-grid stagger-children">
+      {% for service in collections.services | limit(6) %}
+      <div class="service-card fade-up">
+        <div class="service-card-img">
+          <img src="{{ service.data.image }}" alt="{{ service.data.title }}">
+        </div>
+        <div class="service-card-body">
+          <h3>{{ service.data.title }}</h3>
+          <p>{{ service.data.subtitle }}</p>
+          <a href="{{ service.url }}" class="service-link">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div style="text-align: center; margin-top: 48px;" class="fade-up">
+      <a href="/services/" class="btn btn-dark">View All Services</a>
+    </div>
+  </div>
+</section>
+
+{# ========== ABOUT ========== #}
+<section id="about" class="section section-light">
+  <div class="container">
+    <div class="split">
+      <div class="split-img fade-up">
+        <img src="/images/team/zosim-serban-2.jpg" alt="Zosim Serban — Owner of CNO Pole Barns">
+        <div class="split-badge">55+<span>Years of Excellence</span></div>
+      </div>
+      <div class="split-content fade-up">
+        <span class="section-label">About CNO</span>
+        <h2>A Family Legacy of Quality Construction</h2>
+        <p>Founded in 1970, CNO Pole Barns has been a trusted name in Michigan construction for over five decades. What started as a small family operation in Clarkston has grown into one of Oakland County's most respected pole barn builders.</p>
+        <p>Led by Zosim Serban, our team brings a hands-on approach to every project. We believe in honest work, fair pricing, and building structures that stand the test of time.</p>
+        <div class="split-features">
+          <div class="split-feature">
+            <div class="split-feature-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+            Family-Owned
+          </div>
+          <div class="split-feature">
+            <div class="split-feature-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+            Licensed &amp; Insured
+          </div>
+          <div class="split-feature">
+            <div class="split-feature-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+            Custom Designs
+          </div>
+          <div class="split-feature">
+            <div class="split-feature-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+            Free Estimates
+          </div>
+        </div>
+        <a href="/about/" class="btn btn-dark">Our Story</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ========== PORTFOLIO ========== #}
+<section id="portfolio" class="section">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-label">Our Work</span>
+      <h2>Projects We're Proud Of</h2>
+      <p>Browse our portfolio of completed pole barns, garages, horse barns, and more across Michigan.</p>
+    </div>
+    <div class="gallery-grid stagger-children">
+      <div class="gallery-item tall fade-up">
+        <img src="/images/projects/horsebarn2.jpg" alt="Horse barn with cupola">
+        <div class="gallery-overlay"><span>Horse Barn — Clarkston, MI</span></div>
+      </div>
+      <div class="gallery-item fade-up">
+        <img src="/images/projects/michigan-farm.webp" alt="Red farm barn">
+        <div class="gallery-overlay"><span>Farm Barn — Oakland County</span></div>
+      </div>
+      <div class="gallery-item fade-up">
+        <img src="/images/projects/horsebarn3.jpg" alt="Custom horse barn">
+        <div class="gallery-overlay"><span>Equestrian Facility</span></div>
+      </div>
+      <div class="gallery-item fade-up">
+        <img src="/images/projects/polebarns2.jpg" alt="Pole barn green roof">
+        <div class="gallery-overlay"><span>Pole Building — Holly, MI</span></div>
+      </div>
+      <div class="gallery-item wide fade-up">
+        <img src="/images/projects/pole-building.jpg" alt="Large red pole barn">
+        <div class="gallery-overlay"><span>Agricultural Storage — Fenton, MI</span></div>
+      </div>
+      <div class="gallery-item fade-up">
+        <img src="/images/projects/horsebarn5.jpg" alt="White and black barn">
+        <div class="gallery-overlay"><span>Modern Barn — Waterford</span></div>
+      </div>
+      <div class="gallery-item fade-up">
+        <img src="/images/projects/shop-building.jpg" alt="Shop building">
+        <div class="gallery-overlay"><span>Barndominium — Howell, MI</span></div>
+      </div>
+    </div>
+    <div style="text-align: center; margin-top: 48px;" class="fade-up">
+      <a href="/portfolio/" class="btn btn-dark">View Full Portfolio</a>
+    </div>
+  </div>
+</section>
+
+{# ========== PROCESS ========== #}
+<section class="section section-light">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-label">How It Works</span>
+      <h2>From Vision to Reality</h2>
+      <p>Our proven four-step process makes building your dream structure simple and stress-free.</p>
+    </div>
+    <div class="process-grid stagger-children">
+      <div class="process-step fade-up">
+        <div class="process-num">01</div>
+        <h3>Consultation</h3>
+        <p>Tell us about your project. We'll visit your site, discuss your needs, and provide a detailed free estimate.</p>
+      </div>
+      <div class="process-step fade-up">
+        <div class="process-num">02</div>
+        <h3>Design</h3>
+        <p>We create a custom design tailored to your specifications, budget, and property — adjusting until it's perfect.</p>
+      </div>
+      <div class="process-step fade-up">
+        <div class="process-num">03</div>
+        <h3>Build</h3>
+        <p>Our experienced crew handles every aspect of construction with quality materials and meticulous attention to detail.</p>
+      </div>
+      <div class="process-step fade-up">
+        <div class="process-num">04</div>
+        <h3>Deliver</h3>
+        <p>We do a final walkthrough together, ensuring every detail meets your expectations before handing over the keys.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ========== TESTIMONIALS ========== #}
+<section class="section">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-label">Testimonials</span>
+      <h2>What Our Clients Say</h2>
+      <p>Don't just take our word for it — hear from the homeowners and businesses we've built for.</p>
+    </div>
+    <div class="testimonials-grid stagger-children">
+      {% set stars %}
+      <div class="testimonial-stars">
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      </div>
+      {% endset %}
+      <div class="testimonial-card fade-up">
+        {{ stars | safe }}
+        <blockquote>"CNO built us a beautiful 40x60 pole barn that exceeded our expectations. Zosim and his team were professional, on time, and the craftsmanship is outstanding. Highly recommend!"</blockquote>
+        <div class="testimonial-author">
+          <div>
+            <div class="testimonial-name">Mike Thompson</div>
+            <div class="testimonial-role">Homeowner — Rochester Hills, MI</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card fade-up">
+        {{ stars | safe }}
+        <blockquote>"We needed a horse barn with specific stall requirements and CNO delivered exactly what we wanted. Great communication throughout the entire process. Our horses love their new home!"</blockquote>
+        <div class="testimonial-author">
+          <div>
+            <div class="testimonial-name">Sarah Mitchell</div>
+            <div class="testimonial-role">Horse Owner — Holly, MI</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card fade-up">
+        {{ stars | safe }}
+        <blockquote>"Third project with CNO and they keep getting better. This time it was a commercial storage building. Fair pricing, no surprises, built like a tank. They're the only ones I call."</blockquote>
+        <div class="testimonial-author">
+          <div>
+            <div class="testimonial-name">Dave Richardson</div>
+            <div class="testimonial-role">Business Owner — Waterford, MI</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ========== SERVICE AREAS ========== #}
+<section class="section section-light">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-label">Service Areas</span>
+      <h2>Proudly Serving Southeast Michigan</h2>
+      <p>Based in Clarkston, we build across Oakland County and surrounding areas.</p>
+    </div>
+    <div class="areas-list fade-up">
+      {% for area in collections.areas %}
+      <a href="{{ area.url }}" class="area-tag">{{ area.data.city }}</a>
+      {% endfor %}
+    </div>
+    <div style="text-align: center; margin-top: 32px;" class="fade-up">
+      <a href="/areas/" class="btn btn-dark">All Service Areas</a>
+    </div>
+  </div>
+</section>
+
+{# ========== BLOG PREVIEW ========== #}
+{% if collections.blog.length > 0 %}
+<section class="section">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-label">From Our Blog</span>
+      <h2>Insights &amp; Guides</h2>
+      <p>Tips and resources to help plan your next building project.</p>
+    </div>
+    <div class="blog-grid stagger-children">
+      {% for post in collections.blog | limit(3) %}
+      <a href="{{ post.url }}" class="blog-card fade-up">
+        <div class="blog-card-img">
+          <img src="{{ post.data.image or '/images/projects/pole-building.jpg' }}" alt="{{ post.data.title }}">
+        </div>
+        <div class="blog-card-body">
+          <div class="blog-card-meta">
+            <span>{{ post.data.category or "Insights" }}</span>
+            <span>{{ post.data.date | dateFormat }}</span>
+          </div>
+          <h3>{{ post.data.title }}</h3>
+          <p>{{ post.data.excerpt or (post.templateContent | excerpt) }}</p>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+    <div style="text-align: center; margin-top: 48px;" class="fade-up">
+      <a href="/blog/" class="btn btn-dark">Read More Articles</a>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{# ========== CTA BANNER ========== #}
+<section class="section section-light">
+  <div class="container">
+    <div class="cta-banner fade-up">
+      <h2>Ready to Build?</h2>
+      <p>Get a free, no-obligation estimate for your project. Call us today or fill out our quick quote form.</p>
+      <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+        <a href="/contact/" class="btn btn-primary">Get a Free Quote</a>
+        <a href="tel:{{ site.phoneTel }}" class="btn btn-outline">Call {{ site.phone }}</a>
+      </div>
+    </div>
+  </div>
+</section>

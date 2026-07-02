@@ -1,0 +1,57 @@
+---
+layout: layouts/base.njk
+title: Service Areas
+description: "CNO Pole Barns serves Southeast Michigan including Rochester Hills, Clarkston, Waterford, Holly, Fenton, Howell, Oakland County, and surrounding areas."
+permalink: /areas/
+---
+
+{# ========== SERVICE AREAS LISTING PAGE ========== #}
+
+<section class="page-hero">
+  <div class="container">
+    <span class="section-label" style="color: var(--gold);">Where We Build</span>
+    <h1>Service Areas</h1>
+    <p>Based in Clarkston, Michigan — proudly serving Oakland County, Genesee County, Livingston County, and beyond.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="areas-grid stagger-children">
+      {% for area in collections.areas %}
+      <a href="{{ area.url }}" class="area-card fade-up">
+        <div class="area-card-img">
+          <img src="{{ area.data.image or '/images/projects/pole-building.jpg' }}" alt="Pole Barns in {{ area.data.city }}">
+        </div>
+        <div class="area-card-body">
+          <h3>{{ area.data.city }}, {{ area.data.state or "MI" }}</h3>
+          <p>{{ area.data.county }} County</p>
+          <span class="service-link">
+            View Area
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{# Map section #}
+<section class="section section-light">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-label">Coverage</span>
+      <h2>Building Across Southeast Michigan</h2>
+      <p>We typically serve locations within a 60-mile radius of Clarkston. Not sure if we cover your area? Give us a call.</p>
+    </div>
+    <div class="areas-list fade-up" style="margin-bottom: 48px;">
+      {% for area in collections.areas %}
+      <a href="{{ area.url }}" class="area-tag">{{ area.data.city }}</a>
+      {% endfor %}
+    </div>
+    <div style="text-align: center;" class="fade-up">
+      <a href="/contact/" class="btn btn-dark">Request a Quote for Your Area</a>
+    </div>
+  </div>
+</section>

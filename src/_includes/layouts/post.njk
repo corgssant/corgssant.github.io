@@ -1,0 +1,94 @@
+---
+layout: layouts/base.njk
+---
+
+{# ========== BLOG POST DETAIL PAGE ========== #}
+
+<section class="post-hero">
+  <div class="container">
+    <div class="post-meta-top fade-up">
+      <span class="post-category">{{ category or "Insights" }}</span>
+      <span class="post-date">{{ date | dateFormat }}</span>
+    </div>
+    <h1 class="post-title fade-up">{{ title }}</h1>
+    {% if excerpt %}
+    <p class="post-excerpt fade-up">{{ excerpt }}</p>
+    {% endif %}
+    <div class="post-author-bar fade-up">
+      <img src="{{ authorImage or '/images/team/zosim-cno.jpg' }}" alt="{{ author or 'CNO Pole Barns' }}" class="post-author-img">
+      <div>
+        <div class="post-author-name">{{ author or "CNO Pole Barns" }}</div>
+        <div class="post-author-role">{{ authorRole or "Team" }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% if image %}
+<div class="container">
+  <div class="post-feature-img fade-up">
+    <img src="{{ image }}" alt="{{ title }}">
+  </div>
+</div>
+{% endif %}
+
+<section class="section" style="padding-top: 60px;">
+  <div class="container">
+    <div class="post-layout">
+      <article class="post-content fade-up">
+        {{ content | safe }}
+      </article>
+      <aside class="post-sidebar fade-up">
+        <div class="sidebar-card">
+          <h4>Get a Free Quote</h4>
+          <p>Ready to start your project? Contact us for a free, no-obligation estimate.</p>
+          <a href="/contact/" class="btn btn-dark" style="width: 100%; text-align: center;">Contact Us</a>
+        </div>
+        <div class="sidebar-card">
+          <h4>Call Us</h4>
+          <p>Speak directly with our team about your building needs.</p>
+          <a href="tel:{{ site.phoneTel }}" class="btn btn-outline" style="width: 100%; text-align: center; border-color: var(--gray-300); color: var(--dark);">{{ site.phone }}</a>
+        </div>
+        {% if tags %}
+        <div class="sidebar-card">
+          <h4>Topics</h4>
+          <div class="sidebar-tags">
+            {% for tag in tags %}
+            <span class="area-tag" style="font-size: 0.8125rem; padding: 6px 14px;">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+      </aside>
+    </div>
+  </div>
+</section>
+
+{# Related Posts #}
+<section class="section section-light">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-label">More Articles</span>
+      <h2>Continue Reading</h2>
+    </div>
+    <div class="blog-grid stagger-children">
+      {% for post in collections.blog | limit(3) %}
+      {% if post.url != page.url %}
+      <a href="{{ post.url }}" class="blog-card fade-up">
+        <div class="blog-card-img">
+          <img src="{{ post.data.image or '/images/projects/pole-building.jpg' }}" alt="{{ post.data.title }}">
+        </div>
+        <div class="blog-card-body">
+          <div class="blog-card-meta">
+            <span>{{ post.data.category or "Insights" }}</span>
+            <span>{{ post.data.date | dateFormat }}</span>
+          </div>
+          <h3>{{ post.data.title }}</h3>
+          <p>{{ post.templateContent | excerpt }}</p>
+        </div>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

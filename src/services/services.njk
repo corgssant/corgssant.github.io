@@ -1,0 +1,53 @@
+---
+layout: layouts/base.njk
+title: Our Services
+description: "Explore CNO Pole Barns services: custom pole barns, garages, horse barns, barndominiums, commercial buildings, roofing, and more across Michigan."
+permalink: /services/
+---
+
+{# ========== SERVICES LISTING PAGE — Cleean-inspired grid ========== #}
+
+<section class="page-hero">
+  <div class="container">
+    <span class="section-label" style="color: var(--gold);">What We Build</span>
+    <h1>Our Services</h1>
+    <p>From custom pole barns and garages to barndominiums and commercial buildings — we design and build structures that last.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="services-grid-listing stagger-children">
+      {% for service in collections.services %}
+      <a href="{{ service.url }}" class="service-card-lg fade-up">
+        <div class="service-card-lg-img">
+          <img src="{{ service.data.image }}" alt="{{ service.data.title }}">
+          <div class="service-card-lg-overlay">
+            <span class="btn btn-primary" style="font-size: 0.875rem; padding: 10px 24px;">View Details</span>
+          </div>
+        </div>
+        <div class="service-card-lg-body">
+          <div class="service-card-lg-num">{% if loop.index < 10 %}0{% endif %}{{ loop.index }}</div>
+          <h3>{{ service.data.title }}</h3>
+          <p>{{ service.data.subtitle }}</p>
+          <span class="service-link">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{# CTA #}
+<section class="section section-light">
+  <div class="container">
+    <div class="cta-banner fade-up">
+      <h2>Not Sure What You Need?</h2>
+      <p>Tell us about your project and we'll recommend the best solution. Free consultations for all projects.</p>
+      <a href="/contact/" class="btn btn-primary">Get a Free Quote</a>
+    </div>
+  </div>
+</section>
