@@ -1,239 +1,203 @@
 # CNO Pole Barns - Website Redesign Design Spec
 
-Date: 2026-07-03
-Status: Draft for review
+Date: 2026-07-03 (revised)
+Status: Approved direction, copy locked "close enough", moving to implementation plan
 Owner: Vlad (on behalf of CNO Pole Barns / Zosim Serban)
 
 ## 1. Summary
 
 Rebuild cnopolebarns.com as a fast, modern static site (Eleventy) that recreates the
-"Cleean" template's look and section structure, adapted to CNO Pole Barns with real
-photos and content. We are migrating off a compromised WordPress site (BizIQ) and will
-host on GitHub Pages under a business-owned GitHub account, with the domain served via
+"Cleean" Framer template's look and section structure, adapted to CNO Pole Barns with real
+photos, real reviews, and honest copy. We are migrating off a compromised WordPress site
+(BizIQ) to GitHub Pages under a business-owned GitHub account, domain served via
 Cloudflare/Namecheap DNS.
 
-The approved visual direction is a faithful recreation of Cleean (Inter typeface, the
-green palette below, clean rounded cards, generous section spacing), demonstrated and
-signed off via the homepage preview.
+The approved visual direction is a faithful Cleean recreation (Inter typeface, the green
+palette below, clean rounded cards, generous spacing), signed off via the homepage preview
+published as an Artifact.
 
 ## 2. Goals and success metrics
 
-Priority order (confirmed with owner):
+Priority order (confirmed):
+1. Get found. Rank in Google and be citable by AI search (ChatGPT, Perplexity, Google AI
+   Overviews) for pole barn, steel building, garage, and related searches across southeast
+   Michigan, town by town. Top priority.
+2. Convert. Turn visitors into a phone call to (248) 625-2334 or a submitted estimate
+   request emailed to zosim@cnopolebarns.com.
+3. Credibility. Look established and trustworthy.
 
-1. Get found. Rank in Google and be citable by AI search (ChatGPT, Perplexity, Google
-   AI Overviews) for pole barn and related searches across southeast Michigan, town by
-   town. This is the top priority.
-2. Convert. Turn visitors into a phone call or a submitted estimate request.
-3. Credibility. Look established and trustworthy so a homeowner choosing between builders
-   picks CNO.
+## 3. Positioning and honesty rules (important)
 
-Success signals: organic impressions/clicks for "pole barn builder in <town> MI" style
-queries, calls to (248) 625-2334, and estimate-form submissions to zosim@cnopolebarns.com.
+CNO Pole Barns was established in 1970 (the name comes from founders Charlie aNd Nancy
+Overfield). Zosim Serban BOUGHT the business about three years ago (~2023). It is new
+ownership and mostly a new crew.
 
-## 3. Non-goals
+Hard rules for all copy:
+- Do NOT say "family-owned since 1970," "same family," "same crew for 55 years," or imply
+  personnel/ownership continuity.
+- Honest framing: an established Michigan business since 1970, under new local owner-operator
+  Zosim for ~3 years, carrying forward the standards and community focus. "Since 1970"
+  describes the business's track record only.
+- Ownership line reads "locally owned and operated" (no name appended).
+- Ian is no longer on the team: do NOT mention Ian anywhere, and do not feature the reviews
+  that name Ian. Zosim is the primary and only contact.
+- No fabricated testimonials or invented stats (removes the old fake testimonials and the
+  "1,000+ projects / 100% satisfaction" numbers).
+- Change-order honesty: pricing copy promises no hidden fees and no charge without the
+  customer's approval, not a never-changing price.
 
-- No WordPress. No dynamic server. No database.
-- No e-commerce or online booking/payments.
-- No account/login system for visitors.
-- Registrar transfer and DNS cutover are tracked separately; the build does not depend on
-  them and can ship to a temporary GitHub Pages URL first.
+## 4. Voice and copy
 
-## 4. Audience and key journeys
+Write like a plain-spoken Michigan builder talking to a neighbor; run copy through the
+humanizer checklist (no cliches, no forced rule-of-three, no em dashes, no hype words, no
+meta/SEO-speak such as mentioning Google or "pages").
 
-Primary audiences: Michigan homeowners, farm/property owners, horse owners, and small
-businesses in Oakland County and surrounding SE Michigan who need a pole barn, garage,
-horse barn, barndominium, or similar structure.
+- Talk about the customer's project and property, never the website or search.
+- Be specific: real builds and sizes (24x30 garage, 40x80x14 building, 60x80 barn + lean-to),
+  real towns, real materials and timeframes.
+- Use "neighbors in Oakland County / southeast Michigan," not "folks."
+- Section headers default to two visible tiers (headline + short subhead); eyebrow labels
+  only where they help scanning (they carry ~no SEO weight).
+- Approved value props (from real review themes): "We answer the phone", "Fair, upfront
+  pricing" ("We quote it straight. No hidden fees, and nothing hits your bill without your
+  say-so."), "Crews that clean up".
 
-Key journeys:
-- Search "pole barn builder near me / in <town>" -> land on home or a town page -> call
-  or request an estimate.
-- Search a specific structure ("horse barn builder michigan") -> land on that service
-  page -> request an estimate.
-- Referral / word of mouth -> visit home -> browse portfolio and reviews -> call.
+## 5. Non-goals
 
-## 5. Tech stack and hosting
+No WordPress, no server, no database, no e-commerce/booking, no visitor accounts. The
+registrar transfer and DNS cutover are tracked separately and do not block the build.
 
-- Generator: Eleventy (11ty) v3, already scaffolded (src -> _site).
-- Templating: Nunjucks + Markdown for content collections (services, areas, blog).
+## 6. Tech stack and hosting
+
+- Eleventy (11ty) v3, Nunjucks + Markdown collections (already scaffolded, src -> _site).
 - Hosting: GitHub Pages, repo under a new business-owned GitHub account (not Vlad's Roya
   account). CNAME file for the custom domain.
-- Domain/DNS: cnopolebarns.com. DNS via Cloudflare now (BizIQ-controlled) or Namecheap
-  after registrar transfer. Preserve Google Workspace MX (smtp.google.com) on any DNS move.
-- Forms: static-site form backend. Recommended: Web3Forms (free, no server, emails
-  submissions to zosim@, spam honeypot + hCaptcha). Alternative: Formspree. Decision open.
-- CMS (optional, phase 3): Decap CMS is already scaffolded at src/admin so the family can
-  edit content without code. Keep but treat as later.
-- Analytics: recommended Cloudflare Web Analytics (free, cookieless, no banner) or GA4 if
-  preferred. Decision open.
+- Domain/DNS: cnopolebarns.com. Preserve Google Workspace MX (smtp.google.com) on any DNS
+  move. DNS via Cloudflare now (BizIQ-controlled) or Namecheap after transfer.
+- Forms: static form backend. Recommended Web3Forms (free, emails to zosim@, spam
+  protection). Alternative Formspree. Decision open.
+- CMS (phase 3, optional): Decap CMS already scaffolded at src/admin.
+- Analytics: recommended Cloudflare Web Analytics (cookieless). Decision open.
 
-## 6. Design system (Cleean-derived)
+## 7. Design system (Cleean-derived)
 
-Colors (extracted from the Cleean template):
-- --dark: #242c24 (headings, primary buttons, footer)
-- --body: #4e574e (body text)
-- --soft: #e3e9e3 (borders, hairlines)
-- --offwhite: #f6f9f6 (alternating section background)
-- --white: #ffffff
-- --green: #47bb66 (bright accent; backgrounds, checks, highlights)
-- --green-deep: #2f7d47 (accessible green for links/labels/text on light backgrounds)
+Colors: --dark #242c24, --body #4e574e, --soft #e3e9e3, --offwhite #f6f9f6, --white #fff,
+--green #47bb66 (accent fills only), --green-deep #2f7d47 (green text/links, meets AA).
+Typography: Inter, self-hosted (subset woff2), weights 400-800; headings tight tracking,
+text-wrap: balance. Components: pill buttons (dark primary), rounded cards (~18px, 1px
+--soft border, hover lift), ~100px section padding alternating white/offwhite, sticky
+blurred nav pinned to top (top:0), checkmark lists, numbered process steps.
 
-Note: the bright #47bb66 fails contrast as text on white, so --green-deep is used for any
-green text or links to meet WCAG AA. Bright green is reserved for fills/accents.
-
-Typography:
-- Inter, self-hosted (woff2, subsetted) for performance and privacy. Weights 400-800.
-- Headings: tight letter-spacing (-0.02em), weight 700, text-wrap: balance.
-- Body: ~16-18px, line-height ~1.6-1.7, measure near 65-75 characters.
-- Uppercase eyebrow labels with letter-spacing, colored --green-deep.
-
-Components and rules:
-- Buttons: pill shape. Primary = --dark fill/white text. Secondary = outline. Accent =
-  --green.
-- Cards: white, 1px --soft border, radius ~18px, soft shadow on hover, subtle lift.
-- Sections: ~100px vertical padding; alternate white and --offwhite backgrounds.
-- Sticky, blurred translucent nav with logo + phone + "Get a Free Estimate".
-- Checkmark feature lists, stat cards, numbered process steps (only where order is real).
-- Layout via CSS grid/flex + gap. Mobile-first responsive with tested breakpoints.
-
-## 7. Information architecture (sitemap)
+## 8. Information architecture
 
 - Home (/)
-- About (/about/) - story since 1970, Zosim, team, values, service area map.
-- Services index (/services/) and service detail pages (/services/<slug>/):
-  Pole Barns, Custom Garages, Horse Barns, Barndominiums, Pole Sheds, Shop and Storage,
-  Commercial Buildings, Boat and RV Storage, Roofing, Siding Repair, Demolition.
-  (Confirm final list; old site also had "Barn Building" and "Crane Rental".)
-- Service Areas index (/areas/) and town pages (/areas/<town>/):
-  Clarkston, Waterford, Holly, Fenton, Howell, South Lyon, Rochester Hills,
-  Oakland Township, West Bloomfield. (Confirm final town list; these are the SEO engine.)
-- Portfolio (/portfolio/) - real jobsite photos, filterable by type later.
-- Blog (/blog/) and posts (/blog/<slug>/) - guides that target informational search.
-- Contact (/contact/) - estimate form, phone, address, hours, embedded map.
-- Utility: 404, /thank-you/ (post-form), /privacy/, /terms/.
+- About (/about/) - honest new-ownership story, service area.
+- Services index (/services/) + detail pages (/services/<slug>/). Revised, search-friendly,
+  Federal Steel-informed list (see section 9).
+- Service Areas index (/areas/) + town pages (/areas/<town>/) - the SEO engine.
+- Portfolio (/portfolio/) - real jobsite photos.
+- Blog (/blog/) + posts - informational guides (also answer common review criticisms).
+- Contact (/contact/) - estimate form, phone, hours, service area (no street address).
+- Utility: 404, /thank-you/, /privacy/, /terms/.
 
-## 8. Page specifications
+## 9. Services (revised, Federal Steel-informed)
 
-Homepage sections (approved preview), top to bottom:
-1. Sticky nav: logo, links (Services, Our Work, About, Service Areas, Blog), phone,
-   "Get a Free Estimate".
-2. Hero: eyebrow (Family-Owned in Clarkston Since 1970), H1, subhead, primary CTA +
-   click-to-call, star/rating line, hero photo with a "55+ years" stat card.
-3. Trust strip: Google rating, Licensed & Insured, Family-Owned Since 1970, Free Estimates.
-4. Value props (3): built for Michigan, honest pricing, one crew start to finish.
-5. About split: photo + story teaser + checklist + link to About.
-6. Services grid (4 featured cards) + "View all services".
-7. Founder section: Zosim photo + quote (to confirm wording) + attribution.
-8. Process (4 steps): Consult, Design, Build, Walkthrough.
-9. Reviews: real Google reviews (placeholder until wired).
-10. CTA band: "Ready to build?" + estimate CTA + phone.
-11. Footer: brand blurb, services, company links, NAP, licensed/insured, social.
+CNO is a certified Federal Steel Systems builder, so the site covers both post-frame (pole
+barn) and engineered steel buildings, roughly doubling the search surface. Content and specs
+adapted from federalsteelsystems.com plus the old WordPress copy.
 
-Service detail template: hero (title + subhead + photo), overview copy, what's included
-(bulleted), gallery of relevant real photos, FAQs (with FAQ schema), related service
-areas, estimate CTA. Each page targets "<service> builder michigan / <town>".
+Proposed primary pages (final list pending owner confirmation):
+Pole Barns; Steel & Metal Buildings; Custom Garages & Workshops; Horse Barns & Riding
+Arenas; Barndominiums; Agricultural & Farm Buildings; Commercial & Industrial Buildings;
+Storage Buildings & Mini-Storage (incl. boat/RV); Metal Roofing & Re-Roofs; Pole Sheds.
+Specialty (if offered): Aircraft Hangars; Clear-Span Buildings.
+Non-building services: Demolition; Crane Rental (confirm); Design, Engineering & Permit-Ready
+Drawings (lean on Federal Steel's stamped drawings).
 
-Service-area (town) template: hero naming the town, intro on serving that town, services
-offered there, a few nearby project photos, town-relevant FAQs, NAP + estimate CTA.
-Targets "pole barn builder in <town> MI". Preserve/redirect old town URLs.
+Homepage features four: Pole Barns, Garages & Workshops, Horse Barns, Steel Buildings.
 
-Contact page: estimate form (name, phone, email, project type, town/ZIP, message),
-click-to-call, address, hours, embedded Google map, and a clear response promise.
+## 10. Service areas (from the Google Business Profile)
 
-## 9. SEO and AI-search strategy (primary goal)
+Counties: Oakland, Genesee, Lapeer, Macomb. Towns for local landing pages: Clarkston,
+Waterford, White Lake, Holly, Fenton, Flint, Lapeer, Metamora, Auburn Hills, Pontiac, Troy,
+Royal Oak, Farmington Hills, Franklin (and more from the profile). Each town page targets
+"pole barn / steel building / garage builder in <town> MI".
 
-- Semantic HTML5, exactly one H1 per page, logical heading order, descriptive alt text.
-- Per-page <title> and meta description templates driven by front matter.
-- Canonical URLs; open graph + Twitter card tags; favicon set.
-- Structured data (JSON-LD):
-  - GeneralContractor / LocalBusiness on all pages (name, NAP, geo, hours, sameAs socials,
-    priceRange, areaServed list of towns).
-  - Service schema on each service page.
-  - FAQPage schema wherever FAQs appear.
-  - AggregateRating / Review from real Google reviews (once wired).
-  - BreadcrumbList on inner pages; BlogPosting on posts.
-- XML sitemap (all pages) + robots.txt pointing to it.
-- Town pages + service pages form a clean internal-link mesh (home -> services/areas ->
-  detail -> related), which both users and crawlers follow.
+## 11. SEO and AI-search strategy (primary goal)
+
+- Semantic HTML5, one H1 per page, logical headings, descriptive alt text.
+- Per-page title/meta description from front matter; canonical, open graph, Twitter tags.
+- JSON-LD: GeneralContractor/LocalBusiness on all pages using the real profile data
+  (name, phone (248) 625-2334, Google Place ID ChIJyZVuhV-XJIgR9-gYNSxuCZs, hours Mon-Sat
+  8:30a-7p, areaServed the towns/counties, sameAs socials, priceRange). Note: SERVICE-AREA
+  business - use areaServed, NOT a street address. Service schema per service page; FAQPage
+  schema on FAQ blocks; AggregateRating/Review from the real Google reviews; BreadcrumbList;
+  BlogPosting on posts.
+- XML sitemap + robots.txt; llms.txt summarizing who/what/where (services, towns, contact).
+- Internal link mesh (home -> services/areas -> detail -> related).
 - Performance for Core Web Vitals: static HTML, self-hosted subset fonts, responsive
-  images (WebP/AVIF with width variants) + lazy loading, minimal JS, no render-blocking.
-- AI/LLM discoverability: factual, well-structured copy (NAP, service areas, services
-  stated in text not just images), FAQ blocks with direct question/answer pairs, an
-  llms.txt summarizing who/what/where, stable clean URLs.
+  WebP/AVIF with width variants + lazy loading, minimal JS.
+- FAQ content preempts the two recurring review criticisms: timeline/weather delays and
+  change-order costs.
 
-## 10. Conversion and forms
+## 12. Conversion and forms
 
-- Primary CTA everywhere: "Get a Free Estimate" (to form) and click-to-call
-  tel:+12486252334 in nav, hero, sections, and a sticky mobile call bar.
-- Estimate form fields: name, phone, email, project type (select), town or ZIP, message.
-  Submissions email zosim@cnopolebarns.com via the chosen form backend; redirect to
-  /thank-you/. Include honeypot + captcha for spam.
-- Trust signals near CTAs: Google rating, Licensed & Insured, Since 1970, Free Estimates.
+- "Get a Free Estimate" (form) and click-to-call tel:+12486252334 in nav, hero, sections,
+  and a sticky mobile call bar.
+- Estimate form: name, phone, email, project type, town/ZIP, message -> emails zosim@ via
+  the chosen backend -> /thank-you/. Honeypot + captcha.
+- Trust near CTAs: A+ BBB, Licensed & Insured, Certified Federal Steel Builder, Free
+  Estimates.
 
-## 11. Content integrity and data to confirm
+## 13. Reviews and trust
 
-Hard rule: no fabricated content ships. The current draft's invented testimonials
-(Mike Thompson, Sarah Mitchell, Dave Richardson) and made-up stats (1,000+ projects,
-100% satisfaction) are removed and replaced with verifiable material.
+- Source: Google Takeout export in docs/reference/ (cno-reviews.md). 34 total, ~4.2 average,
+  26 five-star. Feature current-era (2023-2026) 5-star reviews that do NOT name Ian
+  (Bogdan Nemtanu, Reimund Bongartz, Tomek Bohaczek, Heather Bowers, Karl Michael Alas,
+  robert aldridge, etc.). Verify the live rating/count before quoting an exact number.
+- Do not publish negative reviews. A+ BBB rating is a confirmed, featured trust signal.
+- Later option: wire live Google reviews via Places API (needs an API key).
 
-To confirm with owner:
-- Real reviews: Google Business Profile URL / place ID to source reviews from (and whether
-  to embed live or hand-curate). The old WordPress site had reviews pages we can also mine.
-- Founder quote: exact wording from Zosim.
-- NAP: confirm phone (248) 625-2334, address 6575 Ridgewood Road, Clarkston, MI 48346,
-  and business hours are current.
-- Email: use zosim@cnopolebarns.com (info@ license was deleted; add info@ as an alias so
-  legacy mail still lands). Update src/_data/site.json.
-- Verifiable trust facts to feature: since 1970 / 55+ years, family-owned, licensed and
-  insured, free estimates. Avoid unverifiable counts.
-- Final services list and service-area town list.
+## 14. Assets and media
 
-## 12. Assets and media
+- 394 unique originals from the WordPress backup (~/cno-pole-barns/exports/sitebackup/
+  wp-content/uploads) PLUS 42 project photos in the Google Takeout export
+  (docs/reference/google-business-profile-export/). Optimize to responsive WebP/AVIF.
+- Existing CNO logo set in src/images/logos. Federal Steel certified-builder badge.
 
-- Source: 394 unique original photos harvested from the WordPress backup
-  (~/cno-pole-barns/exports/sitebackup/wp-content/uploads), plus the ~12 curated images
-  already in src/images.
-- Select best-in-class real jobsite photos for: home hero, each service page, portfolio
-  grid, town pages, and about. Optimize to responsive WebP/AVIF with width variants.
-- Logos: existing CNO logo set in src/images/logos (green, gold, black, light-bg variants).
+## 15. Contact and NAP
 
-## 13. URL migration and redirects
+- Name: CNO Pole Barns. Phone: (248) 625-2334. Email: zosim@cnopolebarns.com (info@ license
+  deleted; add info@ as an alias). Hours: Mon-Sat 8:30 AM - 7:00 PM, closed Sunday.
+- No public street address (service-area business); present towns/counties served.
 
-- Preserve SEO equity by mapping old WordPress URLs to new ones with 301s where the path
-  changes. Old URLs are captured from the sitemap (e.g., /pole-barn-builders-in-fenton-mi/,
-  /custom-garages/, /barndominiums/, /about-us/, /portfolio/, blog post URLs).
-- GitHub Pages has no server redirects; implement redirects via per-URL HTML meta-refresh
-  + canonical stub pages, or handle at the Cloudflare layer (preferred if we control it).
-- Keep a redirect map document as part of the build.
+## 16. URL migration and redirects
 
-## 14. Accessibility and performance
+Map old WordPress URLs to new ones with 301s where paths change (old URLs captured from the
+sitemap: /pole-barn-builders-in-fenton-mi/, /custom-garages/, /barndominiums/, /about-us/,
+/portfolio/, blog posts, etc.). GitHub Pages has no server redirects; implement via canonical
+stub pages with meta-refresh, or at the Cloudflare layer if we control it. Keep a redirect map.
 
-- WCAG AA color contrast (hence --green-deep for green text).
-- Visible keyboard focus states; respect prefers-reduced-motion.
-- Alt text on all images; labels on all form fields.
-- Lighthouse targets: Performance, SEO, Accessibility, Best Practices all 95+.
+## 17. Accessibility and performance
 
-## 15. Analytics
+WCAG AA contrast (hence --green-deep for green text); visible focus states; respect
+prefers-reduced-motion; alt text and form labels. Lighthouse targets 95+ across the board.
 
-- Recommended: Cloudflare Web Analytics (cookieless, no consent banner needed) or GA4.
-- Track: form submissions (thank-you page), click-to-call events. Decision open.
+## 18. Build phases
 
-## 16. Build phases
+- Phase 1 (build): recreate the full site in Cleean style with real content, photos, reviews,
+  SEO foundation, and a working estimate form; deploy to a temporary GitHub Pages URL for review.
+- Phase 2 (launch): business GitHub account + repo, custom domain via CNAME, DNS cutover
+  (after Cloudflare access or Namecheap transfer), 301 redirects live, MX preserved.
+- Phase 3 (enhance): live Google reviews, Decap CMS for family editing, analytics.
 
-- Phase 1 (build): recreate the full site in Cleean style with real content and photos,
-  SEO foundation, working estimate form; deploy to a temporary GitHub Pages URL for review.
-- Phase 2 (launch): create business GitHub account + repo, custom domain via CNAME, DNS
-  cutover (after Cloudflare access or Namecheap transfer), 301 redirects live, preserve MX.
-- Phase 3 (enhance): wire live Google reviews, enable Decap CMS for family editing, add
-  analytics, expand blog/town pages for SEO.
+## 19. Open decisions
 
-## 17. Open decisions to resolve in review
-
-1. Final services list (include Crane Rental? Barn Building as its own page?).
-2. Final service-area town list (which towns, any to add/drop).
-3. Form backend: Web3Forms (recommended) vs Formspree vs other.
-4. Reviews source: Google Business Profile URL/place ID; live embed vs curated.
-5. Analytics: Cloudflare Web Analytics (recommended) vs GA4 vs none.
-6. Founder quote wording and any about-page copy the family wants.
-7. Confirm NAP and hours.
-8. Anything from the preview the owner wants changed (hero layout, color balance, section
-   order, wording) - to be captured here before planning.
+1. Final services list (confirm Crane Rental, Aircraft Hangars, Clear-Span, and whether all
+   steel-side types are offered). Owner to confirm.
+2. Form backend: Web3Forms (recommended) vs Formspree.
+3. Analytics: Cloudflare Web Analytics (recommended) vs GA4 vs none.
+4. Owner quote: exact wording from Zosim.
+5. Verify the live Google review count/rating before publishing a number.
+6. Reference: docs/reference/ holds cno-reviews.md, cno-business-profile.md, and the raw
+   Google Takeout export.

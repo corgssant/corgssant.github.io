@@ -3,3 +3,4 @@ _site/
 .DS_Store
 *.log
 .superpowers/
+docs/reference/google-business-profile-export/
