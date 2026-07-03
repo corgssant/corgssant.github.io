@@ -1,21 +1,21 @@
 {
   "name": "CNO Pole Barns",
-  "tagline": "Michigan's Trusted Builder Since 1970",
+  "tagline": "Michigan pole barns, garages, and steel buildings",
   "phone": "(248) 625-2334",
-  "phoneTel": "2486252334",
-  "email": "info@cnopolebarns.com",
-  "address": {
-    "street": "6575 Ridgewood Road",
-    "city": "Clarkston",
-    "state": "MI",
-    "zip": "48346"
-  },
-  "hours": "Monday – Saturday: 8:30 AM – 7:00 PM",
+  "phoneTel": "+12486252334",
+  "email": "zosim@cnopolebarns.com",
+  "hours": "Mon-Sat: 8:30 AM - 7:00 PM",
+  "hoursNote": "Closed Sunday",
+  "url": "https://cnopolebarns.com",
+  "placeId": "ChIJyZVuhV-XJIgR9-gYNSxuCZs",
+  "owner": "Zosim Serban",
+  "established": 1970,
+  "trust": ["A+ BBB Rated", "Licensed & Insured", "Certified Federal Steel Builder", "Free Estimates"],
+  "counties": ["Oakland", "Genesee", "Lapeer", "Macomb"],
+  "serviceAreas": ["Clarkston", "Waterford", "White Lake", "Holly", "Fenton", "Flint", "Lapeer", "Metamora", "Auburn Hills", "Pontiac", "Troy", "Royal Oak", "Farmington Hills"],
   "social": {
-    "facebook": "https://facebook.com/cnopolebarns",
-    "instagram": "https://instagram.com/cnopolebarns",
-    "google": "https://g.page/cnopolebarns",
-    "yelp": "https://yelp.com/biz/cno-pole-barns"
-  },
-  "url": "https://cnopolebarns.com"
+    "google": "https://maps.app.goo.gl/SjmusABzvdwmsS8e9",
+    "facebook": "",
+    "instagram": ""
+  }
 }

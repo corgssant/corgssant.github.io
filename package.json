@@ -1,7 +1,7 @@
 {
   "name": "cno-pole-barns",
   "version": "1.0.0",
-  "description": "CNO Pole Barns — Michigan's Trusted Builder Since 1970",
+  "description": "CNO Pole Barns - Michigan pole barns, garages, and steel buildings",
   "scripts": {
     "dev": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy"
