@@ -1,0 +1,17 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "GeneralContractor",
+  "name": "{{ site.name }}",
+  "url": "{{ site.url }}",
+  "telephone": "{{ site.phone }}",
+  "email": "{{ site.email }}",
+  "priceRange": "$$",
+  "areaServed": [
+    {% for c in site.counties %}{ "@type": "AdministrativeArea", "name": "{{ c }} County, MI" }{% if not loop.last %},{% endif %}{% endfor %}
+  ],
+  "openingHours": "Mo-Sa 08:30-19:00",
+  "sameAs": [ "{{ site.social.google }}" ],
+  "additionalType": "https://schema.org/HomeAndConstructionBusiness"
+}
+</script>
