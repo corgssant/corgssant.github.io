@@ -2,14 +2,13 @@
 layout: layouts/service.njk
 title: "Boat & RV Storage"
 subtitle: "Tall, wide buildings for oversized vehicles"
-description: "Custom boat and RV storage buildings by CNO Pole Barns in Clarkston MI. Tall sidewalls, extra-wide doors, and secure enclosed storage. Serving Oakland County since 1970."
+description: "Boat, RV, and motorhome storage buildings, RV garages, and carports across southeast Michigan. Licensed, insured. Call (248) 625-2334."
 category: "Recreational Storage"
 image: "/images/projects/horsebarn1.jpg"
 order: 10
-style: "full-width"
 features:
-  - "14ft to 18ft sidewall heights for tall vehicles"
-  - "Extra-wide 16ft overhead doors"
+  - "Tall sidewalls sized to fit boats, RVs, and motorhomes"
+  - "Wide overhead doors sized to your vehicles"
   - "Drive-through layouts available"
   - "Secure locking systems and optional cameras"
 gallery:
@@ -18,11 +17,11 @@ gallery:
     caption: "A tall-sidewall storage building designed for boats and RVs"
 faq:
   - q: "How tall should a storage building be for an RV?"
-    a: "Most Class A motorhomes and fifth wheels require at least 14 feet of clearance. We typically recommend 16-foot sidewalls to give you comfortable clearance for entry and to allow room for rooftop accessories like air conditioners and satellite dishes."
+    a: "It depends on the vehicle. Many Class A motorhomes and fifth wheels need at least 12 to 14 feet of clearance, and we size the sidewalls and door height around the vehicles you actually own, with extra room for roof-mounted air conditioners or antennas."
   - q: "Can I store my boat and RV in the same building?"
-    a: "Yes, and many of our clients do exactly that. We design buildings with multiple bays or open floor plans that can accommodate several large vehicles. A 40x60 or 50x80 building gives you room for a boat, an RV, and seasonal toys like snowmobiles or ATVs."
+    a: "Yes, many owners do exactly that. We can design a building with multiple bays or an open floor plan that fits several large vehicles, sized around what you own and plan to store, whether that is a boat, an RV, and seasonal equipment like snowmobiles or ATVs."
   - q: "Is it worth building my own storage building versus paying for off-site storage?"
-    a: "If you own property with room for a building, the math often works in your favor within a few years. Monthly storage fees of $200 to $400 per vehicle add up fast. A purpose-built storage building also protects your investment better and gives you access to your vehicles whenever you want."
+    a: "If you have room on your property, many owners find it pays off over time compared to recurring off-site storage fees, and a purpose-built building protects your investment and gives you access whenever you want it. We can help you think through the tradeoffs during a free estimate."
 tags:
   - "boat storage"
   - "rv storage"
@@ -30,14 +29,18 @@ tags:
   - "michigan"
 ---
 
-## Purpose-Built Storage for Your Biggest Toys
+## Storage Built for Boats, RVs, and Motorhomes
 
-Boats, RVs, campers, and trailers represent major investments, and they deserve better than sitting in a driveway under a tarp. CNO Pole Barns builds custom storage buildings with the tall sidewalls, wide doors, and generous floor plans these oversized vehicles require. Our post-frame construction method is ideal for these applications because it creates wide clear-span interiors without load-bearing interior walls that get in the way.
+A boat or RV is a serious investment, and a driveway tarp is not much protection from Michigan weather. CNO Pole Barns builds boat, RV, and motorhome storage buildings, along with RV garages and carports, across Oakland, Genesee, Lapeer, and Macomb counties. Post-frame construction gives these buildings wide, clear-span interiors with no posts in the way.
 
-## Designed Around Your Vehicles
+## Sized and Doored for Your Vehicles
 
-Every boat and RV storage building we construct starts with a conversation about what you own and what you plan to own. We measure your vehicles, plan door sizes with clearance to spare, and lay out the interior for easy maneuvering. Drive-through designs with doors on both ends make it simple to pull in and pull out without complicated backing maneuvers. We can also include a dedicated bay for a workbench, parts storage, or winterization equipment.
+We plan every storage building around what you own, from door width and sidewall height to whether a drive-through layout with doors on both ends makes sense for your property. Taller doors and sidewalls are common for Class A motorhomes and larger boats, and a carport is an option if you want cover without a fully enclosed building.
 
-## Protect Your Investment Year-Round
+## Protection Through Michigan Winters
 
-Michigan's freeze-thaw cycles, road salt, UV exposure, and summer storms are hard on vehicles left outside. A CNO Pole Barns storage building keeps your boat and RV in a controlled environment, extending their life and maintaining resale value. With over 55 years of construction experience in Oakland County, Zosim Serban and the CNO team know how to build structures that protect what matters to you. Call us at (248) 625-2334 to get a quote for your storage building.
+Freeze-thaw cycles, road salt, and sun exposure are hard on vehicles left outside year-round. An enclosed storage building keeps your boat or RV out of the weather between trips and helps protect its condition and resale value.
+
+## Established 1970, Run by CNO Today
+
+CNO Pole Barns was established in 1970 and is owned and operated today by Zosim Serban and his crew. We are licensed and insured, hold an A+ BBB rating, and give a free estimate for every boat, RV, or motorhome storage building. Call (248) 625-2334 to talk about the building you need.

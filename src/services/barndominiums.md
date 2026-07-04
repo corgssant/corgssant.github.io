@@ -2,11 +2,10 @@
 layout: layouts/service.njk
 title: "Barndominiums"
 subtitle: "Live and work under one roof"
-description: "Barndominium construction in Clarkston MI by CNO Pole Barns. Combine living space with a workshop or garage. 55+ years of post-frame building experience in Oakland County."
+description: "Barndominium and pole barn house construction across southeast Michigan. Licensed, insured. Call (248) 625-2334."
 category: "Residential"
 image: "/images/projects/shop-building.jpg"
 order: 4
-style: "split-left"
 features:
   - "Open floor plan living areas"
   - "Integrated workshop or garage bays"
@@ -18,11 +17,11 @@ gallery:
     caption: "A barndominium combining living quarters and a three-bay shop"
 faq:
   - q: "What is a barndominium?"
-    a: "A barndominium is a post-frame building that combines living space with a workshop, garage, or storage area under one roof. They offer open floor plans, high ceilings, and are generally more affordable per square foot than traditional stick-built homes."
+    a: "A barndominium is a post-frame building that combines living space with a workshop, garage, or storage area under one roof. They offer open floor plans and high ceilings, generally at a lower cost per square foot than comparable stick-built construction."
   - q: "Can I finance a barndominium like a regular home?"
-    a: "Yes, many lenders now offer construction loans and mortgages for barndominiums. The process is similar to financing a traditional home, though some lenders may require additional documentation. We can point you toward lenders experienced with post-frame residential projects."
+    a: "Many lenders offer construction loans and mortgages for barndominiums, though the process and documentation can differ from a typical home loan. We can point you toward lenders who are familiar with post-frame residential projects."
   - q: "Are barndominiums energy efficient?"
-    a: "They can be very energy efficient. We offer spray foam insulation, insulated metal panels, and energy-efficient windows and doors. The large open spans of post-frame construction actually make it easier to create well-sealed, efficient building envelopes."
+    a: "They can be. We offer spray foam insulation, insulated metal panels, and energy-efficient windows and doors, and the large open spans of post-frame construction make it easier to build a well-sealed envelope."
 tags:
   - "barndominiums"
   - "pole barns"
@@ -30,14 +29,18 @@ tags:
   - "residential"
 ---
 
-## The Best of Both Worlds
+## Living Space and Shop Space, One Roof
 
-A barndominium from CNO Pole Barns gives you the living space of a home and the utility of a workshop, all under one roof. These post-frame structures have become one of the fastest-growing housing trends in Michigan, and for good reason. You get wide open floor plans, soaring ceilings, and the ability to customize your layout exactly the way you want, often at a lower cost per square foot than conventional construction.
+A barndominium combines a home with a workshop, garage, or storage bay in a single post-frame building. CNO Pole Barns builds barndominiums and pole barn houses across Oakland, Genesee, Lapeer, and Macomb counties, working with you to lay out the living side and the shop side to fit how you actually use the property.
 
-## How We Build Your Barndominium
+## Two Zones Under One Roof
 
-We start with the same proven post-frame methods we have used for over 55 years, then apply residential-grade finishes to the living portion of the building. That means drywall, plumbing, HVAC, electrical, cabinetry, and flooring that meet all residential building codes. The shop or garage side gets concrete floors, overhead doors, and whatever utilities you need. A well-insulated partition separates the two zones so you can weld in the shop without heating the entire building.
+The shop or garage side gets a concrete floor, overhead doors, and whatever power or utilities the work requires. The living side is finished to residential code, with insulation, electrical, plumbing, and interior finishes suited to your plan. An insulated wall separates the two sides, so you can run equipment on one side without heating the whole building.
 
-## A Growing Trend in Oakland County
+## Built for Michigan Properties
 
-More Michigan families are choosing barndominiums as their primary residence, vacation home, or retirement property. The combination of affordability, durability, and flexibility makes them an excellent choice for rural and semi-rural properties around Clarkston, Ortonville, and northern Oakland County. Zosim Serban and the CNO Pole Barns team have the experience to guide you from concept to move-in day. Reach us at (248) 625-2334.
+A barndominium can work as a primary residence, a second home, or a retirement property, and the layout is built to order around what you need rather than a fixed floor plan. Michigan winters call for a well-sealed building envelope, and post-frame construction paired with the right insulation package delivers that while keeping the open floor plans barndominiums are known for.
+
+## Established 1970, Built by CNO Today
+
+CNO Pole Barns was established in 1970 and is owned and operated today by Zosim Serban, who runs every barndominium project with his own crew. We are licensed and insured, carry an A+ BBB rating, and provide a free estimate for every barndominium or pole barn house project. Call (248) 625-2334 to talk through your plans.
