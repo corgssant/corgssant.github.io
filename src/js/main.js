@@ -1,10 +1,10 @@
 // ============================================
-// CNO Pole Barns — Main JavaScript
+// CNO Pole Barns - Main JavaScript
 // ============================================
 
 document.addEventListener('DOMContentLoaded', () => {
   // --- Scroll-based nav styling ---
-  const nav = document.querySelector('.nav');
+  const nav = document.querySelector('nav.site');
   if (nav) {
     window.addEventListener('scroll', () => {
       nav.classList.toggle('scrolled', window.scrollY > 20);
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const btn = form.querySelector('.form-submit');
       const originalText = btn.textContent;
       btn.textContent = 'Message Sent!';
-      btn.style.background = 'var(--gold)';
+      btn.style.background = 'var(--green)';
       btn.style.color = 'var(--dark)';
       setTimeout(() => {
         btn.textContent = originalText;
@@ -111,14 +111,13 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // --- FAQ accordion ---
-  document.querySelectorAll('.faq-question').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const item = btn.parentElement;
-      const isActive = item.classList.contains('active');
-      // Close all
-      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
-      // Open clicked (if wasn't active)
-      if (!isActive) item.classList.add('active');
+  const faqQuestions = document.querySelectorAll('.faq-q');
+  if (faqQuestions.length > 0) {
+    faqQuestions.forEach(q => {
+      q.addEventListener('click', () => {
+        const item = q.closest('.faq');
+        if (item) item.classList.toggle('open');
+      });
     });
-  });
+  }
 });
