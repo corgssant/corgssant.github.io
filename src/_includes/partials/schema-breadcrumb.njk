@@ -1,0 +1,15 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {% for c in crumbs %}{
+      "@type": "ListItem",
+      "position": {{ loop.index }},
+      "name": "{{ c.name }}",
+      "item": "{{ site.url }}{{ c.url }}"
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>

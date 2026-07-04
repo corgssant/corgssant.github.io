@@ -2,185 +2,132 @@
 layout: layouts/base.njk
 ---
 
-{# ========== SERVICE DETAIL PAGE ========== #}
-{# Each service page has a unique layout based on its style variant #}
+{% set crumbs = [{name:"Home",url:"/"},{name:"Services",url:"/services/"},{name:title,url:page.url}] %}
 
-{# Hero #}
-<section class="service-hero" style="background-image: url('{{ image }}');">
-  <div class="service-hero-overlay"></div>
-  <div class="container service-hero-content">
-    <span class="section-label" style="color: var(--gold);">{{ category or "Our Services" }}</span>
-    <h1>{{ title }}</h1>
-    <p class="service-hero-sub">{{ subtitle }}</p>
-    <div class="hero-actions">
-      <a href="/contact/" class="btn btn-primary">Get a Free Quote</a>
-      <a href="tel:{{ site.phoneTel }}" class="btn btn-outline">Call {{ site.phone }}</a>
-    </div>
+{# ===== page hero ===== #}
+<header class="phero svc-hero"><div class="wrap">
+  <div class="crumbs">{% for c in crumbs %}{% if not loop.last %}<a href="{{ c.url }}">{{ c.name }}</a> <span>/</span> {% else %}<span>{{ c.name }}</span>{% endif %}{% endfor %}</div>
+  <span class="lab">{{ category }}</span>
+  <h1>{{ title }}</h1>
+  <p class="lead">{{ subtitle }}</p>
+  <div class="hero-cta">
+    <a href="/contact/" class="btn btn-dark">Get a Free Estimate</a>
+    <a href="tel:{{ site.phoneTel }}" class="btn btn-ghost">Call {{ site.phone }}</a>
   </div>
-</section>
+</div></header>
 
-{# Main Content — alternating layout style per service #}
-<section class="section">
-  <div class="container">
-    {% if style == "split-right" or not style %}
-    {# Default: image left, text right #}
-    <div class="split">
-      <div class="split-img fade-up">
-        <img src="{{ image }}" alt="{{ title }}">
-        {% if badge %}
-        <div class="split-badge">{{ badge }}<span>{{ badgeLabel }}</span></div>
-        {% endif %}
-      </div>
-      <div class="split-content fade-up">
-        {{ content | safe }}
-        {% if features %}
-        <div class="split-features">
-          {% for feature in features %}
-          <div class="split-feature">
-            <div class="split-feature-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            </div>
-            {{ feature }}
-          </div>
-          {% endfor %}
-        </div>
-        {% endif %}
-        <a href="/contact/" class="btn btn-dark" style="margin-top: 16px;">Request a Quote</a>
-      </div>
-    </div>
-
-    {% elif style == "split-left" %}
-    {# Text left, image right #}
-    <div class="split">
-      <div class="split-content fade-up">
-        {{ content | safe }}
-        {% if features %}
-        <div class="split-features">
-          {% for feature in features %}
-          <div class="split-feature">
-            <div class="split-feature-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            </div>
-            {{ feature }}
-          </div>
-          {% endfor %}
-        </div>
-        {% endif %}
-        <a href="/contact/" class="btn btn-dark" style="margin-top: 16px;">Request a Quote</a>
-      </div>
-      <div class="split-img fade-up">
-        <img src="{{ image }}" alt="{{ title }}">
-      </div>
-    </div>
-
-    {% elif style == "full-width" %}
-    {# Full width content with image gallery #}
-    <div class="service-detail-content fade-up">
-      {{ content | safe }}
-      {% if features %}
-      <div class="split-features" style="max-width: 600px; margin: 36px 0;">
-        {% for feature in features %}
-        <div class="split-feature">
-          <div class="split-feature-icon">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-          </div>
-          {{ feature }}
-        </div>
-        {% endfor %}
-      </div>
-      {% endif %}
-      <a href="/contact/" class="btn btn-dark">Request a Quote</a>
-    </div>
+{# ===== intro: detail content + image ===== #}
+<section class="blk"><div class="wrap"><div class="split">
+  <div class="split-img"><img src="{{ image }}" alt="{{ title }}"></div>
+  <div>
+    <div class="detail">{{ content | safe }}</div>
+    {% if features %}
+    <ul class="flist">
+      {% for f in features %}<li>{{ f }}</li>{% endfor %}
+    </ul>
     {% endif %}
+    <a href="/contact/" class="btn btn-dark">Get a Free Estimate</a>
   </div>
-</section>
+</div></div></section>
 
-{# Gallery (if images provided) #}
+{# ===== gallery ===== #}
 {% if gallery %}
-<section class="section section-light">
-  <div class="container">
-    <div class="section-header fade-up">
-      <span class="section-label">Gallery</span>
-      <h2>{{ title }} Projects</h2>
-    </div>
-    <div class="gallery-grid stagger-children">
-      {% for img in gallery %}
-      <div class="gallery-item fade-up">
-        <img src="{{ img.src }}" alt="{{ img.alt or title }}">
-        {% if img.caption %}
-        <div class="gallery-overlay"><span>{{ img.caption }}</span></div>
-        {% endif %}
-      </div>
-      {% endfor %}
-    </div>
+<section class="blk tint"><div class="wrap">
+  <div class="head"><span class="lab">Gallery</span><h2>Recent {{ title }} projects</h2></div>
+  <div class="ggrid">
+    {% for g in gallery %}
+    <figure>
+      <img src="{{ g.src }}" alt="{{ g.alt or title }}">
+      {% if g.caption %}<figcaption>{{ g.caption }}</figcaption>{% endif %}
+    </figure>
+    {% endfor %}
   </div>
-</section>
+</div></section>
 {% endif %}
 
-{# FAQ (if provided) #}
+{# ===== faq ===== #}
 {% if faq %}
-<section class="section">
-  <div class="container">
-    <div class="section-header fade-up">
-      <span class="section-label">FAQ</span>
-      <h2>Common Questions About {{ title }}</h2>
+<section class="blk"><div class="wrap">
+  <div class="head"><span class="lab">FAQ</span><h2>Common questions about {{ title }}</h2></div>
+  <div>
+    {% for item in faq %}
+    <div class="faq">
+      <div class="faq-q">{{ item.q }}</div>
+      <div class="faq-a"><p>{{ item.a }}</p></div>
     </div>
-    <div class="faq-list fade-up">
-      {% for item in faq %}
-      <div class="faq-item">
-        <button class="faq-question">
-          <span>{{ item.q }}</span>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-        </button>
-        <div class="faq-answer">
-          <p>{{ item.a }}</p>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
+    {% endfor %}
   </div>
-</section>
+</div></section>
 {% endif %}
 
-{# Other Services #}
-<section class="section {% if faq %}section-light{% endif %}">
-  <div class="container">
-    <div class="section-header fade-up">
-      <span class="section-label">Explore</span>
-      <h2>Other Services</h2>
-    </div>
-    <div class="services-grid stagger-children">
-      {% for service in collections.services %}
-      {% if service.url != page.url %}
-      <div class="service-card fade-up">
-        <div class="service-card-img">
-          <img src="{{ service.data.image }}" alt="{{ service.data.title }}">
-        </div>
-        <div class="service-card-body">
-          <h3>{{ service.data.title }}</h3>
-          <p>{{ service.data.subtitle }}</p>
-          <a href="{{ service.url }}" class="service-link">
-            Learn More
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-          </a>
-        </div>
+{# ===== other services ===== #}
+<section class="blk tint"><div class="wrap">
+  <div class="head"><h2>Other services</h2><p>Explore more of what we build across southeast Michigan.</p></div>
+  <div class="svc">
+    {% for service in collections.services %}
+    {% if service.url != page.url %}
+    <a class="card" href="{{ service.url }}">
+      <div class="im"><img src="{{ service.data.image }}" alt="{{ service.data.title }}"></div>
+      <div class="bd">
+        <h3>{{ service.data.title }}</h3>
+        <p>{{ service.data.subtitle }}</p>
+        <span class="lk">Learn more &rarr;</span>
       </div>
-      {% endif %}
-      {% endfor %}
-    </div>
+    </a>
+    {% endif %}
+    {% endfor %}
   </div>
-</section>
+</div></section>
 
-{# CTA #}
-<section class="section">
-  <div class="container">
-    <div class="cta-banner fade-up">
-      <h2>Ready to Build Your {{ title }}?</h2>
-      <p>Get a free, no-obligation estimate. We'll visit your site and design the perfect structure for your needs.</p>
-      <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-        <a href="/contact/" class="btn btn-primary">Get a Free Quote</a>
-        <a href="tel:{{ site.phoneTel }}" class="btn btn-outline">Call {{ site.phone }}</a>
-      </div>
-    </div>
+{# ===== cta ===== #}
+<section class="blk cta"><div class="wrap"><div class="box">
+  <h2>Ready to talk about your {{ title }} project?</h2>
+  <p>Get a free, no-obligation estimate. Call today or send us the details and we will come take a look.</p>
+  <div class="row">
+    <a href="/contact/" class="btn btn-dark">Get a Free Estimate</a>
+    <a href="tel:{{ site.phoneTel }}" class="btn btn-ghost" style="border-color:rgba(13,36,21,.3);color:#0d2415">Call {{ site.phone }}</a>
   </div>
-</section>
+</div></div></section>
+
+{# ===== json-ld: service ===== #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{{ title }}",
+  "serviceType": "{{ category }}",
+  "provider": {
+    "@type": "GeneralContractor",
+    "name": "{{ site.name }}",
+    "url": "{{ site.url }}",
+    "telephone": "{{ site.phone }}"
+  },
+  "areaServed": [
+    {% for c in site.counties %}{ "@type": "AdministrativeArea", "name": "{{ c }} County, MI" }{% if not loop.last %},{% endif %}{% endfor %}
+  ]
+}
+</script>
+
+{# ===== json-ld: breadcrumb ===== #}
+{% include "partials/schema-breadcrumb.njk" %}
+
+{# ===== json-ld: faqpage ===== #}
+{% if faq %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in faq %}{
+      "@type": "Question",
+      "name": "{{ item.q }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ item.a }}"
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
