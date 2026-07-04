@@ -2,11 +2,10 @@
 layout: layouts/service.njk
 title: "Horse Barns"
 subtitle: "Safe, comfortable barns for your horses"
-description: "Custom horse barn construction by CNO Pole Barns in Clarkston MI. Stalls, tack rooms, wash bays, and riding arenas. Serving Michigan equestrian properties since 1970."
+description: "Custom horse barns with stalls, tack rooms, hay storage, and run-ins across southeast Michigan. Licensed, insured. Call (248) 625-2334."
 category: "Equestrian"
 image: "/images/projects/horsebarn2.jpg"
 order: 3
-style: "split-right"
 features:
   - "Custom stall sizes and configurations"
   - "Tack rooms and feed storage areas"
@@ -19,8 +18,8 @@ gallery:
 faq:
   - q: "What stall size do you recommend for horses?"
     a: "We typically recommend 12x12 stalls for average-sized horses and 12x14 or 14x14 for larger breeds. Each barn is custom-designed based on the number and size of your horses, so we will work with you to find the right configuration."
-  - q: "Do you build indoor riding arenas?"
-    a: "Yes, we build both standalone indoor arenas and arenas attached to existing horse barns. Common sizes range from 60x120 to 80x200, depending on the discipline and number of riders."
+  - q: "Do you build run-in sheds for pasture shelter?"
+    a: "Yes. A run-in gives horses a simple, open-sided shelter from sun, rain, and wind when they are turned out. We can build one as a standalone structure or as part of a larger barn, sized for the number of horses you keep."
   - q: "How do you handle ventilation in horse barns?"
     a: "Proper ventilation is critical for horse health. We design barns with ridge vents, cupolas, Dutch doors, and strategically placed windows to maintain airflow and reduce moisture buildup year-round."
 tags:
@@ -30,14 +29,18 @@ tags:
   - "michigan"
 ---
 
-## Horse Barns Designed by People Who Understand Horses
+## Horse Barns Built Around Your Horses
 
-CNO Pole Barns has been building horse barns across Southeast Michigan for over five decades. We understand that a horse barn is not just a building; it is the home and healthcare facility for your animals. Every barn we build is designed with horse safety, comfort, and your daily workflow in mind. From small two-stall hobby barns to large professional boarding facilities, we bring the same attention to detail to every project.
+CNO Pole Barns builds horse barns across Oakland, Genesee, Lapeer, and Macomb counties, from small two- or three-stall barns to larger layouts with tack rooms and hay storage. Zosim Serban and his crew work with you on stall count, aisle width, and door placement so the barn fits how you actually care for your horses day to day.
 
-## Purpose-Built Equestrian Facilities
+## Stalls, Tack Rooms, Hay Storage, and Run-Ins
 
-Our horse barns feature smooth interior walls to prevent injury, kick-proof stall partitions, non-slip flooring, and drainage systems that keep your barn dry and clean. We build tack rooms, feed storage areas, wash bays, and grooming stalls as part of the overall design. Want an attached hay loft or equipment storage? We integrate everything into a single, efficient structure.
+Every horse barn is different. We build custom stall sizes and configurations, tack and feed storage areas, and wash bays with proper drainage. If you need a run-in for pasture shelter instead of a full barn, or in addition to one, we build that too. Ventilation is planned into the design from the start, with ridge vents, cupolas, Dutch doors, and windows placed to keep air moving and reduce moisture.
 
-## Serving Michigan's Equestrian Community
+## Built for Michigan Winters
 
-Oakland County and the surrounding region have a vibrant equestrian culture, and CNO Pole Barns is proud to be part of it. From Clarkston to Oxford, Holly to Metamora, we have built horse barns for trail riders, dressage enthusiasts, and competitive show barns. Our family-owned business, led by Zosim Serban since 1970, treats every client like a neighbor. Call (248) 625-2334 to talk about your horse barn project.
+Michigan's snow loads, freeze-thaw cycles, and storms are hard on any barn, and harder on the animals inside one that was not built for them. We frame and roof horse barns to handle the load and keep the inside dry, so you are not fighting the building on top of everything else that comes with keeping horses through a Michigan winter.
+
+## Serving Michigan's Equestrian Properties
+
+CNO Pole Barns was established in 1970. Today the business is locally owned and operated by Zosim Serban, who runs every horse barn project with his own crew. We are licensed and insured, carry an A+ BBB rating, and offer free estimates for horse barns of any size. Call (248) 625-2334 to talk about your property.
