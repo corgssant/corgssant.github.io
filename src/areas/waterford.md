@@ -1,35 +1,35 @@
 ---
 layout: layouts/area.njk
 title: "Pole Barn Builders in Waterford, MI"
-description: "Pole barn construction in Waterford Township, MI. CNO Pole Barns — family-owned since 1970. Garages, workshops, horse barns & more. Call (248) 625-2334."
+description: "CNO Pole Barns builds licensed, insured pole barns, garages, and horse barns throughout Waterford Township, MI. A+ BBB rated. Call (248) 625-2334."
 city: "Waterford"
 state: "MI"
 county: "Oakland"
 image: "/images/projects/michigan-farm.webp"
-subtitle: "Dependable pole barn construction for Waterford Township — your Oakland County neighbor since 1970."
+subtitle: "Pole barns, garages, and horse barns for Waterford Township property owners, backed by free on-site estimates and an A+ BBB rating."
 whyChoose:
-  - title: "Minutes from Your Door"
-    text: "Waterford Township borders Clarkston to the south. Our crew can be on your property in under 15 minutes, making site visits, material deliveries, and daily construction runs seamless."
-  - title: "Township Permitting Expertise"
-    text: "We've pulled permits in Waterford Township for decades. We know the building department's requirements, setback rules, and inspection process, so your project stays on schedule."
-  - title: "Versatile Building Solutions"
-    text: "From compact storage sheds on lakefront lots to full-size agricultural barns on Waterford's larger western parcels, we design structures that match your property and purpose."
-  - title: "A+ BBB Rating"
-    text: "Our track record speaks for itself. CNO Pole Barns holds an A+ rating with the Better Business Bureau — a reflection of honest pricing, quality work, and satisfied customers."
+  - title: "Waterford Township Experience"
+    text: "Waterford Township is part of our regular service area, and we are familiar with the township's permitting process for pole barns and outbuildings."
+  - title: "A+ BBB Rated and Insured"
+    text: "CNO Pole Barns is licensed and insured and holds an A+ rating with the Better Business Bureau."
+  - title: "Certified Federal Steel Builder"
+    text: "Our steel buildings meet federal certification standards for a durable, code-compliant structure."
+  - title: "Free On-Site Estimates, Owner Involved"
+    text: "Every estimate is free and done in person, and owner Zosim Serban stays involved in Waterford-area projects alongside one of our 3 crews."
 ---
 
-## Waterford's Trusted Pole Barn Contractor
+## Building in Waterford Township
 
-Waterford Township sits directly south of our Clarkston headquarters, making it one of the closest communities we serve. With its mix of lakefront properties, established residential neighborhoods, and larger parcels along the western township line, Waterford presents a variety of building opportunities. CNO Pole Barns has been constructing garages, workshops, storage buildings, and agricultural structures throughout Waterford since 1970, and we understand the unique characteristics of building in this community.
+Waterford Township is one of the communities in CNO Pole Barns' regular service area, alongside the rest of Oakland County and parts of Genesee, Lapeer, and Macomb counties. Owner Zosim Serban runs the company's day-to-day work today, leading a crew on Waterford-area jobs, and the business got its start back in 1970.
 
-## Building Around Waterford's Lakes and Landscapes
+## What We Build in Waterford Township
 
-Waterford is known for its lakes — from Cass Lake and Pontiac Lake to dozens of smaller bodies of water scattered across the township. Many waterfront properties have limited buildable space, which means pole barn placement and sizing require careful planning. We work within Waterford Township's setback requirements and lot coverage limits to maximize your usable space. For properties on the township's western edge, where lots tend to be larger and more rural, we build bigger structures including horse barns, equipment storage, and multi-bay garages.
+We build detached garages and workshops for residential properties, pole barns and horse barns for larger parcels, and storage buildings for property owners who need more space. Every structure is designed around your site and how you plan to use it, not a fixed floor plan.
 
-## What We Build in Waterford
+## Why Waterford Property Owners Choose CNO
 
-Our Waterford clients request a wide range of projects. Homeowners near the Pontiac Lake Recreation Area often need equipment storage or workshops to support their outdoor hobbies. Residents in the Drayton Plains area frequently ask for detached garages to house boat storage or classic car collections. And property owners along Hatchery Road and the Andersonville corridor come to us for agricultural buildings and horse barns. Whatever you need, we'll design a pole barn that meets your goals and your budget.
+We are licensed and insured, carry an A+ rating with the Better Business Bureau, and are a Certified Federal Steel Builder. Every estimate is free and done on-site, and we are familiar with how Waterford Township handles permitting for pole barns and outbuildings. We also build with Michigan's snow loads and freeze-thaw cycles in mind, so your structure holds up for years.
 
-## Start Your Waterford Project Today
+## Get a Free Estimate in Waterford Township
 
-Ready to add a pole barn to your Waterford Township property? Call CNO Pole Barns at (248) 625-2334 for a free on-site estimate. Owner Zosim Serban and our experienced crew will evaluate your site, discuss design options, and provide a straightforward quote. We're licensed, insured, and just down the road — the way a good contractor should be.
+Ready to talk about a pole barn, garage, or horse barn in Waterford Township? Call CNO Pole Barns at (248) 625-2334. We will schedule a free on-site visit, walk your property, and provide a detailed estimate.
