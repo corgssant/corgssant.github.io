@@ -1,35 +1,35 @@
 ---
 layout: layouts/area.njk
 title: "Pole Barn Builders in Howell, MI"
-description: "Custom pole barn construction in Howell, MI and Livingston County. CNO Pole Barns — family-owned since 1970. Agricultural, residential & commercial buildings. Call (248) 625-2334."
+description: "Pole barns and agricultural buildings for Howell, MI and Livingston County. Licensed, insured, free estimates. Call (248) 625-2334."
 city: "Howell"
 state: "MI"
 county: "Livingston"
 image: "/images/projects/shop-building.jpg"
-subtitle: "Pole barn construction for Howell and Livingston County — agricultural expertise meets old-fashioned craftsmanship."
+subtitle: "Custom pole barns and agricultural buildings for Howell and Livingston County - locally owned, with free on-site estimates."
 whyChoose:
-  - title: "Agricultural Building Specialists"
-    text: "Livingston County is farm country, and we've built pole barns for farmers, ranchers, and rural landowners for over 55 years. We understand the functional demands of working agricultural buildings."
+  - title: "Agricultural Building Experience"
+    text: "Livingston County's working farms and larger properties call for pole barns that hold up to daily use, and that's a large share of what we build in the Howell area."
   - title: "Engineered for the Job"
-    text: "Whether you need clear-span trusses for equipment access, reinforced floors for heavy loads, or tall sidewalls for hay storage, we engineer every building to perform for its intended purpose."
-  - title: "Livingston County Experience"
-    text: "We know the permitting process across Livingston County's townships — Genoa, Marion, Howell, Hartland, and beyond. That experience keeps your project moving without bureaucratic delays."
-  - title: "Competitive Pricing"
-    text: "As a lean, family-run operation, our overhead is low and our pricing reflects it. You get the quality of a seasoned builder without the markup of a large commercial contractor."
+    text: "Whether you need clear-span trusses for equipment access or tall sidewalls for hay storage, every building is engineered around what you'll actually use it for."
+  - title: "Posts Set Below the Frost Line"
+    text: "Michigan winters are hard on a building's foundation, so every post goes in below the frost line for a structure that won't shift or settle over time."
+  - title: "One Owner, Every Project"
+    text: "Owner Zosim Serban personally oversees Howell-area projects, working with one of our 3 crews from the first site visit through the final walkthrough."
 ---
 
-## Building Pole Barns Across Livingston County
+## Pole Barns for Howell and Livingston County
 
-Howell sits at the heart of Livingston County, one of Southeast Michigan's fastest-growing areas. Despite that growth, the region retains a strong rural and agricultural identity — especially in the townships surrounding the city. CNO Pole Barns has been serving Livingston County from our Clarkston headquarters, about 35 minutes to the northeast, since the early days of our business. The area's large lots, active farms, and equestrian properties make it a natural fit for the kind of post-frame buildings we specialize in.
+CNO Pole Barns serves Howell and the surrounding communities in Livingston County, an extension of a core southeast Michigan service area covering Oakland, Genesee, Lapeer, and Macomb counties. CNO was established in 1970, and today the business is locally owned and operated by Zosim Serban, who runs every Howell-area project with his own crew.
 
-## Farm Buildings and Beyond
+## Farm Buildings and More
 
-Livingston County's agricultural roots run deep, and many of our Howell-area projects are working farm buildings. We construct hay barns, equipment storage buildings, livestock shelters, and multi-purpose agricultural structures designed to handle the daily demands of farm life. But the Howell area isn't exclusively rural — the growing communities along the I-96 and M-59 corridors also keep us busy with residential garages, hobby shops, and commercial storage buildings. Whatever the application, our post-frame construction method delivers a durable, cost-effective building in less time than conventional construction.
+Livingston County's rural character means many of our Howell-area projects are working buildings: hay barns, equipment storage, livestock shelters, and multipurpose agricultural buildings built to handle daily use. We also build detached garages, workshops, and storage buildings for the area's residential properties, all designed around your site and your budget.
 
-## Built for Livingston County's Landscape
+## Why Howell Property Owners Choose CNO
 
-The terrain around Howell includes everything from flat agricultural fields to hilly, wooded parcels around Thompson Lake and the Howell Nature Center. We evaluate each site individually, accounting for drainage, soil conditions, access, and grade changes before we start building. Our pole barns are anchored with pressure-treated posts set well below the frost line — critical in Livingston County, where winter temperatures routinely drop below zero. The result is a rock-solid structure that won't shift, settle, or rack over time.
+CNO is licensed and insured, carries an A+ rating with the Better Business Bureau, and is a Certified Federal Steel Builder. We offer free on-site estimates and run 3 crews, so we can take on residential, agricultural, and commercial projects of nearly any size. Posts go in below the frost line and every roof is built for Michigan's winters, so your building holds up for years.
 
 ## Get Your Howell Project Started
 
-If you own property in Howell, Hartland, Brighton, Fowlerville, or anywhere in Livingston County, CNO Pole Barns would welcome the chance to earn your business. Call us at (248) 625-2334 for a free on-site estimate. We'll bring our 55+ years of experience to your property and help you plan a pole barn that fits your land, your needs, and your budget.
+If you own property in the Howell area and are ready to talk about a pole barn or agricultural building, call CNO Pole Barns at (248) 625-2334 for a free on-site estimate. We will walk your property and help you plan a building that fits your land, your needs, and your budget.
