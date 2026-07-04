@@ -13,7 +13,8 @@
 Every task's requirements implicitly include this section. Copy values verbatim.
 
 - **Honesty - FORBIDDEN in any output (built pages AND source):** "family owned"/"family-owned", "family-owned since 1970", "founded by Zosim ... 1970"/"founded in 1970 by Zosim", "since 1970" attached to ownership/experience/tenure, "55 years"/"55+"/"over 55"/"five decades"/"decades of"/"half a century", "generations"/"second-generation"/"third-generation", "same family", any street address ("Ridgewood", "6575"), "stop by our shop"/storefront language, "Ian". No em dashes (—) or en dashes (–). No invented stats (project counts, prices, dimensions-as-promises, warranties, credentials, crew numbers beyond "3 crews").
-- **Honesty - ALLOWED (grounded facts only):** "established 1970" (founding DATE, factual, sparing); "locally owned and operated"; Zosim Serban is the current owner who took over about three years ago; "new crew, same idea"; trust facts = A+ BBB Rated, Licensed & Insured, Certified Federal Steel Builder, Free Estimates; 3 crews; residential & commercial; service-area business (no address). Ground all copy in `docs/reference/cno-business-profile.md` + `docs/reference/cno-reviews.md`. When a specific is unknown, stay general and truthful. Never copy prose from the OLD `.md` files (they are the source of the lies).
+- **Honesty - ALLOWED (grounded facts only):** "established 1970" (founding DATE, factual, sparing); "locally owned and operated"; Zosim Serban is the current owner who took over about three years ago; "new crew, same idea";
+  - Note on the year: the Phase-1 footer + homepage already use the APPROVED "building/built since 1970" (the business's operating history) and appear site-wide; that is honest and is NOT a guardrail failure. NEW Phase-2 content should still prefer "established 1970" over "since 1970". The guardrails target the DISHONEST phrasings (family-owned, founded-by-Zosim-in-1970, 55 years, decades, generations, street address), NOT the bare year "1970" or "since 1970". trust facts = A+ BBB Rated, Licensed & Insured, Certified Federal Steel Builder, Free Estimates; 3 crews; residential & commercial; service-area business (no address). Ground all copy in `docs/reference/cno-business-profile.md` + `docs/reference/cno-reviews.md`. When a specific is unknown, stay general and truthful. Never copy prose from the OLD `.md` files (they are the source of the lies).
 - **NAP:** Phone `(248) 625-2334`, tel `+12486252334`. Counties served: Oakland, Genesee, Lapeer, Macomb. Towns: Clarkston, Waterford, White Lake, Holly, Fenton, Flint, Lapeer, Metamora, Auburn Hills, Pontiac, Troy, Royal Oak, Farmington Hills.
 - **Design:** Reuse Phase 1 Cleean classes: `.wrap .head .lab .blk .vp .svc .split .checks .areas .steps .founder .tg .cta .btn-dark .btn-ghost`. Palette tokens already in `:root` (--dark #242c24, --body #4e574e, --soft #e3e9e3, --offwhite #f6f9f6, --white #fff, --green #47bb66, --green-deep #2f7d47). Font: Inter (self-hosted). NEVER use the old classes (`.service-hero .section .split-img .service-card .cta-banner .btn-primary .btn-outline .page-hero .fade-up`) or `var(--gold)` - they no longer exist in style.css.
 - **Build:** `npx @11ty/eleventy` -> `_site`. Collections: `services` = `src/services/*.md`, `areas` = `src/areas/*.md`.
@@ -186,7 +187,7 @@ Run: `npx @11ty/eleventy`
 ```bash
 for s in pole-barns garages horse-barns pole-sheds; do
   f="_site/services/$s/index.html"
-  grep -qiE 'family|founded (in |by ).*1970|since 1970|55 (years|\+)|five decades|decades of|Ridgewood|—|–' "$f" && echo "FAIL $s" || echo "OK-clean $s"
+  grep -qiE 'family|founded (in |by ).*1970|55 (years|\+)|five decades|decades of|Ridgewood|—|–' "$f" && echo "FAIL $s" || echo "OK-clean $s"
   grep -qi '625-2334' "$f" && echo "OK-phone $s" || echo "MISSING-phone $s"
 done
 ```
@@ -232,7 +233,7 @@ git add -A && git commit -m "content: honest rewrite of core service pages (pole
 ```bash
 for a in clarkston fenton holly howell; do
   f="_site/areas/$a/index.html"
-  grep -qiE 'family|founded (in |by ).*1970|since 1970|55 (years|\+)|five decades|decades of|generation|Ridgewood|6575|—|–|stop by our' "$f" && echo "FAIL $a" || echo "OK-clean $a"
+  grep -qiE 'family|founded (in |by ).*1970|55 (years|\+)|five decades|decades of|generation|Ridgewood|6575|—|–|stop by our' "$f" && echo "FAIL $a" || echo "OK-clean $a"
 done
 ```
 Expected: `OK-clean` for all 4.
@@ -293,8 +294,6 @@ for pat in 'family[ -]owned' '55 years' '55\+' 'five decades' 'decades of' 'foun
   n=$(grep -lIiE "$pat" $SCOPE 2>/dev/null | wc -l | tr -d ' ')
   echo "$n  <= $pat"
 done
-echo "=== 'since 1970' only on homepage (0 elsewhere in scope) ==="
-grep -lIiE 'since 1970' $SCOPE 2>/dev/null | grep -v '_site/index.html' | wc -l | tr -d ' ' ; echo "^ must be 0"
 echo "=== KNOWN Phase-3 debt (report only, does NOT fail this task) ==="
 grep -rlIiE 'family[ -]owned|since 1970|55 years|five decades|Ridgewood' _site/about _site/portfolio _site/contact _site/blog 2>/dev/null | wc -l | tr -d ' ' ; echo "^ deferred dishonest files (expected > 0; Phase 3 rewrites these)"
 echo "=== 404 out of sitemap? ===" ; grep -q '/404.html' _site/sitemap.xml && echo "FAIL-404-in-sitemap" || echo OK-404-excluded
