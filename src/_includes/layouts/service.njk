@@ -94,16 +94,16 @@ layout: layouts/base.njk
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "{{ title }}",
-  "serviceType": "{{ category }}",
+  "name": {{ title | dump | safe }},
+  "serviceType": {{ category | dump | safe }},
   "provider": {
     "@type": "GeneralContractor",
-    "name": "{{ site.name }}",
-    "url": "{{ site.url }}",
-    "telephone": "{{ site.phone }}"
+    "name": {{ site.name | dump | safe }},
+    "url": {{ site.url | dump | safe }},
+    "telephone": {{ site.phone | dump | safe }}
   },
   "areaServed": [
-    {% for c in site.counties %}{ "@type": "AdministrativeArea", "name": "{{ c }} County, MI" }{% if not loop.last %},{% endif %}{% endfor %}
+    {% for c in site.counties %}{ "@type": "AdministrativeArea", "name": {{ (c + " County, MI") | dump | safe }} }{% if not loop.last %},{% endif %}{% endfor %}
   ]
 }
 </script>
@@ -120,10 +120,10 @@ layout: layouts/base.njk
   "mainEntity": [
     {% for item in faq %}{
       "@type": "Question",
-      "name": "{{ item.q }}",
+      "name": {{ item.q | dump | safe }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ item.a }}"
+        "text": {{ item.a | dump | safe }}
       }
     }{% if not loop.last %},{% endif %}
     {% endfor %}

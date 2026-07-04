@@ -6,8 +6,8 @@
     {% for c in crumbs %}{
       "@type": "ListItem",
       "position": {{ loop.index }},
-      "name": "{{ c.name }}",
-      "item": "{{ site.url }}{{ c.url }}"
+      "name": {{ c.name | dump | safe }},
+      "item": {{ (site.url + c.url) | dump | safe }}
     }{% if not loop.last %},{% endif %}
     {% endfor %}
   ]
