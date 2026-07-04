@@ -1,53 +1,42 @@
 ---
 layout: layouts/base.njk
-title: Our Services
-description: "Explore CNO Pole Barns services: custom pole barns, garages, horse barns, barndominiums, commercial buildings, roofing, and more across Michigan."
+title: "Our Services"
+description: "Pole barns, garages, horse barns, barndominiums, and steel buildings. See the full range of services CNO Pole Barns builds across southeast Michigan and get a free estimate."
 permalink: /services/
 ---
 
-{# ========== SERVICES LISTING PAGE — Cleean-inspired grid ========== #}
+{# ========== SERVICES INDEX - Cleean design ========== #}
 
-<section class="page-hero">
-  <div class="container">
-    <span class="section-label" style="color: var(--gold);">What We Build</span>
-    <h1>Our Services</h1>
-    <p>From custom pole barns and garages to barndominiums and commercial buildings — we design and build structures that last.</p>
+<header class="phero svc-hero"><div class="wrap">
+  <span class="lab">What We Build</span>
+  <h1>Our Services</h1>
+  <p class="lead">Pole barns, garages, horse barns, barndominiums, and steel buildings. Pick a service below to see project photos and details, or call us if you are not sure what you need.</p>
+  <div class="hero-cta">
+    <a href="/contact/" class="btn btn-dark">Get a Free Estimate</a>
   </div>
-</section>
+</div></header>
 
-<section class="section">
-  <div class="container">
-    <div class="services-grid-listing stagger-children">
-      {% for service in collections.services %}
-      <a href="{{ service.url }}" class="service-card-lg fade-up">
-        <div class="service-card-lg-img">
-          <img src="{{ service.data.image }}" alt="{{ service.data.title }}">
-          <div class="service-card-lg-overlay">
-            <span class="btn btn-primary" style="font-size: 0.875rem; padding: 10px 24px;">View Details</span>
-          </div>
-        </div>
-        <div class="service-card-lg-body">
-          <div class="service-card-lg-num">{% if loop.index < 10 %}0{% endif %}{{ loop.index }}</div>
-          <h3>{{ service.data.title }}</h3>
-          <p>{{ service.data.subtitle }}</p>
-          <span class="service-link">
-            Learn More
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-          </span>
-        </div>
-      </a>
-      {% endfor %}
-    </div>
+<section class="blk"><div class="wrap">
+  <div class="head"><h2>Everything we build</h2><p>Pick a service to see project photos, details, and answers to common questions.</p></div>
+  <div class="svc">
+    {% for service in collections.services %}
+    <a class="card" href="{{ service.url }}">
+      <div class="im"><img src="{{ service.data.image }}" alt="{{ service.data.title }}"></div>
+      <div class="bd">
+        <h3>{{ service.data.title }}</h3>
+        <p>{{ service.data.subtitle }}</p>
+        <span class="lk">Learn more &rarr;</span>
+      </div>
+    </a>
+    {% endfor %}
   </div>
-</section>
+</div></section>
 
-{# CTA #}
-<section class="section section-light">
-  <div class="container">
-    <div class="cta-banner fade-up">
-      <h2>Not Sure What You Need?</h2>
-      <p>Tell us about your project and we'll recommend the best solution. Free consultations for all projects.</p>
-      <a href="/contact/" class="btn btn-primary">Get a Free Quote</a>
-    </div>
+<section class="blk cta"><div class="wrap"><div class="box">
+  <h2>Not sure what you need?</h2>
+  <p>Tell us about your project and we will recommend the right building. Free estimates, no pressure.</p>
+  <div class="row">
+    <a href="/contact/" class="btn btn-dark">Get a Free Estimate</a>
+    <a href="tel:{{ site.phoneTel }}" class="btn btn-ghost" style="border-color:rgba(13,36,21,.3);color:#0d2415">Call {{ site.phone }}</a>
   </div>
-</section>
+</div></div></section>

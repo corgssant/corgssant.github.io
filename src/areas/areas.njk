@@ -1,57 +1,33 @@
 ---
 layout: layouts/base.njk
-title: Service Areas
-description: "CNO Pole Barns serves Southeast Michigan including Rochester Hills, Clarkston, Waterford, Holly, Fenton, Howell, Oakland County, and surrounding areas."
+title: "Service Areas"
+description: "CNO Pole Barns builds pole barns, garages, and steel buildings across Oakland, Genesee, Lapeer, and Macomb counties in southeast Michigan. Find your area and get a free estimate."
 permalink: /areas/
 ---
 
-{# ========== SERVICE AREAS LISTING PAGE ========== #}
+{# ========== SERVICE AREAS INDEX - Cleean design ========== #}
 
-<section class="page-hero">
-  <div class="container">
-    <span class="section-label" style="color: var(--gold);">Where We Build</span>
-    <h1>Service Areas</h1>
-    <p>Based in Clarkston, Michigan — proudly serving Oakland County, Genesee County, Livingston County, and beyond.</p>
+<header class="phero svc-hero"><div class="wrap">
+  <span class="lab">Where We Build</span>
+  <h1>Service Areas</h1>
+  <p class="lead">Serving {{ site.counties | join(", ") }} counties across southeast Michigan.</p>
+  <div class="hero-cta">
+    <a href="/contact/" class="btn btn-dark">Get a Free Estimate</a>
   </div>
-</section>
+</div></header>
 
-<section class="section">
-  <div class="container">
-    <div class="areas-grid stagger-children">
-      {% for area in collections.areas %}
-      <a href="{{ area.url }}" class="area-card fade-up">
-        <div class="area-card-img">
-          <img src="{{ area.data.image or '/images/projects/pole-building.jpg' }}" alt="Pole Barns in {{ area.data.city }}">
-        </div>
-        <div class="area-card-body">
-          <h3>{{ area.data.city }}, {{ area.data.state or "MI" }}</h3>
-          <p>{{ area.data.county }} County</p>
-          <span class="service-link">
-            View Area
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-          </span>
-        </div>
-      </a>
-      {% endfor %}
-    </div>
+<section class="blk"><div class="wrap">
+  <div class="head"><h2>Communities we serve</h2><p>Don't see your town listed? Call us, we may still cover your area.</p></div>
+  <div class="areas">
+    {% for area in collections.areas %}<a href="{{ area.url }}">{{ area.data.city }}</a>{% endfor %}
   </div>
-</section>
+</div></section>
 
-{# Map section #}
-<section class="section section-light">
-  <div class="container">
-    <div class="section-header fade-up">
-      <span class="section-label">Coverage</span>
-      <h2>Building Across Southeast Michigan</h2>
-      <p>We typically serve locations within a 60-mile radius of Clarkston. Not sure if we cover your area? Give us a call.</p>
-    </div>
-    <div class="areas-list fade-up" style="margin-bottom: 48px;">
-      {% for area in collections.areas %}
-      <a href="{{ area.url }}" class="area-tag">{{ area.data.city }}</a>
-      {% endfor %}
-    </div>
-    <div style="text-align: center;" class="fade-up">
-      <a href="/contact/" class="btn btn-dark">Request a Quote for Your Area</a>
-    </div>
+<section class="blk cta"><div class="wrap"><div class="box">
+  <h2>Ready to build in your area?</h2>
+  <p>Get a free, no-obligation estimate. Call today or send us the details and we will come take a look.</p>
+  <div class="row">
+    <a href="/contact/" class="btn btn-dark">Get a Free Estimate</a>
+    <a href="tel:{{ site.phoneTel }}" class="btn btn-ghost" style="border-color:rgba(13,36,21,.3);color:#0d2415">Call {{ site.phone }}</a>
   </div>
-</section>
+</div></div></section>
