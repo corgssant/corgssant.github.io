@@ -3,76 +3,62 @@ layout: layouts/base.njk
 ---
 
 {% set crumbs = [{name:"Home",url:"/"},{name:"Service Areas",url:"/areas/"},{name:city,url:page.url}] %}
+{% set heroImage = heroImage or "/images/projects/michigan-farm.webp" %}
 
-{# ===== page hero ===== #}
-<header class="phero svc-hero"><div class="wrap">
-  <div class="crumbs">{% for c in crumbs %}{% if not loop.last %}<a href="{{ c.url }}">{{ c.name }}</a> <span>/</span> {% else %}<span>{{ c.name }}</span>{% endif %}{% endfor %}</div>
-  <span class="lab">Service Area</span>
-  <h1>Pole Barn Builders in {{ city }}, {{ state or "MI" }}</h1>
-  <p class="lead">{{ subtitle }}</p>
-  <div class="hero-cta">
-    <a href="/contact/" class="btn btn-dark">Get a Free Estimate</a>
-    <a href="tel:{{ site.phoneTel }}" class="btn btn-ghost">Call {{ site.phone }}</a>
-  </div>
-</div></header>
-
-{# ===== intro: detail content + image + trust facts ===== #}
-<section class="blk"><div class="wrap"><div class="split">
-  <div class="split-img"><img src="{{ image }}" alt="{{ title }}"></div>
-  <div>
-    <div class="detail">{{ content | safe }}</div>
-    <ul class="flist">
-      {% for t in site.trust %}<li>{{ t }}</li>{% endfor %}
-    </ul>
-    <a href="/contact/" class="btn btn-dark">Get a Free Estimate</a>
-  </div>
-</div></div></section>
-
-{# ===== services offered in this area ===== #}
-<section class="blk tint"><div class="wrap">
-  <div class="head"><h2>Services we offer in {{ city }}, {{ state or "MI" }}</h2><p>From residential garages to commercial buildings, we build the full range of pole barns and steel buildings in the {{ city }} area.</p></div>
-  <div class="svc">
-    {% for service in collections.services %}
-    <a class="card" href="{{ service.url }}">
-      <div class="im"><img src="{{ service.data.image }}" alt="{{ service.data.title }}"></div>
-      <div class="bd">
-        <h3>{{ service.data.title }}</h3>
-        <p>{{ service.data.subtitle }}</p>
-        <span class="lk">Learn more &rarr;</span>
-      </div>
-    </a>
-    {% endfor %}
-  </div>
-</div></section>
-
-{# ===== why this city chooses cno ===== #}
-{% if whyChoose %}
-<section class="blk"><div class="wrap">
-  <div class="head"><span class="lab">Why CNO</span><h2>Why {{ city }} chooses CNO</h2></div>
-  <div class="steps">
-    {% for reason in whyChoose %}
-    <div class="s">
-      <div class="num">{% if loop.index < 10 %}0{% endif %}{{ loop.index }}</div>
-      <h3>{{ reason.title }}</h3>
-      <p>{{ reason.text }}</p>
+{# ===== overlay hero (placeholder project photo; set per-area via heroImage front matter) ===== #}
+<header class="ohero">
+  <div class="bg"><img src="{{ heroImage }}" alt="A pole barn built by CNO Pole Barns in Michigan"></div>
+  <div class="wrap"><div class="ohero-inner stagger">
+    <div class="crumbs">{% for c in crumbs %}{% if not loop.last %}<a href="{{ c.url }}">{{ c.name }}</a> <span>/</span> {% else %}<span>{{ c.name }}</span>{% endif %}{% endfor %}</div>
+    <span class="lab">Service Area</span>
+    <h1>Pole Barn Builders in {{ city }}, {{ state or "MI" }}</h1>
+    {% if subtitle %}<p class="lead">{{ subtitle }}</p>{% endif %}
+    <div class="hero-cta">
+      <a href="/contact/" class="btn btn-green">Get a Free Estimate</a>
+      <a href="tel:{{ site.phoneTel }}" class="btn btn-ghost">Call {{ site.phone }}</a>
     </div>
-    {% endfor %}
-  </div>
-</div></section>
-{% endif %}
+  </div></div>
+</header>
 
-{# ===== other service areas ===== #}
-<section class="blk {% if whyChoose %}tint{% endif %}"><div class="wrap">
-  <div class="head"><h2>We also serve</h2><p>Building pole barns across {{ county }} County and neighboring communities throughout southeast Michigan.</p></div>
-  <div class="areas">
-    {% for area in collections.areas %}
-    {% if area.url != page.url %}<a href="{{ area.url }}">{{ area.data.city }}</a>{% endif %}
-    {% endfor %}
-  </div>
-</div></section>
+{# ===== article body + sticky sidebar ===== #}
+<div class="artwrap">
+  <article class="article reveal">
+    {{ content | safe }}
+  </article>
+
+  <aside class="aside">
+    <div class="scard hi">
+      <h4>Get a free estimate</h4>
+      <p>Tell us about your {{ city }} project and we will come take a look. No pressure, no obligation.</p>
+      <a class="btn btn-green" href="/contact/">Request an estimate</a>
+      <a class="btn btn-ghost" href="tel:{{ site.phoneTel }}" style="color:#fff;border-color:rgba(255,255,255,.4)">Call {{ site.phone }}</a>
+    </div>
+    <div class="scard">
+      <h4>Why CNO</h4>
+      <ul class="badges">
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> A+ BBB Rated</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Licensed &amp; Insured</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Certified Federal Steel Builder</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Building since 1970</li>
+      </ul>
+    </div>
+    <div class="scard">
+      <h4>What we build in {{ city }}</h4>
+      <ul class="qlinks">
+        {% for service in collections.services | limit(5) %}<a href="{{ service.url }}">{{ service.data.title }} <span>&rarr;</span></a>{% endfor %}
+      </ul>
+    </div>
+    <div class="scard">
+      <h4>Nearby areas</h4>
+      <ul class="qlinks">
+        {% for area in collections.areas | limit(7) %}{% if area.url != page.url %}<a href="{{ area.url }}">{{ area.data.city }} <span>&rarr;</span></a>{% endif %}{% endfor %}
+      </ul>
+    </div>
+  </aside>
+</div>
 
 {# ===== cta ===== #}
-<section class="blk cta"><div class="wrap"><div class="box">
+<section class="blk cta"><div class="wrap"><div class="box reveal">
   <h2>Ready to build in {{ city }}?</h2>
   <p>Get a free, no-obligation estimate for your {{ city }} project. Call today or send us the details and we will come take a look.</p>
   <div class="row">

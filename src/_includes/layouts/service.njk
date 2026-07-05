@@ -4,85 +4,75 @@ layout: layouts/base.njk
 
 {% set crumbs = [{name:"Home",url:"/"},{name:"Services",url:"/services/"},{name:title,url:page.url}] %}
 
-{# ===== page hero ===== #}
-<header class="phero svc-hero"><div class="wrap">
-  <div class="crumbs">{% for c in crumbs %}{% if not loop.last %}<a href="{{ c.url }}">{{ c.name }}</a> <span>/</span> {% else %}<span>{{ c.name }}</span>{% endif %}{% endfor %}</div>
-  <span class="lab">{{ category }}</span>
-  <h1>{{ title }}</h1>
-  <p class="lead">{{ subtitle }}</p>
-  <div class="hero-cta">
-    <a href="/contact/" class="btn btn-dark">Get a Free Estimate</a>
-    <a href="tel:{{ site.phoneTel }}" class="btn btn-ghost">Call {{ site.phone }}</a>
-  </div>
-</div></header>
+{# ===== overlay hero (photo + scrim, or solid dark band if no image) ===== #}
+<header class="ohero{% if not image %} noimg{% endif %}">
+  {% if image %}<div class="bg"><img src="{{ image }}" alt="{{ title }}"></div>{% endif %}
+  <div class="wrap"><div class="ohero-inner stagger">
+    <div class="crumbs">{% for c in crumbs %}{% if not loop.last %}<a href="{{ c.url }}">{{ c.name }}</a> <span>/</span> {% else %}<span>{{ c.name }}</span>{% endif %}{% endfor %}</div>
+    {% if category %}<span class="lab">{{ category }}</span>{% endif %}
+    <h1>{{ title }}</h1>
+    {% if subtitle %}<p class="lead">{{ subtitle }}</p>{% endif %}
+    <div class="hero-cta">
+      <a href="/contact/" class="btn btn-green">Get a Free Estimate</a>
+      <a href="tel:{{ site.phoneTel }}" class="btn btn-ghost">Call {{ site.phone }}</a>
+    </div>
+  </div></div>
+</header>
 
-{# ===== intro: detail content + image ===== #}
-<section class="blk"><div class="wrap"><div class="split">
-  <div class="split-img"><img src="{{ image }}" alt="{{ title }}"></div>
-  <div>
-    <div class="detail">{{ content | safe }}</div>
+{# ===== article body + sticky sidebar ===== #}
+<div class="artwrap">
+  <article class="article reveal">
+    {{ content | safe }}
     {% if features %}
     <ul class="flist">
       {% for f in features %}<li>{{ f }}</li>{% endfor %}
     </ul>
     {% endif %}
-    <a href="/contact/" class="btn btn-dark">Get a Free Estimate</a>
-  </div>
-</div></div></section>
-
-{# ===== gallery ===== #}
-{% if gallery %}
-<section class="blk tint"><div class="wrap">
-  <div class="head"><span class="lab">Gallery</span><h2>Recent {{ title }} projects</h2></div>
-  <div class="ggrid">
-    {% for g in gallery %}
-    <figure>
-      <img src="{{ g.src }}" alt="{{ g.alt or title }}">
-      {% if g.caption %}<figcaption>{{ g.caption }}</figcaption>{% endif %}
+    {% if gallery and gallery.length %}
+    <figure class="inline-img riv">
+      <img src="{{ gallery[0].src }}" alt="{{ gallery[0].alt or title }}">
+      {% if gallery[0].caption %}<figcaption>{{ gallery[0].caption }}</figcaption>{% endif %}
     </figure>
-    {% endfor %}
-  </div>
-</div></section>
-{% endif %}
-
-{# ===== faq ===== #}
-{% if faq %}
-<section class="blk"><div class="wrap">
-  <div class="head"><span class="lab">FAQ</span><h2>Common questions about {{ title }}</h2></div>
-  <div>
-    {% for item in faq %}
-    <div class="faq">
-      <div class="faq-q">{{ item.q }}</div>
-      <div class="faq-a"><p>{{ item.a }}</p></div>
-    </div>
-    {% endfor %}
-  </div>
-</div></section>
-{% endif %}
-
-{# ===== other services ===== #}
-<section class="blk tint"><div class="wrap">
-  <div class="head"><h2>Other services</h2><p>Explore more of what we build across southeast Michigan.</p></div>
-  <div class="svc">
-    {% for service in collections.services %}
-    {% if service.url != page.url %}
-    <a class="card" href="{{ service.url }}">
-      <div class="im"><img src="{{ service.data.image }}" alt="{{ service.data.title }}"></div>
-      <div class="bd">
-        <h3>{{ service.data.title }}</h3>
-        <p>{{ service.data.subtitle }}</p>
-        <span class="lk">Learn more &rarr;</span>
-      </div>
-    </a>
     {% endif %}
-    {% endfor %}
-  </div>
-</div></section>
+    {% if faq %}
+    <h2>Common questions</h2>
+    <div class="faqwrap stagger">
+      {% for item in faq %}
+      <div class="faq"><div class="faq-q">{{ item.q }}</div><div class="faq-a"><p>{{ item.a }}</p></div></div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </article>
+
+  <aside class="aside">
+    <div class="scard hi">
+      <h4>Get a free estimate</h4>
+      <p>Tell us what you want to build and we will come take a look. No pressure, no obligation.</p>
+      <a class="btn btn-green" href="/contact/">Request an estimate</a>
+      <a class="btn btn-ghost" href="tel:{{ site.phoneTel }}" style="color:#fff;border-color:rgba(255,255,255,.4)">Call {{ site.phone }}</a>
+    </div>
+    <div class="scard">
+      <h4>Why CNO</h4>
+      <ul class="badges">
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> A+ BBB Rated</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Licensed &amp; Insured</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Certified Federal Steel Builder</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Building since 1970</li>
+      </ul>
+    </div>
+    <div class="scard">
+      <h4>Related services</h4>
+      <ul class="qlinks">
+        {% for service in collections.services | limit(5) %}{% if service.url != page.url %}<a href="{{ service.url }}">{{ service.data.title }} <span>&rarr;</span></a>{% endif %}{% endfor %}
+      </ul>
+    </div>
+  </aside>
+</div>
 
 {# ===== cta ===== #}
-<section class="blk cta"><div class="wrap"><div class="box">
+<section class="blk cta"><div class="wrap"><div class="box reveal">
   <h2>Ready to talk about your {{ title }} project?</h2>
-  <p>Get a free, no-obligation estimate. Call today or send us the details and we will come take a look.</p>
+  <p>Get a free, no-obligation estimate with straightforward pricing. Call today or send us the details and we will come take a look.</p>
   <div class="row">
     <a href="/contact/" class="btn btn-dark">Get a Free Estimate</a>
     <a href="tel:{{ site.phoneTel }}" class="btn btn-ghost" style="border-color:rgba(13,36,21,.3);color:#0d2415">Call {{ site.phone }}</a>

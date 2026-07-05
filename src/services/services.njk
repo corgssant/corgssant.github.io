@@ -5,20 +5,22 @@ description: "Pole barns, garages, horse barns, barndominiums, and steel buildin
 permalink: /services/
 ---
 
-{# ========== SERVICES INDEX - Cleean design ========== #}
+{# ========== SERVICES INDEX ========== #}
 
-<header class="phero svc-hero"><div class="wrap">
-  <span class="lab">What We Build</span>
-  <h1>Our Services</h1>
-  <p class="lead">Pole barns, garages, horse barns, barndominiums, and steel buildings. Pick a service below to see project photos and details, or call us if you are not sure what you need.</p>
-  <div class="hero-cta">
-    <a href="/contact/" class="btn btn-dark">Get a Free Estimate</a>
-  </div>
-</div></header>
+<header class="ohero noimg slim">
+  <div class="wrap"><div class="ohero-inner stagger">
+    <span class="lab">What We Build</span>
+    <h1>Our Services</h1>
+    <p class="lead">Pole barns, garages, horse barns, barndominiums, and steel buildings. Pick a service below to see project photos and details, or call us if you are not sure what you need.</p>
+    <div class="hero-cta">
+      <a href="/contact/" class="btn btn-green">Get a Free Estimate</a>
+    </div>
+  </div></div>
+</header>
 
 <section class="blk"><div class="wrap">
-  <div class="head"><h2>Everything we build</h2><p>Pick a service to see project photos, details, and answers to common questions.</p></div>
-  <div class="svc">
+  <div class="head reveal"><h2>Everything we build</h2><p>Pick a service to see project photos, details, and answers to common questions.</p></div>
+  <div class="svc stagger">
     {% for service in collections.services %}
     <a class="card" href="{{ service.url }}">
       <div class="im"><img src="{{ service.data.image }}" alt="{{ service.data.title }}"></div>
@@ -32,7 +34,7 @@ permalink: /services/
   </div>
 </div></section>
 
-<section class="blk cta"><div class="wrap"><div class="box">
+<section class="blk cta"><div class="wrap"><div class="box reveal">
   <h2>Not sure what you need?</h2>
   <p>Tell us about your project and we will recommend the right building. Free estimates, no pressure.</p>
   <div class="row">

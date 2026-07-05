@@ -5,25 +5,27 @@ description: "CNO Pole Barns builds pole barns, garages, and steel buildings acr
 permalink: /areas/
 ---
 
-{# ========== SERVICE AREAS INDEX - Cleean design ========== #}
+{# ========== SERVICE AREAS INDEX ========== #}
 
-<header class="phero svc-hero"><div class="wrap">
-  <span class="lab">Where We Build</span>
-  <h1>Service Areas</h1>
-  <p class="lead">Serving {{ site.counties | join(", ") }} counties across southeast Michigan.</p>
-  <div class="hero-cta">
-    <a href="/contact/" class="btn btn-dark">Get a Free Estimate</a>
-  </div>
-</div></header>
+<header class="ohero noimg slim">
+  <div class="wrap"><div class="ohero-inner stagger">
+    <span class="lab">Where We Build</span>
+    <h1>Service Areas</h1>
+    <p class="lead">Serving {{ site.counties | join(", ") }} counties across southeast Michigan.</p>
+    <div class="hero-cta">
+      <a href="/contact/" class="btn btn-green">Get a Free Estimate</a>
+    </div>
+  </div></div>
+</header>
 
 <section class="blk"><div class="wrap">
-  <div class="head"><h2>Communities we serve</h2><p>Don't see your town listed? Call us, we may still cover your area.</p></div>
-  <div class="areas">
+  <div class="head reveal"><h2>Communities we serve</h2><p>Don't see your town listed? Call us, we may still cover your area.</p></div>
+  <div class="areas stagger">
     {% for area in collections.areas %}<a href="{{ area.url }}">{{ area.data.city }}</a>{% endfor %}
   </div>
 </div></section>
 
-<section class="blk cta"><div class="wrap"><div class="box">
+<section class="blk cta"><div class="wrap"><div class="box reveal">
   <h2>Ready to build in your area?</h2>
   <p>Get a free, no-obligation estimate. Call today or send us the details and we will come take a look.</p>
   <div class="row">
