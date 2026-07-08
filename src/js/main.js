@@ -4,7 +4,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   // --- Scroll-based nav styling ---
-  const nav = document.querySelector('nav.site');
+  const nav = document.querySelector('header.site');
   if (nav) {
     const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 20);
     window.addEventListener('scroll', onScroll, { passive: true });

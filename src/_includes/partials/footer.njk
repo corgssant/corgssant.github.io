@@ -1,12 +1,35 @@
 <footer class="site"><div class="wrap">
   <div class="fgrid">
-    <div>
-      <div class="brand"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 10.5 12 4l9 6.5"/><path d="M5 9.5V20h14V9.5"/><path d="M9.5 20v-6h5v6"/></svg></span>{{ site.name }}</div>
-      <p class="fabout">Pole barns, garages, and steel buildings across southeast Michigan. Locally owned, A+ BBB rated, building since 1970.</p>
+    <div class="fbrand">
+      <h4>CNO Pole Barns</h4>
+      <p class="fabout">Family owned and operated out of Clarkston, Michigan. Building since 1970.
+        Post-frame buildings and certified Federal Steel Systems erector.</p>
     </div>
-    <div><h4>Services</h4><ul><li><a href="/services/pole-barns/">Pole Barns</a></li><li><a href="/services/garages/">Garages</a></li><li><a href="/services/horse-barns/">Horse Barns</a></li><li><a href="/services/commercial-buildings/">Steel Buildings</a></li></ul></div>
-    <div><h4>Company</h4><ul><li><a href="/about/">About</a></li><li><a href="/portfolio/">Our Work</a></li><li><a href="/#reviews">Reviews</a></li><li><a href="/contact/">Contact</a></li></ul></div>
-    <div><h4>Get in touch</h4><ul><li><a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a></li><li>Serving<br>{% for c in site.counties %}{{ c }}{% if not loop.last %}, {% endif %}{% endfor %} counties</li><li>{{ site.hours }}</li></ul></div>
+    <div><h4>Post-frame</h4><ul>
+      <li><a href="/services/pole-barns/">Pole barns</a></li>
+      <li><a href="/services/garages/">Garages</a></li>
+      <li><a href="/services/horse-barns/">Horse barns</a></li>
+      <li><a href="/services/barndominiums/">Barndominiums</a></li>
+      <li><a href="/services/">All services</a></li>
+    </ul></div>
+    <div><h4>Steel</h4><ul>
+      <li><a href="/steel-buildings/commercial/">Commercial</a></li>
+      <li><a href="/steel-buildings/industrial/">Industrial</a></li>
+      <li><a href="/steel-buildings/aircraft-hangars/">Hangars</a></li>
+      <li><a href="/steel-buildings/arenas/">Arenas</a></li>
+      <li><a href="/steel-buildings/">All steel buildings</a></li>
+    </ul></div>
+    <div><h4>Company</h4><ul>
+      <li><a href="/portfolio/">Our work</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/areas/">Service area</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/contact/">Contact</a></li>
+      <li><a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a></li>
+    </ul></div>
   </div>
-  <div class="fbot"><span>&copy; 2026 {{ site.name }}</span><span>Licensed &amp; Insured · Certified Federal Steel Builder</span></div>
+  <div class="fbot">
+    <span>&copy; 2026 {{ site.name }} &middot; Clarkston, MI &middot; {{ site.phone }}</span>
+    <span>A+ BBB rating &middot; Licensed &amp; insured &middot; Certified Federal Steel builder</span>
+  </div>
 </div></footer>
