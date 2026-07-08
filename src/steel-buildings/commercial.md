@@ -48,4 +48,4 @@ Steel isn't the right call for every commercial building. If your project is sma
 
 ## Get a Free Estimate
 
-We're family owned, based in Clarkston, and we run three crews across Oakland, Genesee, Lapeer, and Macomb counties. Call (248) 625-2334 or send us your project details and we'll walk the site with you.
+We're locally owned, based in Clarkston, and we run three crews across Oakland, Genesee, Lapeer, and Macomb counties. Call (248) 625-2334 or send us your project details and we'll walk the site with you.

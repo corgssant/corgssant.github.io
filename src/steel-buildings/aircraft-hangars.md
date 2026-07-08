@@ -50,4 +50,4 @@ If you're storing a smaller aircraft, or the building is doing double duty as ge
 
 ## Get a Free Estimate
 
-Family owned, based in Clarkston, running three crews across Oakland, Genesee, Lapeer, and Macomb counties. Call (248) 625-2334 or send us your project details.
+Locally owned, based in Clarkston, running three crews across Oakland, Genesee, Lapeer, and Macomb counties. Call (248) 625-2334 or send us your project details.

@@ -50,4 +50,4 @@ An arena covers the riding space. If you also need stalls, a tack room, or wash 
 
 ## Get a Free Estimate
 
-We're family owned, based in Clarkston, and we run three crews across Oakland, Genesee, Lapeer, and Macomb counties. Call (248) 625-2334 or send us your project details.
+We're locally owned, based in Clarkston, and we run three crews across Oakland, Genesee, Lapeer, and Macomb counties. Call (248) 625-2334 or send us your project details.

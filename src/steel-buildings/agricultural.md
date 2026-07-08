@@ -50,4 +50,4 @@ Because the frame arrives pre-cut, pre-drilled, and pre-welded from the factory,
 
 ## Get a Free Estimate
 
-We're family owned, based in Clarkston, and we run three crews across Oakland, Genesee, Lapeer, and Macomb counties. Call (248) 625-2334 or send us your project details and we'll come take a look at your property.
+We're locally owned, based in Clarkston, and we run three crews across Oakland, Genesee, Lapeer, and Macomb counties. Call (248) 625-2334 or send us your project details and we'll come take a look at your property.

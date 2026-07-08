@@ -81,7 +81,7 @@ Written like a Michigan builder talks. Rules:
 ## Honesty rules (unchanged from Phase 2, plus steel)
 
 - No false tenure/address claims. Approved phrasing: "Building since 1970" /
-  "family owned". No invented stats, review counts, or aggregate ratings.
+  "locally owned". No invented stats, review counts, or aggregate ratings.
 - FSS manufacturer photos ONLY on steel pages/sections, always with visible credit
   ("Photo: Federal Steel Systems") and never presented as CNO projects. The homepage
   steel band carries: "Steel building photos courtesy of Federal Steel Systems. They
