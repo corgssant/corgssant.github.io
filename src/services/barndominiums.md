@@ -35,11 +35,11 @@ A barndominium combines a home with a workshop, garage, or storage bay in a sing
 
 ## Two Zones Under One Roof
 
-The shop or garage side gets a concrete floor, overhead doors, and whatever power or utilities the work requires. The living side is finished to residential code, with insulation, electrical, plumbing, and interior finishes suited to your plan. An insulated wall separates the two sides, so you can run equipment on one side without heating the whole building.
+The shop or garage side gets a concrete floor, overhead doors, and whatever power or utilities the work requires. On the living side, we finish to residential code, with insulation, electrical, plumbing, and interior finishes suited to your plan. An insulated wall separates the two sides, so you can run equipment on one side without heating the whole building.
 
 ## Built for Michigan Properties
 
-A barndominium can work as a primary residence, a second home, or a retirement property, and the layout is built to order around what you need rather than a fixed floor plan. Michigan winters call for a well-sealed building envelope, and post-frame construction paired with the right insulation package delivers that while keeping the open floor plans barndominiums are known for.
+A barndominium can work as a primary residence, a second home, or a retirement property, and the layout is built to order around what you need rather than a fixed floor plan. Michigan winters call for a well-sealed building envelope. Post-frame construction with the right insulation package delivers that without giving up the open floor plans barndominiums are known for.
 
 ## Established 1970, Built by CNO Today
 

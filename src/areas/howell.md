@@ -11,7 +11,7 @@ whyChoose:
   - title: "Agricultural Building Experience"
     text: "Livingston County's working farms and larger properties call for pole barns that hold up to daily use, and that's a large share of what we build in the Howell area."
   - title: "Engineered for the Job"
-    text: "Whether you need clear-span trusses for equipment access or tall sidewalls for hay storage, every building is engineered around what you'll actually use it for."
+    text: "Need clear-span trusses for equipment access or tall sidewalls for hay storage? Every building is engineered around what you'll actually use it for."
   - title: "Posts Set Below the Frost Line"
     text: "Michigan winters are hard on a building's foundation, so every post goes in below the frost line for a structure that won't shift or settle over time."
   - title: "One Owner, Every Project"

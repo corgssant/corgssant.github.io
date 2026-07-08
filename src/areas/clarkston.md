@@ -5,7 +5,7 @@ description: "Custom pole barns, garages, and horse barns for Clarkston and Inde
 city: "Clarkston"
 state: "MI"
 county: "Oakland"
-image: "/images/projects/horsebarn2.jpg"
+image: "/images/projects/red-gambrel-barn-treeline.jpg"
 subtitle: "Custom pole barns, garages, and horse barns for Clarkston and Independence Township - locally owned, with free on-site estimates."
 whyChoose:
   - title: "Local Permit Knowledge"

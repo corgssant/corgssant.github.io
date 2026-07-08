@@ -60,26 +60,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // --- Form submission (demo handler) ---
-  const form = document.querySelector('.contact-form form');
-  if (form) {
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const btn = form.querySelector('.form-submit');
-      if (!btn) return;
-      const originalText = btn.textContent;
-      btn.textContent = 'Message Sent!';
-      btn.style.background = 'var(--green)';
-      btn.style.color = 'var(--dark)';
-      setTimeout(() => {
-        btn.textContent = originalText;
-        btn.style.background = '';
-        btn.style.color = '';
-        form.reset();
-      }, 3000);
-    });
-  }
-
   // --- FAQ accordion ---
   document.querySelectorAll('.faq-q').forEach(q => {
     q.addEventListener('click', () => {

@@ -4,7 +4,7 @@ title: "Pole Sheds"
 subtitle: "Affordable open and enclosed storage structures"
 description: "Open-sided and enclosed pole sheds for equipment, hay, and general storage. Licensed, insured, free estimates. Call (248) 625-2334."
 category: "Agricultural & Storage"
-image: "/images/projects/horsebarn3.jpg"
+image: "/images/projects/tractor-barn-twilight.jpg"
 order: 9
 features:
   - "Open-sided, partially enclosed, or fully enclosed designs"
@@ -12,9 +12,9 @@ features:
   - "Economical post-frame construction"
   - "Quick build times with minimal site prep"
 gallery:
-  - src: "/images/projects/horsebarn3.jpg"
-    alt: "Pole shed for agricultural storage in Michigan"
-    caption: "An open-sided pole shed used for hay storage"
+  - src: "/images/projects/tractor-barn-twilight.jpg"
+    alt: "Red pole barn with tractors parked under an open lean-to at dusk, white cupola on the roof"
+    caption: "Equipment parked under an open lean-to"
 faq:
   - q: "What is the difference between a pole shed and a pole barn?"
     a: "A pole shed is generally a simpler, more open structure. Sheds often have one or more open sides and are used primarily for storage and shelter rather than enclosed workspace. Pole barns are fully enclosed with doors, windows, and often finished interiors. Sheds typically cost less and go up faster."

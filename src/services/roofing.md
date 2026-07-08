@@ -4,7 +4,7 @@ title: "Roofing"
 subtitle: "Roof installation, replacement, and repair"
 description: "Roof installation, replacement, and repair for pole barns, garages, and homes across southeast Michigan. Licensed, insured. Call (248) 625-2334."
 category: "Repair & Maintenance"
-image: "/images/projects/horsebarn4.jpg"
+image: "/images/projects/pole-barn-roof-deck-framing.jpg"
 order: 7
 features:
   - "Metal and asphalt shingle roofing options"
@@ -12,9 +12,9 @@ features:
   - "Re-roofing over existing materials when possible"
   - "Ridge caps, trim, and gutter systems"
 gallery:
-  - src: "/images/projects/horsebarn4.jpg"
-    alt: "Metal roof installation on a pole barn in Michigan"
-    caption: "A completed metal roof replacement on an agricultural building"
+  - src: "/images/projects/pole-barn-roof-deck-framing.jpg"
+    alt: "Pole barn roof deck under construction with radiant barrier sheathing, blue sky"
+    caption: "A pole barn roof deck under construction"
 faq:
   - q: "Should I choose metal or shingle roofing?"
     a: "It depends on the building and your budget. Metal roofing costs more upfront but holds up well against Michigan snow, wind, and ice over the long run, while asphalt shingles are a more budget-friendly option for many homes and outbuildings. We will go over both options honestly during your free estimate."
@@ -31,7 +31,7 @@ tags:
 
 ## Roof Installation, Replacement, and Repair
 
-CNO Pole Barns installs, replaces, and repairs roofs on pole barns, garages, horse barns, and homes across Oakland, Genesee, Lapeer, and Macomb counties. We work in both metal and asphalt shingle roofing, so whether you are putting a roof on new construction or replacing one that has reached the end of its life, we will walk you through the options and give straightforward pricing before any work starts.
+CNO Pole Barns installs, replaces, and repairs roofs on pole barns, garages, horse barns, and homes across Oakland, Genesee, Lapeer, and Macomb counties. We work in both metal and asphalt shingle roofing. New construction or a full replacement on a roof that's reached the end of its life, we'll walk you through the options and give straightforward pricing before any work starts.
 
 ## Roofing That Can Take Michigan Weather
 

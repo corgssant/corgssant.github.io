@@ -4,7 +4,7 @@ title: "Demolition"
 subtitle: "Safe removal of old barns and structures"
 description: "Barn and structure demolition with debris removal and site cleanup across southeast Michigan. Licensed, insured, free estimates. Call (248) 625-2334."
 category: "Site Work"
-image: "/images/projects/polebarns2.jpg"
+image: "/images/projects/pole-barn-crane-truss-set.jpg"
 order: 11
 features:
   - "Complete structural demolition"
@@ -12,9 +12,9 @@ features:
   - "Salvage of reusable materials when possible"
   - "Site preparation for new construction"
 gallery:
-  - src: "/images/projects/polebarns2.jpg"
-    alt: "Demolition and site clearing for new construction"
-    caption: "A cleared site ready for new pole barn construction"
+  - src: "/images/projects/pole-barn-crane-truss-set.jpg"
+    alt: "Crane setting roof trusses on a pole barn frame while crew works on site"
+    caption: "Crew setting trusses on the new build"
 faq:
   - q: "How much does it cost to demolish an old barn?"
     a: "Demolition costs depend on the size of the structure, the materials involved, accessibility, and whether hazardous materials like asbestos are present. We provide free on-site estimates so you know what to expect before any work begins."

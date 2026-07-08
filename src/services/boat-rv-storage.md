@@ -4,7 +4,7 @@ title: "Boat & RV Storage"
 subtitle: "Tall, wide buildings for oversized vehicles"
 description: "Boat, RV, and motorhome storage buildings, RV garages, and carports across southeast Michigan. Licensed, insured. Call (248) 625-2334."
 category: "Recreational Storage"
-image: "/images/projects/horsebarn1.jpg"
+image: "/images/projects/blue-gray-barn-open-door-winter.jpg"
 order: 10
 features:
   - "Tall sidewalls sized to fit boats, RVs, and motorhomes"
@@ -12,16 +12,16 @@ features:
   - "Drive-through layouts available"
   - "Secure locking systems and optional cameras"
 gallery:
-  - src: "/images/projects/horsebarn1.jpg"
-    alt: "Boat and RV storage building in Michigan"
-    caption: "A tall-sidewall storage building designed for boats and RVs"
+  - src: "/images/projects/blue-gray-barn-open-door-winter.jpg"
+    alt: "Blue and gray pole barn with a large door open showing the framed interior, snow on the ground"
+    caption: "A wide overhead door on a CNO storage building"
 faq:
   - q: "How tall should a storage building be for an RV?"
     a: "It depends on the vehicle. Many Class A motorhomes and fifth wheels need at least 12 to 14 feet of clearance, and we size the sidewalls and door height around the vehicles you actually own, with extra room for roof-mounted air conditioners or antennas."
   - q: "Can I store my boat and RV in the same building?"
-    a: "Yes, many owners do exactly that. We can design a building with multiple bays or an open floor plan that fits several large vehicles, sized around what you own and plan to store, whether that is a boat, an RV, and seasonal equipment like snowmobiles or ATVs."
+    a: "Yes, that's a common setup. We can design a building with multiple bays or an open floor plan that fits several large vehicles, sized around what you own and plan to store - a boat, an RV, or seasonal equipment like snowmobiles and ATVs."
   - q: "Is it worth building my own storage building versus paying for off-site storage?"
-    a: "If you have room on your property, many owners find it pays off over time compared to recurring off-site storage fees, and a purpose-built building protects your investment and gives you access whenever you want it. We can help you think through the tradeoffs during a free estimate."
+    a: "If you have room on your property, it often pays off over time compared to recurring off-site storage fees. A purpose-built building protects your investment and gives you access whenever you want it. We can help you think through the tradeoffs during a free estimate."
 tags:
   - "boat storage"
   - "rv storage"

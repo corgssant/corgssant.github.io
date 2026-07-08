@@ -5,7 +5,7 @@ description: "Licensed, insured pole barn and garage builder serving property ow
 city: "Rochester Hills"
 state: "MI"
 county: "Oakland"
-image: "/images/projects/pole-building.jpg"
+image: "/images/projects/red-barn-distant-field.jpg"
 subtitle: "Licensed pole barn and garage construction for property owners in the Rochester Hills area, backed by free on-site estimates and Oakland County service."
 whyChoose:
   - title: "Licensed, Insured, and A+ BBB Rated"
@@ -20,7 +20,7 @@ whyChoose:
 
 ## Pole Barn Construction for the Rochester Hills Area
 
-CNO Pole Barns builds pole barns, garages, and outbuildings for property owners across Oakland County and the wider southeast Michigan region. Zosim Serban owns and runs the company today, working alongside one of our 3 crews; CNO itself was established in 1970. If you own property in Rochester Hills, we can bring that same licensed, insured construction experience to a project on your site.
+CNO Pole Barns builds pole barns, garages, and outbuildings for property owners across Oakland County and the wider southeast Michigan region. Zosim Serban owns and runs the company today, working alongside one of our 3 crews. CNO itself was established in 1970. If you own property in Rochester Hills, we can bring that same licensed, insured construction experience to a project on your site.
 
 ## The Kinds of Buildings We Build
 

@@ -4,7 +4,7 @@ title: "Garages"
 subtitle: "Detached garages built strong and affordable"
 description: "Detached garages, RV and motorhome garages, and carports built across southeast Michigan. Licensed, insured, free estimates. Call (248) 625-2334."
 category: "Residential"
-image: "/images/projects/polebarns2.jpg"
+image: "/images/projects/tan-pole-barn-side.jpg"
 order: 2
 features:
   - "Single, double, and triple bay configurations"
@@ -12,9 +12,9 @@ features:
   - "Insulated and heated options available"
   - "Matching exterior finishes to your home"
 gallery:
-  - src: "/images/projects/polebarns2.jpg"
-    alt: "Detached post-frame garage built in Michigan"
-    caption: "A two-car detached garage with walk-in door"
+  - src: "/images/projects/tan-pole-barn-side.jpg"
+    alt: "Tan pole barn side view with a white garage door and brown trim"
+    caption: "A CNO pole barn garage, side view"
 faq:
   - q: "Is a post-frame garage cheaper than a stick-built garage?"
     a: "In most cases, yes. Post-frame construction uses fewer materials and requires less labor than traditional stick-built methods, making it a cost-effective choice for detached garages without sacrificing durability."
@@ -33,7 +33,7 @@ tags:
 
 ## Detached Garages Built the Post-Frame Way
 
-CNO Pole Barns builds detached garages, RV and motorhome garages, and carports for homeowners across Oakland, Genesee, Lapeer, and Macomb counties. Post-frame construction goes up efficiently and stands up as well as traditional stick-built framing, whether you need a simple two-car garage or a larger multi-bay building for vehicles and equipment.
+CNO Pole Barns builds detached garages, RV and motorhome garages, and carports for homeowners across Oakland, Genesee, Lapeer, and Macomb counties. Post-frame construction goes up efficiently and holds up as well as traditional stick-built framing, from a simple two-car garage to a larger multi-bay building for vehicles and equipment.
 
 ## Room for Vehicles, RVs, and More
 

@@ -5,7 +5,7 @@ description: "Pole barns, garages, and storage buildings for Fenton and southern
 city: "Fenton"
 state: "MI"
 county: "Genesee"
-image: "/images/projects/polebarns2.jpg"
+image: "/images/projects/red-gambrel-barn-two-doors.jpg"
 subtitle: "Custom pole barns and garages for Fenton and southern Genesee County - locally owned, with free on-site estimates."
 whyChoose:
   - title: "Genesee County Know-How"

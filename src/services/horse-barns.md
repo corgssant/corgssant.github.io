@@ -4,7 +4,7 @@ title: "Horse Barns"
 subtitle: "Safe, comfortable barns for your horses"
 description: "Custom horse barns with stalls, tack rooms, hay storage, and run-ins across southeast Michigan. Licensed, insured. Call (248) 625-2334."
 category: "Equestrian"
-image: "/images/projects/horsebarn2.jpg"
+image: "/images/projects/pole-barn-interior-breezeway.jpg"
 order: 3
 features:
   - "Custom stall sizes and configurations"
@@ -12,9 +12,9 @@ features:
   - "Wash bays with proper drainage"
   - "Ventilation systems for horse health"
 gallery:
-  - src: "/images/projects/horsebarn2.jpg"
-    alt: "Horse barn with stalls built by CNO Pole Barns"
-    caption: "A six-stall horse barn in Oakland County, MI"
+  - src: "/images/projects/pole-barn-interior-breezeway.jpg"
+    alt: "Long interior view down a framed pole barn breezeway between stalls"
+    caption: "Breezeway between stalls in a CNO horse barn"
 faq:
   - q: "What stall size do you recommend for horses?"
     a: "We typically recommend 12x12 stalls for average-sized horses and 12x14 or 14x14 for larger breeds. Each barn is custom-designed based on the number and size of your horses, so we will work with you to find the right configuration."

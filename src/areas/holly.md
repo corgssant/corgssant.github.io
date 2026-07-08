@@ -5,7 +5,7 @@ description: "Custom pole barns and horse barns for Holly, MI and northern Oakla
 city: "Holly"
 state: "MI"
 county: "Oakland"
-image: "/images/projects/horsebarn5.jpg"
+image: "/images/projects/blue-gray-barn-portrait-winter.jpg"
 subtitle: "Custom pole barns and horse barns for Holly and the surrounding rural properties - locally owned, with free on-site estimates."
 whyChoose:
   - title: "Built for Rural Properties"

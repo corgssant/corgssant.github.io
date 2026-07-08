@@ -4,7 +4,7 @@ title: "Pole Barns"
 subtitle: "Custom-built pole barns for any purpose"
 description: "Custom post-frame pole barns for agricultural storage, workshops, and equipment storage. Licensed, insured, free estimates. Call (248) 625-2334."
 category: "Agricultural & Residential"
-image: "/images/projects/pole-building.jpg"
+image: "/images/projects/tan-pole-barn-front.jpg"
 order: 1
 features:
   - "Custom designs tailored to your property"
@@ -12,9 +12,9 @@ features:
   - "Wide range of siding and roofing colors"
   - "Concrete floors and insulation options"
 gallery:
-  - src: "/images/projects/pole-building.jpg"
-    alt: "Custom pole barn built by CNO Pole Barns in Michigan"
-    caption: "A recently completed pole barn in Oakland County"
+  - src: "/images/projects/tan-pole-barn-front.jpg"
+    alt: "Tan pole barn front corner view showing brown roofline and gutter"
+    caption: "A CNO post-frame pole barn, front corner view"
 faq:
   - q: "How long does it take to build a pole barn?"
     a: "Build time depends on the size of the barn, the weather, and how long permitting takes in your township. We will walk you through a realistic schedule during your free estimate and keep you updated if anything changes."
@@ -31,7 +31,7 @@ tags:
 
 ## Custom Post-Frame Pole Barns for Southeast Michigan
 
-CNO Pole Barns builds custom post-frame pole barns for properties across Oakland, Genesee, Lapeer, and Macomb counties. The business was established in 1970, and today it is locally owned and operated by Zosim Serban, who runs every job with his own crew. Whether you need agricultural storage, a workshop, equipment or vehicle storage, or a multipurpose building, we design and build around your property and your budget.
+CNO Pole Barns builds custom post-frame pole barns for properties across Oakland, Genesee, Lapeer, and Macomb counties. The business was established in 1970, and today it's locally owned and operated by Zosim Serban, who runs every job with his own crew. Need agricultural storage, a workshop, vehicle storage, or a multipurpose building? We design and build around your property and your budget.
 
 ## Built for Michigan Weather
 

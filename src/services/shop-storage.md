@@ -4,7 +4,7 @@ title: "Shop & Storage Buildings"
 subtitle: "Shop, storage, and warehouse buildings for any use"
 description: "Custom shop, storage, and warehouse buildings for homeowners and businesses across southeast Michigan. Licensed, insured. Call (248) 625-2334."
 category: "Residential & Commercial"
-image: "/images/projects/horsebarn5.jpg"
+image: "/images/projects/gray-commercial-pole-barn.jpg"
 order: 6
 features:
   - "Wired for 220V power tools and welders"
@@ -12,9 +12,9 @@ features:
   - "Heated and insulated for year-round use"
   - "Workbench and storage loft options"
 gallery:
-  - src: "/images/projects/horsebarn5.jpg"
-    alt: "Post-frame shop and storage building in Michigan"
-    caption: "A heated workshop with overhead loft storage"
+  - src: "/images/projects/gray-commercial-pole-barn.jpg"
+    alt: "Gray pole barn with three garage doors and a walk door, light snow on the ground"
+    caption: "A three-bay shop building with a walk door"
 faq:
   - q: "What is the difference between a shop building and a garage?"
     a: "A shop is typically designed more for working in than just parking vehicles. Shops often feature higher ceilings, wider doors, dedicated electrical circuits for power tools, built-in workbenches, and compressed air lines. We design your shop around the work you plan to do in it."
@@ -33,7 +33,7 @@ tags:
 
 ## Shop, Storage, and Warehouse Buildings
 
-CNO Pole Barns builds shop buildings, storage buildings, and warehouse buildings for homeowners and businesses across Oakland, Genesee, Lapeer, and Macomb counties. A shop gives you a real place to work on projects instead of taking over the garage. A storage or warehouse building gives equipment, inventory, or vehicles a proper home. We design each one around what you actually plan to do inside it.
+CNO Pole Barns builds shop buildings, storage buildings, and warehouse buildings for homeowners and businesses across Oakland, Genesee, Lapeer, and Macomb counties. A shop gives you a real place to work on projects instead of taking over the garage. Storage and warehouse buildings do the same for equipment, inventory, or vehicles that need a proper home. We design each one around what you actually plan to do inside it.
 
 ## Wired, Heated, and Ready to Work
 
