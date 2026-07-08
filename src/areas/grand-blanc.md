@@ -16,7 +16,7 @@ whyChoose:
     text: "For a larger commercial shop, we quote, deliver, and erect Federal Steel Systems buildings in addition to standard post-frame construction."
   - title: "3 Crews, One Owner Involved"
     text: "Zosim Serban stays personally involved in Grand Blanc-area projects, working alongside one of our 3 crews from estimate to final walkthrough."
-nearby: [fenton, holly, davisburg, ortonville, lapeer, metamora]
+nearby: [flint, fenton, holly, davisburg, ortonville, lapeer]
 faq:
   - q: "Is my property in the City of Grand Blanc or Grand Blanc Township?"
     a: "They're separate jurisdictions with their own building departments. If you're not sure, we help confirm it before your estimate so the right permit process gets used."

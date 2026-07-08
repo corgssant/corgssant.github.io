@@ -15,7 +15,7 @@
     {% for c in site.counties %}{ "@type": "AdministrativeArea", "name": {{ (c + " County, MI") | dump | safe }} }{% if not loop.last %},{% endif %}{% endfor %}
   ],
   "openingHours": "Mo-Sa 08:30-19:00",
-  "sameAs": [ {{ site.social.google | dump | safe }} ],
+  "sameAs": [ {{ site.social.google | dump | safe }}{% if site.social.facebook %}, {{ site.social.facebook | dump | safe }}{% endif %}{% if site.social.instagram %}, {{ site.social.instagram | dump | safe }}{% endif %} ],
   "additionalType": "https://schema.org/HomeAndConstructionBusiness",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",

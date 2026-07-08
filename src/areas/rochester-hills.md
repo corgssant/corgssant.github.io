@@ -16,7 +16,7 @@ whyChoose:
     text: "CNO quotes, delivers, and erects Federal Steel Systems buildings when a clear-span steel shop makes more sense than post frame."
   - title: "Owner on the estimate"
     text: "Zosim Serban looks at Rochester Hills properties himself and stays involved with one of CNO's 3 crews through the final walkthrough."
-nearby: [oakland-township, lake-orion, romeo, oxford]
+nearby: [oakland-township, lake-orion, troy, auburn-hills, romeo, oxford]
 faq:
   - q: "Can I put a pole barn on a subdivision lot in Rochester Hills?"
     a: "Usually the realistic project is a detached garage or workshop rather than a farm-style barn. Setback and lot coverage rules on most subdivision lots cap how big an accessory building can be, and many subdivisions add HOA restrictions on top. We check both during the estimate so you know what your lot allows."
