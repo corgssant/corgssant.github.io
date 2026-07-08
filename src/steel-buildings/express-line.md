@@ -1,6 +1,7 @@
 ---
 layout: layouts/steel.njk
 title: "Express Line Steel Buildings"
+seoTitle: "Express Line Steel Buildings in Michigan"
 description: "Basic rectangular steel buildings with materials ready in about 5 weeks. A faster, simpler entry point into Federal Steel construction. Free estimates."
 subtitle: "A basic rectangular steel building with materials on site in about 5 weeks"
 category: "Steel Buildings"
@@ -15,7 +16,7 @@ features:
   - "Materials on site in about 5 weeks"
   - "Permit and anchor-bolt drawings mailed separately from the main package"
   - "Buildings arrive pre-cut, pre-drilled, and pre-welded"
-  - "Fire-resistant steel construction can lower insurance premiums up to 30 percent"
+  - "Fire-resistant steel construction that can lower insurance premiums"
   - "High R-value roof and wall panel options available"
   - "Roll-up doors, walk doors, and windows sized to your use"
   - "Certified Federal Steel Systems dealer, quoted direct"
@@ -40,7 +41,7 @@ CNO is a certified Federal Steel Systems dealer, and we quote, deliver, and erec
 
 It's a stripped-down version of the same steel system Federal Steel builds for commercial, industrial, and agricultural jobs, just without the custom footprint or engineered point loads those projects call for. The building still arrives pre-cut, pre-drilled, and pre-welded, so it bolts together the same way any Federal Steel building does. Roll-up doors, walk doors, and window placement can still be laid out around how you plan to use the space. What changes is the shape stays rectangular and simple, which is the trade-off that gets materials to your site faster.
 
-Fire-resistant steel construction still applies, so an Express Line building can still lower your insurance premiums by up to 30 percent, and high R-value panel options are available if you want the building insulated for year-round use. The trade-off is simplicity for speed: you're not customizing bay widths or engineering around a crane, you're getting a straightforward shell on a shorter timeline.
+Fire-resistant steel construction still applies, so an Express Line building can qualify for lower insurance premiums, and high R-value panel options are available if you want the building insulated for year-round use. The trade-off is simplicity for speed: you're not customizing bay widths or engineering around a crane, you're getting a straightforward shell on a shorter timeline.
 
 ## Steel Express Line or a post-frame pole barn?
 

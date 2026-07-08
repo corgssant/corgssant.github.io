@@ -1,6 +1,7 @@
 ---
 layout: layouts/service.njk
 title: "Boat & RV Storage"
+seoTitle: "Boat & RV Storage Buildings in Michigan"
 subtitle: "Tall, wide buildings for oversized vehicles"
 description: "Boat, RV, and motorhome storage buildings, RV garages, and carports across southeast Michigan. Licensed, insured. Call (248) 625-2334."
 category: "Recreational Storage"

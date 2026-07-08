@@ -1,6 +1,7 @@
 ---
 layout: layouts/service.njk
 title: "Pole Sheds"
+seoTitle: "Pole Sheds & Lean-Tos in Michigan"
 subtitle: "Affordable open and enclosed storage structures"
 description: "Open-sided and enclosed pole sheds for equipment, hay, and general storage. Licensed, insured, free estimates. Call (248) 625-2334."
 category: "Agricultural & Storage"

@@ -6,30 +6,43 @@ city: "Clarkston"
 state: "MI"
 county: "Oakland"
 image: "/images/projects/red-gambrel-barn-treeline.jpg"
+heroImage: "/images/projects/cno-truck-blue-barn-winter.jpg"
 subtitle: "Custom pole barns, garages, and horse barns for Clarkston and Independence Township - locally owned, with free on-site estimates."
 whyChoose:
-  - title: "Local Permit Knowledge"
-    text: "We know how Independence Township and Oakland County handle permitting for pole barns and outbuildings, so your project moves forward without unnecessary delays."
-  - title: "Built for Michigan Weather"
-    text: "Heavy snow loads, freeze-thaw cycles, and severe storms are part of the design from day one. Posts are set deep and every roof is built to hold up season after season."
-  - title: "Certified Federal Steel Builder"
-    text: "Our steel buildings meet federal certification standards, giving Clarkston property owners a durable, code-compliant structure built to last."
-  - title: "One Owner Who Shows Up"
-    text: "Owner Zosim Serban personally oversees every Clarkston project, working alongside one of our 3 crews from the first site visit through the final walkthrough."
+  - title: "Home turf"
+    text: "Clarkston sits at the center of the Oakland County territory CNO works every week, from Davisburg over to Lake Orion."
+  - title: "City or township, sorted first"
+    text: "Village addresses permit through the City of the Village of Clarkston and everything else through Independence Township. We confirm which applies before paperwork goes in."
+  - title: "Certified Federal Steel dealer"
+    text: "CNO is a certified Federal Steel Systems dealer and can quote, deliver, and erect a steel building if that fits your Clarkston project better than post-frame."
+  - title: "Zosim on the job"
+    text: "Owner Zosim Serban stays hands-on with Clarkston projects from the first site walk to the final walkthrough, backed by one of our 3 crews."
+faq:
+  - q: "Do I need a permit for a pole barn in Independence Township?"
+    a: "In nearly every case, yes. Pole barns, detached garages, and other accessory buildings need a building permit, reviewed by Independence Township for township addresses or by the City of the Village of Clarkston for the small number of parcels inside the village limits. We prepare the application and plot plan and submit them for you as part of the job."
+  - q: "How long does a pole barn build take in Clarkston?"
+    a: "Once the permit is approved, most residential pole barns and garages go up in a matter of weeks, depending on size, site work, and weather. Permit review time varies with the season and the department's workload. We give you a realistic schedule at the free estimate, after we have seen the site."
+  - q: "What drives the cost of a pole barn in the Clarkston area?"
+    a: "Size is the biggest factor, followed by what goes inside the shell: concrete floors, insulation, electrical, extra doors and windows. Site conditions matter too, since a sloped or wooded lot takes more prep than a flat one. We walk the property first so the estimate reflects your actual site, not an average."
+nearby: [davisburg, waterford, ortonville, white-lake, lake-orion, holly]
 ---
 
-## Pole Barns and Steel Buildings for Clarkston
+## Home ground for CNO
 
-CNO Pole Barns serves Clarkston and Independence Township as part of a service area that also covers Genesee, Lapeer, and Macomb counties. CNO was established in 1970, and today the business is locally owned and operated by Zosim Serban, who runs every Clarkston project with his own crew.
+Clarkston sits at the center of the territory CNO Pole Barns works every week. The company has been building in Michigan since 1970 and is locally owned today by Zosim Serban, whose three crews cover the stretch of Oakland County that runs from Davisburg and Springfield Township across to Lake Orion, with Waterford below and Ortonville above. A Clarkston job is about as close to home as our work gets.
 
-## The Buildings Clarkston Properties Need
+## Township acreage and village lots
 
-Clarkston mixes established residential neighborhoods with larger parcels throughout Independence Township, and we build for both. Homeowners call us for detached garages, workshops, and storage buildings, while property owners with more acreage ask for pole barns, horse barns, and multipurpose agricultural buildings. Every structure is designed around the property and how you plan to use it, not a fixed floor plan.
+Most properties with a Clarkston address actually sit in Independence Township, outside the small city at the center. Township parcels tend to have room for a real outbuilding, so the common calls are [pole barns](/services/pole-barns/) for equipment and seasonal storage and [detached garages](/services/garages/) with real workshop space. Inside the village limits, lots run tighter and a compact garage or storage building usually fits better. CNO is also a certified Federal Steel Systems dealer, so if a steel building suits your project better than post-frame, we can quote, deliver, and erect one here.
 
-## Why Clarkston Property Owners Choose CNO
+## Two permit desks, one town name
 
-We are licensed and insured, carry an A+ rating with the Better Business Bureau, and are a Certified Federal Steel Builder. Every estimate is free and done on-site, so we can see your property and put together an accurate plan before any work begins. We also build with Michigan winters in mind, framing and roofing so your barn or garage holds up for years.
+Clarkston is formally the City of the Village of Clarkston, a small city surrounded on all sides by Independence Township. If your parcel is inside the city limits, your building permit runs through the city. Everyone else with a Clarkston address deals with Independence Township's building department. We confirm which desk applies before any paperwork goes in, then handle the application and plot plan ourselves.
 
-## Get a Free Estimate in Clarkston
+## The towns around Clarkston
 
-Ready to talk about a pole barn, garage, or horse barn on your Clarkston-area property? Call CNO Pole Barns at (248) 625-2334. We will schedule a free on-site visit, walk the property with you, and put together a detailed estimate for your project.
+The same crews that build in Clarkston cover the communities around it. Davisburg and Springfield Township sit just west, Waterford to the south, White Lake to the southwest, and Ortonville and Lake Orion round out the north and east. If your property is anywhere in this pocket of Oakland County along the I-75 corridor, it is inside our regular rotation.
+
+## Talk to a builder who is already here
+
+Call CNO Pole Barns at (248) 625-2334 or send the details through the contact page. The estimate is free and happens on your property, and you will get a straight answer about what fits your lot.

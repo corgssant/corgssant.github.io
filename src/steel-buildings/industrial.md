@@ -1,6 +1,7 @@
 ---
 layout: layouts/steel.njk
 title: "Industrial Steel Buildings"
+seoTitle: "Industrial Steel Buildings in Michigan"
 description: "Crane-ready steel buildings for shops, warehouses, and production space in Michigan. Certified Federal Steel dealer, wide bays and clear spans, free estimates."
 subtitle: "Crane-ready frames and wide bays for shops, warehouses, and production buildings"
 category: "Steel Buildings"
@@ -19,7 +20,7 @@ features:
   - "Bay widths up to 60 feet for equipment and material handling"
   - "Frames engineered to carry point loads, including cranes"
   - "High R-value roof and wall panel options"
-  - "Fire-resistant steel construction can lower insurance premiums up to 30 percent"
+  - "Fire-resistant steel construction that can lower insurance premiums"
   - "Buildings arrive pre-cut, pre-drilled, and pre-welded"
   - "Overhead and walk door layouts built to your workflow"
   - "Certified Federal Steel Systems dealer, quoted direct"
@@ -44,7 +45,7 @@ CNO is a certified Federal Steel Systems dealer, and we quote, deliver, and erec
 
 Yes, and that's one of the biggest reasons operations choose steel over wood framing. The frame gets engineered to carry point loads, so a bridge crane, a monorail, or rooftop-mounted air handling equipment is accounted for in the structural design instead of bolted on as an afterthought. Bay widths up to 60 feet and clear spans up to 250 feet mean you can run wide aisles and long spans without a post breaking up your floor plan.
 
-Fire-resistant steel construction can also cut insurance premiums by up to 30 percent, which adds up on a commercial or industrial policy. And with high R-value roof and wall panel options, you can spec the building to actually be comfortable to work in through a Michigan winter, not just weathertight.
+Fire-resistant steel construction can also help on insurance premiums, which adds up on a commercial or industrial policy. And with high R-value roof and wall panel options, you can spec the building to actually be comfortable to work in through a Michigan winter, not just weathertight.
 
 Because the frame, panels, and trim arrive pre-cut, pre-drilled, and pre-welded from the factory, there's less on-site fabrication and less exposure to weather delays during erection. Door openings, whether that's a single large equipment door or a row of overhead doors along one wall, get planned around how material and people actually move through the building.
 

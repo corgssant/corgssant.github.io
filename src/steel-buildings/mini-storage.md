@@ -1,10 +1,12 @@
 ---
 layout: layouts/steel.njk
 title: "Steel Mini-Storage Buildings"
+seoTitle: "Steel Mini-Storage Buildings in Michigan"
 description: "Single and multi-story steel mini-storage buildings for Michigan property owners. Optional climate control. Certified Federal Steel dealer, free estimates."
 subtitle: "Single or multi-story self-storage buildings on a steel frame"
 category: "Steel Buildings"
 image: "/images/steel/steel-commercial-building-back.jpg"
+imageAlt: "Steel building exterior by Federal Steel Systems"
 imageCredit: "Federal Steel Systems"
 order: 6
 related:
@@ -16,7 +18,7 @@ features:
   - "Clear spans up to 250 feet, bay widths up to 60 feet"
   - "Frames engineered for point loads like a second-floor deck"
   - "High R-value roof and wall panel options"
-  - "Fire-resistant steel construction can lower insurance premiums up to 30 percent"
+  - "Fire-resistant steel construction that can lower insurance premiums"
   - "Buildings arrive pre-cut, pre-drilled, and pre-welded"
   - "Certified Federal Steel Systems dealer, quoted direct"
 faq:
@@ -40,7 +42,7 @@ CNO is a certified Federal Steel Systems dealer. We quote, deliver, and erect mi
 
 A single-story layout keeps construction simpler and gives every unit drive-up access, which renters generally prefer. A multi-story building fits more rentable space on a smaller lot, which matters if you're working with limited land or a higher-value site. Frames engineered for point loads can carry a second-floor deck and the traffic that comes with it, so the structure gets designed for that load from the start rather than reinforced after the fact.
 
-Climate control is optional and can be built into individual units or run building-wide, and fire-resistant steel construction can lower your insurance premiums by up to 30 percent, which is worth factoring into the economics of a storage facility.
+Climate control is optional and can be built into individual units or run building-wide, and fire-resistant steel construction can help on insurance, which is worth factoring into the economics of a storage facility.
 
 High R-value roof and wall panel options matter more here than on a lot of building types, since they affect what you can charge for climate-controlled units versus standard ones. And because the frame arrives pre-cut, pre-drilled, and pre-welded, erection stays predictable, which matters when you're trying to get units on the market and generating rent.
 

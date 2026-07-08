@@ -17,6 +17,16 @@ whyChoose:
     text: "Beyond post-frame, CNO is a certified Federal Steel Systems dealer if a steel building fits your Milford-area project better."
   - title: "One Owner, Three Crews"
     text: "Zosim Serban is personally involved in Milford-area jobs, backed by one of CNO's 3 crews from the first estimate through the walkthrough."
+nearby: [highland, south-lyon, white-lake, howell]
+faq:
+  - q: "Do I go through the Village or the Township for a permit?"
+    a: "The Village of Milford and Milford Township each review their own permits. We check which side of the line your property is on and send the paperwork to the right office."
+  - q: "Can you build a pole barn on Milford Township acreage?"
+    a: "Yes. Pole barns and horse barns are common requests on the larger parcels out in Milford Township, and we design each one around your specific property."
+  - q: "What can I fit on a smaller village lot?"
+    a: "Smaller village lots usually take a detached garage or a workshop comfortably. We will look at your lot during the free estimate and tell you what is realistic."
+  - q: "How long does the permit process take?"
+    a: "It depends on which department is reviewing it and the time of year. We will give you a realistic timeline during your free estimate once we know your property and your project."
 ---
 
 ## Village Lots and Township Acreage
@@ -25,20 +35,11 @@ Milford is really two different building environments under one name: the incorp
 
 ## What We Build on Each Side of Milford
 
-Inside the village, most calls are for a detached garage, a workshop, or a storage building that fits a smaller residential lot without crowding it. Out in the township, where lots run bigger, pole barns, horse barns, and multipurpose agricultural buildings are just as common. Either way, the building gets designed around your actual property, not a catalog floor plan.
+Inside the village, most calls are for a [detached garage](/services/garages/), a workshop, or a storage building that fits a smaller residential lot without crowding it. Out in the township, where lots run bigger, [pole barns](/services/pole-barns/), horse barns, and multipurpose agricultural buildings are just as common. Either way, the building gets designed around your actual property, not a catalog floor plan.
 
 ## Two Building Departments, One Paperwork Trail
 
 Which building department reviews your permit depends on whether your property sits inside the Village of Milford limits or out in the surrounding township. The village runs its own Building and Zoning Department, and the township has a separate Building Department that handles the outlying area. We figure out which one applies to your property before we ever submit paperwork, so you are not stuck sorting that out yourself.
-
-## Milford Building Questions, Answered
-
-<div class="faqwrap stagger">
-<div class="faq"><div class="faq-q">Do I go through the Village or the Township for a permit?</div><div class="faq-a"><p>It depends on whether your property is inside the Village of Milford limits or out in Milford Township. Each has its own Building Department, and we make sure your paperwork goes to the right one.</p></div></div>
-<div class="faq"><div class="faq-q">Can you build a pole barn on Milford Township acreage?</div><div class="faq-a"><p>Yes. Pole barns and horse barns are common requests on the larger parcels out in Milford Township, and we design each one around your specific property.</p></div></div>
-<div class="faq"><div class="faq-q">What can I fit on a smaller village lot?</div><div class="faq-a"><p>Most Village of Milford lots are better suited to a detached garage, a workshop, or a compact storage building. We will look at your lot and tell you what is realistic during the free estimate.</p></div></div>
-<div class="faq"><div class="faq-q">How long does the permit process take?</div><div class="faq-a"><p>It depends on which department is reviewing it and the time of year. We will give you a realistic timeline during your free estimate once we know your property and your project.</p></div></div>
-</div>
 
 ## Let's Talk About Your Milford Project
 

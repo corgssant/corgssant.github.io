@@ -1,6 +1,7 @@
 ---
 layout: layouts/service.njk
 title: "Shop & Storage Buildings"
+seoTitle: "Shop & Storage Buildings in Michigan"
 subtitle: "Shop, storage, and warehouse buildings for any use"
 description: "Custom shop, storage, and warehouse buildings for homeowners and businesses across southeast Michigan. Licensed, insured. Call (248) 625-2334."
 category: "Residential & Commercial"

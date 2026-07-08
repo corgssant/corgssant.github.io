@@ -6,30 +6,43 @@ city: "Holly"
 state: "MI"
 county: "Oakland"
 image: "/images/projects/blue-gray-barn-portrait-winter.jpg"
-subtitle: "Custom pole barns and horse barns for Holly and the surrounding rural properties - locally owned, with free on-site estimates."
+heroImage: "/images/projects/horsebarn1.jpg"
+subtitle: "Custom pole barns and horse barns for the Village of Holly and the gravel-road properties around it - locally owned, with free on-site estimates."
 whyChoose:
-  - title: "Built for Rural Properties"
-    text: "Holly's larger lots and rural parcels are well suited to pole barns and horse barns, and we design every building around how the property is actually used."
-  - title: "Horse Barn Experience"
-    text: "We build horse barns with stalls, wash bays, tack rooms, and hay storage, sized and laid out around the number of horses you keep."
-  - title: "Ready for Michigan Winters"
-    text: "Posts are set deep and roofs are rated for heavy snow loads, so your barn holds up through everything a Michigan winter brings."
-  - title: "Hands-On Ownership"
-    text: "Owner Zosim Serban is personally involved in Holly-area projects, working with one of our 3 crews from the free estimate through the final walkthrough."
+  - title: "Horse property experience"
+    text: "The gravel-road parcels around Holly lean toward horse barns and pasture outbuildings, and we lay each one out around the animals and gear you actually keep."
+  - title: "Village or township, right desk first"
+    text: "Permits go through the Village of Holly for village addresses and Holly Township for everything outside the line. We confirm which before we submit."
+  - title: "Certified Federal Steel dealer"
+    text: "If steel suits the project better than post-frame, CNO can quote, deliver, and erect a Federal Steel Systems building on your Holly property."
+  - title: "Zosim on site"
+    text: "Owner Zosim Serban works Holly-area jobs with one of CNO's 3 crews, from the first walk of the property to the final one."
+faq:
+  - q: "Do I need a permit for a horse barn in Holly Township?"
+    a: "Yes. Horse barns, pole barns, and detached garages all count as accessory buildings, and Holly Township requires a permit and a plot plan for them. Addresses inside the Village of Holly go through the village instead of the township. We prepare and submit the paperwork for you as part of the build."
+  - q: "How long does a barn build take in the Holly area?"
+    a: "Permit review comes first and varies with the season. After approval, most residential barns and garages frame up in weeks rather than months, with size, concrete work, and weather setting the pace. You get a realistic schedule at the free estimate, not a best-case guess."
+  - q: "What adds cost to a horse barn?"
+    a: "Beyond square footage, it is the interior that moves the number: how many stalls, a finished tack room, water and electrical runs, and how much hay storage you want overhead or alongside. We price all of it line by line after walking your property, so you can trim or add before anything is built."
+nearby: [fenton, davisburg, grand-blanc, clarkston, ortonville, white-lake]
 ---
 
-## Pole Barns for Holly's Rural Properties
+## Horse country in northwest Oakland County
 
-CNO Pole Barns serves Holly and the surrounding rural and residential properties in northern Oakland County, part of a service area that also covers Genesee, Lapeer, and Macomb counties. CNO was established in 1970, and today the business is locally owned and operated by Zosim Serban, who runs every Holly-area project with his own crew.
+Holly sits in the far northwest corner of Oakland County, a village wrapped inside Holly Township, with the Holly Recreation Area spread out beside it. The gravel roads around town carry a lot of horse trailers. CNO Pole Barns has been building in Michigan since 1970 and is locally owned today by Zosim Serban. Holly falls inside the same northern Oakland County ground our crews work around Clarkston and Davisburg.
 
-## Horse Barns and Outbuildings for Holly
+## Barns for the gravel-road properties
 
-Holly's larger lots and rural acreage are a natural fit for pole barns, and many of our Holly-area clients also ask for horse barns, hay storage, and run-in shelters. We build stalls, wash bays, tack rooms, and wide aisles sized around the animals and equipment you keep, along with straightforward storage buildings and workshops for homeowners who simply need more space.
+The land outside the village is what Holly is known for: acreage, pasture, and room to keep animals. [Horse barns](/services/horse-barns/) are a steady request out here, laid out around the stall count, hay storage, and a dry spot for tack and trailer. [Pole barns](/services/pole-barns/) for tractors and toys are just as common, and inside the village a detached garage or storage building fits the smaller lots. For projects where steel beats post-frame, CNO is a certified Federal Steel Systems dealer and can quote, deliver, and erect a Federal Steel building.
 
-## Why Holly Property Owners Choose CNO
+## Village of Holly or Holly Township
 
-We are licensed and insured, carry an A+ rating with the Better Business Bureau, and are a Certified Federal Steel Builder. Every estimate is free and done in person on your property, and we run 3 crews so residential and commercial projects both move forward without unnecessary delays. We also build with Michigan's winters in mind, so your barn holds up long after the first snow.
+The village sits inside the township, and each one issues its own permits. A village address goes through the Village of Holly, and everything outside the village line goes through Holly Township. Accessory buildings like barns and garages need a permit either way, along with a plot plan showing distances to your lot lines. We handle that paperwork and make sure it lands on the right desk.
 
-## Your Holly Pole Barn Starts Here
+## Same crews, both directions
 
-If you own property in the Holly area and you are thinking about a pole barn or horse barn, call CNO Pole Barns at (248) 625-2334. We will schedule a free on-site visit, walk your property, and give you a detailed estimate for the structure you need.
+Holly sits between two parts of CNO's regular territory: the Clarkston and Davisburg stretch of Oakland County to the east, and the Fenton and Grand Blanc side of Genesee County to the northwest. Groveland Township and Rose Township, Holly's neighbors, fall inside the same coverage. Our crews already work both sides of it.
+
+## Start with a site visit
+
+Call CNO Pole Barns at (248) 625-2334 and describe the property. We will walk it with you, free, and tell you what the land will take before you commit to anything.

@@ -17,6 +17,16 @@ whyChoose:
     text: "Want steel instead of post-frame? CNO is a certified Federal Steel Systems dealer and can quote, deliver, and erect a steel building on your Davisburg property."
   - title: "Zosim on the Job"
     text: "Owner Zosim Serban is hands-on with Davisburg-area projects, working alongside one of our 3 crews from the first walk-through to the last nail."
+nearby: [clarkston, holly, ortonville, white-lake, waterford, fenton]
+faq:
+  - q: "Do I need a permit for a pole barn in Davisburg?"
+    a: "In almost every case, yes. The township treats pole barns as accessory buildings that need a permit, and we handle the application and plot plan for you."
+  - q: "Has CNO built in Davisburg before?"
+    a: "Davisburg falls inside our regular Oakland County service area, the same territory we cover from Clarkston out through the rest of Springfield Township. Call us and we will talk through your specific property."
+  - q: "What size pole barn can I put on my lot?"
+    a: "That depends on your parcel size and what Springfield Township allows for accessory structures on it. We will look at your site during the free estimate and tell you what is realistic."
+  - q: "Do you install steel buildings around Davisburg?"
+    a: "Yes. CNO is a certified Federal Steel Systems dealer, so we can quote, deliver, and erect a steel building instead of a post-frame barn if that fits your project better."
 ---
 
 ## CNO Pole Barns, Just West of Clarkston
@@ -25,20 +35,11 @@ Davisburg is a Springfield Township crossroads community a few miles west of Cla
 
 ## What Fits a Davisburg Property
 
-Springfield Township still has a crossroads feel, with working farms sitting next to newer subdivisions and plenty of properties in between the two. Pole barns for equipment and hay storage, detached garages and workshops, and smaller horse barns for hobby setups are the requests we hear most often in this part of Oakland County. If steel makes more sense than post-frame for your site, CNO is a certified Federal Steel Systems dealer and can price that out as well.
+Springfield Township still has a crossroads feel, with working farms sitting next to newer subdivisions and plenty of properties in between the two. [Pole barns](/services/pole-barns/) for equipment and hay storage, detached garages and workshops, and smaller [horse barns](/services/horse-barns/) for hobby setups are the requests we hear most often in this part of Oakland County. If steel makes more sense than post-frame for your site, CNO is a certified Federal Steel Systems dealer and can price that out as well.
 
 ## Permits Run Through Springfield Township
 
 Springfield Township's Building Department reviews permits for pole barns and other accessory structures out of the Civic Center on Davisburg Road. Because so many properties out here run on a private well and septic system, the application typically needs a septic permit and a well permit alongside a plot plan showing dimensions from your lot lines. We put that paperwork together and walk it through the township so you are not doing it alone.
-
-## Common Questions About Building in Davisburg
-
-<div class="faqwrap stagger">
-<div class="faq"><div class="faq-q">Do I need a permit for a pole barn in Davisburg?</div><div class="faq-a"><p>In almost every case, yes. Springfield Township's Building Department reviews permits for pole barns and other accessory buildings, and we handle the application and plot plan for you.</p></div></div>
-<div class="faq"><div class="faq-q">Has CNO built in Davisburg before?</div><div class="faq-a"><p>Davisburg falls inside our regular Oakland County service area, the same territory we cover from Clarkston out through the rest of Springfield Township. Call us and we will talk through your specific property.</p></div></div>
-<div class="faq"><div class="faq-q">What size pole barn can I put on my lot?</div><div class="faq-a"><p>That depends on your parcel size and what Springfield Township allows for accessory structures on it. We will look at your site during the free estimate and tell you what is realistic.</p></div></div>
-<div class="faq"><div class="faq-q">Do you install steel buildings around Davisburg?</div><div class="faq-a"><p>Yes. CNO is a certified Federal Steel Systems dealer, so we can quote, deliver, and erect a steel building instead of a post-frame barn if that fits your project better.</p></div></div>
-</div>
 
 ## Talk to Us About Your Davisburg Property
 

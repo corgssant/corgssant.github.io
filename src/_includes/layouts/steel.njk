@@ -6,7 +6,7 @@ layout: layouts/base.njk
 
 {# ===== overlay hero (photo + scrim, steel variant) ===== #}
 <header class="ohero steel{% if not image %} noimg{% endif %}">
-  {% if image %}<div class="bg"><img src="{{ image }}" alt="{{ title }}">{% if imageCredit %}<span class="credit">Photo: {{ imageCredit }}</span>{% endif %}</div>{% endif %}
+  {% if image %}<div class="bg"><img src="{{ image }}" alt="{{ imageAlt or title }}">{% if imageCredit %}<span class="credit">Photo: {{ imageCredit }}</span>{% endif %}</div>{% endif %}
   <div class="wrap"><div class="ohero-inner stagger">
     <div class="crumbs">{% for c in crumbs %}{% if not loop.last %}<a href="{{ c.url }}">{{ c.name }}</a> <span>/</span> {% else %}<span>{{ c.name }}</span>{% endif %}{% endfor %}</div>
     {% if category %}<span class="lab steel">{{ category }}</span>{% endif %}
@@ -65,6 +65,7 @@ layout: layouts/base.njk
       <ul class="qlinks">
         {% for p in collections.steel %}{% if p.url != page.url %}<a href="{{ p.url }}">{{ p.data.title }} <span>&rarr;</span></a>{% endif %}{% endfor %}
         {% if related %}<a href="{{ related.url }}">{{ related.title }} <span>&rarr;</span></a>{% endif %}
+        <a href="/blog/steel-building-vs-pole-barn/">Steel vs. pole barn guide <span>&rarr;</span></a>
       </ul>
     </div>
   </aside>
@@ -72,7 +73,7 @@ layout: layouts/base.njk
 
 {# ===== cta ===== #}
 <section class="blk cta"><div class="wrap"><div class="box reveal">
-  <h2>Ready to talk about your {{ title }} project?</h2>
+  <h2>Ready to talk about your steel building?</h2>
   <p>Get a free, no-obligation estimate with straightforward pricing. Call today or send us the details and we will come take a look.</p>
   <div class="row">
     <a href="/contact/" class="btn btn-dark">Get a Free Estimate</a>
@@ -87,6 +88,7 @@ layout: layouts/base.njk
   "@type": "Service",
   "name": {{ title | dump | safe }},
   "serviceType": {{ category | dump | safe }},
+  {% if image %}"image": {{ (site.url + image) | dump | safe }},{% endif %}
   "provider": {
     "@type": "GeneralContractor",
     "name": {{ site.name | dump | safe }},

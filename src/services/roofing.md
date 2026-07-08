@@ -1,6 +1,7 @@
 ---
 layout: layouts/service.njk
 title: "Roofing"
+seoTitle: "Pole Barn & Metal Roofing in Michigan"
 subtitle: "Roof installation, replacement, and repair"
 description: "Roof installation, replacement, and repair for pole barns, garages, and homes across southeast Michigan. Licensed, insured. Call (248) 625-2334."
 category: "Repair & Maintenance"

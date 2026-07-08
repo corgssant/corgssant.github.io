@@ -1,6 +1,7 @@
 ---
 layout: layouts/service.njk
 title: "Barndominiums"
+seoTitle: "Barndominium Builders in Michigan"
 subtitle: "Live and work under one roof"
 description: "Barndominium and pole barn house construction across southeast Michigan. Licensed, insured. Call (248) 625-2334."
 category: "Residential"

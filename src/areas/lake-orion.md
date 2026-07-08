@@ -17,6 +17,16 @@ whyChoose:
     text: "A wide clear-span steel building is on the table alongside a standard post-frame pole barn, backed by our Federal Steel Systems certification."
   - title: "Free, On-Site Estimates"
     text: "Owner Zosim Serban and one of CNO's 3 crews walk your property before we quote a price, so the number reflects your actual site."
+nearby: [oxford, oakland-township, clarkston, rochester-hills, waterford, romeo]
+faq:
+  - q: "Is a permit required for a pole barn near Lake Orion?"
+    a: "Yes for anything over 200 square feet, which describes just about every project we take on. Below that size you still need zoning approval from the township, just not a full building permit."
+  - q: "Can you build on a wooded or irregular lot?"
+    a: "Yes. We walk the site during the free estimate and design around the trees, slope, and any water setback instead of asking you to clear more land than you want to."
+  - q: "Do you build steel buildings in the Orion Township area, too?"
+    a: "We do. CNO is a certified Federal Steel Systems dealer, so a wide clear-span steel building is on the table alongside a standard post-frame pole barn."
+  - q: "How close to the water can I build?"
+    a: "That depends on your specific parcel and the township's shoreline setback rules. We'll check that during the site visit before we put together your estimate."
 ---
 
 ## Pole Barns and Garages Around Lake Orion
@@ -29,21 +39,7 @@ Orion Township doesn't require a full building permit for a one-story detached a
 
 ## Built Around Wooded, Water-Adjacent Lots
 
-Orion Township's rural north end mixes big lakes with heavily wooded parcels, and that combination shapes what gets built. A lot backing up to water or timber often has an odd shape or a tight building envelope, so we lay the barn or garage out around the trees and the topography instead of forcing a standard rectangle onto the site. Storage for a boat or a few extra vehicles comes up often, along with detached garages and small workshops for property owners who want space away from the house.
-
-## Lake Orion Pole Barn FAQ
-
-### Is a permit required for a pole barn near Lake Orion?
-In Orion Township, yes, once the structure passes 200 square feet, which covers nearly every pole barn or garage we build. Smaller structures still need zoning approval even without a full building permit.
-
-### Can you build on a wooded or irregular lot?
-Yes. We walk the site during the free estimate and design around the trees, slope, and any water setback instead of asking you to clear more land than you want to.
-
-### Do you build steel buildings in the Orion Township area, too?
-We do. CNO is a certified Federal Steel Systems dealer, so a wide clear-span steel building is on the table alongside a standard post-frame pole barn.
-
-### How close to the water can I build?
-That depends on your specific parcel and the township's shoreline setback rules. We'll check that during the site visit before we put together your estimate.
+Orion Township's rural north end mixes big lakes with heavily wooded parcels, and that combination shapes what gets built. A lot backing up to water or timber often has an odd shape or a tight building envelope, so we lay the barn or garage out around the trees and the topography instead of forcing a standard rectangle onto the site. [Storage for a boat](/services/boat-rv-storage/) or a few extra vehicles comes up often, along with [detached garages](/services/garages/) and small workshops for property owners who want space away from the house.
 
 ## Start Your Lake Orion Estimate
 

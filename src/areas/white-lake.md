@@ -9,8 +9,8 @@ image: "/images/projects/blue-pole-barn-lean-to-front.jpg"
 heroImage: "/images/projects/blue-barn-near-completion.jpg"
 subtitle: "Custom pole barns, garages, and RV storage for White Lake Township's larger lots - locally owned, with free on-site estimates."
 whyChoose:
-  - title: "Already on Our Service List"
-    text: "White Lake Township is one of the communities already named in CNO's regular Oakland County coverage, right alongside Waterford and Clarkston."
+  - title: "Lake Lots Are Familiar Ground"
+    text: "Between White Lake, Waterford, and Clarkston, a lot of our work sits near water. Wetland setbacks and tight lake lots are part of the normal planning here, not a surprise."
   - title: "Garages Sized for What You Park"
     text: "RV garages, boat storage, and multi-bay garages are common requests on White Lake Township's larger parcels, and every building is sized around what actually needs to fit inside."
   - title: "Certified Federal Steel Dealer"
@@ -23,9 +23,9 @@ whyChoose:
 
 White Lake Township runs long on acreage and water, and that shapes what people build here. Detached garages sized for a boat or a camper, pole barns for general storage, and workshop buildings for extra vehicles are the requests we hear most from White Lake-area property owners. Every design starts with your lot, including where the water or wetland sits on it, not a standard floor plan pulled off a shelf.
 
-## Filling in a Gap in Our Service Area
+## Between Clarkston and the Milford corridor
 
-White Lake Township is already one of the communities listed in CNO's regular Oakland County coverage. This page is really just catching our website up to where we already work. The company traces back to 1970, though Zosim Serban is the one running things now, personally overseeing White Lake-area projects alongside one of CNO's 3 crews.
+White Lake sits between our home base near Clarkston and the Milford-Highland corridor, so our crews are in the township week in, week out. CNO has been building since 1970, and Zosim Serban runs things today, overseeing White Lake-area projects alongside one of our three crews.
 
 ## Permits Through the Township's Building Department
 
@@ -34,7 +34,7 @@ White Lake Township's Building Department reviews permits for pole barns, garage
 ## Frequently Asked Questions for White Lake Township
 
 <div class="faqwrap stagger">
-<div class="faq"><div class="faq-q">Is White Lake Township really part of CNO's service area?</div><div class="faq-a"><p>Yes. White Lake Township is already listed among the communities CNO covers regularly, alongside neighboring Waterford and Clarkston.</p></div></div>
+<div class="faq"><div class="faq-q">Does CNO cover all of White Lake Township?</div><div class="faq-a"><p>Yes. The township sits between our Clarkston home base and the Milford-Highland corridor, so the whole township is inside our regular Oakland County coverage, along with neighboring Waterford.</p></div></div>
 <div class="faq"><div class="faq-q">Do you build garages for boat or RV storage?</div><div class="faq-a"><p>Yes. RV garages, RV carports, and general boat and vehicle storage buildings are common requests, especially useful on lake-area properties without covered parking.</p></div></div>
 <div class="faq"><div class="faq-q">Who handles pole barn permits in White Lake Township?</div><div class="faq-a"><p>The Township's Building Department reviews permits for pole barns and accessory structures. We prepare the plans and paperwork and walk it through with you.</p></div></div>
 <div class="faq"><div class="faq-q">My lot backs up to water. Does that change anything?</div><div class="faq-a"><p>It can. Every lot is different, and we will look at your specific property during the free estimate to figure out what your site allows before we put together a plan.</p></div></div>

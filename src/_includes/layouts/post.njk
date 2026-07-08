@@ -18,6 +18,14 @@ layout: layouts/base.njk
 <div class="artwrap">
   <article class="article reveal">
     {{ content | safe }}
+    {% if faq %}
+    <h2>Common questions</h2>
+    <div class="faqwrap stagger">
+      {% for item in faq %}
+      <div class="faq"><div class="faq-q">{{ item.q }}</div><div class="faq-a"><p>{{ item.a }}</p></div></div>
+      {% endfor %}
+    </div>
+    {% endif %}
   </article>
 
   <aside class="aside">
@@ -58,3 +66,48 @@ layout: layouts/base.njk
 </section>
 
 {% include "partials/schema-breadcrumb.njk" %}
+
+{# ===== json-ld: blogposting ===== #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ title | dump | safe }},
+  "description": {{ description | dump | safe }},
+  {% if image %}"image": {{ (site.url + image) | dump | safe }},{% endif %}
+  "datePublished": {{ date | dateISO | dump | safe }},
+  "dateModified": {{ (updated or date) | dateISO | dump | safe }},
+  "author": {
+    "@type": "Organization",
+    "name": {{ site.name | dump | safe }},
+    "url": {{ site.url | dump | safe }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.name | dump | safe }},
+    "logo": { "@type": "ImageObject", "url": {{ (site.url + "/images/logos/cno-green-light-bg.png") | dump | safe }} }
+  },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": {{ (site.url + page.url) | dump | safe }} }
+}
+</script>
+
+{# ===== json-ld: faqpage ===== #}
+{% if faq %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in faq %}{
+      "@type": "Question",
+      "name": {{ item.q | dump | safe }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.a | dump | safe }}
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}

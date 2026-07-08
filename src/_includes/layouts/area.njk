@@ -7,7 +7,7 @@ layout: layouts/base.njk
 
 {# ===== overlay hero (placeholder project photo; set per-area via heroImage front matter) ===== #}
 <header class="ohero">
-  <div class="bg"><img src="{{ heroImage }}" alt="A pole barn built by CNO Pole Barns in Michigan"></div>
+  <div class="bg"><img src="{{ heroImage }}" alt="{{ imageAlt or "A pole barn built by CNO Pole Barns in Michigan" }}"></div>
   <div class="wrap"><div class="ohero-inner stagger">
     <div class="crumbs">{% for c in crumbs %}{% if not loop.last %}<a href="{{ c.url }}">{{ c.name }}</a> <span>/</span> {% else %}<span>{{ c.name }}</span>{% endif %}{% endfor %}</div>
     <span class="lab">Service Area</span>
@@ -24,6 +24,14 @@ layout: layouts/base.njk
 <div class="artwrap">
   <article class="article reveal">
     {{ content | safe }}
+    {% if faq %}
+    <h2>Common questions in {{ city }}</h2>
+    <div class="faqwrap stagger">
+      {% for item in faq %}
+      <div class="faq"><div class="faq-q">{{ item.q }}</div><div class="faq-a"><p>{{ item.a }}</p></div></div>
+      {% endfor %}
+    </div>
+    {% endif %}
   </article>
 
   <aside class="aside">
@@ -51,7 +59,11 @@ layout: layouts/base.njk
     <div class="scard">
       <h4>Nearby areas</h4>
       <ul class="qlinks">
+        {% if nearby %}
+        {% for area in collections.areas %}{% if area.fileSlug in nearby %}<a href="{{ area.url }}">{{ area.data.city }} <span>&rarr;</span></a>{% endif %}{% endfor %}
+        {% else %}
         {% for area in collections.areas | limit(7) %}{% if area.url != page.url %}<a href="{{ area.url }}">{{ area.data.city }} <span>&rarr;</span></a>{% endif %}{% endfor %}
+        {% endif %}
       </ul>
     </div>
   </aside>
@@ -89,3 +101,24 @@ layout: layouts/base.njk
 
 {# ===== json-ld: breadcrumb ===== #}
 {% include "partials/schema-breadcrumb.njk" %}
+
+{# ===== json-ld: faqpage ===== #}
+{% if faq %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in faq %}{
+      "@type": "Question",
+      "name": {{ item.q | dump | safe }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.a | dump | safe }}
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}

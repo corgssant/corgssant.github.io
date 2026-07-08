@@ -43,7 +43,7 @@ Brandon Township is still largely rural, and the calls we get from the Ortonvill
 
 ## Brandon Township's Permit Rules
 
-Brandon Township doesn't require a building permit for an accessory structure under 200 square feet, though you still need a zoning permit for its location. Most pole barns are nowhere near that small. Once you're over it, the township wants a $100 application fee, a detailed site plan, and two sets of construction drawings with truss details, plus a soil erosion permit or waiver where it applies. We put that package together as part of the job.
+Brandon Township doesn't require a building permit for an accessory structure under 200 square feet, though you still need a zoning permit for its location. Most pole barns are nowhere near that small. Once you're over it, the township asks for a site plan and construction drawings with truss details, plus a soil erosion permit or waiver where it applies. We put that package together as part of the job.
 
 ## Get Your Ortonville Estimate Started
 

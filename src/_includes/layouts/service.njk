@@ -86,6 +86,7 @@ layout: layouts/base.njk
   "@type": "Service",
   "name": {{ title | dump | safe }},
   "serviceType": {{ category | dump | safe }},
+  {% if image %}"image": {{ (site.url + image) | dump | safe }},{% endif %}
   "provider": {
     "@type": "GeneralContractor",
     "name": {{ site.name | dump | safe }},

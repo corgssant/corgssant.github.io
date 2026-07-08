@@ -10,7 +10,7 @@ heroImage: "/images/projects/red-gambrel-barn-front-straight.jpg"
 subtitle: "Horse barns, pole barns, and garages for Oxford Township and the Village of Oxford, backed by free on-site estimates and an A+ BBB rating."
 whyChoose:
   - title: "Built for Oxford's Horse Properties"
-    text: "We size the horse barn, stalls, wash bay, hay storage, around the animals you keep and the acreage you have north of Oakland Township."
+    text: "We size the horse barn, stalls, wash bay, hay storage, around the animals you keep and the acreage around Oxford and Lake Orion."
   - title: "Village and Township Both Covered"
     text: "Village lots and township acreage need different layouts, and we design around whichever one you have instead of forcing a stock plan on it."
   - title: "Certified Federal Steel Builder"
@@ -25,11 +25,11 @@ CNO Pole Barns is a locally owned pole barn and steel building contractor workin
 
 ## Building for Oxford's Horse Country
 
-Oxford Township sits directly north of Oakland Township, and the two share a lot of the same character: larger parcels, working farms, and a fair number of horses. Most of what we hear from Oxford-area callers is horse barns, sized around stall count, wash bays, and hay storage, plus detached garages and equipment buildings for the acreage that isn't fenced pasture. Inside the village itself, lots run smaller, and requests tend toward a straightforward garage or workshop instead. We also quote and erect Federal Steel buildings as a certified FSS dealer, worth a look if you need a wider clear span for an arena or equipment barn than post-frame construction can offer.
+Oxford Township sits directly north of Orion Township, and the two share a lot of the same character: larger parcels, working farms, and a fair number of horses. Most of what we hear from Oxford-area callers is horse barns, sized around stall count, wash bays, and hay storage, plus detached garages and equipment buildings for the acreage that isn't fenced pasture. Inside the village itself, lots run smaller, and requests tend toward a straightforward garage or workshop instead. We also quote and erect Federal Steel buildings as a certified FSS dealer, worth a look if you need a wider clear span for an arena or equipment barn than post-frame construction can offer.
 
 ## Permits Through Oxford Township
 
-Oxford Township requires a building permit for a detached structure like a pole barn, along with a separate zoning compliance permit that currently runs $125. We handle the paperwork end of that process so you're not learning the township's permit system from scratch mid-project.
+Oxford Township requires a building permit for a detached structure like a pole barn, along with a separate zoning compliance permit. We handle the paperwork end of that process so you're not learning the township's permit system from scratch mid-project.
 
 ## Common Questions from Oxford Property Owners
 

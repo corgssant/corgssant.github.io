@@ -1,6 +1,7 @@
 ---
 layout: layouts/steel.njk
 title: "Steel Aircraft Hangars"
+seoTitle: "Steel Aircraft Hangars in Michigan"
 description: "Steel aircraft hangars built for Michigan: box hangars and T-hangars with sliding or hydraulic doors. Certified Federal Steel dealer. Free estimates."
 subtitle: "Box hangars and T-hangars with doors built for airplane traffic, not garage traffic"
 category: "Steel Buildings"
@@ -16,7 +17,7 @@ features:
   - "Clear spans up to 250 feet"
   - "Frames engineered for point loads like lift equipment"
   - "High R-value roof and wall panel options"
-  - "Fire-resistant steel construction can lower insurance premiums up to 30 percent"
+  - "Fire-resistant steel construction that can lower insurance premiums"
   - "Buildings arrive pre-cut, pre-drilled, and pre-welded"
   - "Certified Federal Steel Systems dealer, quoted direct"
 faq:
@@ -40,7 +41,7 @@ CNO is a certified Federal Steel Systems dealer. We quote, deliver, and erect ha
 
 A box hangar is one open rectangular building, useful when you want flexibility for more than one aircraft or need floor space for maintenance work. A T-hangar nests aircraft wingtip to wingtip, built as single or double nested rows, which is a more efficient use of steel and concrete when you're housing several planes in individual bays. Both come with sliding or hydraulic door options sized to your aircraft's wingspan.
 
-Clear spans up to 250 feet mean you're not fighting a column in the middle of your hangar floor, and frames engineered for point loads can carry hoists or lift equipment if you're doing maintenance work in-house. Fire-resistant steel construction can also help on your hangar insurance, cutting premiums by up to 30 percent in some cases.
+Clear spans up to 250 feet mean you're not fighting a column in the middle of your hangar floor, and frames engineered for point loads can carry hoists or lift equipment if you're doing maintenance work in-house. Fire-resistant steel construction can also help on your hangar insurance; ask your agent what it does to the premium.
 
 High R-value roof and wall panel options are worth considering if you plan to work on the aircraft inside the hangar through the winter, rather than just parking it. And because the frame arrives pre-cut, pre-drilled, and pre-welded, erection stays on schedule instead of stretching out while pieces get fabricated on site.
 

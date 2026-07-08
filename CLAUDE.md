@@ -47,11 +47,16 @@ Homepage `src/index.njk` is the canonical component reference.
 ## Structure
 
 - `src/services/*.md` (11 post-frame, layout `service.njk`) - `src/steel-buildings/*.md`
-  (7 steel, layout `steel.njk`) - `src/areas/*.md` (7, layout `area.njk`) -
+  (7 steel, layout `steel.njk`) - `src/areas/*.md` (19, layout `area.njk`) -
   `src/blog/*.md` (layout `post.njk`)
-- Page schema (Service/FAQ/Breadcrumb JSON-LD) lives in the layouts, driven by
-  front matter (`faq`, `related`, `image`, `imageCredit`) - keep the
-  `| dump | safe` JSON-encoding pattern.
+- Page schema (Service/FAQ/Breadcrumb JSON-LD lives in the layouts; posts also get
+  BlogPosting) is driven by front matter (`faq`, `related`, `image`, `imageAlt`,
+  `imageCredit`) - keep the `| dump | safe` JSON-encoding pattern.
+- SEO front matter: `seoTitle` overrides the `<title>`/og:title (keep it so title +
+  " | CNO Pole Barns" stays under ~60 chars; `title` remains the H1). Descriptions
+  130-160 chars with a geo signal. Area pages take `nearby` (list of area file slugs
+  for the sidebar) and `faq` like the other layouts; `ogType: "article"` is set for
+  blog posts via `src/blog/blog.json`.
 - Contact form posts to formsubmit.co/zosim@cnopolebarns.com (needs one-time email
   activation on first submission).
 - Deploys: push to `main` -> GitHub Actions -> staging https://corgssant.github.io.

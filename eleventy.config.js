@@ -7,6 +7,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/fonts");
   eleventyConfig.addPassthroughCopy("src/CNAME");
 
+  // Admin (Decap CMS) is passthrough-only: keep it out of collections/sitemap
+  eleventyConfig.ignores.add("src/admin/**");
+
   // Collections
   eleventyConfig.addCollection("services", function(collectionApi) {
     return collectionApi.getFilteredByGlob("src/services/*.md").sort((a, b) => {
@@ -39,11 +42,24 @@ module.exports = function(eleventyConfig) {
     });
   });
 
+  // Copyright year
+  eleventyConfig.addGlobalData("buildYear", () => new Date().getFullYear());
+
+  // ISO date filter (JSON-LD datePublished)
+  eleventyConfig.addFilter("dateISO", function(date) {
+    return new Date(date).toISOString().split('T')[0];
+  });
+
   // Excerpt filter
   eleventyConfig.addFilter("excerpt", function(content) {
     if (!content) return '';
     const text = content.replace(/<[^>]+>/g, '');
     return text.substring(0, 160) + (text.length > 160 ? '...' : '');
+  });
+
+  // Where filter (filter array of objects by key === value)
+  eleventyConfig.addFilter("where", function(arr, key, value) {
+    return (arr || []).filter(item => item[key] === value);
   });
 
   // Limit filter

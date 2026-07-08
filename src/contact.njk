@@ -1,14 +1,14 @@
 ---
 layout: layouts/base.njk
 title: "Contact | Free Estimates"
-description: "Call or text CNO Pole Barns at (248) 625-2334 for a free estimate, or email zosim@cnopolebarns.com. Serving Oakland, Genesee, Lapeer, and Macomb counties from Clarkston, Michigan."
+description: "Call or text CNO Pole Barns at (248) 625-2334 for a free estimate, or email zosim@cnopolebarns.com. Serving Oakland, Genesee, Lapeer, and Macomb counties."
 image: "/images/projects/pole-barn-truss-crew.jpg"
 permalink: /contact/
 ---
 
 {% set crumbs = [{name:"Home",url:"/"},{name:"Contact",url:"/contact/"}] %}
 {% set faq = [
-  {q:"How fast will I hear back?", a:"Most calls get answered directly. If you get voicemail, leave your name and number and we'll call you back."},
+  {q:"Will I actually reach a person?", a:"Most calls get answered directly. If you get voicemail, leave your name and number and we'll call you back."},
   {q:"Is the estimate really free?", a:"Yes. We come look at your site and give you a straightforward price. No obligation to book anything."},
   {q:"I don't know the exact size I need. Can I still call?", a:"Yes. Tell us roughly what you're picturing and we'll help you land on the right size when we walk the site."},
   {q:"Will the price change once you start building?", a:"We agree on a contract up front and stick to those numbers unless you approve a change. No surprise add-ons at the end."},
@@ -20,7 +20,7 @@ permalink: /contact/
   <div class="wrap"><div class="ohero-inner stagger">
     <div class="crumbs">{% for c in crumbs %}{% if not loop.last %}<a href="{{ c.url }}">{{ c.name }}</a> <span>/</span> {% else %}<span>{{ c.name }}</span>{% endif %}{% endfor %}</div>
     <span class="lab">Get in touch</span>
-    <h1>Get A Free Estimate</h1>
+    <h1>Get a free estimate</h1>
     <p class="lead">Call, text, or send the form below with what you're planning. You'll get a straight answer on cost and timeline.</p>
     <div class="hero-cta">
       <a class="btn btn-gold" href="tel:{{ site.phoneTel }}">Call {{ site.phone }}</a>
@@ -34,7 +34,7 @@ permalink: /contact/
   <div class="wrap coverage">
     <div>
       <div class="lab reveal" style="margin-bottom:20px">Direct lines</div>
-      <h2 class="reveal">Call, Text, Or Email</h2>
+      <h2 class="reveal">Call, text, or email</h2>
       <p class="lede reveal">Calls and messages go straight to the owner. If no one picks up, leave a message and we'll get back to you.</p>
       <p class="lede reveal">Prefer email? Write to <a href="mailto:{{ site.email }}" style="color:var(--pine);border-bottom:1px solid var(--gold)">{{ site.email }}</a> and attach a few photos of your site if you have them.</p>
       <p class="lede reveal">We build across Oakland, Genesee, Lapeer, and Macomb counties from our base in Clarkston. See the full <a href="/areas/" style="color:var(--pine);border-bottom:1px solid var(--gold)">service area</a>.</p>
@@ -52,11 +52,13 @@ permalink: /contact/
 {# ===== estimate form + sidebar ===== #}
 <div class="artwrap">
   <article class="article reveal">
-    <h2>Tell Us What You're Building</h2>
+    <h2>Tell us what you're building</h2>
     <p>Fill this out with a few details and we'll follow up. No obligation, no pressure.</p>
 
     <form class="form" action="https://formsubmit.co/{{ site.email }}" method="POST">
       <input type="hidden" name="_subject" value="Estimate request from cnopolebarns.com">
+      <input type="hidden" name="_next" value="{{ site.url }}/thanks/">
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
       <div class="frow">
         <label>Name
           <input type="text" name="name" required placeholder="Your name">
@@ -66,29 +68,32 @@ permalink: /contact/
         </label>
       </div>
       <div class="frow">
+        <label>Email (optional)
+          <input type="email" name="email" placeholder="you@example.com">
+        </label>
         <label>Town
           <input type="text" name="town" placeholder="Clarkston, MI">
         </label>
-        <label>What are you building?
-          <select name="project_type">
-            <option value="">Select one</option>
-            <option value="Pole barn">Pole barn</option>
-            <option value="Garage">Garage</option>
-            <option value="Horse barn">Horse barn</option>
-            <option value="Barndominium">Barndominium</option>
-            <option value="Steel building">Steel building</option>
-            <option value="Roofing">Roofing</option>
-            <option value="Something else">Something else</option>
-          </select>
-        </label>
       </div>
+      <label>What are you building?
+        <select name="project_type">
+          <option value="">Select one</option>
+          <option value="Pole barn">Pole barn</option>
+          <option value="Garage">Garage</option>
+          <option value="Horse barn">Horse barn</option>
+          <option value="Barndominium">Barndominium</option>
+          <option value="Steel building">Steel building</option>
+          <option value="Roofing">Roofing</option>
+          <option value="Something else">Something else</option>
+        </select>
+      </label>
       <label>Message
         <textarea name="message" rows="5" placeholder="Rough size, timeline, anything else we should know."></textarea>
       </label>
       <button type="submit" class="btn btn-gold">Send estimate request</button>
     </form>
 
-    <h2>Common Questions</h2>
+    <h2>Common questions</h2>
     <div class="faqwrap stagger">
       {% for item in faq %}
       <div class="faq"><div class="faq-q">{{ item.q }}</div><div class="faq-a"><p>{{ item.a }}</p></div></div>
@@ -121,7 +126,7 @@ permalink: /contact/
 {# ===== cta ===== #}
 <section class="blk cta"><div class="wrap"><div class="box reveal">
   <div>
-    <h2>Rather Just Call?</h2>
+    <h2>Rather just call?</h2>
     <p>Prefer the phone? Call the number below, or leave a message and we'll call you back.</p>
   </div>
   <div class="row">

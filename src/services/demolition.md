@@ -1,6 +1,7 @@
 ---
 layout: layouts/service.njk
 title: "Demolition"
+seoTitle: "Barn Demolition in Southeast Michigan"
 subtitle: "Safe removal of old barns and structures"
 description: "Barn and structure demolition with debris removal and site cleanup across southeast Michigan. Licensed, insured, free estimates. Call (248) 625-2334."
 category: "Site Work"

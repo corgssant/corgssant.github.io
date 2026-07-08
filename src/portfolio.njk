@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 title: "Our Work | Pole Barns & Garages Built in Michigan"
+seoTitle: "Our Work: Pole Barns Built in Michigan"
 description: "See real pole barns, garages, and shops CNO built across Oakland, Genesee, Lapeer, and Macomb counties. Every photo here is from our own job sites, not stock."
 image: "/images/projects/pole-barn-crane-truss-set.jpg"
 permalink: /portfolio/
@@ -25,7 +26,7 @@ permalink: /portfolio/
     <div class="crumbs"><a href="/">Home</a> <span>/</span> <span>Our Work</span></div>
     <span class="lab">Job site photos</span>
     <h1>Our Work</h1>
-    <p class="lead">Every photo on this page came off a CNO job site. No stock photography. No manufacturer renderings. What you see is what our crews built around Oakland, Genesee, Lapeer, and Macomb counties.</p>
+    <p class="lead">Every photo in the gallery below came off a CNO job site. No stock photography. What you see is what our crews built around Oakland, Genesee, Lapeer, and Macomb counties. The steel section at the bottom is the one exception, and it's credited to the manufacturer.</p>
     <div class="hero-cta">
       <a href="/contact/" class="btn btn-green">Get a Free Estimate</a>
       <a href="tel:{{ site.phoneTel }}" class="btn btn-ghost">Call {{ site.phone }}</a>
@@ -36,26 +37,26 @@ permalink: /portfolio/
 {# ===== gallery, grouped by category ===== #}
 <section class="blk" id="gallery"><div class="wrap">
   <div class="shead reveal">
-    <div class="lab">The Work</div>
-    <h2>Barns, Garages, and the Framing Underneath</h2>
-    <p class="lede">Twenty-four photos, grouped by what they show. Finished buildings first, then the framing and interior work that goes on before the siding does.</p>
+    <div class="lab">The work</div>
+    <h2>Barns, garages, and the framing underneath</h2>
+    <p class="lede">{{ portfolio | length }} photos, grouped by what they show. Finished buildings first, then the framing and interior work that goes on before the siding does.</p>
   </div>
 
-  <div class="cathead reveal"><h3>Finished barns</h3><span>12 photos</span></div>
+  <div class="cathead reveal"><h3>Finished barns</h3><span>{{ portfolio | where("category", "barn") | length }} photos</span></div>
   <div class="work stagger">
     {% for p in portfolio %}{% if p.category == "barn" %}
     <div class="wk"><img src="{{ p.src }}" width="{{ p.w }}" height="{{ p.h }}" alt="{{ p.alt }}" loading="lazy"><span class="lb">{{ p.label }}</span></div>
     {% endif %}{% endfor %}
   </div>
 
-  <div class="cathead reveal"><h3>Garages &amp; shops</h3><span>2 photos</span></div>
+  <div class="cathead reveal"><h3>Garages &amp; shops</h3><span>{{ (portfolio | where("category", "garage") | length) + (portfolio | where("category", "shop") | length) }} photos</span></div>
   <div class="work stagger">
     {% for p in portfolio %}{% if p.category == "garage" or p.category == "shop" %}
     <div class="wk"><img src="{{ p.src }}" width="{{ p.w }}" height="{{ p.h }}" alt="{{ p.alt }}" loading="lazy"><span class="lb">{{ p.label }}</span></div>
     {% endif %}{% endfor %}
   </div>
 
-  <div class="cathead reveal"><h3>Framing &amp; process</h3><span>4 photos</span></div>
+  <div class="cathead reveal"><h3>Framing &amp; process</h3><span>{{ portfolio | where("category", "framing") | length }} photos</span></div>
   <p class="note-p reveal">Why we show you the framing. The bones are what you're paying for. Trusses set square. Blocking in the right spots. Radiant barrier under the roof deck. Once the siding goes up, none of it shows. These photos are the proof it was done right.</p>
   <div class="work stagger">
     {% for p in portfolio %}{% if p.category == "framing" %}
@@ -63,14 +64,14 @@ permalink: /portfolio/
     {% endif %}{% endfor %}
   </div>
 
-  <div class="cathead reveal"><h3>Interiors</h3><span>4 photos</span></div>
+  <div class="cathead reveal"><h3>Interiors</h3><span>{{ portfolio | where("category", "interior") | length }} photos</span></div>
   <div class="work stagger">
     {% for p in portfolio %}{% if p.category == "interior" %}
     <div class="wk"><img src="{{ p.src }}" width="{{ p.w }}" height="{{ p.h }}" alt="{{ p.alt }}" loading="lazy"><span class="lb">{{ p.label }}</span></div>
     {% endif %}{% endfor %}
   </div>
 
-  <div class="cathead reveal"><h3>Farm</h3><span>2 photos</span></div>
+  <div class="cathead reveal"><h3>Farm</h3><span>{{ portfolio | where("category", "farm") | length }} photos</span></div>
   <div class="work stagger">
     {% for p in portfolio %}{% if p.category == "farm" %}
     <div class="wk"><img src="{{ p.src }}" width="{{ p.w }}" height="{{ p.h }}" alt="{{ p.alt }}" loading="lazy"><span class="lb">{{ p.label }}</span></div>

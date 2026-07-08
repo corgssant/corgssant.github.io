@@ -4,14 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script>document.documentElement.classList.add('js');</script>
-  <title>{{ title }} | {{ site.name }}</title>
+  <title>{{ seoTitle or title }} | {{ site.name }}</title>
   <meta name="description" content="{{ description }}">
+  {% if noindex %}<meta name="robots" content="noindex">{% endif %}
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-  <meta property="og:title" content="{{ title }} | {{ site.name }}">
+  <meta property="og:title" content="{{ seoTitle or title }} | {{ site.name }}">
   <meta property="og:description" content="{{ description }}">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="{{ ogType or 'website' }}">
+  <meta property="og:site_name" content="{{ site.name }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:image" content="{{ site.url }}{{ image or '/images/projects/shop-building.jpg' }}">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#182619">
   <link rel="icon" type="image/png" sizes="64x64" href="/images/favicon-green.png">
   <link rel="icon" type="image/png" sizes="64x64" href="/images/favicon-white.png" media="(prefers-color-scheme: dark)">

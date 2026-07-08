@@ -1,6 +1,7 @@
 ---
 layout: layouts/service.njk
 title: "Siding & Repair"
+seoTitle: "Siding Repair & Replacement in Michigan"
 subtitle: "Restore and protect your building's exterior"
 description: "Siding, trim, soffit, and finish carpentry repairs and installs across southeast Michigan. Licensed, insured, free estimates. Call (248) 625-2334."
 category: "Repair & Maintenance"

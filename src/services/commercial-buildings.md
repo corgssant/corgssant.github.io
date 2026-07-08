@@ -1,6 +1,7 @@
 ---
 layout: layouts/service.njk
 title: "Commercial Buildings"
+seoTitle: "Commercial Pole Buildings in Michigan"
 subtitle: "Post-frame buildings for your business"
 description: "Commercial and warehouse post-frame buildings for businesses across southeast Michigan. Licensed, insured. Call (248) 625-2334."
 category: "Commercial"

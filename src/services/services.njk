@@ -1,7 +1,8 @@
 ---
 layout: layouts/base.njk
 title: "Our Services"
-description: "Pole barns, garages, horse barns, barndominiums, and steel buildings. See the full range of services CNO Pole Barns builds across southeast Michigan and get a free estimate."
+seoTitle: "Post-Frame Building Services in Michigan"
+description: "Pole barns, garages, horse barns, and barndominiums built across southeast Michigan. See every post-frame service and get a free estimate."
 permalink: /services/
 ---
 
@@ -9,7 +10,7 @@ permalink: /services/
 
 <header class="ohero noimg slim">
   <div class="wrap"><div class="ohero-inner stagger">
-    <span class="lab">What We Build</span>
+    <span class="lab">What we build</span>
     <h1>Our Services</h1>
     <p class="lead">Pole barns, garages, horse barns, barndominiums, and steel buildings. Pick a service below to see project photos and details, or call us if you are not sure what you need.</p>
     <div class="hero-cta">
@@ -19,11 +20,11 @@ permalink: /services/
 </header>
 
 <section class="blk"><div class="wrap">
-  <div class="head reveal"><h2>Everything we build</h2><p>Pick a service to see project photos, details, and answers to common questions.</p></div>
+  <div class="head reveal"><h2>Everything we build</h2><p>Eleven post-frame services, from full builds to repairs and tear-downs.</p></div>
   <div class="svc stagger">
     {% for service in collections.services %}
     <a class="card" href="{{ service.url }}">
-      <div class="im"><img src="{{ service.data.image }}" alt="{{ service.data.title }}"></div>
+      <div class="im"><img src="{{ service.data.image }}" alt="{{ service.data.subtitle or service.data.title }}" loading="lazy"></div>
       <div class="bd">
         <h3>{{ service.data.title }}</h3>
         <p>{{ service.data.subtitle }}</p>
@@ -32,6 +33,7 @@ permalink: /services/
     </a>
     {% endfor %}
   </div>
+  <div class="more-link reveal" style="margin-top:34px"><a href="/steel-buildings/">Need pre-engineered steel instead? See the steel building line &rarr;</a></div>
 </div></section>
 
 <section class="blk cta"><div class="wrap"><div class="box reveal">

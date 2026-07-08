@@ -6,30 +6,38 @@ city: "South Lyon"
 state: "MI"
 county: "Oakland"
 image: "/images/projects/tamek-barn.webp"
-subtitle: "Pole barns, garages, and outbuildings for South Lyon-area property owners, backed by free on-site estimates and an A+ BBB rating."
+subtitle: "Garages for South Lyon city lots and barns for the acreage just outside town, with the permit filed at the right office the first time."
 whyChoose:
-  - title: "A+ BBB Rated and Fully Insured"
-    text: "CNO Pole Barns is licensed and insured and holds an A+ rating with the Better Business Bureau, so South Lyon property owners can verify us before signing anything."
-  - title: "Certified Federal Steel Builder"
-    text: "Every steel building we put up meets federal certification standards for a durable, code-compliant structure."
-  - title: "Free, On-Site Estimates"
-    text: "We visit your property in person before we quote a price, so if you are in the South Lyon area, the estimate reflects your actual site, not a guess over the phone."
-  - title: "Three Crews, One Owner Involved"
-    text: "CNO runs 3 crews so projects keep moving, and owner Zosim Serban stays personally involved from the first estimate through the final walkthrough."
+  - title: "Four jurisdictions, one estimate"
+    text: "A South Lyon address can fall under the city, Lyon Township, Green Oak Township, or Salem Township. We confirm which one holds your permit before the estimate is final."
+  - title: "City lots and township acreage"
+    text: "Detached garages and workshops in town, pole barns and horse barns on the acreage outside the limits. The lot decides the building."
+  - title: "Federal Steel Systems dealer"
+    text: "CNO quotes, delivers, and erects Federal Steel Systems buildings when a wide clear-span shop fits the plan better than post frame."
+  - title: "Free on-site estimates"
+    text: "Owner Zosim Serban and one of CNO's 3 crews look at the property in person before we put a number on paper."
+nearby: [milford, highland, howell, white-lake]
+faq:
+  - q: "My address says South Lyon but I'm outside the city. Who issues my permit?"
+    a: "The township your parcel sits in. South Lyon addresses spill into Lyon Township in Oakland County, Green Oak Township in Livingston County, and Salem Township in Washtenaw County. Inside city limits, the City of South Lyon issues the permit. We confirm the jurisdiction for your parcel as part of the estimate."
+  - q: "Can you build a horse barn near South Lyon?"
+    a: "Yes. The properties with room for a horse barn sit mostly on the acreage just outside the city limits. Lot size and the township's setback rules decide the footprint, so we walk the parcel first, then size the barn around the animals and gear it needs to hold."
+  - q: "Is a pole barn realistic on a lot inside South Lyon city limits?"
+    a: "In town, the project that usually fits is a detached garage or workshop rather than a farm-style barn. City lots run smaller, and setback and lot coverage rules cap accessory building size. If what you want won't fit the lot, we'll say so at the site visit instead of forcing it."
 ---
 
-## CNO Pole Barns in the South Lyon Area
+## CNO Pole Barns around South Lyon
 
-Zosim Serban owns and runs CNO Pole Barns today, leading crews on pole barn and garage projects across Oakland County and the broader southeast Michigan region. The company was established in 1970. South Lyon sits within that Oakland County service area, and property owners there can call on the same licensed, insured crews we bring to jobs throughout the region.
+South Lyon sits in the southwest corner of Oakland County, close to where three counties meet, and CNO's service area covers the city along with the townships that wrap around it. Zosim Serban owns and runs the company today, working with one of CNO's 3 crews. CNO has been building since 1970 and is licensed, insured, and A+ rated with the Better Business Bureau.
 
-## What We Can Build for South Lyon Properties
+## The address isn't always the permit office
 
-If you own property in the South Lyon area, we can build a detached garage, workshop, or storage building sized for a smaller residential lot, or a larger pole barn or horse barn if you have more acreage. Every structure is designed around your site rather than a fixed plan.
+A South Lyon mailing address covers more ground than the city itself. The city is wrapped by Lyon Township in Oakland County, Green Oak Township in Livingston County, and Salem Township in Washtenaw County, so the right office depends on which side of the line your parcel sits. Inside the city limits, your permit comes from the City of South Lyon. Outside them, the township issues it. We pin down the jurisdiction before the estimate is finished so the application lands at the right counter the first time.
 
-## Why South Lyon Property Owners Choose CNO
+## Garages in town, barns past the city line
 
-We are licensed and insured, carry an A+ rating with the Better Business Bureau, and are a Certified Federal Steel Builder. Every estimate is free and done on-site, and our 3 crews mean residential and commercial projects both move forward without a long wait. We also build with Michigan's winters in mind, from post depth to roof load.
+On lots inside the city, the common builds are [detached garages](/services/garages/) and workshops sized to the yard. Rural acreage starts just past the city limits, and that's where the [pole barns](/services/pole-barns/), horse barns, and larger storage buildings go. Most requests are practical ones, a second garage because the first one filled up, or a real barn for a couple of horses on new acreage. When a project calls for a wide clear-span shop instead, CNO is a certified Federal Steel Systems dealer and can quote a steel building for the same site.
 
-## Get a Free Estimate in South Lyon
+## Get a written number
 
-If you are in the South Lyon area and thinking about a pole barn, garage, or horse barn, call CNO Pole Barns at (248) 625-2334. We will schedule a free on-site estimate, walk your property, and put together a detailed quote for your project.
+Call CNO Pole Barns at (248) 625-2334 and tell us what you're trying to build. We'll confirm whose permit counter your parcel belongs to, look the site over in person, and send a written estimate that matches what we saw.

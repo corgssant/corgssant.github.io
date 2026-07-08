@@ -17,6 +17,16 @@ whyChoose:
     text: "Steel is on the table too through our certified dealer relationship with Federal Steel Systems, giving you another option beyond post-frame construction."
   - title: "Zosim Runs the Job"
     text: "Owner Zosim Serban stays personally involved in Highland-area projects, working with one of our 3 crews from the estimate through the final walkthrough."
+nearby: [milford, white-lake, howell, fenton, south-lyon]
+faq:
+  - q: "Does Highland Township require a permit for a horse barn?"
+    a: "Yes. Barns and pole barns are on the township's list of structures that need a building permit, and zoning review applies to accessory buildings across the board. We file the paperwork as part of the job."
+  - q: "Do you build near the Highland Recreation Area?"
+    a: "We serve properties throughout Highland Township, including acreage near the recreation area as well as more residential lots. Call us and we will talk through your specific site."
+  - q: "What size horse barn can you build?"
+    a: "That depends on how many horses you keep and how you plan to use the space. We size stalls, aisles, and storage around your actual setup during the free estimate."
+  - q: "Do you offer steel buildings in Highland Township?"
+    a: "Yes. CNO is a certified Federal Steel Systems dealer, so we can quote, deliver, and erect a steel building if that is a better fit than post-frame for your property."
 ---
 
 ## Horse Country Pole Barns and Steel Buildings
@@ -25,20 +35,11 @@ Zosim Serban owns and runs CNO Pole Barns today, more than five decades after th
 
 ## Permits and Zoning in Highland Township
 
-Highland Township requires a permit for pole barns and barns specifically, along with garages, sheds, decks, and kennels, and every accessory structure gets a zoning review whether or not it ends up needing a permit. Applications run through the township's online BS&A portal, and we handle that filing as part of your project so you are not stuck figuring out a new system on your own.
+Highland Township requires a permit for pole barns and barns specifically, along with garages, sheds, decks, and kennels, and every accessory structure gets a zoning review whether or not it ends up needing a permit. Applications run through the township's online permit system, and we handle that filing as part of your project so you are not stuck figuring out a new system on your own.
 
 ## What Highland Properties Are Building
 
-With the Highland Recreation Area and its trail network nearby, plenty of Highland Township property owners are set up for horses, and horse barns are a common ask, built with stalls, a wash rack, tack and feed storage, and room to store hay. Larger acreage parcels also bring requests for straightforward pole barns for equipment and hay, plus detached garages and workshops for everything else.
-
-## FAQ: Building in Highland Township
-
-<div class="faqwrap stagger">
-<div class="faq"><div class="faq-q">Does Highland Township require a permit for a horse barn?</div><div class="faq-a"><p>Yes. Highland Township's Building Department requires a permit for pole barns and barns specifically, and every accessory structure gets a zoning review even if it turns out no permit is needed.</p></div></div>
-<div class="faq"><div class="faq-q">Do you build near the Highland Recreation Area?</div><div class="faq-a"><p>We serve properties throughout Highland Township, including acreage near the recreation area as well as more residential lots. Call us and we will talk through your specific site.</p></div></div>
-<div class="faq"><div class="faq-q">What size horse barn can you build?</div><div class="faq-a"><p>That depends on how many horses you keep and how you plan to use the space. We size stalls, aisles, and storage around your actual setup during the free estimate.</p></div></div>
-<div class="faq"><div class="faq-q">Do you offer steel buildings in Highland Township?</div><div class="faq-a"><p>Yes. CNO is a certified Federal Steel Systems dealer, so we can quote, deliver, and erect a steel building if that is a better fit than post-frame for your property.</p></div></div>
-</div>
+With the Highland Recreation Area and its trail network nearby, plenty of Highland Township property owners are set up for horses, and [horse barns](/services/horse-barns/) are a common ask, built with stalls, a wash rack, tack and feed storage, and room to store hay. Larger acreage parcels also bring requests for straightforward [pole barns](/services/pole-barns/) for equipment and hay, plus detached garages and workshops for everything else.
 
 ## Ready When You Are
 
