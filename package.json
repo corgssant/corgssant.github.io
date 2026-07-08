@@ -4,7 +4,8 @@
   "description": "CNO Pole Barns - Michigan pole barns, garages, and steel buildings",
   "scripts": {
     "dev": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy",
+    "verify": "python3 scripts/verify.py"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.0.0"
