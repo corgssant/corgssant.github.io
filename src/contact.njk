@@ -1,106 +1,154 @@
 ---
 layout: layouts/base.njk
-title: "Contact Us"
-description: "Get a free quote from CNO Pole Barns. Call (248) 625-2334 or fill out our contact form. Serving Rochester Hills, Clarkston, Oakland County, and Southeast Michigan."
+title: "Contact | Free Estimates"
+description: "Call or text CNO Pole Barns at (248) 625-2334 for a free estimate, or email zosim@cnopolebarns.com. Serving Oakland, Genesee, Lapeer, and Macomb counties from Clarkston, Michigan."
+image: "/images/projects/pole-barn-truss-crew.jpg"
 permalink: /contact/
 ---
 
-<section class="page-hero">
-  <div class="container">
-    <span class="section-label" style="color: var(--gold);">Contact Us</span>
-    <h1>Let's Build Something Great</h1>
-    <p>Get a free, no-obligation estimate for your next project. We'd love to hear from you.</p>
-  </div>
-</section>
+{% set crumbs = [{name:"Home",url:"/"},{name:"Contact",url:"/contact/"}] %}
+{% set faq = [
+  {q:"How fast will I hear back?", a:"Zosim answers most calls himself. If he's on a roof or with another customer, leave a message or send the form and he'll call back."},
+  {q:"Is the estimate really free?", a:"Yes. We come look at your site and give you a straightforward price. No obligation to book anything."},
+  {q:"I don't know the exact size I need. Can I still call?", a:"Yes. Tell us roughly what you're picturing and we'll help you land on the right size when we walk the site."},
+  {q:"Will the price change once you start building?", a:"We agree on a contract up front and stick to those numbers unless you approve a change. No surprise add-ons at the end."},
+  {q:"Do you serve my area?", a:"We build across Oakland, Genesee, Lapeer, and Macomb counties from our base in Clarkston. Call and ask if you're not sure you're in range."}
+] %}
 
-<section class="section">
-  <div class="container">
-    <div class="contact-grid">
-      <div class="contact-info fade-up">
-        <h2>Get In Touch</h2>
-        <p>Whether you're planning a new pole barn, need a garage, or want to discuss a barndominium — we're here to help. Call us directly or fill out the form and we'll get back to you within one business day.</p>
-        <div class="contact-detail">
-          <div class="contact-detail-icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          </div>
-          <div>
-            <h4>Phone</h4>
-            <p><a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a></p>
-          </div>
-        </div>
-        <div class="contact-detail">
-          <div class="contact-detail-icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          </div>
-          <div>
-            <h4>Address</h4>
-            <p>{{ site.address.street }}<br>{{ site.address.city }}, {{ site.address.state }} {{ site.address.zip }}</p>
-          </div>
-        </div>
-        <div class="contact-detail">
-          <div class="contact-detail-icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          </div>
-          <div>
-            <h4>Hours</h4>
-            <p>Monday – Saturday<br>8:30 AM – 7:00 PM</p>
-          </div>
-        </div>
-        <div class="contact-detail">
-          <div class="contact-detail-icon">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          </div>
-          <div>
-            <h4>Email</h4>
-            <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="contact-form fade-up">
-        <h3 style="font-size: 1.5rem; margin-bottom: 8px;">Request a Free Quote</h3>
-        <p style="color: var(--gray-500); margin-bottom: 28px; font-size: 0.9375rem;">Fill out the form below and we'll get back to you within one business day.</p>
-        <form>
-          <div class="form-row">
-            <div class="form-group">
-              <label for="firstName">First Name *</label>
-              <input type="text" id="firstName" name="firstName" required placeholder="John">
-            </div>
-            <div class="form-group">
-              <label for="lastName">Last Name *</label>
-              <input type="text" id="lastName" name="lastName" required placeholder="Doe">
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-group">
-              <label for="email">Email *</label>
-              <input type="email" id="email" name="email" required placeholder="john@example.com">
-            </div>
-            <div class="form-group">
-              <label for="phone">Phone *</label>
-              <input type="tel" id="phone" name="phone" required placeholder="(248) 555-1234">
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="projectType">Project Type</label>
-            <select id="projectType" name="projectType">
-              <option value="">Select a project type...</option>
-              {% for service in collections.services %}
-              <option value="{{ service.data.title | lower }}">{{ service.data.title }}</option>
-              {% endfor %}
-              <option value="other">Other</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="location">Project Location (City/Township)</label>
-            <input type="text" id="location" name="location" placeholder="Rochester Hills, MI">
-          </div>
-          <div class="form-group">
-            <label for="message">Tell Us About Your Project</label>
-            <textarea id="message" name="message" rows="5" placeholder="Describe your project — size, purpose, timeline, budget range, or any other details."></textarea>
-          </div>
-          <button type="submit" class="form-submit">Send Quote Request</button>
-        </form>
-      </div>
+{# ===== overlay hero (solid band, no stock photo) ===== #}
+<header class="ohero noimg">
+  <div class="wrap"><div class="ohero-inner stagger">
+    <div class="crumbs">{% for c in crumbs %}{% if not loop.last %}<a href="{{ c.url }}">{{ c.name }}</a> <span>/</span> {% else %}<span>{{ c.name }}</span>{% endif %}{% endfor %}</div>
+    <span class="lab">Talk to a builder, not a call center</span>
+    <h1>Get A Free Estimate</h1>
+    <p class="lead">Call, text, or send the form below. Zosim answers directly and gives you a straight answer about cost and timeline, not a sales script.</p>
+    <div class="hero-cta">
+      <a class="btn btn-gold" href="tel:{{ site.phoneTel }}">Call {{ site.phone }}</a>
+      <a class="btn btn-ghost" href="mailto:{{ site.email }}">Email {{ site.email }}</a>
+    </div>
+  </div></div>
+</header>
+
+{# ===== direct lines ===== #}
+<section class="blk">
+  <div class="wrap coverage">
+    <div>
+      <div class="lab reveal" style="margin-bottom:20px">Direct lines</div>
+      <h2 class="reveal">Call, Text, Or Email</h2>
+      <p class="lede reveal">Every call and message goes to Zosim directly. If he's on a roof when you call, he'll call you back.</p>
+      <p class="lede reveal">Prefer email? Write to <a href="mailto:{{ site.email }}" style="color:var(--pine);border-bottom:1px solid var(--gold)">{{ site.email }}</a> and attach a few photos of your site if you have them.</p>
+      <p class="lede reveal">We build across Oakland, Genesee, Lapeer, and Macomb counties from our base in Clarkston. See the full <a href="/areas/" style="color:var(--pine);border-bottom:1px solid var(--gold)">service area</a>.</p>
+    </div>
+    <div class="hours-card riv">
+      <h3>Hours</h3>
+      <div class="row"><span>Monday - Saturday</span><b>8:30 AM - 7:00 PM</b></div>
+      <div class="row"><span>Sunday</span><b>Closed</b></div>
+      <a class="ph" href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
+      <p class="note">Zosim picks up. If he's on a roof, he calls back.</p>
     </div>
   </div>
 </section>
+
+{# ===== estimate form + sidebar ===== #}
+<div class="artwrap">
+  <article class="article reveal">
+    <h2>Tell Us What You're Building</h2>
+    <p>Fill this out with a few details and Zosim will follow up. No obligation, no pressure.</p>
+
+    <form class="form" action="https://formsubmit.co/{{ site.email }}" method="POST">
+      <input type="hidden" name="_subject" value="Estimate request from cnopolebarns.com">
+      <div class="frow">
+        <label>Name
+          <input type="text" name="name" required placeholder="Your name">
+        </label>
+        <label>Phone
+          <input type="tel" name="phone" required placeholder="(248) 555-1234">
+        </label>
+      </div>
+      <div class="frow">
+        <label>Town
+          <input type="text" name="town" placeholder="Clarkston, MI">
+        </label>
+        <label>What are you building?
+          <select name="project_type">
+            <option value="">Select one</option>
+            <option value="Pole barn">Pole barn</option>
+            <option value="Garage">Garage</option>
+            <option value="Horse barn">Horse barn</option>
+            <option value="Barndominium">Barndominium</option>
+            <option value="Steel building">Steel building</option>
+            <option value="Roofing">Roofing</option>
+            <option value="Something else">Something else</option>
+          </select>
+        </label>
+      </div>
+      <label>Message
+        <textarea name="message" rows="5" placeholder="Rough size, timeline, anything else we should know."></textarea>
+      </label>
+      <button type="submit" class="btn btn-gold">Send estimate request</button>
+    </form>
+
+    <h2>Common Questions</h2>
+    <div class="faqwrap stagger">
+      {% for item in faq %}
+      <div class="faq"><div class="faq-q">{{ item.q }}</div><div class="faq-a"><p>{{ item.a }}</p></div></div>
+      {% endfor %}
+    </div>
+  </article>
+
+  <aside class="aside">
+    <div class="scard">
+      <h4>What to have ready</h4>
+      <p>Three things make for a faster, more accurate estimate.</p>
+      <ul class="badges">
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> A few photos of the site</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> A rough size in mind</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> A rough timeline</li>
+      </ul>
+    </div>
+    <div class="scard">
+      <h4>Why CNO</h4>
+      <ul class="badges">
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> A+ BBB Rated</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Licensed &amp; Insured</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Certified Federal Steel Builder</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Building since 1970</li>
+      </ul>
+    </div>
+  </aside>
+</div>
+
+{# ===== cta ===== #}
+<section class="blk cta"><div class="wrap"><div class="box reveal">
+  <div>
+    <h2>Rather Just Call?</h2>
+    <p>Skip the form. Call the number below and Zosim will pick up, or leave a message and he'll call back.</p>
+  </div>
+  <div class="row">
+    <a class="btn btn-gold" href="mailto:{{ site.email }}">Email instead</a>
+    <span class="or">or call</span>
+    <a class="bigph" href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
+  </div>
+</div></div></section>
+
+{# ===== json-ld: breadcrumb ===== #}
+{% include "partials/schema-breadcrumb.njk" %}
+
+{# ===== json-ld: faqpage ===== #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in faq %}{
+      "@type": "Question",
+      "name": {{ item.q | dump | safe }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.a | dump | safe }}
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>

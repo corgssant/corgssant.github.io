@@ -1,71 +1,101 @@
 ---
 layout: layouts/base.njk
-title: "Portfolio"
-description: "Browse CNO Pole Barns' portfolio of completed pole barns, garages, horse barns, barndominiums, and commercial buildings across Michigan."
+title: "Our Work | Pole Barns & Garages Built in Michigan"
+description: "See real pole barns, garages, and shops CNO built across Oakland, Genesee, Lapeer, and Macomb counties. Every photo here is from our own job sites, not stock."
+image: "/images/projects/pole-barn-crane-truss-set.jpg"
 permalink: /portfolio/
 ---
 
-<section class="page-hero">
-  <div class="container">
-    <span class="section-label" style="color: var(--gold);">Our Work</span>
-    <h1>Portfolio</h1>
-    <p>A selection of projects we've completed across Michigan. Each one custom-designed and built to last.</p>
-  </div>
-</section>
+<style>
+.cathead{display:flex;align-items:baseline;justify-content:space-between;gap:20px;margin:0 0 26px;padding-top:54px;border-top:1px solid var(--line)}
+.cathead:first-child{padding-top:0;border-top:none}
+.cathead h3{font-size:clamp(26px,3vw,34px)}
+.cathead span{font-family:var(--ui);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--moss);white-space:nowrap}
+.note-p{font-family:var(--serif);font-size:16.5px;line-height:1.7;color:var(--moss);max-width:64ch;margin:-8px 0 30px}
+.honest-note{background:var(--steel-tint);border:1px solid var(--steel-line);border-left:4px solid var(--steel);border-radius:var(--r);padding:36px 38px}
+.honest-note h3{color:var(--steel-ink);font-size:26px;margin:14px 0 12px}
+.honest-note p{color:var(--steel-moss);font-size:16.5px;max-width:66ch}
+.honest-note a{color:var(--steel-ink);border-bottom:1px solid var(--steel);font-weight:600}
+</style>
 
-<section class="section">
-  <div class="container">
-    <div class="gallery-grid-full stagger-children">
-      <div class="gallery-item-lg fade-up">
-        <img src="/images/projects/pole-building.jpg" alt="Large red pole barn">
-        <div class="gallery-overlay"><span>Agricultural Storage — Fenton, MI</span></div>
-      </div>
-      <div class="gallery-item-lg fade-up">
-        <img src="/images/projects/horsebarn2.jpg" alt="Horse barn with cupola">
-        <div class="gallery-overlay"><span>Horse Barn — Clarkston, MI</span></div>
-      </div>
-      <div class="gallery-item-lg fade-up">
-        <img src="/images/projects/michigan-farm.webp" alt="Red farm barn">
-        <div class="gallery-overlay"><span>Farm Barn — Oakland County</span></div>
-      </div>
-      <div class="gallery-item-lg fade-up">
-        <img src="/images/projects/polebarns2.jpg" alt="Pole barn green roof">
-        <div class="gallery-overlay"><span>Pole Building — Holly, MI</span></div>
-      </div>
-      <div class="gallery-item-lg fade-up">
-        <img src="/images/projects/horsebarn1.jpg" alt="Horse barn exterior">
-        <div class="gallery-overlay"><span>Equestrian Barn — Oakland County</span></div>
-      </div>
-      <div class="gallery-item-lg fade-up">
-        <img src="/images/projects/shop-building.jpg" alt="Barndominium exterior">
-        <div class="gallery-overlay"><span>Barndominium — Howell, MI</span></div>
-      </div>
-      <div class="gallery-item-lg fade-up">
-        <img src="/images/projects/horsebarn5.jpg" alt="Modern black and white barn">
-        <div class="gallery-overlay"><span>Modern Barn — Waterford</span></div>
-      </div>
-      <div class="gallery-item-lg fade-up">
-        <img src="/images/projects/tamek-barn.webp" alt="Commercial pole building">
-        <div class="gallery-overlay"><span>Commercial Build — Rochester Hills</span></div>
-      </div>
-      <div class="gallery-item-lg fade-up">
-        <img src="/images/projects/horsebarn3.jpg" alt="Horse barn doors">
-        <div class="gallery-overlay"><span>Horse Barn — Holly, MI</span></div>
-      </div>
-      <div class="gallery-item-lg fade-up">
-        <img src="/images/projects/horsebarn4.jpg" alt="Barn interior staircase">
-        <div class="gallery-overlay"><span>Interior — Loft Staircase</span></div>
-      </div>
+{# ===== overlay hero ===== #}
+<header class="ohero">
+  <div class="bg"><img src="/images/projects/pole-barn-crane-truss-set.jpg" alt="Crane setting roof trusses on a pole barn frame while a CNO crew works" fetchpriority="high"></div>
+  <div class="wrap"><div class="ohero-inner stagger">
+    <div class="crumbs"><a href="/">Home</a> <span>/</span> <span>Our Work</span></div>
+    <span class="lab">Job site photos</span>
+    <h1>Our Work</h1>
+    <p class="lead">Every photo on this page came off a CNO job site. No stock photography. No manufacturer renderings. What you see is what our crews built around Oakland, Genesee, Lapeer, and Macomb counties.</p>
+    <div class="hero-cta">
+      <a href="/contact/" class="btn btn-green">Get a Free Estimate</a>
+      <a href="tel:{{ site.phoneTel }}" class="btn btn-ghost">Call {{ site.phone }}</a>
     </div>
-  </div>
-</section>
+  </div></div>
+</header>
 
-<section class="section section-light">
-  <div class="container">
-    <div class="cta-banner fade-up">
-      <h2>Like What You See?</h2>
-      <p>Let us build something amazing for you. Every project starts with a free consultation.</p>
-      <a href="/contact/" class="btn btn-primary">Get a Free Quote</a>
-    </div>
+{# ===== gallery, grouped by category ===== #}
+<section class="blk" id="gallery"><div class="wrap">
+  <div class="shead reveal">
+    <div class="lab">The Work</div>
+    <h2>Barns, Garages, and the Framing Underneath</h2>
+    <p class="lede">Twenty-four photos, grouped by what they show. Finished buildings first, then the framing and interior work that goes on before the siding does.</p>
   </div>
-</section>
+
+  <div class="cathead reveal"><h3>Finished barns</h3><span>12 photos</span></div>
+  <div class="work stagger">
+    {% for p in portfolio %}{% if p.category == "barn" %}
+    <div class="wk"><img src="{{ p.src }}" width="{{ p.w }}" height="{{ p.h }}" alt="{{ p.alt }}" loading="lazy"><span class="lb">{{ p.label }}</span></div>
+    {% endif %}{% endfor %}
+  </div>
+
+  <div class="cathead reveal"><h3>Garages &amp; shops</h3><span>2 photos</span></div>
+  <div class="work stagger">
+    {% for p in portfolio %}{% if p.category == "garage" or p.category == "shop" %}
+    <div class="wk"><img src="{{ p.src }}" width="{{ p.w }}" height="{{ p.h }}" alt="{{ p.alt }}" loading="lazy"><span class="lb">{{ p.label }}</span></div>
+    {% endif %}{% endfor %}
+  </div>
+
+  <div class="cathead reveal"><h3>Framing &amp; process</h3><span>4 photos</span></div>
+  <p class="note-p reveal">Why we show you the framing. The bones are what you're paying for. Trusses set square. Blocking in the right spots. Radiant barrier under the roof deck. Once the siding goes up, none of it shows. These photos are the proof it was done right.</p>
+  <div class="work stagger">
+    {% for p in portfolio %}{% if p.category == "framing" %}
+    <div class="wk"><img src="{{ p.src }}" width="{{ p.w }}" height="{{ p.h }}" alt="{{ p.alt }}" loading="lazy"><span class="lb">{{ p.label }}</span></div>
+    {% endif %}{% endfor %}
+  </div>
+
+  <div class="cathead reveal"><h3>Interiors</h3><span>4 photos</span></div>
+  <div class="work stagger">
+    {% for p in portfolio %}{% if p.category == "interior" %}
+    <div class="wk"><img src="{{ p.src }}" width="{{ p.w }}" height="{{ p.h }}" alt="{{ p.alt }}" loading="lazy"><span class="lb">{{ p.label }}</span></div>
+    {% endif %}{% endfor %}
+  </div>
+
+  <div class="cathead reveal"><h3>Farm</h3><span>2 photos</span></div>
+  <div class="work stagger">
+    {% for p in portfolio %}{% if p.category == "farm" %}
+    <div class="wk"><img src="{{ p.src }}" width="{{ p.w }}" height="{{ p.h }}" alt="{{ p.alt }}" loading="lazy"><span class="lb">{{ p.label }}</span></div>
+    {% endif %}{% endfor %}
+  </div>
+</div></section>
+
+{# ===== honest note: steel ===== #}
+<section class="blk tint"><div class="wrap">
+  <div class="honest-note reveal">
+    <span class="lab steel">A note on steel</span>
+    <h3>Where are the steel building photos?</h3>
+    <p>CNO is a certified Federal Steel Systems erector, but the steel line is new. We have not finished a steel building yet that belongs in this portfolio as our own work. The steel photos on this site come from Federal Steel Systems, credited as manufacturer photos, not CNO job sites. Once we have completed steel projects of our own, they move to this page. Until then, see what pre-engineered steel can do on the <a href="/steel-buildings/">steel buildings page</a>.</p>
+  </div>
+</div></section>
+
+{# ===== cta ===== #}
+<section class="blk cta"><div class="wrap"><div class="box reveal">
+  <div>
+    <h2>Want your build on this page next?</h2>
+    <p>Tell us what you're building and send a few photos of the site. You'll get a straight answer on cost and timeline, no pressure.</p>
+  </div>
+  <div class="row">
+    <a class="btn btn-gold" href="/contact/">Get a free estimate</a>
+    <span class="or">or call</span>
+    <a class="bigph" href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
+  </div>
+</div></div></section>
