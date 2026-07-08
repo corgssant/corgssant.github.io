@@ -1,0 +1,124 @@
+---
+layout: layouts/base.njk
+---
+
+{% set crumbs = [{name:"Home",url:"/"},{name:"Steel Buildings",url:"/steel-buildings/"},{name:title,url:page.url}] %}
+
+{# ===== overlay hero (photo + scrim, steel variant) ===== #}
+<header class="ohero steel{% if not image %} noimg{% endif %}">
+  {% if image %}<div class="bg"><img src="{{ image }}" alt="{{ title }}">{% if imageCredit %}<span class="credit">Photo: {{ imageCredit }}</span>{% endif %}</div>{% endif %}
+  <div class="wrap"><div class="ohero-inner stagger">
+    <div class="crumbs">{% for c in crumbs %}{% if not loop.last %}<a href="{{ c.url }}">{{ c.name }}</a> <span>/</span> {% else %}<span>{{ c.name }}</span>{% endif %}{% endfor %}</div>
+    {% if category %}<span class="lab steel">{{ category }}</span>{% endif %}
+    <h1>{{ title }}</h1>
+    {% if subtitle %}<p class="lead">{{ subtitle }}</p>{% endif %}
+    <div class="hero-cta">
+      <a href="/contact/" class="btn btn-green">Get a Free Estimate</a>
+      <a href="tel:{{ site.phoneTel }}" class="btn btn-ghost">Call {{ site.phone }}</a>
+    </div>
+  </div></div>
+</header>
+
+{# ===== article body + sticky sidebar ===== #}
+<div class="artwrap">
+  <article class="article reveal">
+    {{ content | safe }}
+    {% if features %}
+    <ul class="flist">
+      {% for f in features %}<li>{{ f }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+    {% if gallery and gallery.length %}
+    <figure class="inline-img riv">
+      <img src="{{ gallery[0].src }}" alt="{{ gallery[0].alt or title }}">
+      {% if gallery[0].caption %}<figcaption>{{ gallery[0].caption }}</figcaption>{% endif %}
+    </figure>
+    {% endif %}
+    {% if faq %}
+    <h2>Common questions</h2>
+    <div class="faqwrap stagger">
+      {% for item in faq %}
+      <div class="faq"><div class="faq-q">{{ item.q }}</div><div class="faq-a"><p>{{ item.a }}</p></div></div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </article>
+
+  <aside class="aside">
+    <div class="scard steel-hi">
+      <h4>Get a free estimate</h4>
+      <p>Tell us what you want to build and we will come take a look. No pressure, no obligation.</p>
+      <a class="btn btn-green" href="/contact/">Request an estimate</a>
+      <a class="btn btn-ghost" href="tel:{{ site.phoneTel }}" style="color:#fff;border-color:rgba(255,255,255,.4)">Call {{ site.phone }}</a>
+    </div>
+    <div class="scard">
+      <h4>Why CNO</h4>
+      <ul class="badges">
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> A+ BBB Rated</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Licensed &amp; Insured</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Certified Federal Steel Builder</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Building since 1970</li>
+      </ul>
+    </div>
+    <div class="scard">
+      <h4>Related buildings</h4>
+      <ul class="qlinks">
+        {% for p in collections.steel %}{% if p.url != page.url %}<a href="{{ p.url }}">{{ p.data.title }} <span>&rarr;</span></a>{% endif %}{% endfor %}
+        {% if related %}<a href="{{ related.url }}">{{ related.title }} <span>&rarr;</span></a>{% endif %}
+      </ul>
+    </div>
+  </aside>
+</div>
+
+{# ===== cta ===== #}
+<section class="blk cta"><div class="wrap"><div class="box reveal">
+  <h2>Ready to talk about your {{ title }} project?</h2>
+  <p>Get a free, no-obligation estimate with straightforward pricing. Call today or send us the details and we will come take a look.</p>
+  <div class="row">
+    <a href="/contact/" class="btn btn-dark">Get a Free Estimate</a>
+    <a href="tel:{{ site.phoneTel }}" class="btn btn-ghost" style="border-color:rgba(13,36,21,.3);color:#0d2415">Call {{ site.phone }}</a>
+  </div>
+</div></div></section>
+
+{# ===== json-ld: service ===== #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": {{ title | dump | safe }},
+  "serviceType": {{ category | dump | safe }},
+  "provider": {
+    "@type": "GeneralContractor",
+    "name": {{ site.name | dump | safe }},
+    "url": {{ site.url | dump | safe }},
+    "telephone": {{ site.phone | dump | safe }}
+  },
+  "areaServed": [
+    {% for c in site.counties %}{ "@type": "AdministrativeArea", "name": {{ (c + " County, MI") | dump | safe }} }{% if not loop.last %},{% endif %}{% endfor %}
+  ]
+}
+</script>
+
+{# ===== json-ld: breadcrumb ===== #}
+{% include "partials/schema-breadcrumb.njk" %}
+
+{# ===== json-ld: faqpage ===== #}
+{% if faq %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in faq %}{
+      "@type": "Question",
+      "name": {{ item.q | dump | safe }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.a | dump | safe }}
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}

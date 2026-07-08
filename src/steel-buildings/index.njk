@@ -1,0 +1,118 @@
+---
+layout: layouts/base.njk
+title: "Steel Buildings in Michigan | Pre-Engineered Metal Buildings"
+description: "CNO is a certified Federal Steel Systems dealer. We quote, deliver, and erect pre-engineered steel buildings across Oakland, Genesee, Lapeer, and Macomb counties."
+permalink: /steel-buildings/
+---
+
+{# ===== overlay hero (steel variant) ===== #}
+<header class="ohero steel">
+  <div class="bg"><img src="/images/steel/steel-aircraft-hangar.jpg" alt="Tan and blue pre-engineered steel aircraft hangar with a large bi-fold door open"><span class="credit">Photo: Federal Steel Systems</span></div>
+  <div class="wrap"><div class="ohero-inner stagger">
+    <div class="crumbs"><a href="/">Home</a> <span>/</span> <span>Steel Buildings</span></div>
+    <span class="lab steel">Certified Federal Steel builder</span>
+    <h1>Pre-engineered steel buildings, dealer direct</h1>
+    <p class="lead">CNO quotes, delivers, and erects Federal Steel Systems buildings across southeast Michigan. Clear spans up to 250 feet, frames engineered for our snow loads, priced without a middleman.</p>
+    <div class="hero-cta">
+      <a href="/contact/" class="btn btn-green">Get a Free Estimate</a>
+      <a href="tel:{{ site.phoneTel }}" class="btn btn-ghost">Call {{ site.phone }}</a>
+    </div>
+  </div></div>
+</header>
+
+{# ===== what is a pre-engineered steel building ===== #}
+<section class="blk"><div class="wrap">
+  <div class="head reveal">
+    <h2>What is a pre-engineered steel building?</h2>
+    <p>A pre-engineered steel building, sometimes called a PEMB, is a structure built around a bolt-together steel frame that gets designed, cut, drilled, and welded at the factory before it ever reaches your site. The frame bolts together instead of getting welded in the field, and roof and wall panels go on in place of studs and siding. CNO is a certified Federal Steel Systems dealer, so we design, quote, and erect these buildings direct, without a middleman markup.</p>
+  </div>
+</div></section>
+
+{# ===== steel or post-frame comparison ===== #}
+<section class="blk tint"><div class="wrap">
+  <div class="shead reveal">
+    <div class="lab steel">Which system fits</div>
+    <h2>Steel or post-frame?</h2>
+    <p class="lede">Most builders sell the one system they know. We put up both, so we'll tell you straight which one fits your project, your site, and your budget.</p>
+  </div>
+  <div class="two stagger">
+    <a class="way" href="/services/">
+      <div class="im">
+        <span class="tag">Post-frame</span>
+        <img src="/images/projects/tamek-barn.webp" alt="Red post-frame barn with lean-to porch and cupola, a CNO build" loading="lazy">
+      </div>
+      <div class="bd">
+        <h3>Not sure steel is the right call?</h3>
+        <div class="sys">Wood posts, engineered trusses, steel skin</div>
+        <p>Post-frame is the lower-cost, faster route for a lot of garages, barns, and storage buildings. See the full range of what we build with wood framing.</p>
+        <ul>
+          <li>Often less expensive on smaller buildings</li>
+          <li>Faster path from quote to framed structure</li>
+          <li>Easy to insulate and finish for everyday use</li>
+        </ul>
+        <span class="go">See post-frame services &rarr;</span>
+      </div>
+    </a>
+    <a class="way steel" href="/blog/steel-building-vs-pole-barn/">
+      <div class="im">
+        <span class="tag">Steel</span>
+        <img src="/images/steel/steel-industrial-frame-1.jpg" alt="Rust-primed steel frame of an industrial building under construction, boom lift on site" loading="lazy">
+        <span class="credit">Photo: Federal Steel Systems</span>
+      </div>
+      <div class="bd">
+        <h3>Read the full comparison</h3>
+        <div class="sys">Bolt-together steel frames, clear spans to 250'</div>
+        <p>We wrote up an honest, side-by-side look at steel versus post-frame: cost drivers, timelines, and when each system actually makes sense.</p>
+        <ul>
+          <li>When clear span or crane loads matter</li>
+          <li>Fire resistance and insurance impact</li>
+          <li>What drives cost on each system</li>
+        </ul>
+        <span class="go">Read the comparison &rarr;</span>
+      </div>
+    </a>
+  </div>
+</div></section>
+
+{# ===== steel building types grid ===== #}
+<section class="blk steelband"><div class="wrap">
+  <div class="shead reveal">
+    <div class="lab steel">Steel building types</div>
+    <h2>What we build in steel</h2>
+    <p class="lede">Seven building types, all bolt-together Federal Steel construction, all quoted and erected by CNO.</p>
+  </div>
+  <div class="stypes stagger">
+    {% for p in collections.steel %}
+    <a class="st" href="{{ p.url }}">
+      <div class="im"><img src="{{ p.data.image }}" alt="{{ p.data.title }}" loading="lazy"><span class="credit">Photo: {{ p.data.imageCredit }}</span></div>
+      <div class="bd"><h3>{{ p.data.title }}</h3><p>{{ p.data.subtitle }}</p></div>
+    </a>
+    {% endfor %}
+  </div>
+  <p class="s-credit reveal">Steel building photos courtesy of Federal Steel Systems. They show the building systems we install, not CNO projects.</p>
+</div></section>
+
+{# ===== faq ===== #}
+<section class="blk"><div class="wrap">
+  <div class="head reveal"><h2>Common questions</h2></div>
+  <div class="faqwrap stagger">
+    <div class="faq"><div class="faq-q">How much does a steel building cost per square foot?</div><div class="faq-a"><p>It depends. Bay width, clear span, cladding choice, door count, insulation, and site work all move the number, and steel buildings vary a lot more than a standard pole barn does. We don't quote a per-square-foot number without seeing the project. Tell us what you're building and we'll put together a free, itemized estimate.</p></div></div>
+    <div class="faq"><div class="faq-q">How long does a steel building take from quote to finished project?</div><div class="faq-a"><p>Materials on an Express Line building are typically ready in about 5 weeks. Custom commercial and industrial buildings take longer to engineer and fabricate. Add in your township permitting and site work, and total timelines vary by project. We'll give you a real schedule once we know the scope.</p></div></div>
+    <div class="faq"><div class="faq-q">Can a steel building handle Michigan snow loads?</div><div class="faq-a"><p>Yes. Federal Steel Systems engineers every frame to the snow load requirements for the county it's going in. That engineering is part of the quote, so the building is designed for our winters before it ships, not adjusted after the fact.</p></div></div>
+    <div class="faq"><div class="faq-q">What does the erection process look like?</div><div class="faq-a"><p>The frame, panels, and trim arrive pre-cut, pre-drilled, and pre-welded from the factory. Our crew sets the frame, bolts it together, and closes it in with roof and wall panels. Concrete and site work happen ahead of the steel delivery, and we handle that too, so you're working with one crew start to finish.</p></div></div>
+    <div class="faq"><div class="faq-q">Is CNO an authorized Federal Steel Systems dealer?</div><div class="faq-a"><p>Yes. We're a certified Federal Steel Systems dealer and erector, which means we quote and build direct from the manufacturer. We're also licensed, insured, and carry an A+ rating with the Better Business Bureau.</p></div></div>
+  </div>
+</div></section>
+
+{# ===== cta ===== #}
+<section class="blk cta"><div class="wrap"><div class="box reveal">
+  <div>
+    <h2>Tell us what you're building</h2>
+    <p>Send a few details about your project and we'll give you a straight answer on cost, timeline, and whether steel or post-frame is the right call.</p>
+  </div>
+  <div class="row">
+    <a class="btn btn-gold" href="/contact/">Get a free estimate</a>
+    <span class="or">or call</span>
+    <a class="bigph" href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
+  </div>
+</div></div></section>
