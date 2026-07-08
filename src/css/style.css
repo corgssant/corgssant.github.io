@@ -263,8 +263,7 @@ section.blk.cta h2{font-size:clamp(42px,5.2vw,68px);color:#fff;max-width:14ch}
 section.blk.cta p{color:#cfd8cc;font-size:17px;margin-top:18px;max-width:44ch}
 section.blk.cta .row{display:flex;flex-direction:column;gap:14px;align-items:flex-start}
 section.blk.cta .row .btn-ghost{color:#fff !important;border-color:rgba(255,255,255,.5) !important}
-section.blk.cta .bigph{font-family:var(--disp);font-size:44px;font-weight:700;color:var(--gold-bright);display:flex;align-items:center;gap:14px}
-section.blk.cta .bigph img{width:46px;height:46px;border-radius:50%;object-fit:cover;border:2px solid rgba(255,255,255,.3);flex:none}
+section.blk.cta .bigph{font-family:var(--disp);font-size:44px;font-weight:700;color:var(--gold-bright)}
 section.blk.cta .or{font-family:var(--ui);font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;color:#9fac9b}
 
 /* ---------- interior: overlay hero ---------- */
