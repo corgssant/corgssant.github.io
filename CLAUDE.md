@@ -16,9 +16,10 @@ Business facts: `docs/reference/cno-business-profile.md`. Real review quotes: `d
 - No street address anywhere (service-area business). No invented stats, prices,
   review counts, aggregate ratings, project locations, or dimensions.
 - Steel line: CNO quotes, delivers, and erects Federal Steel Systems buildings.
-  No claimed history of completed steel projects. FSS manufacturer photos appear
-  ONLY on steel pages/sections, always with a visible "Photo: Federal Steel Systems"
-  credit, never in Portfolio or "our work" contexts.
+  No claimed history of completed steel projects. FSS granted permission
+  (2026-07-07) to use their photos so customers see what CNO can install: usable
+  anywhere IF visibly credited ("Photo: Federal Steel Systems") and never
+  presented as CNO's own completed work ("our work"/job-site framing).
 - Portfolio and "our work" imagery: only photos from `src/_data/portfolio.json`
   (real CNO job sites, EXIF/GPS stripped). Never re-add raw photos from
   `images/projects/Photos/` without stripping EXIF (they contain customer GPS).

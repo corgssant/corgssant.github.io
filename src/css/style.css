@@ -92,7 +92,7 @@ header.site.scrolled{box-shadow:0 6px 24px -18px rgba(24,38,25,.5)}
 .hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(200deg,rgba(24,38,25,.05) 30%,rgba(24,38,25,.72) 78%,rgba(20,32,21,.88) 100%)}
 .hero .wrap{padding-top:120px;padding-bottom:64px;width:100%}
 .hero .lab,.hero .eb{color:#e9ecdf;margin-bottom:22px}
-.hero h1{font-size:clamp(52px,8vw,112px);max-width:12ch;color:#fff}
+.hero h1{font-size:clamp(42px,5.6vw,76px);max-width:17ch;color:#fff}
 .hero h1 em{font-style:normal;color:var(--gold-bright)}
 .hero .sub{font-size:19px;line-height:1.6;max-width:54ch;margin:26px 0 34px;color:#e6e9dd}
 .hero-cta{display:flex;align-items:center;gap:14px;flex-wrap:wrap}

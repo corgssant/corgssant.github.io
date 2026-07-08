@@ -7,6 +7,10 @@ category: "Steel Buildings"
 image: "/images/steel/steel-shop-building.jpg"
 imageCredit: "Federal Steel Systems"
 order: 2
+gallery:
+  - src: "/images/steel/steel-industrial-frame-2.jpg"
+    alt: "Long steel frame of an industrial building mid-construction, columns and rafters in place"
+    caption: "An industrial frame going up. Photo: Federal Steel Systems."
 related:
   title: "Shop & Storage Buildings (post-frame)"
   url: "/services/shop-storage/"
