@@ -3,7 +3,7 @@ layout: layouts/base.njk
 ---
 
 {% set crumbs = [{name:"Home",url:"/"},{name:"Service Areas",url:"/areas/"},{name:city,url:page.url}] %}
-{% set heroImage = heroImage or "/images/projects/michigan-farm.webp" %}
+{% set heroImage = heroImage or image or "/images/projects/michigan-farm.webp" %}
 
 {# ===== overlay hero (placeholder project photo; set per-area via heroImage front matter) ===== #}
 <header class="ohero">

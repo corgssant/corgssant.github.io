@@ -40,13 +40,8 @@ Service area: {{ site.counties | join(", ") }} counties, including {{ site.servi
 ## Service Areas
 
 - [Service Area overview]({{ site.url }}/areas/)
-- [Clarkston, MI]({{ site.url }}/areas/clarkston/)
-- [Fenton, MI]({{ site.url }}/areas/fenton/)
-- [Holly, MI]({{ site.url }}/areas/holly/)
-- [Howell, MI]({{ site.url }}/areas/howell/)
-- [Rochester Hills, MI]({{ site.url }}/areas/rochester-hills/)
-- [South Lyon, MI]({{ site.url }}/areas/south-lyon/)
-- [Waterford, MI]({{ site.url }}/areas/waterford/)
+{% for area in collections.areas %}- [{{ area.data.city }}, MI]({{ site.url }}{{ area.url }})
+{% endfor %}
 
 ## Other Pages
 
