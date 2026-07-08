@@ -2,20 +2,19 @@
 layout: layouts/service.njk
 title: "Garages"
 subtitle: "Detached garages built strong and affordable"
-description: "Custom detached garages by CNO Pole Barns in Clarkston MI. Post-frame garage construction with 55+ years of experience. Serving Oakland County and beyond."
+description: "Detached garages, RV and motorhome garages, and carports built across southeast Michigan. Licensed, insured, free estimates. Call (248) 625-2334."
 category: "Residential"
-image: "/images/projects/polebarns2.jpg"
+image: "/images/projects/tan-pole-barn-side.jpg"
 order: 2
-style: "split-left"
 features:
   - "Single, double, and triple bay configurations"
   - "Overhead doors in multiple sizes"
   - "Insulated and heated options available"
   - "Matching exterior finishes to your home"
 gallery:
-  - src: "/images/projects/polebarns2.jpg"
-    alt: "Detached post-frame garage built in Michigan"
-    caption: "A two-car detached garage with walk-in door"
+  - src: "/images/projects/tan-pole-barn-side.jpg"
+    alt: "Tan pole barn side view with a white garage door and brown trim"
+    caption: "A CNO pole barn garage, side view"
 faq:
   - q: "Is a post-frame garage cheaper than a stick-built garage?"
     a: "In most cases, yes. Post-frame construction uses fewer materials and requires less labor than traditional stick-built methods, making it a cost-effective choice for detached garages without sacrificing durability."
@@ -23,6 +22,8 @@ faq:
     a: "Absolutely. We frequently build garages with overhead loft storage or finished attic spaces. This is a great way to add usable square footage to your property without expanding the building footprint."
   - q: "What size garage should I build?"
     a: "That depends on your needs. A standard two-car garage is typically 24x24, but if you want room for a workbench, storage, or larger vehicles, we recommend going with at least 30x30. We will help you find the right size for your property."
+  - q: "Do you build RV or motorhome garages?"
+    a: "Yes. We build RV and motorhome garages sized for the height, length, and door clearance your rig needs, along with carports for owners who do not need a fully enclosed structure."
 tags:
   - "garages"
   - "pole barns"
@@ -32,12 +33,12 @@ tags:
 
 ## Detached Garages Built the Post-Frame Way
 
-A detached garage from CNO Pole Barns gives you the extra space you need without the cost and complexity of a traditional addition. Our post-frame garages go up fast, cost less per square foot, and are just as strong as conventional construction. Whether you need a simple two-car garage or a large multi-bay workshop, we build it right.
+CNO Pole Barns builds detached garages, RV and motorhome garages, and carports for homeowners across Oakland, Genesee, Lapeer, and Macomb counties. Post-frame construction goes up efficiently and holds up as well as traditional stick-built framing, from a simple two-car garage to a larger multi-bay building for vehicles and equipment.
 
-## More Than Just Parking
+## Room for Vehicles, RVs, and More
 
-Our garages are designed for the way Michigan homeowners actually use their space. That means room for vehicles plus a workshop area, seasonal storage, or a hobby space. We offer insulated walls and ceilings, radiant floor heat, 220V electrical service, and interior finishes so your garage is comfortable year-round, even during a Michigan January.
+From a single-bay garage to an RV or motorhome garage sized for a large rig, we plan the layout around what you actually park and store. Carports are available where a fully enclosed building is not needed. Insulated and heated options keep the space usable through a Michigan winter.
 
-## Designed to Complement Your Home
+## Locally Owned, A+ BBB Rated
 
-We know that a detached garage needs to look like it belongs on your property. CNO Pole Barns offers a full range of siding styles, roofing colors, and trim options so your new garage matches your existing home. From traditional barn-style garages to modern clean-line designs, our family has been helping Oakland County homeowners since 1970. Contact Zosim and the team at (248) 625-2334 to get started.
+CNO Pole Barns was established in 1970 and is run today by owner Zosim Serban and his crew. We are licensed and insured, hold an A+ rating with the Better Business Bureau, and provide free estimates on every project. Call (248) 625-2334 to talk about the right garage for your property.

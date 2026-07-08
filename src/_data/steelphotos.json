@@ -1,0 +1,82 @@
+[
+  {
+    "src": "/images/steel/steel-commercial-building-front.jpg",
+    "alt": "Tan steel commercial building with a covered stone-column entryway and brown standing-seam roof",
+    "credit": "Federal Steel Systems",
+    "type": "commercial",
+    "w": 1600,
+    "h": 1200
+  },
+  {
+    "src": "/images/steel/steel-commercial-building-back.jpg",
+    "alt": "Steel commercial building with a brown metal roof, red double doors, and stone wainscoting facing a landscaped lawn",
+    "credit": "Federal Steel Systems",
+    "type": "commercial",
+    "w": 1600,
+    "h": 1311
+  },
+  {
+    "src": "/images/steel/steel-commercial-frame.jpg",
+    "alt": "Steel I-beam frame of a commercial building under construction on a poured concrete slab, overcast sky",
+    "credit": "Federal Steel Systems",
+    "type": "commercial",
+    "w": 1600,
+    "h": 1073
+  },
+  {
+    "src": "/images/steel/steel-industrial-frame-1.jpg",
+    "alt": "Rust-primed steel frame of an industrial building under construction, with a boom lift on site and open plains in the background",
+    "credit": "Federal Steel Systems",
+    "type": "industrial",
+    "w": 1600,
+    "h": 1038
+  },
+  {
+    "src": "/images/steel/steel-industrial-frame-2.jpg",
+    "alt": "Long steel frame of an industrial building mid-construction, columns and rafters exposed under a blue sky",
+    "credit": "Federal Steel Systems",
+    "type": "industrial",
+    "w": 1600,
+    "h": 906
+  },
+  {
+    "src": "/images/steel/steel-aircraft-hangar.jpg",
+    "alt": "Steel aircraft hangar with tan wall panels and a large blue bi-fold hangar door open, smaller service doors along the side",
+    "credit": "Federal Steel Systems",
+    "type": "hangar",
+    "w": 1600,
+    "h": 970
+  },
+  {
+    "src": "/images/steel/steel-riding-arena.jpg",
+    "alt": "Steel riding arena building with tan and brown wall panels, two garage doors, and horses standing near the entrance",
+    "credit": "Federal Steel Systems",
+    "type": "arena",
+    "w": 1600,
+    "h": 910
+  },
+  {
+    "src": "/images/steel/steel-agricultural-utility.jpg",
+    "alt": "Gray steel agricultural utility building with blue trim, a roll-up door, walk door, and window",
+    "credit": "Federal Steel Systems",
+    "type": "agricultural",
+    "w": 1600,
+    "h": 1047
+  },
+  {
+    "src": "/images/steel/steel-express-line.jpg",
+    "alt": "Tan steel Express Line building with green trim, a large door and walk-in door, and a propane tank beside the entrance",
+    "credit": "Federal Steel Systems",
+    "type": "express",
+    "w": 1600,
+    "h": 830
+  },
+  {
+    "src": "/images/steel/steel-shop-building.jpg",
+    "alt": "Brown steel shop building with three garage doors and a walk door on a gravel lot",
+    "credit": "Federal Steel Systems",
+    "type": "shop",
+    "w": 1600,
+    "h": 1200
+  }
+]

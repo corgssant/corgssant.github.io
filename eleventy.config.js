@@ -14,6 +14,12 @@ module.exports = function(eleventyConfig) {
     });
   });
 
+  eleventyConfig.addCollection("steel", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/steel-buildings/*.md").sort((a, b) => {
+      return (a.data.order || 99) - (b.data.order || 99);
+    });
+  });
+
   eleventyConfig.addCollection("areas", function(collectionApi) {
     return collectionApi.getFilteredByGlob("src/areas/*.md").sort((a, b) => {
       return a.data.title.localeCompare(b.data.title);

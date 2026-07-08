@@ -3,8 +3,24 @@ layout: layouts/base.njk
 title: Page not found
 description: That page could not be found. Call us at (248) 625-2334 or head back home.
 permalink: /404.html
+eleventyExcludeFromCollections: true
 ---
-<section class="blk"><div class="wrap" style="text-align:center">
-  <h1>We could not find that page</h1>
-  <p>Try the <a href="/">homepage</a>, or call us at <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>.</p>
+<header class="ohero noimg slim">
+  <div class="wrap"><div class="ohero-inner stagger">
+    <span class="lab">404</span>
+    <h1>We could not find that page</h1>
+    <p class="lead">The link is outdated or the page moved. Head back home, or call us at {{ site.phone }}.</p>
+    <div class="hero-cta">
+      <a href="/" class="btn btn-gold">Back to homepage</a>
+      <a href="tel:{{ site.phoneTel }}" class="btn btn-line">Call {{ site.phone }}</a>
+    </div>
+  </div></div>
+</header>
+
+<section class="blk tight"><div class="wrap" style="max-width:460px">
+  <ul class="qlinks">
+    <a href="/services/">Post-frame services <span>&rarr;</span></a>
+    <a href="/steel-buildings/">Steel buildings <span>&rarr;</span></a>
+    <a href="/contact/">Contact us <span>&rarr;</span></a>
+  </ul>
 </div></section>

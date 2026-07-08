@@ -1,63 +1,47 @@
 ---
 layout: layouts/base.njk
-title: Blog
-description: "Tips, guides, and insights about pole barn construction, barndominiums, garage building, and more from CNO Pole Barns in Michigan."
+title: "Building Guides"
+description: "Guides on pole barns, steel buildings, permits, and costs, written by the CNO Pole Barns crew that builds post-frame and erects Federal Steel buildings across Michigan."
 permalink: /blog/
 ---
 
-{# ========== BLOG LISTING PAGE — Cleean-inspired ========== #}
+{# ========== BLOG INDEX ========== #}
 
-<section class="page-hero">
-  <div class="container">
-    <span class="section-label" style="color: var(--gold);">Our Blog</span>
-    <h1>Insights &amp; Guides</h1>
-    <p>Tips, guides, and project stories from over 55 years of pole barn building in Michigan.</p>
-  </div>
-</section>
+<header class="ohero noimg slim">
+  <div class="wrap"><div class="ohero-inner stagger">
+    <span class="lab">Guides</span>
+    <h1>Building Guides</h1>
+    <p class="lead">Straight answers on pole barns, steel buildings, permits, and cost, written by the crew that pours the concrete and sets the trusses.</p>
+    <div class="hero-cta">
+      <a href="/contact/" class="btn btn-gold">Get a Free Estimate</a>
+    </div>
+  </div></div>
+</header>
 
-<section class="section">
-  <div class="container">
-    {# Featured post (first/latest) #}
-    {% set featured = collections.blog | first %}
-    {% if featured %}
-    <a href="{{ featured.url }}" class="blog-featured fade-up">
-      <div class="blog-featured-img">
-        <img src="{{ featured.data.image or '/images/projects/pole-building.jpg' }}" alt="{{ featured.data.title }}">
-      </div>
-      <div class="blog-featured-content">
-        <div class="blog-card-meta">
-          <span>{{ featured.data.category or "Insights" }}</span>
-          <span>{{ featured.data.date | dateFormat }}</span>
-        </div>
-        <h2>{{ featured.data.title }}</h2>
-        <p>{{ featured.data.excerpt or (featured.templateContent | excerpt) }}</p>
-        <span class="service-link">
-          Read Article
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-        </span>
+<section class="blk"><div class="wrap">
+  <div class="head reveal"><h2>All building guides</h2><p>Everything we've written about post-frame and steel buildings, permits, and planning a project in Michigan.</p></div>
+  <div class="bloggrid stagger">
+    {% for post in collections.blog %}
+    <a href="{{ post.url }}" class="bcard">
+      {% if post.data.image %}<div class="im"><img src="{{ post.data.image }}" alt="{{ post.data.title }}" loading="lazy"></div>{% endif %}
+      <div class="bd">
+        <span class="meta">{{ post.data.category or "Guides" }} &middot; {{ post.data.date | dateFormat }}</span>
+        <h3>{{ post.data.title }}</h3>
+        <p>{{ post.templateContent | excerpt }}</p>
       </div>
     </a>
-    {% endif %}
-
-    {# Rest of posts #}
-    <div class="blog-grid stagger-children" style="margin-top: 48px;">
-      {% for post in collections.blog %}
-      {% if not loop.first %}
-      <a href="{{ post.url }}" class="blog-card fade-up">
-        <div class="blog-card-img">
-          <img src="{{ post.data.image or '/images/projects/pole-building.jpg' }}" alt="{{ post.data.title }}">
-        </div>
-        <div class="blog-card-body">
-          <div class="blog-card-meta">
-            <span>{{ post.data.category or "Insights" }}</span>
-            <span>{{ post.data.date | dateFormat }}</span>
-          </div>
-          <h3>{{ post.data.title }}</h3>
-          <p>{{ post.data.excerpt or (post.templateContent | excerpt) }}</p>
-        </div>
-      </a>
-      {% endif %}
-      {% endfor %}
-    </div>
+    {% endfor %}
   </div>
-</section>
+</div></section>
+
+<section class="blk cta"><div class="wrap"><div class="box reveal">
+  <div>
+    <h2>Have a project in mind?</h2>
+    <p>Send us a few details and some photos of your site. We'll tell you straight whether post-frame or steel is the right call, and what it takes to get it built.</p>
+  </div>
+  <div class="row">
+    <a class="btn btn-gold" href="/contact/">Get a free estimate</a>
+    <span class="or">or call</span>
+    <a class="bigph" href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
+  </div>
+</div></div></section>

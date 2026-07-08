@@ -1,28 +1,27 @@
 ---
 layout: layouts/service.njk
 title: "Commercial Buildings"
-subtitle: "Post-frame solutions for your business"
-description: "Commercial post-frame buildings by CNO Pole Barns in Clarkston MI. Warehouses, retail, workshops, and agricultural commercial buildings. Serving Oakland County since 1970."
+subtitle: "Post-frame buildings for your business"
+description: "Commercial and warehouse post-frame buildings for businesses across southeast Michigan. Licensed, insured. Call (248) 625-2334."
 category: "Commercial"
 image: "/images/projects/tamek-barn.webp"
 order: 5
-style: "full-width"
 features:
-  - "Clear-span interiors up to 80 feet wide"
+  - "Wide clear-span interiors with no interior columns"
   - "Office and retail buildouts available"
   - "Loading docks and overhead doors"
-  - "Fire-rated wall and ceiling options"
+  - "Concrete floors sized to your equipment"
 gallery:
   - src: "/images/projects/tamek-barn.webp"
     alt: "Commercial pole building in Southeast Michigan"
     caption: "A commercial storage facility in Oakland County"
 faq:
   - q: "Is post-frame construction suitable for commercial use?"
-    a: "Absolutely. Post-frame construction is widely used for commercial warehouses, retail spaces, auto shops, agricultural supply stores, and light manufacturing facilities. The clear-span interiors and fast build times make it one of the most efficient commercial construction methods available."
+    a: "Yes. Post-frame construction is widely used for commercial warehouses, retail spaces, auto shops, and light manufacturing buildings. The clear-span interiors and efficient build process make it a popular choice for commercial projects."
   - q: "How does the cost compare to steel frame commercial buildings?"
-    a: "Post-frame commercial buildings typically cost 30-50% less than comparable steel frame structures. The savings come from fewer foundation requirements, faster construction times, and lower material costs, without sacrificing structural integrity."
+    a: "Post-frame commercial buildings often cost less than comparable steel-frame structures, thanks to fewer foundation requirements and a faster build, without sacrificing structural integrity. We can walk through the tradeoffs for your specific building during a free estimate."
   - q: "Can you build a commercial building with office space inside?"
-    a: "Yes. We regularly build commercial pole buildings that include finished office suites, break rooms, restrooms, and customer-facing retail areas alongside warehouse or shop space. Everything is built to code with proper HVAC, plumbing, and electrical."
+    a: "Yes. We build commercial post-frame buildings that include finished office space, break rooms, restrooms, and customer-facing areas alongside warehouse or shop space, with the electrical, plumbing, and HVAC the space needs."
 tags:
   - "commercial buildings"
   - "pole barns"
@@ -30,14 +29,18 @@ tags:
   - "warehouse"
 ---
 
-## Commercial Construction with Post-Frame Efficiency
+## Commercial and Warehouse Buildings for Michigan Businesses
 
-CNO Pole Barns brings the same quality and reliability we are known for in residential and agricultural projects to the commercial sector. Post-frame construction offers business owners clear-span interiors, rapid build times, and significant cost savings compared to traditional steel frame or block construction. Whether you need a warehouse, retail storefront, auto repair shop, or agricultural supply building, we deliver a finished product that meets commercial building codes and your business requirements.
+CNO Pole Barns builds commercial and warehouse buildings for businesses across Oakland, Genesee, Lapeer, and Macomb counties. We work with residential and commercial clients alike, and every building is built to order around how you run your operation, whether that means a warehouse, a retail space, a shop, or a mix of office and work space under one roof.
 
-## Versatile Designs for Every Industry
+## Built Around Your Operation
 
-Our commercial buildings serve a wide range of industries across Oakland County and beyond. We have built auto detailing shops, landscaping equipment storage facilities, farm supply retail stores, and light manufacturing plants. The beauty of post-frame construction is its flexibility. Need a 60-foot clear span with no interior columns? Done. Want a mezzanine level for office space overlooking the shop floor? We can do that too. Every commercial project starts with a detailed consultation to understand your operations and design accordingly.
+Post-frame construction gives commercial buildings wide clear-span interiors with no interior columns to work around, plus loading docks, overhead doors, and concrete floors sized to your equipment. If you need finished office or retail space alongside a warehouse or shop floor, we build that too, with the electrical, plumbing, and HVAC the space needs.
 
-## 55 Years of Building Trust
+## Crews and Credentials to Handle the Job
 
-When you are investing in a commercial building, you want a contractor you can rely on. CNO Pole Barns has been serving the Michigan business community since 1970. Our family-owned company, led by Zosim Serban from our Clarkston headquarters, has built a reputation for honest pricing, reliable timelines, and buildings that perform. We handle everything from permits and site preparation to the final walkthrough. Call (248) 625-2334 to schedule a consultation for your commercial project.
+CNO Pole Barns runs 3 crews, which lets us take on commercial projects of real size alongside our residential work. We are a Certified Federal Steel Builder, licensed and insured, and carry an A+ rating with the Better Business Bureau.
+
+## Established 1970, Serving Michigan Businesses Today
+
+CNO Pole Barns was established in 1970. Today the business is owned and operated by Zosim Serban, who works alongside his crews on every project. We provide a free estimate for every commercial or warehouse building. Call (248) 625-2334 to discuss your project.

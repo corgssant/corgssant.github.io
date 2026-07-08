@@ -1,98 +1,190 @@
 ---
 layout: layouts/base.njk
-title: "About Us"
-description: "Learn about CNO Pole Barns — a family-owned Michigan construction company building custom pole barns since 1970. Meet owner Zosim Serban and our team."
+title: "About | Family Owned Since 1970"
+description: "CNO Pole Barns has been building post-frame buildings in southeast Michigan since 1970. Family owned, three crews, A+ BBB rated, and a certified Federal Steel Systems erector."
+image: "/images/projects/cno-truck-blue-barn-winter.jpg"
 permalink: /about/
 ---
 
-<section class="page-hero">
-  <div class="container">
-    <span class="section-label" style="color: var(--gold);">Our Story</span>
-    <h1>Built on Family, Driven by Craft</h1>
-    <p>Over 55 years of building Michigan's finest structures — one project at a time.</p>
+{% set crumbs = [{name:"Home",url:"/"},{name:"About",url:"/about/"}] %}
+{% set faq = [
+  {q:"What does CNO stand for?", a:"CNO stands for Charlie and Nancy Overfield, who opened the business in Clarkston in February 1970. The name stayed even as ownership changed hands."},
+  {q:"Who owns CNO Pole Barns today?", a:"Zosim Serban owns and runs CNO today. Customers also mention Ian, who project-manages jobs alongside him, and three crews who do the actual building."},
+  {q:"Does CNO still build pole barns, or just steel now?", a:"Post-frame is still most of what we build: garages, pole barns, horse barns, and barndominiums. Steel is a newer, second line of work, not a replacement for it."},
+  {q:"Is CNO licensed and insured?", a:"Yes. We're licensed, insured, and carry an A+ rating with the Better Business Bureau."}
+] %}
+
+{# ===== overlay hero ===== #}
+<header class="ohero">
+  <div class="bg"><img src="/images/projects/cno-truck-blue-barn-winter.jpg" alt="CNO work truck parked in front of a finished blue pole barn in the snow"></div>
+  <div class="wrap"><div class="ohero-inner stagger">
+    <div class="crumbs">{% for c in crumbs %}{% if not loop.last %}<a href="{{ c.url }}">{{ c.name }}</a> <span>/</span> {% else %}<span>{{ c.name }}</span>{% endif %}{% endfor %}</div>
+    <span class="lab">Family owned &middot; Clarkston, Michigan</span>
+    <h1>Building Since 1970</h1>
+    <p class="lead">CNO Pole Barns is a family owned post-frame and steel building contractor based in Clarkston, Michigan, run today by owner Zosim Serban and three crews across four counties.</p>
+    <div class="hero-cta">
+      <a class="btn btn-gold" href="/contact/">Get a free estimate</a>
+      <a class="btn btn-ghost" href="tel:{{ site.phoneTel }}">Call {{ site.phone }}</a>
+    </div>
+  </div></div>
+</header>
+
+{# ===== article body + sticky sidebar ===== #}
+<div class="artwrap">
+  <article class="article reveal">
+    <h2>What CNO Stands For</h2>
+    <p>CNO stands for Charlie and Nancy Overfield. They opened the business in Clarkston in February 1970, building pole barns for local farms and property owners. The name stuck, and it's still on the trucks today.</p>
+    <p>Ownership has changed hands since then. CNO Pole Barns is family owned and operated, and today the business is run by owner Zosim Serban. Customers who leave reviews also mention Ian, who project-manages jobs alongside him. Three crews handle the actual building, and the company carries an A+ rating with the Better Business Bureau.</p>
+
+    <figure class="inline-img riv">
+      <img src="/images/team/zosim-serban-2.jpg" alt="Portrait of Zosim Serban, owner of CNO Pole Barns" width="1424" height="1440" loading="lazy">
+      <figcaption>Zosim Serban, owner of CNO Pole Barns.</figcaption>
+    </figure>
+
+    <h2>How We Work</h2>
+    <p>Reviews on Google keep mentioning the same things: Zosim answers the phone, the schedule holds up, and the crew doesn't leave a mess behind. That's not an accident. Every job gets a direct line to the owner instead of a call center, and a contract with numbers that don't move once the work starts.</p>
+
+    <blockquote>
+      <p>"Zosim was on top of the project from start to finish and always available to review any questions that came up... After foundation and blocks were in place, the general structure was up in one day, the roof shingled the next morning... There were no surprises concerning financials."</p>
+      <p>- Reimund B., 24'x30' garage, Google review</p>
+    </blockquote>
+
+    <blockquote>
+      <p>"We had some issues being in the city with permits but Zosim was always on top of any problem that arose. Communication was phenomenal. I highly recommend this company."</p>
+      <p>- Heather B., garage rebuild after a fire, Google review</p>
+    </blockquote>
+
+    <p>The crews clean up when a job's done, too. It's a small thing that shows up in almost every review we get.</p>
+
+    <h2>Common Questions</h2>
+    <div class="faqwrap stagger">
+      {% for item in faq %}
+      <div class="faq"><div class="faq-q">{{ item.q }}</div><div class="faq-a"><p>{{ item.a }}</p></div></div>
+      {% endfor %}
+    </div>
+  </article>
+
+  <aside class="aside">
+    <div class="scard hi">
+      <h4>Get a free estimate</h4>
+      <p>Tell us what you want to build and we will come take a look. No pressure, no obligation.</p>
+      <a class="btn btn-gold" href="/contact/">Request an estimate</a>
+      <a class="btn btn-ghost" href="tel:{{ site.phoneTel }}" style="color:#fff;border-color:rgba(255,255,255,.4)">Call {{ site.phone }}</a>
+    </div>
+    <div class="scard">
+      <h4>Why CNO</h4>
+      <ul class="badges">
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> A+ BBB Rated</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Licensed &amp; Insured</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Certified Federal Steel Builder</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Building since 1970</li>
+      </ul>
+    </div>
+    <div class="scard">
+      <h4>Learn more</h4>
+      <ul class="qlinks">
+        <a href="/services/">Post-frame services <span>&rarr;</span></a>
+        <a href="/steel-buildings/">Steel buildings <span>&rarr;</span></a>
+        <a href="/portfolio/">Our work <span>&rarr;</span></a>
+        <a href="/areas/">Service area <span>&rarr;</span></a>
+      </ul>
+    </div>
+  </aside>
+</div>
+
+{# ===== two ways to build ===== #}
+<section class="blk" id="twoways">
+  <div class="wrap">
+    <div class="shead reveal">
+      <div class="lab">Post-frame or steel</div>
+      <h2>Two Ways To Build</h2>
+      <p class="lede">CNO started as a post-frame builder, and that's still most of what we do. We're also a certified Federal Steel Systems erector now, so steel is on the table too.</p>
+    </div>
+    <div class="two stagger">
+      <a class="way" href="/services/">
+        <div class="im">
+          <span class="tag">Post-frame</span>
+          <img src="/images/projects/tamek-barn.webp" alt="Red post-frame barn with lean-to porch and cupola, a CNO build" loading="lazy">
+        </div>
+        <div class="bd">
+          <h3>Post-frame buildings</h3>
+          <div class="sys">Wood posts, engineered trusses, steel skin</div>
+          <p>Garages, pole barns, horse barns, and barndominiums. Built to order, not off a shelf.</p>
+          <span class="go">See post-frame services &rarr;</span>
+        </div>
+      </a>
+      <a class="way steel" href="/steel-buildings/">
+        <div class="im">
+          <span class="tag">Steel</span>
+          <img src="/images/steel/steel-aircraft-hangar.jpg" alt="Large tan and blue pre-engineered steel aircraft hangar" loading="lazy">
+          <span class="credit">Photo: Federal Steel Systems</span>
+        </div>
+        <div class="bd">
+          <h3>Pre-engineered steel</h3>
+          <div class="sys">Bolt-together steel frames, clear spans to 250'</div>
+          <p>We're a certified Federal Steel Systems erector. We quote, deliver, and put up steel buildings for commercial, industrial, and ag jobs.</p>
+          <span class="go">See steel buildings &rarr;</span>
+        </div>
+      </a>
+    </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
-    <div class="split">
-      <div class="split-img fade-up">
-        <img src="/images/team/zosim-serban-2.jpg" alt="Zosim Serban, Owner of CNO Pole Barns">
-        <div class="split-badge">Est. 1970<span>Clarkston, Michigan</span></div>
+{# ===== coverage ===== #}
+<section class="blk tint" id="area">
+  <div class="wrap coverage">
+    <div>
+      <div class="lab reveal" style="margin-bottom:20px">Service area</div>
+      <h2 class="reveal">Family Owned In Clarkston. Building In Four Counties.</h2>
+      <p class="lede reveal">We're a service-area business, so the crews come to you. If you're within about an hour of Clarkston, you're in range.</p>
+      <div class="counties stagger">
+        <div class="county"><b>Oakland County</b><p>Clarkston, Waterford, White Lake, Auburn Hills, Troy, South Lyon</p></div>
+        <div class="county"><b>Genesee County</b><p>Fenton, Flint, Grand Blanc, Linden</p></div>
+        <div class="county"><b>Lapeer County</b><p>Lapeer, Metamora, Almont</p></div>
+        <div class="county"><b>Macomb County</b><p>Romeo, Washington, Shelby Township</p></div>
       </div>
-      <div class="split-content fade-up">
-        <h2>A Legacy of Craftsmanship</h2>
-        <p>CNO Pole Barns was founded in 1970 in Clarkston, Michigan, with a simple mission: build high-quality structures at fair prices. What began as a small family operation has grown into one of Southeast Michigan's most trusted construction companies.</p>
-        <p>For over 55 years, we've built everything from simple storage barns to complex equestrian facilities and modern barndominiums. Every project gets the same level of dedication, whether it's a one-car garage or a 10,000 sq ft commercial building.</p>
-        <p>Today, under the leadership of owner Zosim Serban, CNO continues the tradition of quality craftsmanship, honest communication, and building relationships that last as long as our structures.</p>
-      </div>
+    </div>
+    <div class="hours-card riv">
+      <h3>Talk to a builder, not a call center</h3>
+      <div class="row"><span>Monday - Saturday</span><b>8:30 AM - 7:00 PM</b></div>
+      <div class="row"><span>Sunday</span><b>Closed</b></div>
+      <a class="ph" href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
+      <p class="note">Zosim picks up. If he's on a roof, he calls back.</p>
     </div>
   </div>
 </section>
 
-<section class="section section-light">
-  <div class="container">
-    <div class="section-header fade-up">
-      <span class="section-label">Our Values</span>
-      <h2>What Sets Us Apart</h2>
-      <p>The principles that have guided us for over five decades.</p>
-    </div>
-    <div class="process-grid stagger-children">
-      <div class="process-step fade-up">
-        <div class="process-num" style="font-size: 1.5rem; border: none; background: var(--green); color: var(--white);">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-        </div>
-        <h3>Quality First</h3>
-        <p>We use premium materials and proven construction methods. Every structure is built to withstand Michigan's toughest conditions.</p>
-      </div>
-      <div class="process-step fade-up">
-        <div class="process-num" style="font-size: 1.5rem; border: none; background: var(--green); color: var(--white);">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-        </div>
-        <h3>Family Values</h3>
-        <p>We treat every customer like family. That means honest pricing, clear communication, and standing behind our work.</p>
-      </div>
-      <div class="process-step fade-up">
-        <div class="process-num" style="font-size: 1.5rem; border: none; background: var(--green); color: var(--white);">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-        </div>
-        <h3>Experience</h3>
-        <p>With 55+ years in the business, we've seen it all. Our experience means fewer surprises and better results for you.</p>
-      </div>
-      <div class="process-step fade-up">
-        <div class="process-num" style="font-size: 1.5rem; border: none; background: var(--green); color: var(--white);">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        </div>
-        <h3>Reliability</h3>
-        <p>We show up on time, stay on budget, and finish when we say we will. Your project is our priority from start to finish.</p>
-      </div>
-    </div>
+{# ===== cta ===== #}
+<section class="blk cta"><div class="wrap"><div class="box reveal">
+  <div>
+    <h2>Ready To Talk About Your Project?</h2>
+    <p>Tell us what you're picturing and we'll come take a look. Free estimate, straightforward pricing.</p>
   </div>
-</section>
+  <div class="row">
+    <a class="btn btn-gold" href="/contact/">Get a free estimate</a>
+    <span class="or">or call</span>
+    <a class="bigph" href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
+  </div>
+</div></div></section>
 
-<section class="section">
-  <div class="container">
-    <div class="split" style="grid-template-columns: 1fr 1.2fr;">
-      <div class="split-content fade-up">
-        <span class="section-label">Meet the Owner</span>
-        <h2>Zosim Serban</h2>
-        <p>Zosim has been in the construction industry for decades, carrying forward the family tradition that started CNO Pole Barns in 1970. His hands-on approach means he's often on-site, ensuring every project meets his high standards.</p>
-        <p>When he's not building, Zosim is deeply rooted in the Clarkston community — the same community that has trusted CNO with their construction needs for over half a century.</p>
-        <a href="/contact/" class="btn btn-dark" style="margin-top: 12px;">Get In Touch</a>
-      </div>
-      <div class="split-img fade-up">
-        <img src="/images/team/zosim-serban.jpg" alt="Zosim Serban" style="height: 480px;">
-      </div>
-    </div>
-  </div>
-</section>
+{# ===== json-ld: breadcrumb ===== #}
+{% include "partials/schema-breadcrumb.njk" %}
 
-<section class="section section-light">
-  <div class="container">
-    <div class="cta-banner fade-up">
-      <h2>Ready to Start Your Project?</h2>
-      <p>Let's talk about what you're building. Free consultations and estimates for all projects.</p>
-      <a href="/contact/" class="btn btn-primary">Get a Free Quote</a>
-    </div>
-  </div>
-</section>
+{# ===== json-ld: faqpage ===== #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in faq %}{
+      "@type": "Question",
+      "name": {{ item.q | dump | safe }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.a | dump | safe }}
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>

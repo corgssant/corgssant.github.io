@@ -1,0 +1,194 @@
+[
+  {
+    "src": "/images/projects/tractor-barn-twilight.jpg",
+    "alt": "Red pole barn with tractors parked under an open lean-to at dusk, white cupola on the roof",
+    "label": "Tractor storage - dusk",
+    "category": "barn",
+    "w": 575,
+    "h": 300
+  },
+  {
+    "src": "/images/projects/gray-commercial-pole-barn.jpg",
+    "alt": "Gray pole barn with three garage doors and a walk door, light snow on the ground",
+    "label": "Three-bay shop building",
+    "category": "garage",
+    "w": 1600,
+    "h": 1200
+  },
+  {
+    "src": "/images/projects/red-gambrel-barn-treeline.jpg",
+    "alt": "Small red gambrel-roof barn with white trim along a wooded treeline",
+    "label": "Red gambrel barn",
+    "category": "barn",
+    "w": 1600,
+    "h": 900
+  },
+  {
+    "src": "/images/projects/red-barn-distant-field.jpg",
+    "alt": "Red barn with a cupola standing in an open field, seen from a distance",
+    "label": "Barn in open field",
+    "category": "farm",
+    "w": 900,
+    "h": 1600
+  },
+  {
+    "src": "/images/projects/tan-pole-barn-side.jpg",
+    "alt": "Tan pole barn side view with a white garage door and brown trim",
+    "label": "Tan pole barn - side view",
+    "category": "barn",
+    "w": 900,
+    "h": 1600
+  },
+  {
+    "src": "/images/projects/tan-pole-barn-front.jpg",
+    "alt": "Tan pole barn front corner view showing brown roofline and gutter",
+    "label": "Tan pole barn - front view",
+    "category": "barn",
+    "w": 1600,
+    "h": 900
+  },
+  {
+    "src": "/images/projects/blue-gray-barn-open-door-winter.jpg",
+    "alt": "Blue and gray pole barn with a large door open showing the framed interior, snow on the ground",
+    "label": "Blue barn, open bay - winter",
+    "category": "barn",
+    "w": 1600,
+    "h": 900
+  },
+  {
+    "src": "/images/projects/cno-truck-blue-barn-winter.jpg",
+    "alt": "CNO Pole Barns truck parked in front of a finished blue and gray pole barn, snow on the ground",
+    "label": "CNO truck on site - winter",
+    "category": "barn",
+    "w": 1600,
+    "h": 900
+  },
+  {
+    "src": "/images/projects/blue-gray-barn-portrait-winter.jpg",
+    "alt": "Blue and gray pole barn exterior in snow, portrait view showing full gable end",
+    "label": "Blue barn - winter",
+    "category": "barn",
+    "w": 900,
+    "h": 1600
+  },
+  {
+    "src": "/images/projects/red-gambrel-barn-two-doors.jpg",
+    "alt": "Red gambrel-roof barn with two white garage doors on a sunny day",
+    "label": "Red gambrel barn, two doors",
+    "category": "barn",
+    "w": 1600,
+    "h": 900
+  },
+  {
+    "src": "/images/projects/red-gambrel-barn-front-straight.jpg",
+    "alt": "Straight-on front view of a red gambrel-roof barn with a single white garage door",
+    "label": "Red gambrel barn - front",
+    "category": "barn",
+    "w": 1600,
+    "h": 900
+  },
+  {
+    "src": "/images/projects/blue-pole-barn-lean-to-front.jpg",
+    "alt": "Blue pole barn with an open bay door and a small lean-to porch, grass path leading to the entrance",
+    "label": "Blue pole barn with lean-to",
+    "category": "barn",
+    "w": 575,
+    "h": 1023
+  },
+  {
+    "src": "/images/projects/blue-barn-near-completion.jpg",
+    "alt": "Blue pole barn nearing completion with an open bay showing exposed interior framing",
+    "label": "Blue barn - near completion",
+    "category": "barn",
+    "w": 1600,
+    "h": 900
+  },
+  {
+    "src": "/images/projects/pole-barn-crane-truss-set.jpg",
+    "alt": "Crane setting roof trusses on a pole barn frame while crew works on site",
+    "label": "Setting trusses with a crane",
+    "category": "framing",
+    "w": 1600,
+    "h": 900
+  },
+  {
+    "src": "/images/projects/pole-barn-truss-interior.jpg",
+    "alt": "Interior view of pole barn roof trusses with radiant barrier insulation",
+    "label": "Truss interior",
+    "category": "interior",
+    "w": 1600,
+    "h": 900
+  },
+  {
+    "src": "/images/projects/pole-barn-framed-interior.jpg",
+    "alt": "Interior of a pole barn showing framed stud walls with radiant barrier insulation",
+    "label": "Framed interior walls",
+    "category": "interior",
+    "w": 1600,
+    "h": 900
+  },
+  {
+    "src": "/images/projects/pole-barn-roof-deck-framing.jpg",
+    "alt": "Pole barn roof deck under construction with radiant barrier sheathing, blue sky",
+    "label": "Roof deck framing",
+    "category": "framing",
+    "w": 1600,
+    "h": 900
+  },
+  {
+    "src": "/images/projects/pole-barn-truss-crew.jpg",
+    "alt": "Crew framing roof trusses on a pole barn with walls wrapped, daytime",
+    "label": "Crew framing trusses",
+    "category": "framing",
+    "w": 1600,
+    "h": 900
+  },
+  {
+    "src": "/images/projects/blue-pole-barn-truss-interior.jpg",
+    "alt": "Interior roof truss view of a blue pole barn under construction",
+    "label": "Truss interior - blue barn",
+    "category": "interior",
+    "w": 1023,
+    "h": 575
+  },
+  {
+    "src": "/images/projects/pole-barn-interior-breezeway.jpg",
+    "alt": "Long interior view down a framed pole barn breezeway between stalls",
+    "label": "Interior breezeway",
+    "category": "interior",
+    "w": 1600,
+    "h": 900
+  },
+  {
+    "src": "/images/projects/pole-barn-eave-detail.jpg",
+    "alt": "Close-up of eave and overhang trim detail on a blue pole barn",
+    "label": "Eave trim detail",
+    "category": "framing",
+    "w": 1600,
+    "h": 900
+  },
+  {
+    "src": "/images/projects/tamek-barn.webp",
+    "alt": "Red pole barn with a green roof, cupola, and wraparound covered porch on wood posts",
+    "label": "Red barn with covered porch",
+    "category": "barn",
+    "w": 1360,
+    "h": 1020
+  },
+  {
+    "src": "/images/projects/michigan-farm.webp",
+    "alt": "Red pole barn with goats grazing in a fenced pasture in front",
+    "label": "Barn with pasture goats",
+    "category": "farm",
+    "w": 2835,
+    "h": 2126
+  },
+  {
+    "src": "/images/projects/shop-building.jpg",
+    "alt": "Modern tan and brown pole barn shop with a wraparound covered porch, wood posts, and a sliding glass door",
+    "label": "Shop building with covered porch",
+    "category": "shop",
+    "w": 1000,
+    "h": 750
+  }
+]

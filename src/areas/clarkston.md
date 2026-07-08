@@ -1,35 +1,35 @@
 ---
 layout: layouts/area.njk
 title: "Pole Barn Builders in Clarkston, MI"
-description: "CNO Pole Barns — Clarkston's hometown pole barn builder since 1970. Family-owned, licensed & insured. Custom pole barns, garages, horse barns & more. Call (248) 625-2334."
+description: "Custom pole barns, garages, and horse barns for Clarkston and Independence Township. Licensed, insured, A+ BBB rated. Call (248) 625-2334."
 city: "Clarkston"
 state: "MI"
 county: "Oakland"
-image: "/images/projects/horsebarn2.jpg"
-subtitle: "Clarkston's hometown pole barn builder — headquartered right here on Ridgewood Road since 1970."
+image: "/images/projects/red-gambrel-barn-treeline.jpg"
+subtitle: "Custom pole barns, garages, and horse barns for Clarkston and Independence Township - locally owned, with free on-site estimates."
 whyChoose:
-  - title: "We're Your Neighbors"
-    text: "CNO Pole Barns is headquartered at 6575 Ridgewood Road in Clarkston. When you hire us, you're hiring a neighbor who takes pride in building structures that reflect well on our shared community."
-  - title: "55+ Years of Local Knowledge"
-    text: "We've been building in Clarkston since 1970. We know the soil conditions, the township permitting process, and the building codes inside and out — saving you time and headaches."
+  - title: "Local Permit Knowledge"
+    text: "We know how Independence Township and Oakland County handle permitting for pole barns and outbuildings, so your project moves forward without unnecessary delays."
   - title: "Built for Michigan Weather"
-    text: "Our pole barns are engineered for Oakland County's heavy snow loads, freeze-thaw cycles, and severe storms. Every post is set deep, every roof is rated for Michigan's toughest seasons."
-  - title: "One Family, One Standard"
-    text: "Owner Zosim Serban personally oversees every Clarkston project. There are no subcontracted crews or cut corners — just the same family craftsmanship we've delivered for over five decades."
+    text: "Heavy snow loads, freeze-thaw cycles, and severe storms are part of the design from day one. Posts are set deep and every roof is built to hold up season after season."
+  - title: "Certified Federal Steel Builder"
+    text: "Our steel buildings meet federal certification standards, giving Clarkston property owners a durable, code-compliant structure built to last."
+  - title: "One Owner Who Shows Up"
+    text: "Owner Zosim Serban personally oversees every Clarkston project, working alongside one of our 3 crews from the first site visit through the final walkthrough."
 ---
 
-## Clarkston's Own Pole Barn Builder
+## Pole Barns and Steel Buildings for Clarkston
 
-CNO Pole Barns isn't just another contractor that serves Clarkston — we *are* Clarkston. Our shop sits on Ridgewood Road, just minutes from downtown and the mill pond. Founded in 1970 by Zosim Serban, our family-owned company has spent more than 55 years building pole barns, horse barns, garages, and agricultural buildings for our neighbors throughout Independence Township and the greater Clarkston area. When you drive through the rolling countryside along Sashabaw, Holcomb, or Rattalee Lake roads, many of the barns and outbuildings you see were built by our crew.
+CNO Pole Barns serves Clarkston and Independence Township as part of a service area that also covers Genesee, Lapeer, and Macomb counties. CNO was established in 1970, and today the business is locally owned and operated by Zosim Serban, who runs every Clarkston project with his own crew.
 
-## Deep Roots in Independence Township
+## The Buildings Clarkston Properties Need
 
-Clarkston and Independence Township offer a unique blend of rural character and proximity to metro Detroit. Properties here range from modest residential lots near downtown to sprawling acreages along the Clarkston-Ortonville corridor. That variety means we build everything from compact backyard garages and hobby shops to full-size horse barns with multiple stalls, tack rooms, and hay lofts. We understand the local zoning ordinances, wetland setback requirements, and Independence Township's building department procedures, so your project moves forward without unnecessary delays.
+Clarkston mixes established residential neighborhoods with larger parcels throughout Independence Township, and we build for both. Homeowners call us for detached garages, workshops, and storage buildings, while property owners with more acreage ask for pole barns, horse barns, and multipurpose agricultural buildings. Every structure is designed around the property and how you plan to use it, not a fixed floor plan.
 
-## The Right Barn for Your Clarkston Property
+## Why Clarkston Property Owners Choose CNO
 
-Whether you're on a few acres off Clarkston Road and need a workshop for your woodworking hobby, or you own a larger parcel near Springfield Oaks and want a proper equestrian facility, CNO designs every pole barn to match the property and the purpose. We offer a full range of customization — steel or vinyl siding in dozens of colors, insulated walls and ceilings, concrete floors, oversized sliding doors, cupolas, and more. Our on-site estimates are always free, and because we're right down the road, we can usually schedule a visit within days of your call.
+We are licensed and insured, carry an A+ rating with the Better Business Bureau, and are a Certified Federal Steel Builder. Every estimate is free and done on-site, so we can see your property and put together an accurate plan before any work begins. We also build with Michigan winters in mind, framing and roofing so your barn or garage holds up for years.
 
-## A Reputation Built One Barn at a Time
+## Get a Free Estimate in Clarkston
 
-Over five decades in Clarkston, our reputation has been built through word of mouth. Neighbors recommend us to neighbors, and many of our customers are second- or third-generation clients whose parents or grandparents hired us years ago. We carry an A+ rating with the Better Business Bureau, and we're fully licensed and insured in the state of Michigan. If you're ready to build, call us at (248) 625-2334 or stop by our Ridgewood Road shop — we'd love to walk you through what's possible for your property.
+Ready to talk about a pole barn, garage, or horse barn on your Clarkston-area property? Call CNO Pole Barns at (248) 625-2334. We will schedule a free on-site visit, walk the property with you, and put together a detailed estimate for your project.

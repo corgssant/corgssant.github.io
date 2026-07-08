@@ -1,28 +1,29 @@
 ---
 layout: layouts/service.njk
 title: "Shop & Storage Buildings"
-subtitle: "Organized space for tools, toys, and projects"
-description: "Custom shop and storage buildings by CNO Pole Barns in Clarkston MI. Post-frame workshops and storage solutions for Oakland County homeowners. Call (248) 625-2334."
-category: "Residential & Hobby"
-image: "/images/projects/horsebarn5.jpg"
+subtitle: "Shop, storage, and warehouse buildings for any use"
+description: "Custom shop, storage, and warehouse buildings for homeowners and businesses across southeast Michigan. Licensed, insured. Call (248) 625-2334."
+category: "Residential & Commercial"
+image: "/images/projects/gray-commercial-pole-barn.jpg"
 order: 6
-style: "split-right"
 features:
   - "Wired for 220V power tools and welders"
   - "Overhead doors in 10ft, 12ft, and 14ft widths"
   - "Heated and insulated for year-round use"
   - "Workbench and storage loft options"
 gallery:
-  - src: "/images/projects/horsebarn5.jpg"
-    alt: "Post-frame shop and storage building in Michigan"
-    caption: "A heated workshop with overhead loft storage"
+  - src: "/images/projects/gray-commercial-pole-barn.jpg"
+    alt: "Gray pole barn with three garage doors and a walk door, light snow on the ground"
+    caption: "A three-bay shop building with a walk door"
 faq:
   - q: "What is the difference between a shop building and a garage?"
     a: "A shop is typically designed more for working in than just parking vehicles. Shops often feature higher ceilings, wider doors, dedicated electrical circuits for power tools, built-in workbenches, and compressed air lines. We design your shop around the work you plan to do in it."
   - q: "Can I add a shop building to my residential property?"
-    a: "In most Oakland County townships, yes. Zoning regulations vary by municipality, so setback requirements and maximum building sizes differ. We are familiar with local regulations and can help you determine what is allowed on your property."
+    a: "In most townships across our service area, yes. Zoning rules vary by municipality, so setback requirements and maximum building sizes differ from one place to the next. We are familiar with local regulations and can help you determine what is allowed on your property."
   - q: "Do you offer concrete floors for shop buildings?"
-    a: "Yes, and we strongly recommend them for shop use. We pour reinforced concrete slabs rated for the loads your shop will handle, whether that means a light woodworking hobby or a full automotive lift."
+    a: "Yes, and we recommend them for most shop use. We pour concrete slabs sized for the load your shop will handle, whether that means a light woodworking hobby or a full automotive lift."
+  - q: "Do you build storage or warehouse buildings for a business?"
+    a: "Yes. Beyond shops built around a hobby, we build storage buildings and warehouse structures for commercial and small-business use. We work with residential and commercial clients alike, and our crews take on projects of nearly any size."
 tags:
   - "shop buildings"
   - "storage buildings"
@@ -30,14 +31,18 @@ tags:
   - "michigan"
 ---
 
-## Your Dream Workshop, Built Right
+## Shop, Storage, and Warehouse Buildings
 
-Every hobbyist, craftsman, and weekend mechanic deserves a proper workspace. CNO Pole Barns builds custom shop and storage buildings that give you room to work on your projects without taking over the family garage. Our post-frame shops feature high ceilings for lifts and overhead storage, wide doors for equipment access, and heavy-duty electrical systems that can handle welders, compressors, and CNC machines.
+CNO Pole Barns builds shop buildings, storage buildings, and warehouse buildings for homeowners and businesses across Oakland, Genesee, Lapeer, and Macomb counties. A shop gives you a real place to work on projects instead of taking over the garage. Storage and warehouse buildings do the same for equipment, inventory, or vehicles that need a proper home. We design each one around what you actually plan to do inside it.
 
-## Storage That Works as Hard as You Do
+## Wired, Heated, and Ready to Work
 
-Beyond the workbench, our storage buildings keep your property organized and your equipment protected. Lawn tractors, snowmobiles, ATVs, classic cars, and seasonal items all have a proper home. We build with the same quality materials and construction methods used in our larger agricultural and commercial projects, scaled to fit residential properties. Loft storage, shelving systems, and partition walls help you maximize every square foot.
+Shop buildings can be wired for power tools and welders, heated and insulated for year-round use, and poured with a concrete floor sized for the load you put on it, from a hobby woodshop to a full automotive lift. Overhead doors, workbenches, shelving, and loft storage are all options we size to fit how the space gets used.
 
-## Built for Michigan Hobbyists
+## Storage and Warehouse Buildings for Business
 
-Whether you are restoring a classic Mustang in Brandon Township or building furniture in your Clarkston backyard, CNO Pole Barns understands what Michigan hobbyists need. Our family has been part of the Oakland County community since 1970, and many of our shop buildings were designed in conversation with the people who use them every day. Zosim Serban and the CNO team will work with you from initial sketches to final inspection. Give us a call at (248) 625-2334.
+Not every storage building is for a homeowner's hobby. We also build storage and warehouse buildings for small businesses that need space for inventory, equipment, or fleet vehicles. CNO Pole Barns works with residential and commercial clients alike, and our crews take on projects of nearly any size.
+
+## Locally Owned, Licensed, and Insured
+
+CNO Pole Barns was established in 1970 and is owned and operated today by Zosim Serban. We are A+ rated with the Better Business Bureau, licensed and insured, and offer free estimates for shop, storage, and warehouse buildings of any size. Call (248) 625-2334 to talk through what you need.

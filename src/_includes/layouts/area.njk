@@ -2,142 +2,90 @@
 layout: layouts/base.njk
 ---
 
-{# ========== SERVICE AREA DETAIL PAGE ========== #}
-{# Location-specific pages for SEO — each slightly different #}
+{% set crumbs = [{name:"Home",url:"/"},{name:"Service Areas",url:"/areas/"},{name:city,url:page.url}] %}
+{% set heroImage = heroImage or "/images/projects/michigan-farm.webp" %}
 
-{# Hero #}
-<section class="service-hero" style="background-image: url('{{ image or '/images/projects/pole-building.jpg' }}');">
-  <div class="service-hero-overlay"></div>
-  <div class="container service-hero-content">
-    <span class="section-label" style="color: var(--gold);">Service Area</span>
+{# ===== overlay hero (placeholder project photo; set per-area via heroImage front matter) ===== #}
+<header class="ohero">
+  <div class="bg"><img src="{{ heroImage }}" alt="A pole barn built by CNO Pole Barns in Michigan"></div>
+  <div class="wrap"><div class="ohero-inner stagger">
+    <div class="crumbs">{% for c in crumbs %}{% if not loop.last %}<a href="{{ c.url }}">{{ c.name }}</a> <span>/</span> {% else %}<span>{{ c.name }}</span>{% endif %}{% endfor %}</div>
+    <span class="lab">Service Area</span>
     <h1>Pole Barn Builders in {{ city }}, {{ state or "MI" }}</h1>
-    <p class="service-hero-sub">{{ subtitle or ("Trusted pole barn construction serving " + city + " and the surrounding " + county + " area since 1970.") }}</p>
-    <div class="hero-actions">
-      <a href="/contact/" class="btn btn-primary">Get a Free Quote</a>
-      <a href="tel:{{ site.phoneTel }}" class="btn btn-outline">Call {{ site.phone }}</a>
+    {% if subtitle %}<p class="lead">{{ subtitle }}</p>{% endif %}
+    <div class="hero-cta">
+      <a href="/contact/" class="btn btn-green">Get a Free Estimate</a>
+      <a href="tel:{{ site.phoneTel }}" class="btn btn-ghost">Call {{ site.phone }}</a>
     </div>
-  </div>
-</section>
+  </div></div>
+</header>
 
-{# Intro + Trust #}
-<section class="section">
-  <div class="container">
-    <div class="split">
-      <div class="split-content fade-up">
-        <span class="section-label">{{ city }}, {{ state or "MI" }}</span>
-        <h2>Your Trusted Local Pole Barn Builder</h2>
-        {{ content | safe }}
-        <div class="split-features" style="margin-top: 24px;">
-          <div class="split-feature">
-            <div class="split-feature-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            </div>
-            A+ BBB Rating
-          </div>
-          <div class="split-feature">
-            <div class="split-feature-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            </div>
-            Family-Owned Since 1970
-          </div>
-          <div class="split-feature">
-            <div class="split-feature-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            </div>
-            Licensed &amp; Insured
-          </div>
-          <div class="split-feature">
-            <div class="split-feature-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            </div>
-            Free On-Site Estimates
-          </div>
-        </div>
-      </div>
-      <div class="split-img fade-up">
-        <img src="{{ image or '/images/projects/pole-building.jpg' }}" alt="Pole Barn in {{ city }}">
-        <div class="split-badge">55+<span>Years Serving Michigan</span></div>
-      </div>
-    </div>
-  </div>
-</section>
+{# ===== article body + sticky sidebar ===== #}
+<div class="artwrap">
+  <article class="article reveal">
+    {{ content | safe }}
+  </article>
 
-{# Services Available in This Area #}
-<section class="section section-light">
-  <div class="container">
-    <div class="section-header fade-up">
-      <span class="section-label">What We Build in {{ city }}</span>
-      <h2>Our Services in {{ city }}, {{ state or "MI" }}</h2>
-      <p>From residential garages to commercial buildings, we offer the full range of pole barn construction services in the {{ city }} area.</p>
+  <aside class="aside">
+    <div class="scard hi">
+      <h4>Get a free estimate</h4>
+      <p>Tell us about your {{ city }} project and we will come take a look. No pressure, no obligation.</p>
+      <a class="btn btn-green" href="/contact/">Request an estimate</a>
+      <a class="btn btn-ghost" href="tel:{{ site.phoneTel }}" style="color:#fff;border-color:rgba(255,255,255,.4)">Call {{ site.phone }}</a>
     </div>
-    <div class="services-grid stagger-children">
-      {% for service in collections.services | limit(6) %}
-      <div class="service-card fade-up">
-        <div class="service-card-img">
-          <img src="{{ service.data.image }}" alt="{{ service.data.title }} in {{ city }}">
-        </div>
-        <div class="service-card-body">
-          <h3>{{ service.data.title }}</h3>
-          <p>{{ service.data.subtitle }}</p>
-          <a href="{{ service.url }}" class="service-link">
-            Learn More
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-          </a>
-        </div>
-      </div>
-      {% endfor %}
+    <div class="scard">
+      <h4>Why CNO</h4>
+      <ul class="badges">
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> A+ BBB Rated</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Licensed &amp; Insured</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Certified Federal Steel Builder</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Building since 1970</li>
+      </ul>
     </div>
-  </div>
-</section>
+    <div class="scard">
+      <h4>What we build in {{ city }}</h4>
+      <ul class="qlinks">
+        {% for service in collections.services | limit(5) %}<a href="{{ service.url }}">{{ service.data.title }} <span>&rarr;</span></a>{% endfor %}
+      </ul>
+    </div>
+    <div class="scard">
+      <h4>Nearby areas</h4>
+      <ul class="qlinks">
+        {% for area in collections.areas | limit(7) %}{% if area.url != page.url %}<a href="{{ area.url }}">{{ area.data.city }} <span>&rarr;</span></a>{% endif %}{% endfor %}
+      </ul>
+    </div>
+  </aside>
+</div>
 
-{# Why Choose CNO for this area #}
-{% if whyChoose %}
-<section class="section">
-  <div class="container">
-    <div class="section-header fade-up">
-      <span class="section-label">Why CNO</span>
-      <h2>Why {{ city }} Chooses CNO Pole Barns</h2>
-    </div>
-    <div class="process-grid stagger-children">
-      {% for reason in whyChoose %}
-      <div class="process-step fade-up">
-        <div class="process-num">{% if loop.index < 10 %}0{% endif %}{{ loop.index }}</div>
-        <h3>{{ reason.title }}</h3>
-        <p>{{ reason.text }}</p>
-      </div>
-      {% endfor %}
-    </div>
+{# ===== cta ===== #}
+<section class="blk cta"><div class="wrap"><div class="box reveal">
+  <h2>Ready to build in {{ city }}?</h2>
+  <p>Get a free, no-obligation estimate for your {{ city }} project. Call today or send us the details and we will come take a look.</p>
+  <div class="row">
+    <a href="/contact/" class="btn btn-dark">Get a Free Estimate</a>
+    <a href="tel:{{ site.phoneTel }}" class="btn btn-ghost" style="border-color:rgba(13,36,21,.3);color:#0d2415">Call {{ site.phone }}</a>
   </div>
-</section>
-{% endif %}
+</div></div></section>
 
-{# Other Service Areas #}
-<section class="section {% if whyChoose %}section-light{% endif %}">
-  <div class="container">
-    <div class="section-header fade-up">
-      <span class="section-label">Nearby Areas</span>
-      <h2>We Also Serve</h2>
-    </div>
-    <div class="areas-list fade-up">
-      {% for area in collections.areas %}
-      {% if area.url != page.url %}
-      <a href="{{ area.url }}" class="area-tag">{{ area.data.city }}</a>
-      {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-</section>
+{# ===== json-ld: service ===== #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": {{ ("Pole Barn Construction in " + city) | dump | safe }},
+  "serviceType": {{ "Pole Barn Construction" | dump | safe }},
+  "provider": {
+    "@type": "GeneralContractor",
+    "name": {{ site.name | dump | safe }},
+    "url": {{ site.url | dump | safe }},
+    "telephone": {{ site.phone | dump | safe }}
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": {{ (city + ", MI") | dump | safe }}
+  }
+}
+</script>
 
-{# CTA #}
-<section class="section">
-  <div class="container">
-    <div class="cta-banner fade-up">
-      <h2>Ready to Build in {{ city }}?</h2>
-      <p>Get a free estimate for your {{ city }} project. We handle everything from permits to final walkthrough.</p>
-      <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-        <a href="/contact/" class="btn btn-primary">Get a Free Quote</a>
-        <a href="tel:{{ site.phoneTel }}" class="btn btn-outline">Call {{ site.phone }}</a>
-      </div>
-    </div>
-  </div>
-</section>
+{# ===== json-ld: breadcrumb ===== #}
+{% include "partials/schema-breadcrumb.njk" %}

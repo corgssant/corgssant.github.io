@@ -4,3 +4,11 @@ _site/
 *.log
 .superpowers/
 docs/reference/google-business-profile-export/
+
+# Raw image drops at repo root (unprocessed manufacturer/source photos) -
+# only processed images under src/images/ are committed.
+/*.jpg
+/*.jpeg
+/*.png
+/Website content.docx
+images/projects/Photos/

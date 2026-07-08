@@ -20,6 +20,7 @@ jobs:
           node-version: 20
       - run: npm ci
       - run: npx @11ty/eleventy
+      - run: rm -f _site/CNAME   # staging on github.io; remove for production custom-domain deploy
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

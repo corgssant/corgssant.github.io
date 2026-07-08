@@ -20,7 +20,7 @@ Barndominiums have gone from a niche concept to one of the fastest-growing trend
 
 ## What Makes a Barndominium Different
 
-A barndominium starts with a post-frame structure — the same type of building used for agricultural storage, workshops, and commercial spaces. The key difference is in the finishing. The interior is framed out with stud walls, insulated, wired, plumbed, and finished with drywall, flooring, and all the fixtures of a conventional home. Many barndominium owners also incorporate large shop or garage spaces alongside the living area, giving them the best of both worlds under one roof.
+A barndominium starts with a post-frame structure - the same type of building used for agricultural storage, workshops, and commercial spaces. The key difference is in the finishing. The interior is framed out with stud walls, insulated, wired, plumbed, and finished with drywall, flooring, and all the fixtures of a conventional home. Many barndominium owners also incorporate large shop or garage spaces alongside the living area, giving them the best of both worlds under one roof.
 
 The open-span design of post-frame construction is a major advantage for residential layouts. Without interior load-bearing walls, you have enormous flexibility in floor plan design. Vaulted ceilings, open-concept living areas, and wide room layouts are all easy to achieve. Some owners go with a full two-story design, while others prefer a single-level layout with high ceilings throughout.
 
@@ -34,7 +34,7 @@ Keep in mind that these figures can vary based on several factors: the complexit
 
 This is where many barndominium projects hit their first obstacle. Zoning regulations in Michigan are handled at the township and county level, and not every municipality is welcoming to residential post-frame construction. Some townships classify barndominiums as accessory buildings rather than primary residences, while others have minimum square footage requirements or aesthetic standards that must be met.
 
-Before you fall in love with a floor plan, contact your local building and zoning department. Key questions to ask include whether post-frame residential construction is permitted in your zoning district, what the minimum requirements are for foundations and exterior finishes, and whether there are any HOA or deed restrictions on your property. In many rural Michigan townships — particularly in counties like Lenawee, Hillsdale, Jackson, and Monroe — barndominiums are welcomed without issue. More suburban or developed areas may have stricter rules.
+Before you fall in love with a floor plan, contact your local building and zoning department. Key questions to ask include whether post-frame residential construction is permitted in your zoning district, what the minimum requirements are for foundations and exterior finishes, and whether there are any HOA or deed restrictions on your property. In many rural Michigan townships - particularly in counties like Lenawee, Hillsdale, Jackson, and Monroe - barndominiums are welcomed without issue. More suburban or developed areas may have stricter rules.
 
 ## Designing Your Barndominium
 
@@ -52,6 +52,6 @@ Working with a builder experienced in barndominium construction ensures that the
 
 ## Is a Barndominium Right for You?
 
-Barndominiums work best for people who value functional space, energy efficiency, and the flexibility to combine living and working areas under one roof. They're particularly well-suited to rural Michigan properties where land is affordable and zoning is accommodating. If you're looking for a traditional suburban aesthetic, a barndominium may not be the best fit — but if you're drawn to open layouts, durable construction, and a lower price tag, it's worth serious consideration.
+Barndominiums work best for people who value functional space, energy efficiency, and the flexibility to combine living and working areas under one roof. They're particularly well-suited to rural Michigan properties where land is affordable and zoning is accommodating. If you're looking for a traditional suburban aesthetic, a barndominium may not be the best fit - but if you're drawn to open layouts, durable construction, and a lower price tag, it's worth serious consideration.
 
 The key to a successful barndominium project is planning. Take the time to understand your local regulations, work with an experienced builder, and invest in quality insulation and mechanical systems. Done right, a barndominium can be a comfortable, efficient, and long-lasting home that serves you well for decades.

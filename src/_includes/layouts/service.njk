@@ -2,185 +2,122 @@
 layout: layouts/base.njk
 ---
 
-{# ========== SERVICE DETAIL PAGE ========== #}
-{# Each service page has a unique layout based on its style variant #}
+{% set crumbs = [{name:"Home",url:"/"},{name:"Services",url:"/services/"},{name:title,url:page.url}] %}
 
-{# Hero #}
-<section class="service-hero" style="background-image: url('{{ image }}');">
-  <div class="service-hero-overlay"></div>
-  <div class="container service-hero-content">
-    <span class="section-label" style="color: var(--gold);">{{ category or "Our Services" }}</span>
+{# ===== overlay hero (photo + scrim, or solid dark band if no image) ===== #}
+<header class="ohero{% if not image %} noimg{% endif %}">
+  {% if image %}<div class="bg"><img src="{{ image }}" alt="{{ title }}"></div>{% endif %}
+  <div class="wrap"><div class="ohero-inner stagger">
+    <div class="crumbs">{% for c in crumbs %}{% if not loop.last %}<a href="{{ c.url }}">{{ c.name }}</a> <span>/</span> {% else %}<span>{{ c.name }}</span>{% endif %}{% endfor %}</div>
+    {% if category %}<span class="lab">{{ category }}</span>{% endif %}
     <h1>{{ title }}</h1>
-    <p class="service-hero-sub">{{ subtitle }}</p>
-    <div class="hero-actions">
-      <a href="/contact/" class="btn btn-primary">Get a Free Quote</a>
-      <a href="tel:{{ site.phoneTel }}" class="btn btn-outline">Call {{ site.phone }}</a>
+    {% if subtitle %}<p class="lead">{{ subtitle }}</p>{% endif %}
+    <div class="hero-cta">
+      <a href="/contact/" class="btn btn-green">Get a Free Estimate</a>
+      <a href="tel:{{ site.phoneTel }}" class="btn btn-ghost">Call {{ site.phone }}</a>
     </div>
-  </div>
-</section>
+  </div></div>
+</header>
 
-{# Main Content — alternating layout style per service #}
-<section class="section">
-  <div class="container">
-    {% if style == "split-right" or not style %}
-    {# Default: image left, text right #}
-    <div class="split">
-      <div class="split-img fade-up">
-        <img src="{{ image }}" alt="{{ title }}">
-        {% if badge %}
-        <div class="split-badge">{{ badge }}<span>{{ badgeLabel }}</span></div>
-        {% endif %}
-      </div>
-      <div class="split-content fade-up">
-        {{ content | safe }}
-        {% if features %}
-        <div class="split-features">
-          {% for feature in features %}
-          <div class="split-feature">
-            <div class="split-feature-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            </div>
-            {{ feature }}
-          </div>
-          {% endfor %}
-        </div>
-        {% endif %}
-        <a href="/contact/" class="btn btn-dark" style="margin-top: 16px;">Request a Quote</a>
-      </div>
-    </div>
-
-    {% elif style == "split-left" %}
-    {# Text left, image right #}
-    <div class="split">
-      <div class="split-content fade-up">
-        {{ content | safe }}
-        {% if features %}
-        <div class="split-features">
-          {% for feature in features %}
-          <div class="split-feature">
-            <div class="split-feature-icon">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            </div>
-            {{ feature }}
-          </div>
-          {% endfor %}
-        </div>
-        {% endif %}
-        <a href="/contact/" class="btn btn-dark" style="margin-top: 16px;">Request a Quote</a>
-      </div>
-      <div class="split-img fade-up">
-        <img src="{{ image }}" alt="{{ title }}">
-      </div>
-    </div>
-
-    {% elif style == "full-width" %}
-    {# Full width content with image gallery #}
-    <div class="service-detail-content fade-up">
-      {{ content | safe }}
-      {% if features %}
-      <div class="split-features" style="max-width: 600px; margin: 36px 0;">
-        {% for feature in features %}
-        <div class="split-feature">
-          <div class="split-feature-icon">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-          </div>
-          {{ feature }}
-        </div>
-        {% endfor %}
-      </div>
-      {% endif %}
-      <a href="/contact/" class="btn btn-dark">Request a Quote</a>
+{# ===== article body + sticky sidebar ===== #}
+<div class="artwrap">
+  <article class="article reveal">
+    {{ content | safe }}
+    {% if features %}
+    <ul class="flist">
+      {% for f in features %}<li>{{ f }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+    {% if gallery and gallery.length %}
+    <figure class="inline-img riv">
+      <img src="{{ gallery[0].src }}" alt="{{ gallery[0].alt or title }}">
+      {% if gallery[0].caption %}<figcaption>{{ gallery[0].caption }}</figcaption>{% endif %}
+    </figure>
+    {% endif %}
+    {% if faq %}
+    <h2>Common questions</h2>
+    <div class="faqwrap stagger">
+      {% for item in faq %}
+      <div class="faq"><div class="faq-q">{{ item.q }}</div><div class="faq-a"><p>{{ item.a }}</p></div></div>
+      {% endfor %}
     </div>
     {% endif %}
-  </div>
-</section>
+  </article>
 
-{# Gallery (if images provided) #}
-{% if gallery %}
-<section class="section section-light">
-  <div class="container">
-    <div class="section-header fade-up">
-      <span class="section-label">Gallery</span>
-      <h2>{{ title }} Projects</h2>
+  <aside class="aside">
+    <div class="scard hi">
+      <h4>Get a free estimate</h4>
+      <p>Tell us what you want to build and we will come take a look. No pressure, no obligation.</p>
+      <a class="btn btn-green" href="/contact/">Request an estimate</a>
+      <a class="btn btn-ghost" href="tel:{{ site.phoneTel }}" style="color:#fff;border-color:rgba(255,255,255,.4)">Call {{ site.phone }}</a>
     </div>
-    <div class="gallery-grid stagger-children">
-      {% for img in gallery %}
-      <div class="gallery-item fade-up">
-        <img src="{{ img.src }}" alt="{{ img.alt or title }}">
-        {% if img.caption %}
-        <div class="gallery-overlay"><span>{{ img.caption }}</span></div>
-        {% endif %}
-      </div>
-      {% endfor %}
+    <div class="scard">
+      <h4>Why CNO</h4>
+      <ul class="badges">
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> A+ BBB Rated</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Licensed &amp; Insured</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Certified Federal Steel Builder</li>
+        <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg> Building since 1970</li>
+      </ul>
     </div>
-  </div>
-</section>
-{% endif %}
+    <div class="scard">
+      <h4>Related services</h4>
+      <ul class="qlinks">
+        {% for service in collections.services | limit(5) %}{% if service.url != page.url %}<a href="{{ service.url }}">{{ service.data.title }} <span>&rarr;</span></a>{% endif %}{% endfor %}
+      </ul>
+    </div>
+  </aside>
+</div>
 
-{# FAQ (if provided) #}
+{# ===== cta ===== #}
+<section class="blk cta"><div class="wrap"><div class="box reveal">
+  <h2>Ready to talk about your {{ title }} project?</h2>
+  <p>Get a free, no-obligation estimate with straightforward pricing. Call today or send us the details and we will come take a look.</p>
+  <div class="row">
+    <a href="/contact/" class="btn btn-dark">Get a Free Estimate</a>
+    <a href="tel:{{ site.phoneTel }}" class="btn btn-ghost" style="border-color:rgba(13,36,21,.3);color:#0d2415">Call {{ site.phone }}</a>
+  </div>
+</div></div></section>
+
+{# ===== json-ld: service ===== #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": {{ title | dump | safe }},
+  "serviceType": {{ category | dump | safe }},
+  "provider": {
+    "@type": "GeneralContractor",
+    "name": {{ site.name | dump | safe }},
+    "url": {{ site.url | dump | safe }},
+    "telephone": {{ site.phone | dump | safe }}
+  },
+  "areaServed": [
+    {% for c in site.counties %}{ "@type": "AdministrativeArea", "name": {{ (c + " County, MI") | dump | safe }} }{% if not loop.last %},{% endif %}{% endfor %}
+  ]
+}
+</script>
+
+{# ===== json-ld: breadcrumb ===== #}
+{% include "partials/schema-breadcrumb.njk" %}
+
+{# ===== json-ld: faqpage ===== #}
 {% if faq %}
-<section class="section">
-  <div class="container">
-    <div class="section-header fade-up">
-      <span class="section-label">FAQ</span>
-      <h2>Common Questions About {{ title }}</h2>
-    </div>
-    <div class="faq-list fade-up">
-      {% for item in faq %}
-      <div class="faq-item">
-        <button class="faq-question">
-          <span>{{ item.q }}</span>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-        </button>
-        <div class="faq-answer">
-          <p>{{ item.a }}</p>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in faq %}{
+      "@type": "Question",
+      "name": {{ item.q | dump | safe }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ item.a | dump | safe }}
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
 {% endif %}
-
-{# Other Services #}
-<section class="section {% if faq %}section-light{% endif %}">
-  <div class="container">
-    <div class="section-header fade-up">
-      <span class="section-label">Explore</span>
-      <h2>Other Services</h2>
-    </div>
-    <div class="services-grid stagger-children">
-      {% for service in collections.services %}
-      {% if service.url != page.url %}
-      <div class="service-card fade-up">
-        <div class="service-card-img">
-          <img src="{{ service.data.image }}" alt="{{ service.data.title }}">
-        </div>
-        <div class="service-card-body">
-          <h3>{{ service.data.title }}</h3>
-          <p>{{ service.data.subtitle }}</p>
-          <a href="{{ service.url }}" class="service-link">
-            Learn More
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-          </a>
-        </div>
-      </div>
-      {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-{# CTA #}
-<section class="section">
-  <div class="container">
-    <div class="cta-banner fade-up">
-      <h2>Ready to Build Your {{ title }}?</h2>
-      <p>Get a free, no-obligation estimate. We'll visit your site and design the perfect structure for your needs.</p>
-      <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-        <a href="/contact/" class="btn btn-primary">Get a Free Quote</a>
-        <a href="tel:{{ site.phoneTel }}" class="btn btn-outline">Call {{ site.phone }}</a>
-      </div>
-    </div>
-  </div>
-</section>
