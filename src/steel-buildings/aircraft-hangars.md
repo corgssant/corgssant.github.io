@@ -28,14 +28,14 @@ faq:
   - q: "How wide can a steel hangar span without interior columns?"
     a: "Clear spans run up to 250 feet, so a single hangar bay can cover a wide aircraft or several smaller ones without a column in the way."
   - q: "Do you handle the concrete and site work for a hangar, or just the steel?"
-    a: "We handle the full project: concrete, steel erection, doors, and trim. On an airport site that usually means coordinating with the airport authority on top of township permitting, and we walk that process with you."
+    a: "We handle the full project: concrete, steel assembly, doors, and trim. On an airport site that usually means coordinating with the airport authority on top of township permitting, and we walk that process with you."
 ---
 
 ## Steel Hangars Built for Michigan Airfields
 
 A steel aircraft hangar is a pre-engineered building designed around door openings and clear-span widths that airplanes actually need, not garage-sized rectangles. The frame is engineered and cut at the factory, then bolted together on site, which lets it span wide open bays without support columns cutting into your taxi or turning space.
 
-CNO is a certified Federal Steel Systems dealer. We quote, deliver, and erect hangars for private owners and small operations across southeast Michigan.
+CNO is a certified Federal Steel Systems dealer. We quote, deliver, and stand up hangars for private owners and small operations across southeast Michigan.
 
 ## Box hangar or T-hangar?
 
@@ -43,7 +43,7 @@ A box hangar is one open rectangular building, useful when you want flexibility 
 
 Clear spans up to 250 feet mean you're not fighting a column in the middle of your hangar floor, and frames engineered for point loads can carry hoists or lift equipment if you're doing maintenance work in-house. Fire-resistant steel construction can also help on your hangar insurance; ask your agent what it does to the premium.
 
-High R-value roof and wall panel options are worth considering if you plan to work on the aircraft inside the hangar through the winter, rather than just parking it. And because the frame arrives pre-cut, pre-drilled, and pre-welded, erection stays on schedule instead of stretching out while pieces get fabricated on site.
+High R-value roof and wall panel options are worth considering if you plan to work on the aircraft inside the hangar through the winter, rather than just parking it. And because the frame arrives pre-cut, pre-drilled, and pre-welded, assembly stays on schedule instead of stretching out while pieces get fabricated on site.
 
 ## Building a smaller hangar or a general-purpose storage building?
 

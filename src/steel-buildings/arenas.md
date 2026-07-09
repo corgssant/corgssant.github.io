@@ -35,7 +35,7 @@ faq:
 
 A steel riding arena is a pre-engineered building designed around one requirement above everything else: a wide open floor with nothing in the middle of it. The frame is engineered and cut at the factory, then bolted together on site, which is what allows it to clear-span the full width of the arena without a support column anywhere near the riding surface.
 
-CNO is a certified Federal Steel Systems dealer, and we quote, deliver, and erect arenas for horse properties across southeast Michigan.
+CNO is a certified Federal Steel Systems dealer, and we quote, deliver, and stand up arenas for horse properties across southeast Michigan.
 
 ## Why does clear span matter in an arena?
 

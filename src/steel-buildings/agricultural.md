@@ -35,7 +35,7 @@ faq:
 
 An agricultural steel building is a pre-engineered structure built to store equipment, feed, or supplies without the size limits a wood-framed pole shed runs into. The steel frame is designed and cut at the factory, then bolted together on site, which lets the building span wide bays for combines, trucks, or trailers without interior posts getting in the way.
 
-CNO is a certified Federal Steel Systems dealer. We quote, deliver, and erect these buildings for farms and rural properties across southeast Michigan.
+CNO is a certified Federal Steel Systems dealer. We quote, deliver, and stand up these buildings for farms and rural properties across southeast Michigan.
 
 ## Steel or pole shed for a farm building?
 

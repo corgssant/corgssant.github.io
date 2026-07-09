@@ -13,7 +13,7 @@ whyChoose:
   - title: "City of Rochester Hills permits"
     text: "Accessory building permits here run through the City of Rochester Hills building department. We prepare the drawings, file the application, and handle inspections."
   - title: "Federal Steel Systems dealer"
-    text: "CNO quotes, delivers, and erects Federal Steel Systems buildings when a clear-span steel shop makes more sense than post frame."
+    text: "CNO quotes, delivers, and stands up Federal Steel Systems buildings when a clear-span steel shop makes more sense than post frame."
   - title: "Owner on the estimate"
     text: "Zosim Serban looks at Rochester Hills properties himself and stays involved with one of CNO's 3 crews through the final walkthrough."
 nearby: [oakland-township, lake-orion, troy, auburn-hills, romeo, oxford]

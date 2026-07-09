@@ -14,7 +14,7 @@ whyChoose:
   - title: "City or township, sorted first"
     text: "Village addresses permit through the City of the Village of Clarkston and everything else through Independence Township. We confirm which applies before paperwork goes in."
   - title: "Certified Federal Steel dealer"
-    text: "CNO is a certified Federal Steel Systems dealer and can quote, deliver, and erect a steel building if that fits your Clarkston project better than post-frame."
+    text: "CNO is a certified Federal Steel Systems dealer and can quote, deliver, and stand up a steel building if that fits your Clarkston project better than post-frame."
   - title: "Zosim on the job"
     text: "Owner Zosim Serban stays hands-on with Clarkston projects from the first site walk to the final walkthrough, backed by one of our 3 crews."
 faq:
@@ -33,7 +33,7 @@ Clarkston sits at the center of the territory CNO Pole Barns works every week. T
 
 ## Township acreage and village lots
 
-Most properties with a Clarkston address actually sit in Independence Township, outside the small city at the center. Township parcels tend to have room for a real outbuilding, so the common calls are [pole barns](/services/pole-barns/) for equipment and seasonal storage and [detached garages](/services/garages/) with real workshop space. Inside the village limits, lots run tighter and a compact garage or storage building usually fits better. CNO is also a certified Federal Steel Systems dealer, so if a steel building suits your project better than post-frame, we can quote, deliver, and erect one here.
+Most properties with a Clarkston address actually sit in Independence Township, outside the small city at the center. Township parcels tend to have room for a real outbuilding, so the common calls are [pole barns](/services/pole-barns/) for equipment and seasonal storage and [detached garages](/services/garages/) with real workshop space. Inside the village limits, lots run tighter and a compact garage or storage building usually fits better. CNO is also a certified Federal Steel Systems dealer, so if a steel building suits your project better than post-frame, we can quote, deliver, and stand one up here.
 
 ## Two permit desks, one town name
 

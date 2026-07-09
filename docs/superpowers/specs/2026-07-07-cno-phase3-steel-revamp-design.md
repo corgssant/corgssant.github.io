@@ -7,7 +7,7 @@ Eleventy implementation (this phase) is canonical once committed.
 
 ## Positioning
 
-- CNO is now a **certified Federal Steel Systems (FSS) dealer/erector**. Steel buildings
+- CNO is now a **certified Federal Steel Systems (FSS) dealer and installer**. Steel buildings
   are a **co-equal service line** next to post-frame.
 - Brand name stays **CNO Pole Barns**; lockup/tagline broadens to
   **"Post-Frame & Steel Buildings"**. Domain stays cnopolebarns.com.
@@ -89,7 +89,7 @@ Written like a Michigan builder talks. Rules:
 - Portfolio/"our work" sections: CNO's own job-site photos only. Captions purely
   descriptive; never invent locations, dimensions, or dates not verifiable from
   reviews/references.
-- Steel line claims: CNO quotes, delivers, and erects FSS buildings. Do NOT claim a
+- Steel line claims: CNO quotes, delivers, and stands up FSS buildings. Do NOT claim a
   history of completed steel projects.
 - Reviews quoted verbatim (light trims OK) with first name + last initial, attributed
   to Google.

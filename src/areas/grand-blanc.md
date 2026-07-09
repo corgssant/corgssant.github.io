@@ -13,7 +13,7 @@ whyChoose:
   - title: "City or Township, We Check First"
     text: "The City of Grand Blanc and Grand Blanc Township run separate permitting, so we confirm which jurisdiction a property falls under before the estimate is final."
   - title: "Certified Federal Steel Systems Dealer"
-    text: "For a larger commercial shop, we quote, deliver, and erect Federal Steel Systems buildings in addition to standard post-frame construction."
+    text: "For a larger commercial shop, we quote, deliver, and stand up Federal Steel Systems buildings in addition to standard post-frame construction."
   - title: "3 Crews, One Owner Involved"
     text: "Zosim Serban stays personally involved in Grand Blanc-area projects, working alongside one of our 3 crews from estimate to final walkthrough."
 nearby: [flint, fenton, holly, davisburg, ortonville, lapeer]
@@ -25,7 +25,7 @@ faq:
   - q: "How far out is Grand Blanc from where CNO is based?"
     a: "Grand Blanc is a short run up I-75 from our home base near Clarkston, and it's a community we build in regularly."
   - q: "Can I get a steel building instead of a wood-frame pole barn?"
-    a: "Yes. We are a certified Federal Steel Systems dealer, so for a larger shop or commercial building we can quote and erect a steel structure as an alternative to post-frame."
+    a: "Yes. We are a certified Federal Steel Systems dealer, so for a larger shop or commercial building we can quote and stand up a steel structure as an alternative to post-frame."
 ---
 
 ## CNO Pole Barns Near Grand Blanc

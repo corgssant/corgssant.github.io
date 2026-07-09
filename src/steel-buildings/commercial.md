@@ -24,7 +24,7 @@ faq:
   - q: "What foundation does a commercial steel building need?"
     a: "An engineered concrete foundation, usually a slab with footings sized to the Federal Steel Systems anchor-bolt drawings. We coordinate the concrete as part of the job, so the foundation matches the frame before the steel ships."
   - q: "How long does a commercial steel building take to put up?"
-    a: "Steel arrives pre-cut, pre-drilled, and pre-welded, so erection moves faster than framing the same building stick by stick. Total project time still depends on size, township permitting, and site work. We will give you a real schedule once we know the scope."
+    a: "Steel arrives pre-cut, pre-drilled, and pre-welded, so assembly moves faster than framing the same building stick by stick. Total project time still depends on size, township permitting, and site work. We will give you a real schedule once we know the scope."
   - q: "Can a steel building look like a regular office building?"
     a: "Yes. Facades, glass storefront sections, and cladding that mimics brick, stucco, or stone all go over the steel frame. From the street the building reads like conventional construction. The steel just carries the load."
   - q: "Do you handle permits for commercial steel buildings?"
@@ -35,7 +35,7 @@ faq:
 
 A commercial steel building is a pre-engineered structure built around a bolt-together steel frame instead of studs or wood posts. The frame, panels, and trim get designed and cut at the factory, then shipped to your site ready to assemble. That's what lets a steel building span a wide open floor, whether it's a retail showroom, an office building, or a church or community hall that needs one big room without support columns breaking up the space.
 
-CNO is a certified Federal Steel Systems dealer. We quote, deliver, and erect these buildings for customers across southeast Michigan, and we handle the whole job from the first site walk to the final punch list.
+CNO is a certified Federal Steel Systems dealer. We quote, deliver, and stand up these buildings for customers across southeast Michigan, and we handle the whole job from the first site walk to the final punch list.
 
 ## Why go steel for a commercial building?
 

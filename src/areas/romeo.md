@@ -13,7 +13,7 @@ whyChoose:
   - title: "Hobby Farm and Garage Experience"
     text: "Small acreage barns, detached garages, and general storage buildings make up most of what we build in the Romeo area, sized to fit the property, not a template."
   - title: "Federal Steel Systems Dealer"
-    text: "When a bigger shop or commercial building makes more sense as steel, we quote, deliver, and erect Federal Steel Systems buildings too."
+    text: "When a bigger shop or commercial building makes more sense as steel, we quote, deliver, and stand up Federal Steel Systems buildings too."
   - title: "One Owner Involved Throughout"
     text: "Zosim Serban personally handles Romeo-area estimates and stays involved with one of our 3 crews through the final walkthrough."
 ---

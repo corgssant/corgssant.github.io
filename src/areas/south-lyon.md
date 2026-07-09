@@ -13,7 +13,7 @@ whyChoose:
   - title: "City lots and township acreage"
     text: "Detached garages and workshops in town, pole barns and horse barns on the acreage outside the limits. The lot decides the building."
   - title: "Federal Steel Systems dealer"
-    text: "CNO quotes, delivers, and erects Federal Steel Systems buildings when a wide clear-span shop fits the plan better than post frame."
+    text: "CNO quotes, delivers, and stands up Federal Steel Systems buildings when a wide clear-span shop fits the plan better than post frame."
   - title: "Free on-site estimates"
     text: "Owner Zosim Serban and one of CNO's 3 crews look at the property in person before we put a number on paper."
 nearby: [milford, highland, howell, white-lake]

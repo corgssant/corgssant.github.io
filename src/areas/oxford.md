@@ -14,7 +14,7 @@ whyChoose:
   - title: "Village and Township Both Covered"
     text: "Village lots and township acreage need different layouts, and we design around whichever one you have instead of forcing a stock plan on it."
   - title: "Certified Federal Steel Builder"
-    text: "Need a wider clear span than post-frame allows for an arena or shop? We quote and erect Federal Steel buildings as a certified FSS dealer."
+    text: "Need a wider clear span than post-frame allows for an arena or shop? We quote and stand up Federal Steel buildings as a certified FSS dealer."
   - title: "Free On-Site Estimates"
     text: "Owner Zosim Serban and one of CNO's 3 crews walk the property in person before we put a number on paper."
 ---
@@ -25,7 +25,7 @@ CNO Pole Barns is a locally owned pole barn and steel building contractor workin
 
 ## Building for Oxford's Horse Country
 
-Oxford Township sits directly north of Orion Township, and the two share a lot of the same character: larger parcels, working farms, and a fair number of horses. Most of what we hear from Oxford-area callers is horse barns, sized around stall count, wash bays, and hay storage, plus detached garages and equipment buildings for the acreage that isn't fenced pasture. Inside the village itself, lots run smaller, and requests tend toward a straightforward garage or workshop instead. We also quote and erect Federal Steel buildings as a certified FSS dealer, worth a look if you need a wider clear span for an arena or equipment barn than post-frame construction can offer.
+Oxford Township sits directly north of Orion Township, and the two share a lot of the same character: larger parcels, working farms, and a fair number of horses. Most of what we hear from Oxford-area callers is horse barns, sized around stall count, wash bays, and hay storage, plus detached garages and equipment buildings for the acreage that isn't fenced pasture. Inside the village itself, lots run smaller, and requests tend toward a straightforward garage or workshop instead. We also quote and stand up Federal Steel buildings as a certified FSS dealer, worth a look if you need a wider clear span for an arena or equipment barn than post-frame construction can offer.
 
 ## Permits Through Oxford Township
 

@@ -14,7 +14,7 @@ whyChoose:
   - title: "Built around lake lots"
     text: "Lake Fenton and Silver Lake properties run tighter than township acreage, so we design garages and storage buildings to the setbacks the lot actually has."
   - title: "Certified Federal Steel dealer"
-    text: "CNO is a certified Federal Steel Systems dealer and can quote, deliver, and erect a steel building on your Fenton property if that beats post-frame."
+    text: "CNO is a certified Federal Steel Systems dealer and can quote, deliver, and stand up a steel building on your Fenton property if that beats post-frame."
   - title: "Zosim runs the work"
     text: "Owner Zosim Serban stays involved in Fenton-area jobs from estimate to walkthrough, backed by one of CNO's 3 crews."
 faq:
@@ -33,7 +33,7 @@ Fenton anchors the southern end of CNO's Genesee County work. The company has be
 
 ## Storage for lake lots, barns for the townships
 
-Lake Fenton and Silver Lake put a lot of water close to town, and water means gear. On lake lots the usual request is a [detached garage](/services/garages/) with the height and depth for a pontoon or wake boat on its trailer, plus room for whatever the house garage gave up on. Out in Fenton Township and down into Tyrone Township, parcels stretch out and [pole barns](/services/pole-barns/) take over: workshop space, equipment storage, a dry spot for the camper between trips. CNO is a certified Federal Steel Systems dealer too, so we can quote, deliver, and erect a steel building if that suits the project better.
+Lake Fenton and Silver Lake put a lot of water close to town, and water means gear. On lake lots the usual request is a [detached garage](/services/garages/) with the height and depth for a pontoon or wake boat on its trailer, plus room for whatever the house garage gave up on. Out in Fenton Township and down into Tyrone Township, parcels stretch out and [pole barns](/services/pole-barns/) take over: workshop space, equipment storage, a dry spot for the camper between trips. CNO is a certified Federal Steel Systems dealer too, so we can quote, deliver, and stand up a steel building if that suits the project better.
 
 ## City of Fenton or Fenton Township
 

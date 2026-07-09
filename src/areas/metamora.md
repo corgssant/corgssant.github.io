@@ -11,7 +11,7 @@ whyChoose:
   - title: "Equestrian Building Experience"
     text: "Stalls, wash bays, tack rooms, and wide center aisles get laid out around the number of horses you keep and how you actually use the barn, not a stock floor plan."
   - title: "A Certified Federal Steel Systems Dealer"
-    text: "For a riding arena or a large clear-span building, we quote, deliver, and erect Federal Steel Systems buildings alongside our post-frame work."
+    text: "For a riding arena or a large clear-span building, we quote, deliver, and stand up Federal Steel Systems buildings alongside our post-frame work."
   - title: "Deep Posts for Michigan Ground"
     text: "Posts are set below the frost line and every roof is designed for snow load, because a barn that shifts in the ground turns into a maintenance problem fast."
   - title: "One Owner, Every Metamora Estimate"
@@ -19,7 +19,7 @@ whyChoose:
 nearby: [lapeer, oxford, ortonville, lake-orion, romeo]
 faq:
   - q: "Do you build riding arenas, or just horse barns?"
-    a: "Both. A post-frame horse barn covers stalls, tack storage, and hay for most properties. If you need a large clear-span riding arena, that's where our Federal Steel Systems line comes in. We quote, deliver, and erect the steel building itself."
+    a: "Both. A post-frame horse barn covers stalls, tack storage, and hay for most properties. If you need a large clear-span riding arena, that's where our Federal Steel Systems line comes in. We quote, deliver, and stand up the steel building itself."
   - q: "How far out of Clarkston will CNO travel for a Metamora project?"
     a: "Metamora runs about 30 to 40 minutes from our Clarkston base. It's a regular part of our service area, not a special trip we make once in a while."
   - q: "Do I need a permit for a horse barn in Metamora Township?"

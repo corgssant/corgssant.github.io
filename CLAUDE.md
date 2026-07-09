@@ -15,7 +15,7 @@ Business facts: `docs/reference/cno-business-profile.md`. Real review quotes: `d
   Never imply continuous family/ownership since 1970. Never name "Ian".
 - No street address anywhere (service-area business). No invented stats, prices,
   review counts, aggregate ratings, project locations, or dimensions.
-- Steel line: CNO quotes, delivers, and erects Federal Steel Systems buildings.
+- Steel line: CNO quotes, delivers, and stands up Federal Steel Systems buildings.
   No claimed history of completed steel projects. FSS granted permission
   (2026-07-07) to use their photos so customers see what CNO can install: usable
   anywhere IF visibly credited ("Photo: Federal Steel Systems") and never

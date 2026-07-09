@@ -35,7 +35,7 @@ faq:
 
 The Express Line is Federal Steel Systems' program for basic rectangular steel buildings. Instead of custom engineering a building around unusual bay widths or heavy point loads, the design stays simple, which is what lets materials ship in about 5 weeks. Permit and anchor-bolt drawings get mailed separately from the main package, so you can start your township permitting while the building is still in production.
 
-CNO is a certified Federal Steel Systems dealer, and we quote, deliver, and erect Express Line buildings for customers across southeast Michigan who want a straightforward steel shell without a long custom lead time.
+CNO is a certified Federal Steel Systems dealer, and we quote, deliver, and stand up Express Line buildings for customers across southeast Michigan who want a straightforward steel shell without a long custom lead time.
 
 ## What is the Express Line?
 

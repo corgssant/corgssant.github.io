@@ -15,7 +15,7 @@ whyChoose:
   - title: "Waterford Township permits"
     text: "Accessory building permits here go through Waterford Township. We prepare the drawings, file the application, and handle the inspections."
   - title: "Federal Steel Systems dealer"
-    text: "CNO quotes, delivers, and erects Federal Steel Systems buildings when steel fits the project better than post frame."
+    text: "CNO quotes, delivers, and stands up Federal Steel Systems buildings when steel fits the project better than post frame."
 nearby: [clarkston, white-lake, davisburg, lake-orion, rochester-hills]
 faq:
   - q: "Do you build boat and RV storage in Waterford?"

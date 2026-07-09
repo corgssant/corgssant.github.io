@@ -14,7 +14,7 @@ whyChoose:
   - title: "Built Around Septic and Well"
     text: "Most Davisburg-area properties run on a private well and septic system, and we build the plot plan and permit paperwork around both from the start."
   - title: "Certified Federal Steel Dealer"
-    text: "Want steel instead of post-frame? CNO is a certified Federal Steel Systems dealer and can quote, deliver, and erect a steel building on your Davisburg property."
+    text: "Want steel instead of post-frame? CNO is a certified Federal Steel Systems dealer and can quote, deliver, and stand up a steel building on your Davisburg property."
   - title: "Zosim on the Job"
     text: "Owner Zosim Serban is hands-on with Davisburg-area projects, working alongside one of our 3 crews from the first walk-through to the last nail."
 nearby: [clarkston, holly, ortonville, white-lake, waterford, fenton]
@@ -26,7 +26,7 @@ faq:
   - q: "What size pole barn can I put on my lot?"
     a: "That depends on your parcel size and what Springfield Township allows for accessory structures on it. We will look at your site during the free estimate and tell you what is realistic."
   - q: "Do you install steel buildings around Davisburg?"
-    a: "Yes. CNO is a certified Federal Steel Systems dealer, so we can quote, deliver, and erect a steel building instead of a post-frame barn if that fits your project better."
+    a: "Yes. CNO is a certified Federal Steel Systems dealer, so we can quote, deliver, and stand up a steel building instead of a post-frame barn if that fits your project better."
 ---
 
 ## CNO Pole Barns, Just West of Clarkston

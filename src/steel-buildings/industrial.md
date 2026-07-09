@@ -32,14 +32,14 @@ faq:
   - q: "What's the difference between industrial steel and a post-frame shop?"
     a: "Steel handles bigger clear spans, heavier point loads like cranes, and fire-resistant construction. A post-frame shop can be a faster, lower-cost build for smaller operations that don't need those spans or loads. We'll tell you which one actually fits your project."
   - q: "Do you build the foundation too, or just the steel shell?"
-    a: "We handle the full job: concrete, the steel erection, doors, and trim. You're not coordinating separate contractors for the slab and the building."
+    a: "We handle the full job: concrete, the steel assembly, doors, and trim. You're not coordinating separate contractors for the slab and the building."
 ---
 
 ## Steel Buildings Built for Shops, Warehouses, and Production Space
 
 An industrial steel building is a pre-engineered structure designed to carry more than just its own weight. The steel frame is engineered up front for the equipment, storage racking, or overhead crane you plan to run inside it, then shipped pre-cut and pre-drilled so it bolts together on site instead of getting built stick by stick.
 
-CNO is a certified Federal Steel Systems dealer, and we quote, deliver, and erect these buildings for shops, warehouses, and production facilities across southeast Michigan.
+CNO is a certified Federal Steel Systems dealer, and we quote, deliver, and stand up these buildings for shops, warehouses, and production facilities across southeast Michigan.
 
 ## Can a steel building support a crane?
 
@@ -47,7 +47,7 @@ Yes, and that's one of the biggest reasons operations choose steel over wood fra
 
 Fire-resistant steel construction can also help on insurance premiums, which adds up on a commercial or industrial policy. And with high R-value roof and wall panel options, you can spec the building to actually be comfortable to work in through a Michigan winter, not just weathertight.
 
-Because the frame, panels, and trim arrive pre-cut, pre-drilled, and pre-welded from the factory, there's less on-site fabrication and less exposure to weather delays during erection. Door openings, whether that's a single large equipment door or a row of overhead doors along one wall, get planned around how material and people actually move through the building.
+Because the frame, panels, and trim arrive pre-cut, pre-drilled, and pre-welded from the factory, there's less on-site fabrication and less exposure to weather delays during assembly. Door openings, whether that's a single large equipment door or a row of overhead doors along one wall, get planned around how material and people actually move through the building.
 
 ## When post-frame fits better
 

@@ -17,7 +17,7 @@ faq:
   - q: "Is a pole barn cheaper than a steel building?"
     a: "Usually, yes, on a small to mid-size building. Post-frame uses less material and skips the crane on most jobs, so labor and material costs stay lower per square foot. That gap narrows on very large buildings, where a steel frame's clear-span efficiency and lower long-term insurance can even out or beat a post-frame building that needs interior posts."
   - q: "Does CNO build steel buildings, or just pole barns?"
-    a: "Both. We're a certified Federal Steel Systems dealer and erector, so we quote, deliver, and set steel buildings the same way we've framed post-frame structures for years. That means one crew can tell you honestly which system fits your project instead of a builder who only sells one."
+    a: "Both. We're a certified Federal Steel Systems dealer and installer, so we quote, deliver, and set steel buildings the same way we've framed post-frame structures for years. That means one crew can tell you honestly which system fits your project instead of a builder who only sells one."
   - q: "How wide can a steel building be without interior columns?"
     a: "A pre-engineered steel frame can clear-span up to 250 feet with no posts in the middle of the floor. That's what makes steel the right call for a riding arena or an aircraft hangar where the whole floor needs to stay open."
   - q: "Can a steel building lower my insurance costs?"
@@ -43,7 +43,7 @@ Post-frame usually wins if you're under about 60 feet wide and watching your bud
 
 A post-frame building starts with wood posts, set either directly in the ground or anchored to a concrete pier. We frame engineered trusses across the top, add girts between the posts, and skin the whole thing in steel panels. It's the same basic system Michigan barns and garages have used for decades, just built to modern engineering standards now. Between our three crews, a typical [garage](/services/garages/) or [pole barn](/services/pole-barns/) goes from posts to a dried-in shell in a day or two.
 
-A pre-engineered steel building, or PEMB, starts at a fabrication plant instead of a job site. The frame arrives pre-cut and pre-drilled: columns, rafters, and girts, all cut to spec and ready to bolt together on site. Our crew sets the frame with bolts, not welds, and the shell goes up like a kit engineered for your exact building instead of a generic template. That's the line we quote and erect as a certified [Federal Steel](/steel-buildings/) dealer.
+A pre-engineered steel building, or PEMB, starts at a fabrication plant instead of a job site. The frame arrives pre-cut and pre-drilled: columns, rafters, and girts, all cut to spec and ready to bolt together on site. Our crew sets the frame with bolts, not welds, and the shell goes up like a kit engineered for your exact building instead of a generic template. That's the line we quote and stand up as a certified [Federal Steel](/steel-buildings/) dealer.
 
 ## What makes one system cost more than the other?
 
@@ -109,7 +109,7 @@ Usually, yes, on a small to mid-size building. Post-frame uses less material and
 
 ### Does CNO build steel buildings, or just pole barns?
 
-Both. We're a certified Federal Steel Systems dealer and erector, so we quote, deliver, and set steel buildings the same way we've framed post-frame structures for years. That means one crew can tell you honestly which system fits your project instead of a builder who only sells one.
+Both. We're a certified Federal Steel Systems dealer and installer, so we quote, deliver, and set steel buildings the same way we've framed post-frame structures for years. That means one crew can tell you honestly which system fits your project instead of a builder who only sells one.
 
 ### How wide can a steel building be without interior columns?
 
@@ -137,7 +137,7 @@ It can. Steel is fire resistant in a way a wood frame isn't, and some insurers p
       "name": "Does CNO build steel buildings, or just pole barns?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Both. CNO is a certified Federal Steel Systems dealer and erector, so the company quotes, delivers, and sets steel buildings the same way it has framed post-frame structures for years. One crew can tell you honestly which system fits your project instead of a builder who only sells one."
+        "text": "Both. CNO is a certified Federal Steel Systems dealer and installer, so the company quotes, delivers, and sets steel buildings the same way it has framed post-frame structures for years. One crew can tell you honestly which system fits your project instead of a builder who only sells one."
       }
     },
     {

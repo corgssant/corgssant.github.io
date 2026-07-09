@@ -13,7 +13,7 @@ whyChoose:
   - title: "Frost-Line Post Depth"
     text: "Every post goes in below Michigan's frost line, so the barn stays square through freeze and thaw instead of heaving over a few winters."
   - title: "Steel Option Available"
-    text: "For a large shop or commercial building, we also quote and erect Federal Steel Systems buildings alongside our standard post-frame construction."
+    text: "For a large shop or commercial building, we also quote and stand up Federal Steel Systems buildings alongside our standard post-frame construction."
   - title: "A Crew That Shows Up"
     text: "Owner Zosim Serban runs Lapeer-area estimates personally, and one of our 3 crews handles the build from the first post to final trim."
 nearby: [metamora, ortonville, oxford, grand-blanc]
@@ -25,7 +25,7 @@ faq:
   - q: "Does my project go through the city or the township?"
     a: "It depends on exactly where the property sits. The City of Lapeer's Building Department handles permits inside city limits; township properties go through a separate building department. We help sort out which one applies before we pull a permit."
   - q: "Can CNO build a steel building instead of a pole barn?"
-    a: "Yes. We are a certified Federal Steel Systems dealer, so for a larger shop or commercial building we can quote and erect a steel structure alongside our standard post-frame options."
+    a: "Yes. We are a certified Federal Steel Systems dealer, so for a larger shop or commercial building we can quote and stand up a steel structure alongside our standard post-frame options."
 ---
 
 ## CNO Pole Barns, Roughly 40 Minutes from Lapeer

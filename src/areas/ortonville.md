@@ -14,7 +14,7 @@ whyChoose:
   - title: "Built for Working Farms"
     text: "Equipment storage, hay barns, and livestock buildings sized for daily farm use, not a hobby-scale layout."
   - title: "Certified Federal Steel Builder"
-    text: "A wide-span steel building can outperform post-frame construction for equipment storage, and we quote and erect Federal Steel buildings as a certified FSS dealer."
+    text: "A wide-span steel building can outperform post-frame construction for equipment storage, and we quote and stand up Federal Steel buildings as a certified FSS dealer."
   - title: "One Owner, Every Job"
     text: "Zosim Serban personally oversees Brandon Township projects, working with one of CNO's 3 crews from the first estimate through the final walkthrough."
 ---

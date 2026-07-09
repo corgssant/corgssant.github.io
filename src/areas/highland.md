@@ -26,7 +26,7 @@ faq:
   - q: "What size horse barn can you build?"
     a: "That depends on how many horses you keep and how you plan to use the space. We size stalls, aisles, and storage around your actual setup during the free estimate."
   - q: "Do you offer steel buildings in Highland Township?"
-    a: "Yes. CNO is a certified Federal Steel Systems dealer, so we can quote, deliver, and erect a steel building if that is a better fit than post-frame for your property."
+    a: "Yes. CNO is a certified Federal Steel Systems dealer, so we can quote, deliver, and stand up a steel building if that is a better fit than post-frame for your property."
 ---
 
 ## Horse Country Pole Barns and Steel Buildings

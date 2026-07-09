@@ -14,7 +14,7 @@ whyChoose:
   - title: "Village or township, right desk first"
     text: "Permits go through the Village of Holly for village addresses and Holly Township for everything outside the line. We confirm which before we submit."
   - title: "Certified Federal Steel dealer"
-    text: "If steel suits the project better than post-frame, CNO can quote, deliver, and erect a Federal Steel Systems building on your Holly property."
+    text: "If steel suits the project better than post-frame, CNO can quote, deliver, and stand up a Federal Steel Systems building on your Holly property."
   - title: "Zosim on site"
     text: "Owner Zosim Serban works Holly-area jobs with one of CNO's 3 crews, from the first walk of the property to the final one."
 faq:
@@ -33,7 +33,7 @@ Holly sits in the far northwest corner of Oakland County, a village wrapped insi
 
 ## Barns for the gravel-road properties
 
-The land outside the village is what Holly is known for: acreage, pasture, and room to keep animals. [Horse barns](/services/horse-barns/) are a steady request out here, laid out around the stall count, hay storage, and a dry spot for tack and trailer. [Pole barns](/services/pole-barns/) for tractors and toys are just as common, and inside the village a detached garage or storage building fits the smaller lots. For projects where steel beats post-frame, CNO is a certified Federal Steel Systems dealer and can quote, deliver, and erect a Federal Steel building.
+The land outside the village is what Holly is known for: acreage, pasture, and room to keep animals. [Horse barns](/services/horse-barns/) are a steady request out here, laid out around the stall count, hay storage, and a dry spot for tack and trailer. [Pole barns](/services/pole-barns/) for tractors and toys are just as common, and inside the village a detached garage or storage building fits the smaller lots. For projects where steel beats post-frame, CNO is a certified Federal Steel Systems dealer and can quote, deliver, and stand up a Federal Steel building.
 
 ## Village of Holly or Holly Township
 

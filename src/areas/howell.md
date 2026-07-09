@@ -14,7 +14,7 @@ whyChoose:
   - title: "Farm-grade buildings"
     text: "Livingston County work leans agricultural, so we build for daily use: deep-set posts and door and truss sizes that match real equipment."
   - title: "Certified Federal Steel dealer"
-    text: "For larger ag or commercial spans, CNO can quote, deliver, and erect a Federal Steel Systems building instead of post-frame."
+    text: "For larger ag or commercial spans, CNO can quote, deliver, and stand up a Federal Steel Systems building instead of post-frame."
   - title: "One owner, three crews"
     text: "Zosim Serban owns CNO and stays involved in Howell-area projects the same way he does closer to home."
 faq:
@@ -33,7 +33,7 @@ Howell is the Livingston County seat, and it sits just outside the four counties
 
 ## Working buildings for Livingston County
 
-Livingston County keeps more farmland than the counties east of it, and the townships around Howell - Howell Township, Marion, Oceola, and Genoa - hold a mix of working farms, horse properties, and newer subdivisions. The steady requests are [pole barns](/services/pole-barns/) built for daily farm use: hay under cover, equipment out of the weather, a shop bay with a tall door. For larger ag or commercial spans, CNO is a certified Federal Steel Systems dealer and can quote, deliver, and erect a [Federal Steel building](/steel-buildings/) instead of post-frame.
+Livingston County keeps more farmland than the counties east of it, and the townships around Howell - Howell Township, Marion, Oceola, and Genoa - hold a mix of working farms, horse properties, and newer subdivisions. The steady requests are [pole barns](/services/pole-barns/) built for daily farm use: hay under cover, equipment out of the weather, a shop bay with a tall door. For larger ag or commercial spans, CNO is a certified Federal Steel Systems dealer and can quote, deliver, and stand up a [Federal Steel building](/steel-buildings/) instead of post-frame.
 
 ## City of Howell or one of four townships
 

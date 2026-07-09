@@ -28,7 +28,7 @@ On the residential streets, the call is usually a [detached garage](/services/ga
 
 ## Post-frame and steel for the business side
 
-For shops, contractors' yards, and storage operations, [commercial post-frame buildings](/services/commercial-buildings/) keep the cost down and go up fast. When a project outgrows wood, we quote, deliver, and erect pre-engineered [Federal Steel buildings](/steel-buildings/) as a certified FSS dealer. Since we sell both systems, the recommendation follows the project, not our inventory.
+For shops, contractors' yards, and storage operations, [commercial post-frame buildings](/services/commercial-buildings/) keep the cost down and go up fast. When a project outgrows wood, we quote, deliver, and stand up pre-engineered [Federal Steel buildings](/steel-buildings/) as a certified FSS dealer. Since we sell both systems, the recommendation follows the project, not our inventory.
 
 ## Permits through the city
 

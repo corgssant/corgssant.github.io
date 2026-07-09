@@ -36,7 +36,7 @@ faq:
 
 A steel mini-storage building is a pre-engineered structure designed to hold multiple rentable units under one roof, built as a single-story building or stacked into multiple floors depending on your site. The frame ships pre-cut and pre-drilled from the factory and bolts together on site, which is part of what makes steel a practical choice when you're trying to maximize rentable square footage.
 
-CNO is a certified Federal Steel Systems dealer. We quote, deliver, and erect mini-storage buildings for property owners across southeast Michigan.
+CNO is a certified Federal Steel Systems dealer. We quote, deliver, and stand up mini-storage buildings for property owners across southeast Michigan.
 
 ## Single story or multi-story?
 
@@ -44,7 +44,7 @@ A single-story layout keeps construction simpler and gives every unit drive-up a
 
 Climate control is optional and can be built into individual units or run building-wide, and fire-resistant steel construction can help on insurance, which is worth factoring into the economics of a storage facility.
 
-High R-value roof and wall panel options matter more here than on a lot of building types, since they affect what you can charge for climate-controlled units versus standard ones. And because the frame arrives pre-cut, pre-drilled, and pre-welded, erection stays predictable, which matters when you're trying to get units on the market and generating rent.
+High R-value roof and wall panel options matter more here than on a lot of building types, since they affect what you can charge for climate-controlled units versus standard ones. And because the frame arrives pre-cut, pre-drilled, and pre-welded, assembly stays predictable, which matters when you're trying to get units on the market and generating rent.
 
 ## Smaller storage building for personal use?
 

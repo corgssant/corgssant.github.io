@@ -14,7 +14,7 @@ whyChoose:
   - title: "Large-Parcel Layouts"
     text: "Oakland Township's bigger lots often have room for more than one outbuilding, and we plan the site so a future addition still fits."
   - title: "Certified Federal Steel Builder"
-    text: "An indoor arena or a wide equipment building can outgrow post-frame construction, and we quote and erect Federal Steel buildings as a certified FSS dealer."
+    text: "An indoor arena or a wide equipment building can outgrow post-frame construction, and we quote and stand up Federal Steel buildings as a certified FSS dealer."
   - title: "One Owner, Involved Every Job"
     text: "Zosim Serban personally oversees Oakland Township projects, working with one of CNO's 3 crews from the first estimate through the final walkthrough."
 ---
@@ -25,7 +25,7 @@ CNO Pole Barns serves Oakland Township as part of a broader Oakland County servi
 
 ## Equestrian Estates Along the Paint Creek Corridor
 
-Oakland Township's large-parcel zoning and the Paint Creek corridor have kept a lot of the township in horses, pasture, and open land, and the buildings we get asked about reflect that. Horse barns with multiple stalls, a wash bay, and hay storage are a common request, sized around the number of animals a property keeps. Detached garages, equipment buildings, and workshops round out the rest, usually on the larger parcels that give a property room for more than one outbuilding. We also erect Federal Steel buildings as a certified FSS dealer, which can make sense for an indoor arena or a wide equipment building where a post-frame clear span runs out of room.
+Oakland Township's large-parcel zoning and the Paint Creek corridor have kept a lot of the township in horses, pasture, and open land, and the buildings we get asked about reflect that. Horse barns with multiple stalls, a wash bay, and hay storage are a common request, sized around the number of animals a property keeps. Detached garages, equipment buildings, and workshops round out the rest, usually on the larger parcels that give a property room for more than one outbuilding. We also stand up Federal Steel buildings as a certified FSS dealer, which can make sense for an indoor arena or a wide equipment building where a post-frame clear span runs out of room.
 
 ## Questions Oakland Township Owners Ask
 
