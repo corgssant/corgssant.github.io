@@ -34,7 +34,7 @@ tags:
 
 ## Horse barns built around your horses
 
-CNO Pole Barns builds horse barns across Oakland, Genesee, Lapeer, and Macomb counties, from small two- or three-stall barns to larger layouts with tack rooms and hay storage. Zosim Serban and his crew work with you on stall count, aisle width, and door placement so the barn fits how you actually care for your horses day to day.
+CNO Pole Barns builds horse barns across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties, from small two- or three-stall barns to larger layouts with tack rooms and hay storage. Zosim Serban and his crew work with you on stall count, aisle width, and door placement so the barn fits how you actually care for your horses day to day.
 
 ## Stalls, tack rooms, hay storage, and run-ins
 

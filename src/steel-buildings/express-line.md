@@ -49,4 +49,4 @@ If you're comparing a simple steel shell against a simple wood-framed building, 
 
 ## Get a Free Estimate
 
-We're locally owned, based in Clarkston, running three crews across Oakland, Genesee, Lapeer, and Macomb counties. Call (248) 625-2334 or send us your project details.
+We're locally owned, based in Clarkston, running three crews across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties. Call (248) 625-2334 or send us your project details.

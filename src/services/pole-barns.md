@@ -22,7 +22,7 @@ faq:
   - q: "How much does a pole barn cost in Michigan?"
     a: "It depends on size, concrete, doors, insulation, and how much site work your property needs. A bare storage shell and a finished, heated shop are very different numbers even at the same footprint. We don't quote off square footage alone - we come out, look at your site, and give you a free estimate."
   - q: "Do I need a permit for a pole barn in Michigan?"
-    a: "Yes, most Michigan townships require a permit for pole barn construction. We help customers navigate the permitting process throughout Oakland, Genesee, Lapeer, and Macomb counties."
+    a: "Yes, most Michigan townships require a permit for pole barn construction. We help customers navigate the permitting process throughout Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties."
   - q: "What sizes of pole barns do you build?"
     a: "We build pole barns from small storage buildings around 24x24 up to large agricultural and commercial structures. Every project is custom designed around your property and how you plan to use the building."
 tags:
@@ -34,13 +34,13 @@ tags:
 
 ## Pole barns built for southeast Michigan
 
-CNO Pole Barns builds post-frame buildings across Oakland, Genesee, Lapeer, and Macomb counties: agricultural storage, workshops, equipment sheds, and hobby barns. We've been building since 1970, and owner Zosim Serban runs every job with his own crews. Tell us what the building needs to do, and we'll design around your property and your budget.
+CNO Pole Barns builds post-frame buildings across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties: agricultural storage, workshops, equipment sheds, and hobby barns. We've been building since 1970, and owner Zosim Serban runs every job with his own crews. Tell us what the building needs to do, and we'll design around your property and your budget.
 
 Some jobs are four walls and a roof over a tractor. Others turn into a heated workshop with a concrete floor and a lift, or a barn with a loft full of hay. If what you need is closer to a [detached garage](/services/garages/), an open-sided [pole shed](/services/pole-sheds/), or a [horse barn](/services/horse-barns/), we build those too, and we'll tell you when one of them fits your project better than a full barn.
 
 ## How a build actually goes
 
-Every project starts with a free on-site estimate. We walk the site with you, check where the building can sit, and talk through size, doors, and options. Then comes the permit package. Most townships in our four counties require one, and we handle the drawings and paperwork - our [Michigan building permits guide](/blog/michigan-building-permits-guide/) explains what to expect.
+Every project starts with a free on-site estimate. We walk the site with you, check where the building can sit, and talk through size, doors, and options. Then comes the permit package. Most townships in our six counties require one, and we handle the drawings and paperwork - our [Michigan building permits guide](/blog/michigan-building-permits-guide/) explains what to expect.
 
 Once the permit clears, the build moves fast. Posts are set below frost depth so the building doesn't heave when the ground freezes. Trusses go up next, braced for Michigan snow loads. Steel roofing and siding close in the shell, and trim, gutters, and doors finish it out. Concrete can go in before or after the shell depending on the job, and plenty of customers start on gravel and pour a slab later.
 

@@ -58,7 +58,7 @@ Most plans start with the split between living space and shop. A 60/40 or 70/30 
 
 Michigan winters shape the rest of the spec. An insulation package sized for the climate matters more here than in the southern states where barndominiums first caught on. Big windows on a rural view and an attached garage bay off the living area show up in most of the plans we see.
 
-The shell and the mechanical systems have to be designed together, so bring your builder in early. Here's [how we handle barndominium builds](/services/barndominiums/) across Oakland, Genesee, Lapeer, and Macomb counties.
+The shell and the mechanical systems have to be designed together, so bring your builder in early. Here's [how we handle barndominium builds](/services/barndominiums/) across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties.
 
 ## Is a barndominium right for you?
 

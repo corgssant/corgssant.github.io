@@ -21,7 +21,7 @@ whyChoose:
 
 ## CNO Pole Barns, Serving Oxford and Oxford Township
 
-CNO Pole Barns is a locally owned pole barn and steel building contractor working across Oakland County, including Oxford Township and the Village of Oxford. Zosim Serban owns and runs the company today, working alongside one of CNO's 3 crews on jobs throughout the region. The business traces back to 1970. Property owners in the Oxford area can call on the same licensed, insured crews CNO sends to jobs across Oakland, Genesee, Lapeer, and Macomb counties.
+CNO Pole Barns is a locally owned pole barn and steel building contractor working across Oakland County, including Oxford Township and the Village of Oxford. Zosim Serban owns and runs the company today, working alongside one of CNO's 3 crews on jobs throughout the region. The business traces back to 1970. Property owners in the Oxford area can call on the same licensed, insured crews CNO sends to jobs across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties.
 
 ## Building for Oxford's Horse Country
 

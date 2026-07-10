@@ -32,7 +32,7 @@ tags:
 
 ## Storage Built for Boats, RVs, and Motorhomes
 
-A boat or RV is a serious investment, and a driveway tarp is not much protection from Michigan weather. CNO Pole Barns builds boat, RV, and motorhome storage buildings, along with RV garages and carports, across Oakland, Genesee, Lapeer, and Macomb counties. Post-frame construction gives these buildings wide, clear-span interiors with no posts in the way.
+A boat or RV is a serious investment, and a driveway tarp is not much protection from Michigan weather. CNO Pole Barns builds boat, RV, and motorhome storage buildings, along with RV garages and carports, across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties. Post-frame construction gives these buildings wide, clear-span interiors with no posts in the way.
 
 ## Sized and Doored for Your Vehicles
 

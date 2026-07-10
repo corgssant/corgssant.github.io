@@ -32,7 +32,7 @@ tags:
 
 ## Commercial and Warehouse Buildings for Michigan Businesses
 
-CNO Pole Barns builds commercial and warehouse buildings for businesses across Oakland, Genesee, Lapeer, and Macomb counties. We work with residential and commercial clients alike, and every building is built to order around how you run your operation, whether that means a warehouse, a retail space, a shop, or a mix of office and work space under one roof.
+CNO Pole Barns builds commercial and warehouse buildings for businesses across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties. We work with residential and commercial clients alike, and every building is built to order around how you run your operation, whether that means a warehouse, a retail space, a shop, or a mix of office and work space under one roof.
 
 ## Built Around Your Operation
 

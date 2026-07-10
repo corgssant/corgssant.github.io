@@ -22,7 +22,7 @@ faq:
   - q: "Can you salvage materials from my old barn?"
     a: "When possible, yes. Reclaimed barn wood, hardware, and metal can often be salvaged and reused. If you want to keep any materials from the old structure, let us know and we will set them aside during demolition."
   - q: "Do I need a permit to demolish a barn or building?"
-    a: "Most Michigan townships require a demolition permit, and some require utilities to be disconnected before work begins. We handle the permitting process across Oakland, Genesee, Lapeer, and Macomb counties so the project stays on track."
+    a: "Most Michigan townships require a demolition permit, and some require utilities to be disconnected before work begins. We handle the permitting process across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties so the project stays on track."
 tags:
   - "demolition"
   - "pole barns"
@@ -32,7 +32,7 @@ tags:
 
 ## Clearing the Way for What Comes Next
 
-CNO Pole Barns tears down old barns, sheds, garages, and other outbuildings throughout Oakland, Genesee, Lapeer, and Macomb counties. Most demolition calls come from one of two places: a structure that has become a hazard, or a property owner clearing space for something new. Either way, our crew handles the teardown, debris hauling, and site cleanup so you are not left with a pile of material to deal with afterward.
+CNO Pole Barns tears down old barns, sheds, garages, and other outbuildings throughout Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties. Most demolition calls come from one of two places: a structure that has become a hazard, or a property owner clearing space for something new. Either way, our crew handles the teardown, debris hauling, and site cleanup so you are not left with a pile of material to deal with afterward.
 
 ## Planned, Not Just Pushed Over
 

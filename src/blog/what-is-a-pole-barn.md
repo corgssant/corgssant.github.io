@@ -24,7 +24,7 @@ faq:
     a: "Usually, yes. Post-frame skips the continuous frost-protected foundation, uses fewer framing members, and takes fewer crew-hours to put up. The gap narrows once you add insulation, doors, and finish work, since those cost about the same either way. For the basic shell, a pole barn costs meaningfully less per square foot."
 ---
 
-A pole barn, also called a post-frame building, is a structure framed on widely spaced wood posts instead of stud walls sitting on a continuous concrete foundation. The posts carry the roof load straight into the ground, which is why a pole barn goes up faster and usually costs less than a stick-built structure of the same size. Drive through Oakland, Genesee, Lapeer, or Macomb county and you'll see them behind houses, on farms, and on commercial lots. Here's how the system actually works.
+A pole barn, also called a post-frame building, is a structure framed on widely spaced wood posts instead of stud walls sitting on a continuous concrete foundation. The posts carry the roof load straight into the ground, which is why a pole barn goes up faster and usually costs less than a stick-built structure of the same size. Drive through Oakland, Genesee, Lapeer, Macomb, Livingston, or Washtenaw county and you'll see them behind houses, on farms, and on commercial lots. Here's how the system actually works.
 
 ## How does post-frame construction work?
 
@@ -62,4 +62,4 @@ Then look at your site. You'll need proper grading and drainage, and a plan for 
 
 ## Ready to look at a build?
 
-CNO has been putting up post-frame buildings in southeast Michigan since 1970, and today we run three crews across Oakland, Genesee, Lapeer, and Macomb counties. We know the local codes, we're licensed and insured, and we'll walk you through the process from design to final inspection. [Request a free estimate](/contact/) or call (248) 625-2334 and tell us what you want to build.
+CNO has been putting up post-frame buildings in southeast Michigan since 1970, and today we run three crews across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties. We know the local codes, we're licensed and insured, and we'll walk you through the process from design to final inspection. [Request a free estimate](/contact/) or call (248) 625-2334 and tell us what you want to build.

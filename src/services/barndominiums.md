@@ -32,7 +32,7 @@ tags:
 
 ## Living Space and Shop Space, One Roof
 
-A barndominium combines a home with a workshop, garage, or storage bay in a single post-frame building. CNO Pole Barns builds barndominiums and pole barn houses across Oakland, Genesee, Lapeer, and Macomb counties, working with you to lay out the living side and the shop side to fit how you actually use the property.
+A barndominium combines a home with a workshop, garage, or storage bay in a single post-frame building. CNO Pole Barns builds barndominiums and pole barn houses across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties, working with you to lay out the living side and the shop side to fit how you actually use the property.
 
 ## Two Zones Under One Roof
 

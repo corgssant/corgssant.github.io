@@ -29,7 +29,7 @@ nearby: [holly, grand-blanc, davisburg, highland, howell, white-lake]
 
 ## Lake town at the bottom of Genesee County
 
-Fenton anchors the southern end of CNO's Genesee County work. The company has been building in Michigan since 1970 and is locally owned today by Zosim Serban, with three crews that cover Genesee, Oakland, Lapeer, and Macomb counties. Fenton sits right where that territory comes together: Genesee County above, Holly and northwest Oakland County next door, and Tyrone Township in Livingston County just south of the city line.
+Fenton anchors the southern end of CNO's Genesee County work. The company has been building in Michigan since 1970 and is locally owned today by Zosim Serban, with three crews that cover Genesee, Oakland, Lapeer, Macomb, Livingston, and Washtenaw counties. Fenton sits right where that territory comes together: Genesee County above, Holly and northwest Oakland County next door, and Tyrone Township in Livingston County just south of the city line.
 
 ## Storage for lake lots, barns for the townships
 

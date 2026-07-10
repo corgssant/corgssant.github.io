@@ -79,4 +79,4 @@ Either way, the building has to be engineered for local conditions, especially s
 
 Build a pole barn if you want the most enclosed space for the money, you need a wide-open interior, or you want the shell up fast. Build stick-built if the garage must match the house closely or your site plan calls for a full foundation. A lot of our customers pick the pole barn and put the difference into insulation, heat, and finished walls, which gets them a more usable building for the same total spend.
 
-We build garages across Oakland, Genesee, Lapeer, and Macomb counties, and we'll give you a straight answer for your lot. [Request a free estimate](/contact/) or call (248) 625-2334.
+We build garages across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties, and we'll give you a straight answer for your lot. [Request a free estimate](/contact/) or call (248) 625-2334.

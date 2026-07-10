@@ -55,4 +55,4 @@ Not every shop needs a 60-foot bay or crane capacity. If you're building a small
 
 ## Get a Free Estimate
 
-We run three crews out of Clarkston and cover Oakland, Genesee, Lapeer, and Macomb counties. Call (248) 625-2334 or send us the details on your project and we'll come take a look.
+We run three crews out of Clarkston and cover Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties. Call (248) 625-2334 or send us the details on your project and we'll come take a look.

@@ -51,4 +51,4 @@ There's not much fabrication left to do once the steel lands on site, so weather
 
 ## Get a free estimate
 
-We're locally owned, based in Clarkston, and we run three crews across Oakland, Genesee, Lapeer, and Macomb counties. Call (248) 625-2334 or send us your project details and we'll come take a look at your property.
+We're locally owned, based in Clarkston, and we run three crews across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties. Call (248) 625-2334 or send us your project details and we'll come take a look at your property.

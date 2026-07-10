@@ -76,6 +76,6 @@ Don't skip the lighting plan. Horses do well with natural light, so put windows 
 
 ## What should you look for in a barn builder?
 
-A horse barn is a specialized build. The ventilation, drainage, stall hardware, and layout requirements are different from a standard storage building, and a builder who hasn't dealt with horses will miss details you'll live with for decades. We build [horse barns](/services/horse-barns/) across Oakland, Genesee, Lapeer, and Macomb counties, and we plan drainage around spring thaw and heavy summer rain from the start.
+A horse barn is a specialized build. The ventilation, drainage, stall hardware, and layout requirements are different from a standard storage building, and a builder who hasn't dealt with horses will miss details you'll live with for decades. We build [horse barns](/services/horse-barns/) across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties, and we plan drainage around spring thaw and heavy summer rain from the start.
 
 Visit other barns, talk to horse owners in your area, and pick a builder who asks how you'll actually use the space. Then [request a free estimate](/contact/) or call (248) 625-2334 and we'll put real numbers on your layout.

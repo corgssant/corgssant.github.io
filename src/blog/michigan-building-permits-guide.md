@@ -64,4 +64,4 @@ If your application hits a zoning snag, most issues can be resolved with a varia
 
 Nothing good. An unpermitted building can draw fines from the township, and it creates real problems when you sell or refinance, because a buyer's lender or title company can flag a structure with no permit record. Some departments will also make you open finished work back up for inspection before they'll issue a permit after the fact.
 
-The fix is cheap by comparison: start the permit conversation several weeks before you want to break ground. If you're building in Oakland, Genesee, Lapeer, or Macomb county, [tell us what you're planning](/contact/) and we'll fold the permit work into a free estimate.
+The fix is cheap by comparison: start the permit conversation several weeks before you want to break ground. If you're building in Oakland, Genesee, Lapeer, Macomb, Livingston, or Washtenaw county, [tell us what you're planning](/contact/) and we'll fold the permit work into a free estimate.

@@ -40,4 +40,4 @@ You can leave a pole shed fully open for easy drive-through access, add a back w
 
 ## Built by a Local, Licensed Crew
 
-CNO Pole Barns was established in 1970 and is run today by owner Zosim Serban and his own crew. We are licensed and insured, hold an A+ BBB rating, and provide free estimates across Oakland, Genesee, Lapeer, and Macomb counties. Build time depends on size and site conditions; we will walk you through a realistic schedule when we come out to look at your property. Call (248) 625-2334 to get started.
+CNO Pole Barns was established in 1970 and is run today by owner Zosim Serban and his own crew. We are licensed and insured, hold an A+ BBB rating, and provide free estimates across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties. Build time depends on size and site conditions; we will walk you through a realistic schedule when we come out to look at your property. Call (248) 625-2334 to get started.

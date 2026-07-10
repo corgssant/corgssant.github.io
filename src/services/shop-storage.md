@@ -34,7 +34,7 @@ tags:
 
 ## Shop, Storage, and Warehouse Buildings
 
-CNO Pole Barns builds shop buildings, storage buildings, and warehouse buildings for homeowners and businesses across Oakland, Genesee, Lapeer, and Macomb counties. A shop gives you a real place to work on projects instead of taking over the garage. Storage and warehouse buildings do the same for equipment, inventory, or vehicles that need a proper home. We design each one around what you actually plan to do inside it.
+CNO Pole Barns builds shop buildings, storage buildings, and warehouse buildings for homeowners and businesses across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties. A shop gives you a real place to work on projects instead of taking over the garage. Storage and warehouse buildings do the same for equipment, inventory, or vehicles that need a proper home. We design each one around what you actually plan to do inside it.
 
 ## Wired, Heated, and Ready to Work
 

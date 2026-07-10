@@ -32,7 +32,7 @@ tags:
 
 ## Siding, Trim, and Finish Work
 
-CNO Pole Barns installs and repairs siding, trim, soffit, and fascia for pole barns, garages, horse barns, and homes across Oakland, Genesee, Lapeer, and Macomb counties. Some calls are a full re-side after storm damage or years of weather; others are a single dented panel or a finish-carpentry job like new porch soffit. We take on both with the same crew and the same standard of work.
+CNO Pole Barns installs and repairs siding, trim, soffit, and fascia for pole barns, garages, horse barns, and homes across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties. Some calls are a full re-side after storm damage or years of weather; others are a single dented panel or a finish-carpentry job like new porch soffit. We take on both with the same crew and the same standard of work.
 
 ## Repairs That Start Below the Surface
 

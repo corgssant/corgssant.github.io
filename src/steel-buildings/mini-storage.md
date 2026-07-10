@@ -52,4 +52,4 @@ If you're looking for storage on a residential property rather than a rental fac
 
 ## Get a Free Estimate
 
-Locally owned, based in Clarkston, three crews covering Oakland, Genesee, Lapeer, and Macomb counties. Call (248) 625-2334 or send us your project details and we'll come take a look at your site.
+Locally owned, based in Clarkston, three crews covering Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties. Call (248) 625-2334 or send us your project details and we'll come take a look at your site.

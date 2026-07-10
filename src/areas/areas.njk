@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 title: "Service Areas"
 seoTitle: "Pole Barn Builder Service Areas in Michigan"
-description: "Pole barns, garages, and steel buildings built across Oakland, Genesee, Lapeer, and Macomb counties. Find your town and get a free estimate."
+description: "Pole barns, garages, and steel buildings built across six southeast Michigan counties. Find your town and get a free estimate."
 permalink: /areas/
 ---
 
@@ -12,7 +12,7 @@ permalink: /areas/
   <div class="wrap"><div class="ohero-inner stagger">
     <span class="lab">Where we build</span>
     <h1>Service Areas</h1>
-    <p class="lead">We build in Oakland, Genesee, Lapeer, and Macomb counties. Home base is Clarkston, and the crews come to you.</p>
+    <p class="lead">We build in Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties. Home base is Clarkston, and the crews come to you.</p>
     <div class="hero-cta">
       <a href="/contact/" class="btn btn-green">Get a Free Estimate</a>
     </div>
@@ -26,13 +26,13 @@ permalink: /areas/
     { name: "Genesee", note: "Fenton, Grand Blanc, and the townships south of Flint." },
     { name: "Lapeer", note: "Farm and horse country: the city of Lapeer, Metamora, and the townships around them." },
     { name: "Macomb", note: "The rural west side of the county, around Romeo and Washington Township." },
-    { name: "Livingston", note: "A westward stretch of our range, centered on Howell." }
+    { name: "Livingston", note: "Howell, Brighton, Hartland, and the farm townships across the county." },
+    { name: "Washtenaw", note: "The western edge of our range: Chelsea, Dexter, Ann Arbor, and Ypsilanti." }
   ] %}
   {% for c in countyNotes %}
+  {% set townLinks %}{% for area in collections.areas %}{% if area.data.county == c.name %}<a href="{{ area.url }}">{{ area.data.city }}</a>{% endif %}{% endfor %}{% endset %}
   <div class="head reveal" style="margin-top:28px"><h3>{{ c.name }} County</h3><p>{{ c.note }}</p></div>
-  <div class="areas stagger">
-    {% for area in collections.areas %}{% if area.data.county == c.name %}<a href="{{ area.url }}">{{ area.data.city }}</a>{% endif %}{% endfor %}
-  </div>
+  <div class="areas stagger">{% if townLinks | trim %}{{ townLinks | safe }}{% else %}<a href="/contact/">Ask about your town &rarr;</a>{% endif %}</div>
   {% endfor %}
 </div></section>
 

@@ -28,7 +28,7 @@ faq:
   - q: "Can a steel building look like a regular office building?"
     a: "Yes. Facades, glass storefront sections, and cladding that mimics brick, stucco, or stone all go over the steel frame. From the street the building reads like conventional construction. The steel just carries the load."
   - q: "Do you handle permits for commercial steel buildings?"
-    a: "Yes. We work through township permitting the same way we do for our post-frame commercial jobs, across Oakland, Genesee, Lapeer, and Macomb counties. We will tell you what your township needs before you commit to anything."
+    a: "Yes. We work through township permitting the same way we do for our post-frame commercial jobs, across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties. We will tell you what your township needs before you commit to anything."
 ---
 
 ## Pre-engineered steel for offices, retail, and community buildings
@@ -49,4 +49,4 @@ Steel isn't the right call for every commercial building. If your project is sma
 
 ## Get a free estimate
 
-We're locally owned, based in Clarkston, and we run three crews across Oakland, Genesee, Lapeer, and Macomb counties. Call (248) 625-2334 or send us your project details and we'll walk the site with you.
+We're locally owned, based in Clarkston, and we run three crews across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties. Call (248) 625-2334 or send us your project details and we'll walk the site with you.

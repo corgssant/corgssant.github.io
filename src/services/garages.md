@@ -20,7 +20,7 @@ faq:
   - q: "Is a post-frame garage cheaper than a stick-built garage?"
     a: "In most cases, yes. Post-frame construction uses fewer materials and takes less labor than traditional stick framing, so a detached garage usually costs less and holds up just as well."
   - q: "Do I need a permit for a detached garage in Michigan?"
-    a: "In most townships, yes. Detached garages over a certain footprint - often 200 square feet, though it varies by municipality - need a building permit, and setback rules control where the garage can sit on your lot. We put the permit package together for projects across Oakland, Genesee, Lapeer, and Macomb counties."
+    a: "In most townships, yes. Detached garages over a certain footprint - often 200 square feet, though it varies by municipality - need a building permit, and setback rules control where the garage can sit on your lot. We put the permit package together for projects across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties."
   - q: "Can you build a garage with a loft or attic space?"
     a: "Yes. We build a lot of garages with loft storage above the bays. A loft adds storage without growing the footprint, which matters when setbacks limit how big the building can be."
   - q: "What size garage should I build?"
@@ -34,7 +34,7 @@ tags:
 
 ## Detached garages built the post-frame way
 
-CNO Pole Barns builds detached garages and carports for homeowners across Oakland, Genesee, Lapeer, and Macomb counties. Post-frame construction goes up efficiently and holds up as well as traditional stick-built framing, from a simple two-car garage to a larger multi-bay building for vehicles and equipment.
+CNO Pole Barns builds detached garages and carports for homeowners across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties. Post-frame construction goes up efficiently and holds up as well as traditional stick-built framing, from a simple two-car garage to a larger multi-bay building for vehicles and equipment.
 
 ## Sized around what you park
 

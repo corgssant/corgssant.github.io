@@ -32,7 +32,7 @@ tags:
 
 ## Roof Installation, Replacement, and Repair
 
-CNO Pole Barns installs, replaces, and repairs roofs on pole barns, garages, horse barns, and homes across Oakland, Genesee, Lapeer, and Macomb counties. We work in both metal and asphalt shingle roofing. New construction or a full replacement on a roof that's reached the end of its life, we'll walk you through the options and give straightforward pricing before any work starts.
+CNO Pole Barns installs, replaces, and repairs roofs on pole barns, garages, horse barns, and homes across Oakland, Genesee, Lapeer, Macomb, Livingston, and Washtenaw counties. We work in both metal and asphalt shingle roofing. New construction or a full replacement on a roof that's reached the end of its life, we'll walk you through the options and give straightforward pricing before any work starts.
 
 ## Roofing That Can Take Michigan Weather
 
