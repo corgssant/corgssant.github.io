@@ -24,7 +24,7 @@ faq:
     a: "The City of Howell handles parcels inside the city limits. A Howell address outside the city falls under Howell Township, Marion, Oceola, or Genoa, and each township reviews its own permits. We identify the right office from your parcel records and submit the application and plot plan for you."
   - q: "What sets the price of a pole barn near Howell?"
     a: "Size first, then how finished you want the inside: a cold storage shell costs less than an insulated shop with concrete, electrical, and big doors. Site prep on rougher farm ground can add work too. We quote after a site visit so the number holds up through the build."
-nearby: [highland, milford, south-lyon, fenton]
+nearby: [brighton, hartland, fowlerville, fenton, highland]
 ---
 
 ## Livingston County is part of our range
