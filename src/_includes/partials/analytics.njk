@@ -1,0 +1,106 @@
+{%- if site.measurementId -%}
+{# Google Analytics 4 (gtag.js). Production-gated so staging/localhost never send
+   data. All conversion events are wired here via delegated listeners - no other
+   template needs editing. Add ?ga_debug to any URL to route events to GA4
+   DebugView (works off-production too, for verification). #}
+<script>
+(function () {
+  var ID = "{{ site.measurementId }}";
+  var isProd = location.hostname === "cnopolebarns.com";
+  var debug = /[?&]ga_debug\b/.test(location.search);
+  if (!isProd && !debug) return; // no data from staging/local unless ?ga_debug
+
+  var s = document.createElement("script");
+  s.async = true;
+  s.src = "https://www.googletagmanager.com/gtag/js?id=" + ID;
+  document.head.appendChild(s);
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  window.gtag = gtag;
+  gtag("js", new Date());
+  gtag("config", ID, { debug_mode: debug });
+
+  function pageType() {
+    var p = location.pathname;
+    if (p === "/") return "home";
+    if (p.indexOf("/services/") === 0) return "service";
+    if (p.indexOf("/steel-buildings/") === 0) return "steel";
+    if (p.indexOf("/areas/") === 0) return "area";
+    if (p.indexOf("/blog/") === 0) return "blog";
+    return "other";
+  }
+  function linkLocation(el) {
+    if (el.closest("nav")) return "nav";
+    if (el.closest("footer")) return "footer";
+    if (el.closest(".cta")) return "cta_band";
+    if (el.closest(".ohero, header")) return "hero";
+    return "body";
+  }
+  function track(name, params) {
+    params = params || {};
+    params.page_type = pageType();
+    gtag("event", name, params);
+  }
+
+  // Call / email / estimate-CTA clicks (capture phase so nothing swallows them).
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest("a");
+    if (!a) return;
+    var raw = a.getAttribute("href") || "";
+    if (raw.indexOf("tel:") === 0) {
+      track("phone_call_click", { link_location: linkLocation(a) });
+      return;
+    }
+    if (raw.indexOf("mailto:") === 0) {
+      track("email_click", { link_location: linkLocation(a) });
+      return;
+    }
+    var path;
+    try { path = new URL(a.href).pathname; } catch (err) { path = raw; }
+    if (path === "/contact/" || path === "/contact") {
+      track("cta_click", { link_location: linkLocation(a) });
+    }
+  }, true);
+
+  // First interaction with the contact form (funnel top). Fires once.
+  var started = false;
+  document.addEventListener("focusin", function (e) {
+    if (started || !e.target.closest) return;
+    if (!e.target.closest("form.form")) return;
+    started = true;
+    track("form_start", {});
+  });
+
+  // On submit, stash project type + town so the /thanks/ page can attach them
+  // to the conversion (formsubmit's redirect drops the field values otherwise).
+  document.addEventListener("submit", function (e) {
+    var form = e.target.closest ? e.target.closest("form.form") : null;
+    if (!form) return;
+    try {
+      sessionStorage.setItem("cno_lead", JSON.stringify({
+        project_type: (form.querySelector('[name="project_type"]') || {}).value || "",
+        town: (form.querySelector('[name="town"]') || {}).value || ""
+      }));
+    } catch (err) {}
+  }, true);
+
+  // The form redirects here only on a real submit, so /thanks/ + the stash flag
+  // is a confirmed lead. Direct visits (no flag) do not count.
+  if (location.pathname === "/thanks/" || location.pathname === "/thanks") {
+    try {
+      var raw = sessionStorage.getItem("cno_lead");
+      if (raw) {
+        var d = JSON.parse(raw);
+        gtag("event", "generate_lead", {
+          page_type: "thanks",
+          project_type: d.project_type || "(not set)",
+          town: d.town || "(not set)"
+        });
+        sessionStorage.removeItem("cno_lead");
+      }
+    } catch (err) {}
+  }
+})();
+</script>
+{%- endif -%}
