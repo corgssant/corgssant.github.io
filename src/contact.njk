@@ -75,6 +75,20 @@ permalink: /contact/
           <input type="text" name="town" placeholder="Clarkston, MI">
         </label>
       </div>
+      <div class="frow">
+        <label>ZIP code
+          <input type="text" name="zip" inputmode="numeric" autocomplete="postal-code" maxlength="5" pattern="[0-9]{5}" placeholder="48346">
+        </label>
+        <label>When do you want to start?
+          <select name="timing">
+            <option value="">Select one</option>
+            <option value="Within 3 months">Within 3 months</option>
+            <option value="3-6 months">3-6 months</option>
+            <option value="6-12 months">6-12 months</option>
+            <option value="Just looking">Just looking</option>
+          </select>
+        </label>
+      </div>
       <label>What are you building?
         <select name="project_type">
           <option value="">Select one</option>
@@ -87,8 +101,11 @@ permalink: /contact/
           <option value="Something else">Something else</option>
         </select>
       </label>
+      <label>Rough size (width x length x height, in feet)
+        <input type="text" name="size" placeholder="30 x 40 x 12">
+      </label>
       <label>Message
-        <textarea name="message" rows="5" placeholder="Rough size, timeline, anything else we should know."></textarea>
+        <textarea name="message" rows="5" placeholder="Doors, concrete floor, what it's for, anything else we should know."></textarea>
       </label>
       <button type="submit" class="btn btn-gold">Send estimate request</button>
     </form>
