@@ -57,7 +57,11 @@ Homepage `src/index.njk` is the canonical component reference.
   130-160 chars with a geo signal. Area pages take `nearby` (list of area file slugs
   for the sidebar) and `faq` like the other layouts; `ogType: "article"` is set for
   blog posts via `src/blog/blog.json`.
-- Contact form posts to formsubmit.co/zosim@cnopolebarns.com (needs one-time email
-  activation on first submission).
+- Contact form posts in the background (`src/js/main.js`) to the Google Form
+  "Website estimate requests" (owner zosim@, responses -> linked Sheet + email).
+  Form URL and entry IDs live in `src/_data/leadform.json`. Every Google Form
+  question must stay Short answer/Paragraph and NOT required - Google returns 400
+  on a missing required field and the site can't see it (no-cors). If you add a
+  site field, add the question in the Form and its entry ID to leadform.json.
 - Deploys: push to `main` -> GitHub Actions -> staging https://corgssant.github.io.
   Work on a branch, merge to main when verified.

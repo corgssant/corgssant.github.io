@@ -369,6 +369,9 @@ section.blk.cta .or{font-family:var(--ui);font-size:12.5px;letter-spacing:.18em;
 .form input,.form select,.form textarea{font-family:var(--ui);font-size:15.5px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:13px 15px;width:100%}
 .form input:focus,.form select:focus,.form textarea:focus{outline:none;border-color:var(--gold)}
 .form textarea{min-height:140px;resize:vertical}
+.form button[disabled]{opacity:.65;cursor:wait}
+.form-status{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);padding:14px 16px;font-size:15.5px;line-height:1.5;color:var(--ink)}
+.form-status a{color:var(--pine);border-bottom:1px solid var(--gold)}
 
 /* ---------- footer ---------- */
 footer.site{background:var(--ink);color:#aeb8a8;font-family:var(--ui);font-size:14px}

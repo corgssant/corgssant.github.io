@@ -73,14 +73,14 @@
   });
 
   // On submit, stash project type + town so the /thanks/ page can attach them
-  // to the conversion (formsubmit's redirect drops the field values otherwise).
+  // to the conversion (the form sends in the background, then loads /thanks/).
   document.addEventListener("submit", function (e) {
     var form = e.target.closest ? e.target.closest("form.form") : null;
     if (!form) return;
     try {
       sessionStorage.setItem("cno_lead", JSON.stringify({
-        project_type: (form.querySelector('[name="project_type"]') || {}).value || "",
-        town: (form.querySelector('[name="town"]') || {}).value || ""
+        project_type: (form.querySelector('[data-f="project_type"]') || {}).value || "",
+        town: (form.querySelector('[data-f="town"]') || {}).value || ""
       }));
     } catch (err) {}
   }, true);

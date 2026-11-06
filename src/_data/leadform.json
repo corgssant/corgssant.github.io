@@ -1,0 +1,17 @@
+{
+  "_note": "Estimate form posts to this Google Form. Every question in the Google Form must be Short answer (message = Paragraph) and NOT required, or submissions are silently dropped. Get entry IDs from the form's public viewform page.",
+  "action": "https://docs.google.com/forms/d/e/1FAIpQLScpI0VIQb44ERneQhSprfTHPlnnGWAZC6ZfWfEfDWIOFjnyEQ/formResponse",
+  "fields": {
+    "name": "entry.898250725",
+    "phone": "entry.1302007422",
+    "email": "entry.2087758205",
+    "town": "entry.2037254201",
+    "zip": "entry.1073166041",
+    "timing": "entry.1616527421",
+    "project_type": "entry.448197117",
+    "size": "entry.1620656175",
+    "message": "entry.1300055335",
+    "page": "entry.1253654609"
+  },
+  "form": "https://forms.gle/2bkddTRgr1BEARYSA"
+}

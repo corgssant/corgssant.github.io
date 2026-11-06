@@ -68,3 +68,46 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+// --- Estimate form: send to Google Forms in the background ---
+// Google's reply is opaque (no-cors), so only a network failure or timeout is
+// detectable. On either, the visitor stays on the page with their answers and
+// sees the call/text/email fallback instead of a dead error page.
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.querySelector('form[data-lead]');
+  if (!form || !window.fetch || !window.URLSearchParams) return; // no-JS path: plain POST to Google
+
+  const btn = form.querySelector('button[type="submit"]');
+  const status = form.querySelector('.form-status');
+  const label = btn ? btn.textContent : '';
+  let busy = false;
+
+  const fail = (reason) => {
+    busy = false;
+    if (btn) { btn.disabled = false; btn.textContent = label; }
+    try { sessionStorage.removeItem('cno_lead'); } catch (err) {}
+    if (typeof window.gtag === 'function') window.gtag('event', 'form_error', { reason: reason });
+    if (status) { status.hidden = false; status.focus(); }
+  };
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    if (busy) return;
+    const honey = form.querySelector('[name="_honey"]');
+    if (honey && honey.value) { window.location.href = '/thanks/'; return; } // bot
+
+    busy = true;
+    if (btn) { btn.disabled = true; btn.textContent = 'Sending...'; }
+    if (status) status.hidden = true;
+
+    const body = new URLSearchParams();
+    form.querySelectorAll('[data-f]').forEach(el => { if (el.value) body.append(el.name, el.value); });
+
+    const ctrl = window.AbortController ? new AbortController() : null;
+    const timer = setTimeout(() => { if (ctrl) ctrl.abort(); }, 15000);
+
+    fetch(form.action, { method: 'POST', mode: 'no-cors', body: body, signal: ctrl ? ctrl.signal : undefined })
+      .then(() => { clearTimeout(timer); window.location.href = '/thanks/'; })
+      .catch((err) => { clearTimeout(timer); fail(err && err.name === 'AbortError' ? 'timeout' : 'network'); });
+  });
+});

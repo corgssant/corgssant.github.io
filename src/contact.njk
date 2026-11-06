@@ -55,32 +55,32 @@ permalink: /contact/
     <h2>Tell us what you're building</h2>
     <p>Fill this out with a few details and we'll follow up. No obligation, no pressure.</p>
 
-    <form class="form" action="https://formsubmit.co/{{ site.email }}" method="POST">
-      <input type="hidden" name="_subject" value="Estimate request from cnopolebarns.com">
-      <input type="hidden" name="_next" value="{{ site.url }}/thanks/">
-      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+    {% set lf = leadform.fields %}
+    <form class="form" data-lead action="{{ leadform.action }}" method="POST">
+      <input type="hidden" name="{{ lf.page }}" data-f="page" value="{{ site.url }}{{ page.url }}">
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
       <div class="frow">
         <label>Name
-          <input type="text" name="name" required placeholder="Your name">
+          <input type="text" name="{{ lf.name }}" data-f="name" required placeholder="Your name">
         </label>
         <label>Phone
-          <input type="tel" name="phone" required placeholder="(248) 555-1234">
+          <input type="tel" name="{{ lf.phone }}" data-f="phone" required placeholder="(248) 555-1234">
         </label>
       </div>
       <div class="frow">
         <label>Email (optional)
-          <input type="email" name="email" placeholder="you@example.com">
+          <input type="email" name="{{ lf.email }}" data-f="email" placeholder="you@example.com">
         </label>
         <label>Town
-          <input type="text" name="town" placeholder="Clarkston, MI">
+          <input type="text" name="{{ lf.town }}" data-f="town" placeholder="Clarkston, MI">
         </label>
       </div>
       <div class="frow">
         <label>ZIP code
-          <input type="text" name="zip" inputmode="numeric" autocomplete="postal-code" maxlength="5" pattern="[0-9]{5}" placeholder="48346">
+          <input type="text" name="{{ lf.zip }}" data-f="zip" inputmode="numeric" autocomplete="postal-code" maxlength="5" pattern="[0-9]{5}" placeholder="48346">
         </label>
         <label>When do you want to start?
-          <select name="timing">
+          <select name="{{ lf.timing }}" data-f="timing">
             <option value="">Select one</option>
             <option value="Within 3 months">Within 3 months</option>
             <option value="3-6 months">3-6 months</option>
@@ -90,7 +90,7 @@ permalink: /contact/
         </label>
       </div>
       <label>What are you building?
-        <select name="project_type">
+        <select name="{{ lf.project_type }}" data-f="project_type">
           <option value="">Select one</option>
           <option value="Pole barn">Pole barn</option>
           <option value="Garage">Garage</option>
@@ -102,11 +102,12 @@ permalink: /contact/
         </select>
       </label>
       <label>Rough size (width x length x height, in feet)
-        <input type="text" name="size" placeholder="30 x 40 x 12">
+        <input type="text" name="{{ lf.size }}" data-f="size" placeholder="30 x 40 x 12">
       </label>
       <label>Message
-        <textarea name="message" rows="5" placeholder="Doors, concrete floor, what it's for, anything else we should know."></textarea>
+        <textarea name="{{ lf.message }}" data-f="message" rows="5" placeholder="Doors, concrete floor, what it's for, anything else we should know."></textarea>
       </label>
+      <p class="form-status" role="alert" tabindex="-1" hidden>Your request didn't go through. Your answers are still filled in, so you can try again, or call or text <a href="tel:{{ site.phoneTel }}" style="white-space:nowrap">{{ site.phone }}</a> or email <a href="mailto:{{ site.email }}">{{ site.email }}</a> and we'll get back to you.</p>
       <button type="submit" class="btn btn-gold">Send estimate request</button>
     </form>
 
