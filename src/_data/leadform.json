@@ -1,5 +1,5 @@
 {
-  "_note": "Estimate form posts to this Google Form. Every question in the Google Form must be Short answer (message = Paragraph) and NOT required, or submissions are silently dropped. Get entry IDs from the form's public viewform page.",
+  "_note": "Estimate form posts to this Google Form from src/js/main.js. Every question must be Short answer (message = Paragraph) and NOT required, EXCEPT 'Key': required, with response validation Text > Contains > the 'key' value below. The key is added only by JS at submit time, so bots posting straight to Google get rejected. Get entry IDs from the form's public viewform page.",
   "action": "https://docs.google.com/forms/d/e/1FAIpQLScpI0VIQb44ERneQhSprfTHPlnnGWAZC6ZfWfEfDWIOFjnyEQ/formResponse",
   "fields": {
     "name": "entry.898250725",
@@ -11,7 +11,9 @@
     "project_type": "entry.448197117",
     "size": "entry.1620656175",
     "message": "entry.1300055335",
-    "page": "entry.1253654609"
+    "page": "entry.1253654609",
+    "key": "entry.1450911863"
   },
-  "form": "https://forms.gle/2bkddTRgr1BEARYSA"
+  "form": "https://forms.gle/2bkddTRgr1BEARYSA",
+  "key": "cno-0dd4573a4b"
 }

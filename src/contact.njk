@@ -36,7 +36,9 @@ permalink: /contact/
     <p>Fill this out with a few details and we'll follow up. No obligation, no pressure.</p>
 
     {% set lf = leadform.fields %}
-    <form class="form" data-lead action="{{ leadform.action }}" method="POST">
+    <script type="application/json" id="lead-config">{{ {action: leadform.action, keyField: lf.key, key: leadform.key} | dump | safe }}</script>
+    <noscript><p class="form-status">This form needs JavaScript. Call or text <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a> or email <a href="mailto:{{ site.email }}">{{ site.email }}</a> instead.</p></noscript>
+    <form class="form" data-lead method="POST">
       <input type="hidden" name="{{ lf.page }}" data-f="page" value="{{ site.url }}{{ page.url }}">
       <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
       <div class="frow">
@@ -88,7 +90,7 @@ permalink: /contact/
         <textarea name="{{ lf.message }}" data-f="message" rows="5" placeholder="Doors, concrete floor, what it's for, anything else we should know."></textarea>
       </label>
       <p class="form-status" role="alert" tabindex="-1" hidden>Your request didn't go through. Your answers are still filled in, so you can try again, or call or text <a href="tel:{{ site.phoneTel }}" style="white-space:nowrap">{{ site.phone }}</a> or email <a href="mailto:{{ site.email }}">{{ site.email }}</a> and we'll get back to you.</p>
-      <button type="submit" class="btn btn-gold">Send estimate request</button>
+      <button type="submit" class="btn btn-gold" disabled>Send estimate request</button>
     </form>
 
     <h2>Common questions</h2>

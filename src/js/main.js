@@ -73,11 +73,19 @@ document.addEventListener('DOMContentLoaded', () => {
 // Google's reply is opaque (no-cors), so only a network failure or timeout is
 // detectable. On either, the visitor stays on the page with their answers and
 // sees the call/text/email fallback instead of a dead error page.
+// Anti-spam: the Google Form requires a 'Key' answer that only this code adds,
+// so bots posting straight to Google are rejected. Honeypot hits and sends
+// faster than 3s after page load are dropped quietly.
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.querySelector('form[data-lead]');
-  if (!form || !window.fetch || !window.URLSearchParams) return; // no-JS path: plain POST to Google
+  const cfgEl = document.getElementById('lead-config');
+  if (!form || !cfgEl || !window.fetch || !window.URLSearchParams) return;
+  let cfg;
+  try { cfg = JSON.parse(cfgEl.textContent); } catch (err) { return; }
+  const loadedAt = Date.now();
 
   const btn = form.querySelector('button[type="submit"]');
+  if (btn) btn.disabled = false; // ships disabled so a no-JS bot can't post the raw form
   const status = form.querySelector('.form-status');
   const label = btn ? btn.textContent : '';
   let busy = false;
@@ -94,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
     if (busy) return;
     const honey = form.querySelector('[name="_honey"]');
-    if (honey && honey.value) { window.location.href = '/thanks/'; return; } // bot
+    if ((honey && honey.value) || Date.now() - loadedAt < 3000) { window.location.href = '/thanks/'; return; } // bot
 
     busy = true;
     if (btn) { btn.disabled = true; btn.textContent = 'Sending...'; }
@@ -102,11 +110,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const body = new URLSearchParams();
     form.querySelectorAll('[data-f]').forEach(el => { if (el.value) body.append(el.name, el.value); });
+    body.append(cfg.keyField, cfg.key);
 
     const ctrl = window.AbortController ? new AbortController() : null;
     const timer = setTimeout(() => { if (ctrl) ctrl.abort(); }, 15000);
 
-    fetch(form.action, { method: 'POST', mode: 'no-cors', body: body, signal: ctrl ? ctrl.signal : undefined })
+    fetch(cfg.action, { method: 'POST', mode: 'no-cors', body: body, signal: ctrl ? ctrl.signal : undefined })
       .then(() => { clearTimeout(timer); window.location.href = '/thanks/'; })
       .catch((err) => { clearTimeout(timer); fail(err && err.name === 'AbortError' ? 'timeout' : 'network'); });
   });
